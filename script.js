@@ -53,6 +53,8 @@ const dialogDescription = document.querySelector("#eventDialogDescription");
 const dialogDetails = document.querySelector("#eventDialogDetails");
 const dialogMeta = document.querySelector("#eventDialogMeta");
 const dialogPortrait = document.querySelector("#eventDialogPortrait");
+const dialogPortraitWrap = document.querySelector("#eventDialogPortraitWrap");
+const dialogPortraitVideo = document.querySelector("#eventDialogPortraitVideo");
 const dialogPanel = eventDialog?.querySelector(".event-dialog__panel");
 let dialogTrigger;
 let dialogCloseTimer;
@@ -127,6 +129,9 @@ function showDetailsDialog(trigger) {
 }
 
 function openEventDialog(event, trigger) {
+  dialogPortraitVideo.pause();
+  dialogPortraitVideo.removeAttribute("src");
+  dialogPortraitVideo.classList.remove("is-playing");
   dialogPanel?.classList.remove("event-dialog__panel--character");
   dialogCategory.textContent = event.category;
   dialogDate.hidden = false;
@@ -138,8 +143,14 @@ function openEventDialog(event, trigger) {
   dialogDetails.textContent = event.details;
   dialogMeta.hidden = false;
   dialogMeta.replaceChildren();
-  dialogPortrait.hidden = true;
   dialogPortrait.removeAttribute("src");
+  dialogPortrait.classList.remove("is-fallback");
+  dialogPortrait.hidden = false;
+  dialogPortraitVideo.hidden = true;
+  dialogPortraitWrap.hidden = true;
+  dialogPortraitVideo.onerror = null;
+  dialogPortraitVideo.onplaying = null;
+  dialogPortraitVideo.onpause = null;
   appendEventMeta("When", event.time);
   appendEventMeta("Where", event.location);
   showDetailsDialog(trigger);
@@ -249,11 +260,29 @@ function validateRoster(value) {
       throw new Error(`Character "${character.name}" has an invalid image filename.`);
     }
 
+    if (character.video !== undefined && (typeof character.video !== "string" || character.video !== character.video.trim() || !/^[\w][\w .-]*\.(?:mp4|webm)$/i.test(character.video) || character.video.includes(".."))) {
+      throw new Error(`Character "${character.name}" has an invalid video filename.`);
+    }
+
     return character;
   });
 }
 
-function createCharacterCard(character, index) {
+function playCharacterVideo(video, characterName, onFailure) {
+  video.classList.add("is-playing");
+  video.play().then(() => {
+    video.classList.add("is-playing");
+  }).catch((error) => {
+    if (error.name !== "AbortError") {
+      console.warn(`Could not play ${characterName}'s character video; showing the portrait instead.`, error);
+    }
+    video.pause();
+    video.classList.remove("is-playing");
+    onFailure?.();
+  });
+}
+
+function createCharacterCard(character) {
   const article = document.createElement("article");
   article.className = "member";
   const trigger = document.createElement("button");
@@ -269,17 +298,45 @@ function createCharacterCard(character, index) {
   const image = document.createElement("img");
   image.src = `assets/${encodeURIComponent(character.image)}`;
   image.alt = `${character.name} — ${character.class}`;
-  const number = document.createElement("span");
-  number.className = "member__index";
-  number.textContent = String(index + 1).padStart(2, "0");
-  art.append(image, number);
+  art.append(image);
+
+  if (character.video) {
+    const video = document.createElement("video");
+    video.className = "member__video";
+    video.src = `assets/${encodeURIComponent(character.video)}`;
+    video.poster = `assets/${encodeURIComponent(character.image)}`;
+    video.muted = true;
+    video.playsInline = true;
+    video.loop = true;
+    video.preload = "metadata";
+    video.addEventListener("error", () => {
+      console.error(`Could not load ${character.name}'s character video; showing the portrait instead.`);
+      video.pause();
+      video.classList.remove("is-playing");
+    });
+    const play = () => playCharacterVideo(video, character.name);
+    const pause = () => {
+      video.pause();
+      video.classList.remove("is-playing");
+    };
+    trigger.addEventListener("pointerenter", play);
+    trigger.addEventListener("pointerleave", pause);
+    trigger.addEventListener("focus", play);
+    trigger.addEventListener("blur", pause);
+    art.append(video);
+  }
+
+  const label = document.createElement("div");
+  label.className = "member__label";
 
   const name = document.createElement("h3");
   name.textContent = character.name;
   const characterClass = document.createElement("span");
   characterClass.className = "member__class";
   characterClass.textContent = character.class;
-  trigger.append(art, name, characterClass);
+  label.append(name, characterClass);
+  art.append(label);
+  trigger.append(art);
   article.append(trigger);
   return article;
 }
@@ -296,10 +353,56 @@ function openCharacterDialog(character, trigger) {
   dialogDetails.textContent = "";
   dialogMeta.hidden = true;
   dialogMeta.replaceChildren();
+  dialogPortraitVideo.pause();
+  dialogPortraitVideo.removeAttribute("src");
+  dialogPortraitVideo.classList.remove("is-playing");
+  dialogPortrait.classList.remove("is-covered");
   dialogPortrait.src = `assets/${encodeURIComponent(character.image)}`;
   dialogPortrait.alt = `${character.name} — ${character.class}`;
-  dialogPortrait.hidden = false;
+  dialogPortrait.hidden = true;
+  dialogPortraitVideo.hidden = true;
+  dialogPortraitVideo.loop = true;
+  dialogPortraitVideo.muted = true;
+  dialogPortraitVideo.playsInline = true;
+  dialogPortraitVideo.poster = `assets/${encodeURIComponent(character.image)}`;
+  dialogPortraitWrap.hidden = false;
   showDetailsDialog(trigger);
+  if (character.video) {
+    const videoSource = `assets/${encodeURIComponent(character.video)}`;
+    dialogPortraitVideo.src = videoSource;
+    dialogPortraitVideo.hidden = false;
+    dialogPortraitVideo.onerror = () => {
+      if (dialogPortraitVideo.getAttribute("src") !== videoSource) return;
+      console.error(`Could not load ${character.name}'s character video; showing the portrait instead.`);
+      dialogPortraitVideo.pause();
+      dialogPortraitVideo.classList.remove("is-playing");
+      dialogPortraitVideo.hidden = true;
+      dialogPortrait.hidden = false;
+    };
+    dialogPortraitVideo.onplaying = () => {
+      if (dialogPortraitVideo.getAttribute("src") !== videoSource) return;
+      dialogPortraitVideo.hidden = false;
+      dialogPortrait.classList.add("is-covered");
+      dialogPortraitVideo.classList.add("is-playing");
+    };
+    dialogPortraitVideo.onpause = () => {
+      const wasPlaying = dialogPortraitVideo.classList.contains("is-playing");
+      dialogPortraitVideo.classList.remove("is-playing");
+      if (wasPlaying && eventDialog.open && dialogPortraitVideo.getAttribute("src") === videoSource) {
+        dialogPortraitVideo.hidden = true;
+        dialogPortrait.classList.remove("is-covered");
+        dialogPortrait.hidden = false;
+      }
+    };
+    dialogPortraitVideo.load();
+    playCharacterVideo(dialogPortraitVideo, character.name, () => {
+      if (!eventDialog.open || dialogPortraitVideo.getAttribute("src") !== videoSource) return;
+      dialogPortraitVideo.hidden = true;
+      dialogPortrait.hidden = false;
+    });
+  } else {
+    dialogPortrait.hidden = false;
+  }
 }
 
 async function loadRoster() {
@@ -318,7 +421,7 @@ async function loadRoster() {
       return;
     }
 
-    characters.forEach((character, index) => crewGrid.append(createCharacterCard(character, index)));
+    characters.forEach((character) => crewGrid.append(createCharacterCard(character)));
     crewCount.textContent = `${String(characters.length).padStart(2, "0")} BAD IDEAS`;
     rosterStatus.hidden = true;
   } catch (error) {
@@ -343,6 +446,8 @@ eventDialog?.addEventListener("click", (event) => {
   if (event.target === eventDialog) closeEventDialog();
 });
 eventDialog?.addEventListener("close", () => {
+  dialogPortraitVideo.pause();
+  dialogPortraitVideo.hidden = true;
   dialogPanel?.classList.remove("is-visible");
   dialogTrigger?.focus();
 });

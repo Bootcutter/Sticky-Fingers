@@ -124,11 +124,14 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .member__art--shaman { --tone:#261014; --glow:#80171f; }
 .member__trigger { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; }
 .member__trigger:focus-visible { outline: 2px solid var(--rust); outline-offset: 6px; }
-.member__art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .65s cubic-bezier(.2,.8,.2,1); }
-.member__trigger:hover .member__art img { transform: scale(1.045) translateY(-5px); }
-.member__index { position: absolute; z-index: 2; top: 14px; left: 15px; padding: 4px 6px; background: rgba(8,5,6,.78); color: #fff0ef; font: 8px var(--mono); letter-spacing: .12em; }
-.member__trigger h3 { margin: 14px 0 6px; font: 400 25px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; }
-.member__class { color: #bd9d9b; font: 8px var(--mono); letter-spacing: .13em; }
+.member__art > img, .member__video { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .65s cubic-bezier(.2,.8,.2,1), opacity .25s; }
+.member__art > img { transform: scale(1); }
+.member__video { opacity: 0; pointer-events: none; }
+.member__video.is-playing { opacity: 1; }
+.member__trigger:hover .member__art > img { transform: scale(1.045) translateY(-5px); }
+.member__label { position: absolute; z-index: 3; top: 16px; left: 17px; max-width: calc(100% - 34px); padding: 9px 12px 10px; border: 1px solid var(--rust); outline: 4px solid rgba(0,0,0,.92); background: rgba(5,4,5,.94); box-shadow: 0 5px 16px rgba(0,0,0,.65); }
+.member__label h3 { margin: 0 0 5px; color: var(--ink); font: 400 25px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; }
+.member__class { color: #d3b6b0; font: 10px/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .crew__foot { position: relative; display: flex; justify-content: space-between; margin-top: 55px; padding-top: 17px; border-top: 1px solid rgba(232,223,208,.13); color: var(--faint); font: 8px var(--mono); letter-spacing: .11em; }
 .crew__foot i { padding: 0 6px; color: var(--rust); font-style: normal; }
 
@@ -149,8 +152,12 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .event-dialog__category { color: var(--rust); font: 9px var(--mono); letter-spacing: .16em; text-transform: uppercase; }
 .event-dialog__close { display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgba(240,32,37,.6); background: rgba(0,0,0,.35); color: var(--ink); font-size: 27px; cursor: pointer; transition: background .2s, color .2s; }
 .event-dialog__close:hover { background: var(--rust); color: #080708; }
-.event-dialog__portrait { width: min(100%, 360px); max-height: 42vh; aspect-ratio: 1; align-self: center; margin: auto 0 24px; border-bottom: 2px solid var(--rust); object-fit: cover; }
-.event-dialog__portrait[hidden] { display: none; }
+.event-dialog__portrait-wrap { position: relative; width: min(100%, 360px); max-height: 42vh; aspect-ratio: 1; align-self: center; margin: auto 0 24px; border-bottom: 2px solid var(--rust); }
+.event-dialog__portrait-wrap[hidden], .event-dialog__portrait[hidden], .event-dialog__portrait-video[hidden] { display: none; }
+.event-dialog__portrait, .event-dialog__portrait-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.event-dialog__portrait.is-covered { visibility: hidden; }
+.event-dialog__portrait-video { background: #080708; opacity: 0; transition: opacity .25s; }
+.event-dialog__portrait-video.is-playing { opacity: 1; }
 .event-dialog__date { margin-top: auto; padding-top: 60px; color: var(--faint); font: 9px var(--mono); letter-spacing: .14em; text-transform: uppercase; }
 .event-dialog h2 { margin: 18px 0 24px; color: #fff2f0; font: 400 clamp(48px, 9vw, 86px)/.9 var(--display); letter-spacing: .015em; }
 .event-dialog__description { margin: 0; color: var(--rust); font: 400 28px/1 var(--display); }
