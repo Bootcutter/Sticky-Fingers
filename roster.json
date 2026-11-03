@@ -29,7 +29,8 @@
   },
   {
     "name": "Lil Stormy",
-    "class": "Member",
+    "race": "Skyborne",
+    "class": "Shaman",
     "description": "Like whirling a huge ass axe and if your are friendly enough, maybe a heal or two.",
     "image": "Lil Stormy.jpg",
     "video": "Lil Stormy.mp4"
