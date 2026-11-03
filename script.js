@@ -56,6 +56,8 @@ const dialogPortrait = document.querySelector("#eventDialogPortrait");
 const dialogPortraitWrap = document.querySelector("#eventDialogPortraitWrap");
 const dialogPortraitVideo = document.querySelector("#eventDialogPortraitVideo");
 const dialogPanel = eventDialog?.querySelector(".event-dialog__panel");
+// Bump when replacing a character video so browsers fetch the new file.
+const MEDIA_VERSION = "2";
 let dialogTrigger;
 let dialogCloseTimer;
 
@@ -264,6 +266,10 @@ function validateRoster(value) {
       throw new Error(`Character "${character.name}" has an invalid video filename.`);
     }
 
+    if (character.race !== undefined && (typeof character.race !== "string" || !character.race.trim())) {
+      throw new Error(`Character "${character.name}" has an invalid race.`);
+    }
+
     return character;
   });
 }
@@ -301,9 +307,10 @@ function createCharacterCard(character) {
   art.append(image);
 
   if (character.video) {
+    art.classList.add("member__art--video");
     const video = document.createElement("video");
     video.className = "member__video";
-    video.src = `assets/${encodeURIComponent(character.video)}`;
+    video.src = `assets/${encodeURIComponent(character.video)}?v=${MEDIA_VERSION}`;
     video.poster = `assets/${encodeURIComponent(character.image)}`;
     video.muted = true;
     video.playsInline = true;
@@ -343,7 +350,7 @@ function createCharacterCard(character) {
 
 function openCharacterDialog(character, trigger) {
   dialogPanel?.classList.add("event-dialog__panel--character");
-  dialogCategory.textContent = character.class;
+  dialogCategory.textContent = "Roster";
   dialogDate.hidden = true;
   dialogDate.removeAttribute("datetime");
   dialogDate.textContent = "";
@@ -351,8 +358,11 @@ function openCharacterDialog(character, trigger) {
   dialogDescription.textContent = character.description;
   dialogDetails.hidden = true;
   dialogDetails.textContent = "";
-  dialogMeta.hidden = true;
+  dialogMeta.hidden = false;
   dialogMeta.replaceChildren();
+  appendEventMeta("Name", character.name);
+  appendEventMeta("Class", character.class);
+  appendEventMeta("Race", character.race);
   dialogPortraitVideo.pause();
   dialogPortraitVideo.removeAttribute("src");
   dialogPortraitVideo.classList.remove("is-playing");
@@ -368,7 +378,7 @@ function openCharacterDialog(character, trigger) {
   dialogPortraitWrap.hidden = false;
   showDetailsDialog(trigger);
   if (character.video) {
-    const videoSource = `assets/${encodeURIComponent(character.video)}`;
+    const videoSource = `assets/${encodeURIComponent(character.video)}?v=${MEDIA_VERSION}`;
     dialogPortraitVideo.src = videoSource;
     dialogPortraitVideo.hidden = false;
     dialogPortraitVideo.onerror = () => {

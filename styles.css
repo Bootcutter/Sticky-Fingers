@@ -128,8 +128,8 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .member__art > img { transform: scale(1); }
 .member__video { opacity: 0; pointer-events: none; }
 .member__video.is-playing { opacity: 1; }
-.member__trigger:hover .member__art > img { transform: scale(1.045) translateY(-5px); }
-.member__label { position: absolute; z-index: 3; top: 16px; left: 17px; max-width: calc(100% - 34px); padding: 9px 12px 10px; border: 1px solid var(--rust); outline: 4px solid rgba(0,0,0,.92); background: rgba(5,4,5,.94); box-shadow: 0 5px 16px rgba(0,0,0,.65); }
+.member__trigger:hover .member__art:not(.member__art--video) > img { transform: scale(1.045) translateY(-5px); }
+.member__label { position: absolute; z-index: 3; right: 17px; bottom: 16px; text-align: center; max-width: calc(100% - 34px); padding: 9px 12px 10px; border: 1px solid var(--rust); outline: 4px solid rgba(0,0,0,.92); background: rgba(5,4,5,.94); box-shadow: 0 5px 16px rgba(0,0,0,.65); }
 .member__label h3 { margin: 0 0 5px; color: var(--ink); font: 400 25px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; }
 .member__class { color: #d3b6b0; font: 10px/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .crew__foot { position: relative; display: flex; justify-content: space-between; margin-top: 55px; padding-top: 17px; border-top: 1px solid rgba(232,223,208,.13); color: var(--faint); font: 8px var(--mono); letter-spacing: .11em; }
