@@ -215,6 +215,12 @@ async function loadEvents() {
 }
 
 closeEventDialogButton?.addEventListener("click", closeEventDialog);
+eventDialog?.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    event.preventDefault();
+    closeEventDialog();
+  }
+});
 eventDialog?.addEventListener("cancel", (event) => {
   event.preventDefault();
   closeEventDialog();
