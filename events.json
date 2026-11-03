@@ -1,0 +1,20 @@
+[
+  {
+    "id": "raid-report",
+    "title": "The floor won.",
+    "description": "One boss down, seventeen snack breaks.",
+    "details": "Against all odds, the floor did not win. The floor did, however, receive several excellent visits.",
+    "category": "Raid report",
+    "date": "2026-10-28",
+    "artwork": "raid"
+  },
+  {
+    "id": "healers-wanted",
+    "title": "Healers, please.",
+    "description": "We are fragile.",
+    "details": "Bring your best heals, your worst jokes, and a healthy suspicion of the loot council.",
+    "category": "Wanted-ish",
+    "date": "2026-10-20",
+    "artwork": "recruit"
+  }
+]

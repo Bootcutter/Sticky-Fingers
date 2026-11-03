@@ -49,31 +49,31 @@
           <span class="section-mark"><i>✳</i> 01</span>
           <h2>Recent <em>crimes</em></h2>
         </div>
-        <div class="story-grid">
-          <a class="story story--large" href="#crew">
-            <div class="story__image story__image--raid">
-              <span class="story__sun"></span><span class="story__silhouette"></span>
-              <span class="story__stamp">RAID<br>REPORT</span>
-              <span class="story__arrow">↗</span>
-            </div>
-            <span class="story__caption"><b>THE FLOOR WON.</b><i>We go again.</i></span>
-          </a>
-          <a class="story story--small" href="#crew">
-            <div class="story__image story__image--recruit">
-              <span class="story__moon"></span><span class="story__silhouette"></span>
-              <span class="story__stamp">WANTED<br>ISH</span>
-              <span class="story__arrow">↗</span>
-            </div>
-            <span class="story__caption"><b>HEALERS, PLEASE.</b><i>We are fragile.</i></span>
-          </a>
+        <div class="story-grid" id="eventGrid" aria-live="polite">
           <div class="dispatches__scribble" aria-label="Management says: no more ninjas">
             <span>MANAGEMENT<br>SAYS</span>
             <b>no more<br>ninjas.</b>
             <i>— probably</i>
           </div>
         </div>
+        <p class="events-status" id="eventsStatus" role="status" aria-live="polite">Loading dispatches…</p>
         <a class="dispatches__more" href="#crew" aria-label="See the guild roster">↓</a>
       </section>
+
+      <dialog class="event-dialog" id="eventDialog" aria-labelledby="eventDialogTitle">
+        <article class="event-dialog__panel">
+          <header class="event-dialog__header">
+            <span class="event-dialog__category" id="eventDialogCategory"></span>
+            <button class="event-dialog__close" id="closeEventDialog" type="button" aria-label="Close event details">×</button>
+          </header>
+          <time class="event-dialog__date" id="eventDialogDate"></time>
+          <h2 id="eventDialogTitle"></h2>
+          <p class="event-dialog__description" id="eventDialogDescription"></p>
+          <div class="event-dialog__details" id="eventDialogDetails"></div>
+          <dl class="event-dialog__meta" id="eventDialogMeta"></dl>
+          <span class="event-dialog__sigil" aria-hidden="true">✳</span>
+        </article>
+      </dialog>
 
       <section class="crew" id="crew" aria-labelledby="crewTitle">
         <div class="crew__heading">
