@@ -13,7 +13,7 @@ Push the files to a GitHub repository, then in **Settings → Pages**, choose **
 ## Add your guild's art
 
 - The uploaded `orc2.png` is used as the intro and cover background. Replace it with your guild's artwork as needed. Add your intro video as `assets/intro.mp4`; it plays over the artwork and fades away automatically. The image remains visible if video playback is unavailable.
-- Replace the six portrait symbols in `assets/portraits.svg` with character art, and update the character names and labels in `index.html`.
+- Replace the character portrait images in `assets/` and update their names and labels in `index.html`.
 - Update the two dispatch captions in `index.html` with actual guild news.
 - The supplied LifeCraft font is loaded locally from `assets/LifeCraft_Font.ttf`. Font Meme lists LifeCraft as donationware and notes commercial use might require a donation; contact designer Eliot Truelove if needed: [Font Meme listing](https://fontmeme.com/fonts/lifecraft-font/).
 - Google Fonts are optional; local system font fallbacks are included.
