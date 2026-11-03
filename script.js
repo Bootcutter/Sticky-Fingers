@@ -41,6 +41,9 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
 const eventGrid = document.querySelector("#eventGrid");
 const eventsStatus = document.querySelector("#eventsStatus");
+const crewGrid = document.querySelector("#crewGrid");
+const crewCount = document.querySelector("#crewCount");
+const rosterStatus = document.querySelector("#rosterStatus");
 const eventDialog = document.querySelector("#eventDialog");
 const closeEventDialogButton = document.querySelector("#closeEventDialog");
 const dialogCategory = document.querySelector("#eventDialogCategory");
@@ -214,6 +217,83 @@ async function loadEvents() {
   }
 }
 
+function validateRoster(value) {
+  if (!Array.isArray(value)) {
+    throw new Error("roster.json must contain a list of characters.");
+  }
+
+  const names = new Set();
+  return value.map((character, index) => {
+    const requiredStrings = ["name", "class", "description", "image"];
+    if (!isRecord(character) || requiredStrings.some((key) => typeof character[key] !== "string" || !character[key].trim())) {
+      throw new Error(`Character ${index + 1} is missing a required text field.`);
+    }
+
+    if (names.has(character.name)) {
+      throw new Error(`Duplicate character name "${character.name}".`);
+    }
+    names.add(character.name);
+
+    if (character.image !== character.image.trim() || !/^[\w][\w .-]*\.(?:jpe?g|png|webp)$/i.test(character.image) || character.image.includes("..")) {
+      throw new Error(`Character "${character.name}" has an invalid image filename.`);
+    }
+
+    return character;
+  });
+}
+
+function createCharacterCard(character, index) {
+  const article = document.createElement("article");
+  article.className = "member";
+
+  const art = document.createElement("div");
+  art.className = "member__art";
+  const image = document.createElement("img");
+  image.src = `assets/${encodeURIComponent(character.image)}`;
+  image.alt = `${character.name} — ${character.class}`;
+  const number = document.createElement("span");
+  number.className = "member__index";
+  number.textContent = String(index + 1).padStart(2, "0");
+  art.append(image, number);
+
+  const name = document.createElement("h3");
+  name.textContent = character.name;
+  const characterClass = document.createElement("span");
+  characterClass.className = "member__class";
+  characterClass.textContent = character.class;
+  const description = document.createElement("p");
+  description.className = "member__description";
+  description.textContent = character.description;
+  article.append(art, name, characterClass, description);
+  return article;
+}
+
+async function loadRoster() {
+  if (!crewGrid || !crewCount || !rosterStatus) return;
+
+  try {
+    const response = await fetch("./roster.json");
+    if (!response.ok) {
+      throw new Error(`Could not load roster.json (HTTP ${response.status}).`);
+    }
+
+    const characters = validateRoster(await response.json());
+    if (characters.length === 0) {
+      crewCount.textContent = "NO SUSPECTS";
+      rosterStatus.textContent = "No characters listed yet.";
+      return;
+    }
+
+    characters.forEach((character, index) => crewGrid.append(createCharacterCard(character, index)));
+    crewCount.textContent = `${String(characters.length).padStart(2, "0")} BAD IDEAS`;
+    rosterStatus.hidden = true;
+  } catch (error) {
+    console.error("Unable to load the guild roster.", error);
+    crewCount.textContent = "ROSTER UNAVAILABLE";
+    rosterStatus.textContent = "The roster couldn’t load. Check roster.json and refresh.";
+  }
+}
+
 closeEventDialogButton?.addEventListener("click", closeEventDialog);
 eventDialog?.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
@@ -233,3 +313,4 @@ eventDialog?.addEventListener("close", () => {
   dialogTrigger?.focus();
 });
 loadEvents();
+loadRoster();

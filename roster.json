@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Foxxiiiee",
+    "class": "Undead · Paladin",
+    "description": "Stays righteous. Loot rights negotiable.",
+    "image": "undeadPaladin.jpg"
+  },
+  {
+    "name": "Bosse",
+    "class": "Undead · Priest",
+    "description": "Keeping the rest of us standing. Mostly.",
+    "image": "undeadPriest.jpg"
+  },
+  {
+    "name": "Hilda",
+    "class": "Undead · Paladin Tank",
+    "description": "Built to take hits. Excuses, less so.",
+    "image": "undeadPaladinTank.jpg"
+  },
+  {
+    "name": "Kranake",
+    "class": "Undead · Warlock",
+    "description": "Deals in curses and contingency plans.",
+    "image": "undeadWarlock.jpg"
+  },
+  {
+    "name": "Lil Stormy",
+    "class": "Horde · Member",
+    "description": "A small name with a large weather warning.",
+    "image": "Lil Stormy.jpg"
+  }
+]
