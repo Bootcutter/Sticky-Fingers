@@ -12,8 +12,8 @@ Push the files to a GitHub repository, then in **Settings → Pages**, choose **
 
 ## Add your guild's art
 
-- The uploaded `orc2.png` is used as the intro and cover background. Replace it with your guild's artwork as needed. Add your intro video as `assets/intro.mp4`; it plays over the artwork and fades away automatically. The image remains visible if video playback is unavailable.
-- Replace the character portrait images in `assets/` and update their names and labels in `index.html`.
+- `orc2.jpg` is used as the intro and cover background. Replace it with a similarly wide JPG if you add your own guild artwork. Add your intro video as `assets/intro.mp4`; it plays over the artwork and fades away automatically. The image remains visible if video playback is unavailable.
+- Replace the square JPG character portraits in `assets/` and update their names and labels in `index.html`.
 - Edit `events.json` to add or change dispatches. Each event needs a unique `id`, `title`, short `description`, longer `details`, `category`, ISO date (`YYYY-MM-DD`), and `artwork` (`raid`, `recruit`, or `other`). Optional fields are `time`, `location`, and a relative `image` path. Selecting a dispatch opens its details in a sliding modal.
 - The supplied LifeCraft font is loaded locally from `assets/LifeCraft_Font.ttf`. Font Meme lists LifeCraft as donationware and notes commercial use might require a donation; contact designer Eliot Truelove if needed: [Font Meme listing](https://fontmeme.com/fonts/lifecraft-font/).
 - Google Fonts are optional; local system font fallbacks are included.
