@@ -52,6 +52,7 @@ const dialogTitle = document.querySelector("#eventDialogTitle");
 const dialogDescription = document.querySelector("#eventDialogDescription");
 const dialogDetails = document.querySelector("#eventDialogDetails");
 const dialogMeta = document.querySelector("#eventDialogMeta");
+const dialogPortrait = document.querySelector("#eventDialogPortrait");
 const dialogPanel = eventDialog?.querySelector(".event-dialog__panel");
 let dialogTrigger;
 let dialogCloseTimer;
@@ -115,23 +116,33 @@ function appendEventMeta(label, value) {
   dialogMeta.append(item);
 }
 
-function openEventDialog(event, trigger) {
+function showDetailsDialog(trigger) {
   if (!eventDialog || !dialogPanel) return;
 
   window.clearTimeout(dialogCloseTimer);
   dialogTrigger = trigger;
+  eventDialog.showModal();
+  window.requestAnimationFrame(() => dialogPanel.classList.add("is-visible"));
+  closeEventDialogButton?.focus();
+}
+
+function openEventDialog(event, trigger) {
+  dialogPanel?.classList.remove("event-dialog__panel--character");
   dialogCategory.textContent = event.category;
+  dialogDate.hidden = false;
   dialogDate.dateTime = event.date;
   dialogDate.textContent = eventDateFormatter.format(new Date(`${event.date}T00:00:00Z`));
   dialogTitle.textContent = event.title;
   dialogDescription.textContent = event.description;
+  dialogDetails.hidden = false;
   dialogDetails.textContent = event.details;
+  dialogMeta.hidden = false;
   dialogMeta.replaceChildren();
+  dialogPortrait.hidden = true;
+  dialogPortrait.removeAttribute("src");
   appendEventMeta("When", event.time);
   appendEventMeta("Where", event.location);
-  eventDialog.showModal();
-  window.requestAnimationFrame(() => dialogPanel.classList.add("is-visible"));
-  closeEventDialogButton?.focus();
+  showDetailsDialog(trigger);
 }
 
 function closeEventDialog() {
@@ -245,6 +256,13 @@ function validateRoster(value) {
 function createCharacterCard(character, index) {
   const article = document.createElement("article");
   article.className = "member";
+  const trigger = document.createElement("button");
+  trigger.className = "member__trigger";
+  trigger.type = "button";
+  trigger.setAttribute("aria-haspopup", "dialog");
+  trigger.setAttribute("aria-controls", "eventDialog");
+  trigger.setAttribute("aria-label", `${character.name}, ${character.class}. View character details.`);
+  trigger.addEventListener("click", () => openCharacterDialog(character, trigger));
 
   const art = document.createElement("div");
   art.className = "member__art";
@@ -261,11 +279,27 @@ function createCharacterCard(character, index) {
   const characterClass = document.createElement("span");
   characterClass.className = "member__class";
   characterClass.textContent = character.class;
-  const description = document.createElement("p");
-  description.className = "member__description";
-  description.textContent = character.description;
-  article.append(art, name, characterClass, description);
+  trigger.append(art, name, characterClass);
+  article.append(trigger);
   return article;
+}
+
+function openCharacterDialog(character, trigger) {
+  dialogPanel?.classList.add("event-dialog__panel--character");
+  dialogCategory.textContent = character.class;
+  dialogDate.hidden = true;
+  dialogDate.removeAttribute("datetime");
+  dialogDate.textContent = "";
+  dialogTitle.textContent = character.name;
+  dialogDescription.textContent = character.description;
+  dialogDetails.hidden = true;
+  dialogDetails.textContent = "";
+  dialogMeta.hidden = true;
+  dialogMeta.replaceChildren();
+  dialogPortrait.src = `assets/${encodeURIComponent(character.image)}`;
+  dialogPortrait.alt = `${character.name} — ${character.class}`;
+  dialogPortrait.hidden = false;
+  showDetailsDialog(trigger);
 }
 
 async function loadRoster() {

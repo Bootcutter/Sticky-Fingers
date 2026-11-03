@@ -122,12 +122,13 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .member__art--tauren { --tone:#301014; --glow:#8d1b23; }
 .member__art--elf { --tone:#391115; --glow:#e01b25; }
 .member__art--shaman { --tone:#261014; --glow:#80171f; }
+.member__trigger { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; }
+.member__trigger:focus-visible { outline: 2px solid var(--rust); outline-offset: 6px; }
 .member__art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .65s cubic-bezier(.2,.8,.2,1); }
-.member:hover .member__art img { transform: scale(1.045) translateY(-5px); }
+.member__trigger:hover .member__art img { transform: scale(1.045) translateY(-5px); }
 .member__index { position: absolute; z-index: 2; top: 14px; left: 15px; padding: 4px 6px; background: rgba(8,5,6,.78); color: #fff0ef; font: 8px var(--mono); letter-spacing: .12em; }
-.member h3 { margin: 14px 0 6px; font: 400 25px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; }
+.member__trigger h3 { margin: 14px 0 6px; font: 400 25px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; }
 .member__class { color: #bd9d9b; font: 8px var(--mono); letter-spacing: .13em; }
-.member__description { margin: 8px 0 0; color: #d3c7c5; font: 12px/1.5 var(--sans); }
 .crew__foot { position: relative; display: flex; justify-content: space-between; margin-top: 55px; padding-top: 17px; border-top: 1px solid rgba(232,223,208,.13); color: var(--faint); font: 8px var(--mono); letter-spacing: .11em; }
 .crew__foot i { padding: 0 6px; color: var(--rust); font-style: normal; }
 
@@ -148,9 +149,12 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .event-dialog__category { color: var(--rust); font: 9px var(--mono); letter-spacing: .16em; text-transform: uppercase; }
 .event-dialog__close { display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgba(240,32,37,.6); background: rgba(0,0,0,.35); color: var(--ink); font-size: 27px; cursor: pointer; transition: background .2s, color .2s; }
 .event-dialog__close:hover { background: var(--rust); color: #080708; }
+.event-dialog__portrait { width: min(100%, 360px); max-height: 42vh; aspect-ratio: 1; align-self: center; margin: auto 0 24px; border-bottom: 2px solid var(--rust); object-fit: cover; }
+.event-dialog__portrait[hidden] { display: none; }
 .event-dialog__date { margin-top: auto; padding-top: 60px; color: var(--faint); font: 9px var(--mono); letter-spacing: .14em; text-transform: uppercase; }
 .event-dialog h2 { margin: 18px 0 24px; color: #fff2f0; font: 400 clamp(48px, 9vw, 86px)/.9 var(--display); letter-spacing: .015em; }
 .event-dialog__description { margin: 0; color: var(--rust); font: 400 28px/1 var(--display); }
+.event-dialog__panel--character .event-dialog__description { color: #d3c7c5; font: 14px/1.8 var(--sans); }
 .event-dialog__details { margin-top: 20px; color: #d3c7c5; font-size: 14px; line-height: 1.8; }
 .event-dialog__meta { display: grid; gap: 14px; margin: 34px 0 0; padding-top: 20px; border-top: 1px solid rgba(240,32,37,.24); }
 .event-dialog__meta > div { display: grid; grid-template-columns: 72px 1fr; gap: 12px; }
@@ -185,7 +189,7 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
   .dispatches__scribble b { display: inline-block; margin: 8px 15px; font-size: 23px; }
   .crew-grid { gap: 30px 13px; }
   .member__art { height: clamp(190px, 51vw, 300px); }
-  .member h3 { font-size: 17px; }
+  .member__trigger h3 { font-size: 17px; }
   .member__class { font-size: 7px; letter-spacing: .08em; }
   .crew__count { font-size: 7px; }
 }
@@ -206,7 +210,7 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
   .crew__count { width: 100%; margin-left: 34px; }
   .crew-grid { gap: 26px 11px; }
   .member__art { height: 48vw; }
-  .member h3 { font-size: 15px; }
+  .member__trigger h3 { font-size: 15px; }
   .colophon { gap: 13px; }
   .colophon > img { width: 36px; height: 36px; }
   .colophon p { font-size: 16px; }
