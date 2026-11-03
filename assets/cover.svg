@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" fill="none">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#100e10"/>
+      <stop offset=".48" stop-color="#321519"/>
+      <stop offset="1" stop-color="#100d0f"/>
+    </linearGradient>
+    <radialGradient id="moon">
+      <stop stop-color="#c92936"/>
+      <stop offset=".72" stop-color="#781724"/>
+      <stop offset="1" stop-color="#42121a"/>
+    </radialGradient>
+    <linearGradient id="ground" x1=".2" y1="0" x2=".8" y2="1">
+      <stop stop-color="#302023"/>
+      <stop offset=".5" stop-color="#191518"/>
+      <stop offset="1" stop-color="#0B0B0E"/>
+    </linearGradient>
+    <linearGradient id="cloak" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#211B1B"/>
+      <stop offset=".5" stop-color="#0B0B0D"/>
+      <stop offset="1" stop-color="#171216"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="32"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1100H0z"/>
+  <circle cx="1127" cy="369" r="248" fill="#B51B2A" opacity=".2" filter="url(#blur)"/>
+  <circle cx="1125" cy="359" r="190" fill="url(#moon)"/>
+  <path d="M975 337c53-63 153-90 238-48-38 44-47 99-26 148-76-9-147-43-212-100Z" fill="#4a111a" opacity=".72"/>
+  <path d="M0 481 112 400l72 52 133-195 144 218 143-129 105 91 123-192 142 154 131-115 131 107 114-145 250 235v619H0V481Z" fill="#1b1518"/>
+  <path d="m0 594 141-85 122 60 171-128 171 99 168-91 163 112 169-99 139 71 181-113 175 106v574H0V594Z" fill="#281719" opacity=".9"/>
+  <path d="M0 723 160 604l127 111 166-126 163 126 186-139 135 132 183-141 186 118 150-91 144 78v428H0V723Z" fill="url(#ground)"/>
+  <path d="m0 874 232-129 141 113 158-117 185 144 160-118 166 94 166-101 168 106 224-100v334H0V874Z" fill="#111114"/>
+  <g fill="#111114">
+    <path d="m170 614 16-96 14 96h-30Zm4-89h22l-11-34-11 34Z"/>
+    <path d="m1290 564 18-128 18 128h-36Zm4-119h28l-14-42-14 42Z"/>
+    <path d="m1360 584 12-75 12 75h-24Z"/>
+  </g>
+  <g opacity=".32" fill="#DE8552">
+    <circle cx="321" cy="814" r="3"/><circle cx="374" cy="852" r="2"/><circle cx="1112" cy="797" r="3"/>
+    <circle cx="1196" cy="848" r="2"/><circle cx="794" cy="820" r="2"/><circle cx="862" cy="874" r="3"/>
+    <circle cx="613" cy="791" r="2"/><circle cx="1018" cy="901" r="2"/>
+  </g>
+  <g transform="translate(814 489)">
+    <path fill="url(#cloak)" d="m-33 198 19-93-17-48 12-40 29-20 34 19 13 40-17 49 37 121-109 2Z"/>
+    <path fill="#101012" d="m-16 34 11-27L15-4l26 16 11 31-23 4-10-19-11 18-25-12Z"/>
+    <path d="m-37 190 24-89m61 1 36 94" stroke="#9c1c2a" stroke-width="5" opacity=".75"/>
+    <path d="M5 33 21 9l21 24-18 17-19-17Z" fill="#171518"/>
+    <path d="m-9 57-21 25m77-24 23 25" stroke="#9d1c29" stroke-width="5" opacity=".8"/>
+    <path d="m-33 198 31-19 41 2 34 17" stroke="#08080A" stroke-width="15"/>
+  </g>
+  <path fill="#0C0C0E" d="M0 1002c201-62 393-66 575-11 229 68 431 69 626 8 152-47 286-55 399-24v125H0v-98Z"/>
+  <path fill="#d12736" opacity=".8" d="M852 702c3 0 5 4 3 7l-6 10-2-9 5-8Zm-118 114c2 0 4 3 2 5l-4 7-2-7 4-5Zm225 87c2 0 4 3 2 5l-4 7-2-7 4-5Z"/>
+  <g transform="translate(1018 399)">
+    <path d="M0 0v421" stroke="#0A090B" stroke-width="14"/>
+    <path d="m-7 6 182 29-34 134-148-18V6Z" fill="#A70F20"/>
+    <path d="m24 37 19 41 36-22-17 42 39 15-44 6-10 42-19-39-39 19 24-37-29-28 43 7 11-46Z" fill="#1A1013"/>
+    <path d="m0 4-15-26 24 11L23-36l2 32 30-10L35 11" fill="#111013"/>
+    <path d="m4 423 16 70-22-29-19 32 8-73" fill="#171416"/>
+  </g>
+  <path d="m775 573-102-100 18-21 130 106-12 17-22-2-12 0Zm80-61 72-114 21 15-62 125-24-9-7-17Z" fill="#151214" stroke="#817977" stroke-width="7"/>
+  <rect width="1600" height="1100" filter="url(#grain)" opacity=".34"/>
+</svg>

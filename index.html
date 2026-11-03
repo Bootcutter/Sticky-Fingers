@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#100f10">
+    <meta name="description" content="Sticky Fingers. Horde guild. WoW Forever.">
+    <title>Sticky Fingers — WoW Forever</title>
+    <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="intro-active">
+    <a class="skip-link" href="#main">Skip intro</a>
+
+    <div class="intro" id="intro">
+      <img class="intro__art" src="orc2.png" alt="">
+      <video class="intro__video" muted playsinline aria-hidden="true">
+        <source src="assets/intro.mp4" type="video/mp4">
+      </video>
+      <div class="intro__shade"></div>
+      <a class="intro__identity" href="#main" aria-label="Enter Sticky Fingers, Horde guild">
+        <img src="assets/sigil.svg" width="72" height="72" alt="">
+        <span><b>Sticky<br>Fingers</b><i>HORDE · WORLD OF WARCRAFT FOREVER</i></span>
+      </a>
+      <button class="intro__skip" id="skipIntro" type="button" aria-label="Skip intro">SKIP <span>↗</span></button>
+      <div class="intro__progress"><span></span></div>
+    </div>
+
+    <main id="main">
+      <section class="cover" id="top" aria-labelledby="guildName">
+        <img class="cover__art" src="orc2.png" alt="">
+        <div class="cover__wash"></div>
+        <header class="masthead">
+          <a class="masthead__sigil" href="#top" aria-label="Sticky Fingers home"><img src="assets/sigil.svg" alt=""></a>
+          <div class="masthead__edition"><b>HORDE</b><span>WORLD OF WARCRAFT <i>·</i> FOREVER</span></div>
+        </header>
+        <div class="cover__title">
+          <span class="cover__overline"><i></i> A HORDE GUILD <i></i></span>
+          <h1 id="guildName">Sticky<br><em>Fingers</em></h1>
+          <a class="cover__scroll" href="#dispatches" aria-label="Scroll to dispatches"><span>↓</span></a>
+        </div>
+        <span class="cover__side-note">LOOT FIRST. ASK LATER.</span>
+        <span class="cover__number">01 <i>—</i> 03</span>
+      </section>
+
+      <section class="dispatches" id="dispatches" aria-label="Guild dispatches">
+        <div class="dispatches__heading">
+          <span class="section-mark"><i>✳</i> 01</span>
+          <h2>Recent <em>crimes</em></h2>
+        </div>
+        <div class="story-grid">
+          <a class="story story--large" href="#crew">
+            <div class="story__image story__image--raid">
+              <span class="story__sun"></span><span class="story__silhouette"></span>
+              <span class="story__stamp">RAID<br>REPORT</span>
+              <span class="story__arrow">↗</span>
+            </div>
+            <span class="story__caption"><b>THE FLOOR WON.</b><i>We go again.</i></span>
+          </a>
+          <a class="story story--small" href="#crew">
+            <div class="story__image story__image--recruit">
+              <span class="story__moon"></span><span class="story__silhouette"></span>
+              <span class="story__stamp">WANTED<br>ISH</span>
+              <span class="story__arrow">↗</span>
+            </div>
+            <span class="story__caption"><b>HEALERS, PLEASE.</b><i>We are fragile.</i></span>
+          </a>
+          <div class="dispatches__scribble" aria-label="Management says: no more ninjas">
+            <span>MANAGEMENT<br>SAYS</span>
+            <b>no more<br>ninjas.</b>
+            <i>— probably</i>
+          </div>
+        </div>
+        <a class="dispatches__more" href="#crew" aria-label="See the guild roster">↓</a>
+      </section>
+
+      <section class="crew" id="crew" aria-labelledby="crewTitle">
+        <div class="crew__heading">
+          <span class="section-mark"><i>✳</i> 02</span>
+          <h2 id="crewTitle">The <em>usual suspects</em></h2>
+          <span class="crew__count">SIX BAD IDEAS</span>
+        </div>
+        <div class="crew-grid">
+          <article class="member">
+            <div class="member__art member__art--orc"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#orc"/></svg><span class="member__index">01</span></div>
+            <h3>Grimgrin</h3><span class="member__class">ORC · WARRIOR</span>
+          </article>
+          <article class="member">
+            <div class="member__art member__art--troll"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#troll"/></svg><span class="member__index">02</span></div>
+            <h3>Mendacious</h3><span class="member__class">TROLL · PRIEST</span>
+          </article>
+          <article class="member">
+            <div class="member__art member__art--undead"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#undead"/></svg><span class="member__index">03</span></div>
+            <h3>Shivermore</h3><span class="member__class">UNDEAD · ROGUE</span>
+          </article>
+          <article class="member">
+            <div class="member__art member__art--tauren"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#tauren"/></svg><span class="member__index">04</span></div>
+            <h3>BearlyLegal</h3><span class="member__class">TAUREN · DRUID</span>
+          </article>
+          <article class="member">
+            <div class="member__art member__art--elf"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#elf"/></svg><span class="member__index">05</span></div>
+            <h3>Felonious</h3><span class="member__class">BLOOD ELF · MAGE</span>
+          </article>
+          <article class="member">
+            <div class="member__art member__art--shaman"><svg viewBox="0 0 400 500" aria-hidden="true"><use href="assets/portraits.svg#shaman"/></svg><span class="member__index">06</span></div>
+            <h3>TotemlyLost</h3><span class="member__class">TROLL · SHAMAN</span>
+          </article>
+        </div>
+        <div class="crew__foot"><span>THE USUAL SUSPECTS</span><span>NO ALIBIS <i>✳</i> NO REFUNDS</span></div>
+      </section>
+
+      <footer class="colophon">
+        <img src="assets/sigil.svg" alt="" width="44" height="44">
+        <p>Made of bad decisions<br><em>and excellent company.</em></p>
+        <a href="#top" aria-label="Back to top">↑</a>
+      </footer>
+    </main>
+  </body>
+</html>
