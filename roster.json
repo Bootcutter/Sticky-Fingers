@@ -7,7 +7,7 @@
     "image": "femaleundeadpaladin.jpg"
   },
   {
-    "name": "Bosse",
+    "name": "Bosse Healsalot",
     "race": "Undead",
     "class": "Priest",
     "description": "Keeping the rest of us standing. Mostly.",
@@ -15,7 +15,7 @@
     "video": "undeadPriest.mp4"
   },
   {
-    "name": "Hilda",
+    "name": "Hou Lee",
     "race": "Undead",
     "class": "Paladin Tank",
     "description": "Built to take hits. Excuses, less so.",
@@ -36,5 +36,33 @@
     "description": "Like whirling a huge ass axe and if your are friendly enough, maybe a heal or two.",
     "image": "Lil Stormy.jpg",
     "video": "Lil Stormy.mp4"
+  },
+  {
+    "name": "King Ofmetal",
+    "race": "Orc",
+    "class": "Shaman",
+    "description": "Commands the storm like a guitar solo. Totems always turned up to eleven.",
+    "image": "maleOrcShaman.jpg"
+  },
+  {
+    "name": "Sleepy Tom",
+    "race": "Orc",
+    "class": "Warrior",
+    "description": "First to charge in, last to wake up for the raid. Somehow still tops the meters.",
+    "image": "maleOrcWarrior.jpg"
+  },
+  {
+    "name": "Danielsson",
+    "race": "Tauren",
+    "class": "Druid",
+    "description": "A bear when you need one, a tree when you don't. Patient as the plains, until someone pulls early.",
+    "image": "maleTaurenDruid.jpg"
+  },
+  {
+    "name": "Simon",
+    "race": "Orc",
+    "class": "Mage",
+    "description": "Proof that orcs can read. Mostly reads the fire spells, twice, just to be sure.",
+    "image": "maleOrcWizzard.jpg"
   }
 ]
