@@ -1,10 +1,10 @@
 [
   {
-    "name": "Foxxiiiee",
+    "name": "Foxxiiee",
     "race": "Undead",
     "class": "Paladin",
     "description": "Stays righteous. Loot rights negotiable.",
-    "image": "undeadPaladin.jpg"
+    "image": "femaleundeadpaladin.jpg"
   },
   {
     "name": "Bosse",
@@ -23,7 +23,7 @@
     "video": "undeadPaladinTank.mp4"
   },
   {
-    "name": "Kranake",
+    "name": "Krazake Zelock",
     "race": "Undead",
     "class": "Warlock",
     "description": "Deals in curses and contingency plans.",

@@ -80,7 +80,7 @@ button { font: inherit; }
 .story { display: block; min-width: 0; color: inherit; font: inherit; text-align: left; }
 button.story { padding: 0; border: 0; background: transparent; cursor: pointer; }
 .story:focus-visible { outline: 2px solid var(--rust); outline-offset: 6px; }
-.story__image { position: relative; height: clamp(235px, 29vw, 375px); overflow: hidden; isolation: isolate; background: #17090b; transition: filter .35s; }
+.story__image { position: relative; display: block; height: clamp(235px, 29vw, 375px); overflow: hidden; isolation: isolate; background: #17090b; transition: filter .35s; }
 .story:hover .story__image { filter: brightness(1.16); }
 .story__image::before { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(150deg, #481016, #211014 57%, #080708); transition: transform .6s cubic-bezier(.2,.8,.2,1); }
 .story:hover .story__image::before { transform: scale(1.06); }

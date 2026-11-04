@@ -6,7 +6,8 @@
     "details": "Against all odds, the floor did not win. The floor did, however, receive several excellent visits.",
     "category": "Raid report",
     "date": "2026-10-28",
-    "artwork": "raid"
+    "artwork": "raid",
+    "image": "TaurenWarrior.jpg"
   },
   {
     "id": "healers-wanted",
@@ -15,6 +16,7 @@
     "details": "Bring your best heals, your worst jokes, and a healthy suspicion of the loot council.",
     "category": "Wanted-ish",
     "date": "2026-10-20",
-    "artwork": "recruit"
+    "artwork": "recruit",
+    "image": "femaleElfDruid.jpg"
   }
 ]

@@ -72,6 +72,14 @@ function isRecord(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
+function isImageFilename(name) {
+  return name === name.trim() && /^[\w][\w .-]*\.(?:jpe?g|png|webp)$/i.test(name) && !name.includes("..");
+}
+
+function assetUrl(name) {
+  return `assets/${encodeURIComponent(name)}`;
+}
+
 function validateEvents(value) {
   if (!Array.isArray(value)) {
     throw new Error("events.json must contain a list of events.");
@@ -98,7 +106,11 @@ function validateEvents(value) {
       throw new Error(`Event "${event.id}" has an unsupported artwork style.`);
     }
 
-    for (const optionalField of ["time", "location", "image"]) {
+    if (typeof event.image !== "string" || !isImageFilename(event.image)) {
+      throw new Error(`Event "${event.id}" needs an image filename in assets/ (.jpg, .png or .webp).`);
+    }
+
+    for (const optionalField of ["time", "location"]) {
       if (event[optionalField] !== undefined && typeof event[optionalField] !== "string") {
         throw new Error(`Event "${event.id}" has an invalid ${optionalField}.`);
       }
@@ -145,11 +157,16 @@ function openEventDialog(event, trigger) {
   dialogDetails.textContent = event.details;
   dialogMeta.hidden = false;
   dialogMeta.replaceChildren();
-  dialogPortrait.removeAttribute("src");
-  dialogPortrait.classList.remove("is-fallback");
+  dialogPortrait.classList.remove("is-fallback", "is-covered");
+  dialogPortrait.onerror = () => {
+    console.error(`Could not load the image for event "${event.id}".`);
+    dialogPortraitWrap.hidden = true;
+  };
+  dialogPortrait.src = assetUrl(event.image);
+  dialogPortrait.alt = "";
   dialogPortrait.hidden = false;
   dialogPortraitVideo.hidden = true;
-  dialogPortraitWrap.hidden = true;
+  dialogPortraitWrap.hidden = false;
   dialogPortraitVideo.onerror = null;
   dialogPortraitVideo.onplaying = null;
   dialogPortraitVideo.onpause = null;
@@ -181,19 +198,20 @@ function createEventCard(event, index) {
   image.className = `story__image story__image--${event.artwork}`;
   image.setAttribute("aria-hidden", "true");
 
-  if (event.image) {
-    const photo = document.createElement("img");
-    photo.className = "story__photo";
-    photo.src = event.image;
-    photo.alt = "";
-    image.append(photo);
-  } else {
+  const photo = document.createElement("img");
+  photo.className = "story__photo";
+  photo.src = assetUrl(event.image);
+  photo.alt = "";
+  // If the image is missing, fall back to the drawn artwork style.
+  photo.addEventListener("error", () => {
+    console.error(`Could not load the image for event "${event.id}"; showing the ${event.artwork} artwork instead.`);
     const sun = document.createElement("span");
     sun.className = event.artwork === "recruit" ? "story__moon" : "story__sun";
     const silhouette = document.createElement("span");
     silhouette.className = "story__silhouette";
-    image.append(sun, silhouette);
-  }
+    photo.replaceWith(sun, silhouette);
+  }, { once: true });
+  image.append(photo);
 
   const stamp = document.createElement("span");
   stamp.className = "story__stamp";
@@ -258,7 +276,7 @@ function validateRoster(value) {
     }
     names.add(character.name);
 
-    if (character.image !== character.image.trim() || !/^[\w][\w .-]*\.(?:jpe?g|png|webp)$/i.test(character.image) || character.image.includes("..")) {
+    if (!isImageFilename(character.image)) {
       throw new Error(`Character "${character.name}" has an invalid image filename.`);
     }
 
@@ -367,7 +385,8 @@ function openCharacterDialog(character, trigger) {
   dialogPortraitVideo.removeAttribute("src");
   dialogPortraitVideo.classList.remove("is-playing");
   dialogPortrait.classList.remove("is-covered");
-  dialogPortrait.src = `assets/${encodeURIComponent(character.image)}`;
+  dialogPortrait.onerror = null;
+  dialogPortrait.src = assetUrl(character.image);
   dialogPortrait.alt = `${character.name} — ${character.class}`;
   dialogPortrait.hidden = true;
   dialogPortraitVideo.hidden = true;
