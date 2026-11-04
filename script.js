@@ -56,8 +56,14 @@ const dialogPortrait = document.querySelector("#eventDialogPortrait");
 const dialogPortraitWrap = document.querySelector("#eventDialogPortraitWrap");
 const dialogPortraitVideo = document.querySelector("#eventDialogPortraitVideo");
 const dialogPanel = eventDialog?.querySelector(".event-dialog__panel");
+const dialogLink = document.querySelector("#eventDialogLink");
+const newsGrid = document.querySelector("#newsGrid");
+const newsStatus = document.querySelector("#newsStatus");
+const newsUpdated = document.querySelector("#newsUpdated");
 // Bump when replacing a character video so browsers fetch the new file.
 const MEDIA_VERSION = "2";
+// Blizzard panel in "Overheard in Azeroth" stays off until WoW: Forever launches.
+const SHOW_BLIZZARD = false;
 let dialogTrigger;
 let dialogCloseTimer;
 
@@ -142,7 +148,16 @@ function showDetailsDialog(trigger) {
   closeEventDialogButton?.focus();
 }
 
+// Undo news-only dialog tweaks before showing an event or character.
+function resetNewsExtras() {
+  dialogPortraitWrap?.classList.remove("event-dialog__portrait-wrap--wide");
+  if (!dialogLink) return;
+  dialogLink.hidden = true;
+  dialogLink.removeAttribute("href");
+}
+
 function openEventDialog(event, trigger) {
+  resetNewsExtras();
   dialogPortraitVideo.pause();
   dialogPortraitVideo.removeAttribute("src");
   dialogPortraitVideo.classList.remove("is-playing");
@@ -367,6 +382,7 @@ function createCharacterCard(character) {
 }
 
 function openCharacterDialog(character, trigger) {
+  resetNewsExtras();
   dialogPanel?.classList.add("event-dialog__panel--character");
   dialogCategory.textContent = "Roster";
   dialogDate.hidden = true;
@@ -460,6 +476,233 @@ async function loadRoster() {
   }
 }
 
+// --- Overheard in Azeroth: news.json is built by scripts/fetch-news.mjs (GitHub Action). ---
+
+function isHttpsUrl(value) {
+  if (typeof value !== "string") return false;
+  try {
+    return new URL(value).protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+function parseNewsDate(value) {
+  const date = new Date(value);
+  return typeof value === "string" && !Number.isNaN(date.getTime()) ? date : null;
+}
+
+function validateNews(value) {
+  if (!isRecord(value) || !Array.isArray(value.news)) {
+    throw new Error("news.json must contain a news list.");
+  }
+
+  const news = value.news.filter((item) => isRecord(item)
+    && ["id", "title", "description", "category"].every((key) => typeof item[key] === "string" && item[key].trim())
+    && isHttpsUrl(item.url));
+
+  return {
+    generatedAt: parseNewsDate(value.generatedAt),
+    news,
+    blizzard: isRecord(value.blizzard) ? value.blizzard : null
+  };
+}
+
+function openNewsDialog(item, trigger) {
+  resetNewsExtras();
+  dialogPortraitVideo.pause();
+  dialogPortraitVideo.removeAttribute("src");
+  dialogPortraitVideo.classList.remove("is-playing");
+  dialogPortraitVideo.hidden = true;
+  dialogPortraitVideo.onerror = null;
+  dialogPortraitVideo.onplaying = null;
+  dialogPortraitVideo.onpause = null;
+  dialogPanel?.classList.remove("event-dialog__panel--character");
+  dialogCategory.textContent = `${item.source || "News"} · ${item.category}`;
+
+  const date = parseNewsDate(item.date);
+  dialogDate.hidden = !date;
+  if (date) {
+    dialogDate.dateTime = date.toISOString();
+    dialogDate.textContent = eventDateFormatter.format(date);
+  }
+
+  dialogTitle.textContent = item.title;
+  dialogDescription.textContent = item.description;
+  const paragraphs = typeof item.details === "string" ? item.details.split("\n").filter(Boolean) : [];
+  dialogDetails.hidden = paragraphs.length === 0;
+  dialogDetails.replaceChildren(...paragraphs.map((text) => {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = text;
+    return paragraph;
+  }));
+  dialogMeta.replaceChildren();
+  dialogMeta.hidden = true;
+
+  dialogPortrait.classList.remove("is-covered");
+  dialogPortrait.onerror = () => {
+    dialogPortraitWrap.hidden = true;
+  };
+  if (isHttpsUrl(item.image)) {
+    dialogPortrait.src = item.image;
+    dialogPortrait.alt = "";
+    dialogPortrait.hidden = false;
+    dialogPortraitWrap.hidden = false;
+  } else {
+    dialogPortrait.removeAttribute("src");
+    dialogPortraitWrap.hidden = true;
+  }
+  dialogPortraitWrap.classList.add("event-dialog__portrait-wrap--wide");
+
+  if (dialogLink) {
+    dialogLink.href = item.url;
+    dialogLink.firstChild.textContent = `Read it on ${item.source || "the source"} `;
+    dialogLink.hidden = false;
+  }
+  showDetailsDialog(trigger);
+}
+
+function createNewsCard(item, index) {
+  const card = document.createElement("button");
+  card.className = `story news-story ${index === 0 ? "news-story--lead" : ""}`;
+  card.type = "button";
+  card.setAttribute("aria-haspopup", "dialog");
+  card.setAttribute("aria-controls", "eventDialog");
+  const date = parseNewsDate(item.date);
+  card.setAttribute("aria-label", `${item.title}${date ? `. ${eventDateFormatter.format(date)}` : ""}. View details.`);
+  card.addEventListener("click", () => openNewsDialog(item, card));
+
+  const image = document.createElement("span");
+  image.className = "story__image story__image--other";
+  image.setAttribute("aria-hidden", "true");
+  if (isHttpsUrl(item.image)) {
+    const photo = document.createElement("img");
+    photo.className = "story__photo";
+    photo.src = item.image;
+    photo.alt = "";
+    photo.loading = "lazy";
+    photo.referrerPolicy = "no-referrer";
+    photo.addEventListener("error", () => photo.remove(), { once: true });
+    image.append(photo);
+  }
+
+  const stamp = document.createElement("span");
+  stamp.className = "story__stamp";
+  stamp.textContent = item.category;
+  const arrow = document.createElement("span");
+  arrow.className = "story__arrow";
+  arrow.textContent = "↗";
+  image.append(stamp, arrow);
+
+  const caption = document.createElement("span");
+  caption.className = "story__caption";
+  const title = document.createElement("b");
+  title.textContent = item.title;
+  const description = document.createElement("i");
+  description.textContent = item.description;
+  caption.append(title, description);
+  if (date) {
+    const time = document.createElement("time");
+    time.dateTime = date.toISOString();
+    time.textContent = `${item.source || "News"} · ${eventDateFormatter.format(date)}`;
+    caption.append(time);
+  }
+  card.append(image, caption);
+  return card;
+}
+
+function createWireRow(label, value, note) {
+  const row = document.createElement("li");
+  const term = document.createElement("span");
+  term.textContent = label;
+  const detail = document.createElement("b");
+  detail.textContent = value;
+  row.append(term, detail);
+  if (note) {
+    const small = document.createElement("i");
+    small.textContent = note;
+    row.append(small);
+  }
+  return row;
+}
+
+// The Blizzard panel sits in the grid like the dispatches scribble: a note, not a card.
+function createBlizzardWire(blizzard) {
+  const rows = [];
+  const guild = isRecord(blizzard.guild) ? blizzard.guild : null;
+  const realm = isRecord(blizzard.realm) ? blizzard.realm : null;
+
+  if (realm && typeof realm.name === "string") {
+    const realmNote = [realm.type, realm.category].filter((part) => typeof part === "string").join(" · ");
+    rows.push(createWireRow("Realm", realm.name, realmNote));
+    if (typeof realm.status === "string") {
+      const population = typeof realm.population === "string" ? `${realm.population} population` : "";
+      rows.push(createWireRow("Status", realm.status, population));
+    }
+  }
+
+  if (guild) {
+    if (Number.isFinite(guild.members)) rows.push(createWireRow("Members", String(guild.members), guild.realm));
+    if (Number.isFinite(guild.achievementPoints)) rows.push(createWireRow("Achievement pts", guild.achievementPoints.toLocaleString("en-GB")));
+    (Array.isArray(guild.activity) ? guild.activity : []).slice(0, 5).forEach((entry) => {
+      if (!isRecord(entry) || typeof entry.title !== "string") return;
+      const date = parseNewsDate(entry.date);
+      const note = [entry.who, date && eventDateFormatter.format(date)].filter(Boolean).join(" · ");
+      rows.push(createWireRow(String(entry.type || "Activity"), entry.title, note));
+    });
+  }
+
+  if (rows.length === 0) return null;
+
+  const wire = document.createElement("aside");
+  wire.className = "news-wire";
+  wire.setAttribute("aria-label", "From the Blizzard API");
+  const overline = document.createElement("span");
+  overline.textContent = "STRAIGHT FROM";
+  const heading = document.createElement("b");
+  heading.textContent = guild?.name ? guild.name : "Blizzard";
+  const list = document.createElement("ul");
+  list.append(...rows);
+  wire.append(overline, heading, list);
+  if (!guild) {
+    const pending = document.createElement("i");
+    pending.className = "news-wire__pending";
+    pending.textContent = "Guild not founded yet. Any minute now. Probably.";
+    wire.append(pending);
+  }
+  return wire;
+}
+
+async function loadNews() {
+  if (!newsGrid || !newsStatus) return;
+
+  try {
+    const response = await fetch("./news.json", { cache: "no-cache" });
+    if (!response.ok) {
+      throw new Error(`Could not load news.json (HTTP ${response.status}).`);
+    }
+
+    const { generatedAt, news, blizzard } = validateNews(await response.json());
+    if (generatedAt && newsUpdated) {
+      newsUpdated.textContent = `UPDATED ${eventDateFormatter.format(generatedAt).toUpperCase()}`;
+    }
+
+    news.forEach((item, index) => newsGrid.append(createNewsCard(item, index)));
+    const wire = SHOW_BLIZZARD && blizzard && createBlizzardWire(blizzard);
+    if (wire) newsGrid.insertBefore(wire, newsGrid.children[1] || null);
+
+    if (news.length === 0 && !wire) {
+      newsStatus.textContent = "Nothing overheard yet. Azeroth is suspiciously quiet.";
+      return;
+    }
+    newsStatus.hidden = true;
+  } catch (error) {
+    console.error("Unable to load news.", error);
+    if (newsUpdated) newsUpdated.textContent = "LINES DOWN";
+    newsStatus.textContent = "The gossip couldn’t load. Check news.json and refresh.";
+  }
+}
+
 closeEventDialogButton?.addEventListener("click", closeEventDialog);
 eventDialog?.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
@@ -482,3 +725,4 @@ eventDialog?.addEventListener("close", () => {
 });
 loadEvents();
 loadRoster();
+loadNews();

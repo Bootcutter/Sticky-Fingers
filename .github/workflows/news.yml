@@ -1,0 +1,45 @@
+name: Refresh news
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Wowhead and Blizzard data
+        run: node scripts/fetch-news.mjs
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          BLIZZARD_REGION: ${{ vars.BLIZZARD_REGION || 'eu' }}
+          BLIZZARD_NAMESPACE: ${{ vars.BLIZZARD_NAMESPACE || 'forever' }}
+          GUILD_REALM: ${{ vars.GUILD_REALM }}
+          GUILD_SLUG: ${{ vars.GUILD_SLUG }}
+
+      - name: Commit news.json if it changed
+        run: |
+          if git diff --quiet -- news.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Refresh news.json"
+          git push

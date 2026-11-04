@@ -7,8 +7,8 @@
     <meta name="description" content="Sticky Fingers - Rarely Prepared. Horde guild. WoW Forever.">
     <title>Sticky Fingers - Rarely Prepared</title>
     <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
-    <link rel="stylesheet" href="styles.css?v=9">
-    <script src="script.js?v=5" defer></script>
+    <link rel="stylesheet" href="styles.css?v=12">
+    <script src="script.js?v=9" defer></script>
   </head>
   <body class="intro-active">
     <a class="skip-link" href="#main">Skip intro</a>
@@ -75,6 +75,7 @@
           <p class="event-dialog__description" id="eventDialogDescription"></p>
           <div class="event-dialog__details" id="eventDialogDetails"></div>
           <dl class="event-dialog__meta" id="eventDialogMeta"></dl>
+          <a class="event-dialog__link" id="eventDialogLink" target="_blank" rel="noopener noreferrer" hidden>Read the full story <span aria-hidden="true">↗</span></a>
           <span class="event-dialog__sigil" aria-hidden="true">✳</span>
         </article>
       </dialog>
@@ -88,6 +89,17 @@
         <div class="crew-grid" id="crewGrid" aria-live="polite"></div>
         <p class="events-status" id="rosterStatus" role="status" aria-live="polite">Loading roster…</p>
         <div class="crew__foot"><span>THE USUAL SUSPECTS</span><span>NO ALIBIS <i>✳</i> NO REFUNDS</span></div>
+      </section>
+
+      <section class="news" id="news" aria-labelledby="newsTitle">
+        <div class="news__heading">
+          <span class="section-mark"><i>✳</i> 03</span>
+          <h2 id="newsTitle">Overheard in <em>Azeroth</em></h2>
+          <span class="news__updated" id="newsUpdated">LISTENING AT DOORS</span>
+        </div>
+        <div class="news-grid" id="newsGrid" aria-live="polite"></div>
+        <p class="events-status" id="newsStatus" role="status" aria-live="polite">Loading the gossip…</p>
+        <div class="crew__foot"><span>VIA WOWHEAD <i>✳</i> BLIZZARD</span><span>RUMOURS UNVERIFIED <i>✳</i> SPOILERS LIKELY</span></div>
       </section>
 
       <footer class="colophon">
