@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-05T03:31:44.682Z",
+  "generatedAt": "2026-11-05T12:26:45.928Z",
   "news": [
+    {
+      "id": "wowhead-383758",
+      "source": "Wowhead",
+      "title": "Temporary Portals Replace Boats and Zeppelins Due to Bugs",
+      "description": "Blizzard has announced that portals have temporarily replaced some boats and zeppelins due to bugs.",
+      "details": "Hi There,\nWe are aware of some issues with transports such as boats and zeppelins becoming lost in the maelstrom for extended periods of time.\nAs a temporary fix, we’ve spawned portals near most transport docks or inside of the zeppelin towers to help you move between continents if your boat gets lost. We have a proper fix going out in the morning, and once we’ve verified that’s in and working, we’ll be removing those portals.\nHope this helps. Thank you!",
+      "category": "Forever",
+      "date": "2026-11-05T06:45:40.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56026-temporary-portals-replace-boats-and-zeppelins-due-to-bugs.jpg",
+      "url": "https://www.wowhead.com/news=383758/temporary-portals-replace-boats-and-zeppelins-due-to-bugs"
+    },
+    {
+      "id": "wowhead-383757",
+      "source": "Wowhead",
+      "title": "Blizzard Aware of Population Issues in Certain Areas",
+      "description": "Blizzard has announced that they are aware that certain areas are not feeling as populated as they should be and will be working on a fix tomorrow.",
+      "details": "Hi There,\nJust wanted to chime in and say that we are aware of some issues with certain areas not feeling as populated as they should. We will be tweaking some numbers tomorrow to help things feel a bit more lively.\nThanks for the feedback on this one!",
+      "category": "Forever",
+      "date": "2026-11-05T06:41:36.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56024-blizzard-aware-of-population-issues-in-certain-areas.jpg",
+      "url": "https://www.wowhead.com/news=383757/blizzard-aware-of-population-issues-in-certain-areas"
+    },
     {
       "id": "wowhead-383753",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-04T21:30:48.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56012-the-questie-addon-is-back-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383744/the-questie-addon-is-back-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383742",
-      "source": "Wowhead",
-      "title": "Twitch Teasing \"Major Reveal\" on Warcraft Twitch Stream",
-      "description": "Twitch is teasing a \"major reveal\" in an \"exciting moment you don't want to miss\" on the Warcraft Twitch Stream!",
-      "details": "Starting around 7:30 AM today, the Warcraft Twitch stream went live with no prior announcement. The only context that viewers receive is the Stream title, \"Camelot_reveal v2_final.mp4\" and the fact that the stream is building something.\nTwitch has now released a blog highlighting the launch of WoW: Forever with a very interesting teaser at the end:\nBe sure to check out a very special stream happening right now on /warcraft. Who knows, there may be an upcoming major reveal and a particularly exciting moment you don’t want to miss!\nIt's been a couple hours since the stream started and the build is starting to take shape!\nSpeculation Spoilers Ahead\nPossible Spoilers Ahead\nAfter a couple of hours, the build is starting to come together. It appears that the team is building a weapon with the iconic Druid mark shown in the center. A little later in the stream, a new angle of the weapon is…",
-      "category": "Forever",
-      "date": "2026-11-04T20:22:35.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56010-twitch-teasing-major-reveal-on-warcraft-twitch-stream.jpg",
-      "url": "https://www.wowhead.com/news=383742/twitch-teasing-major-reveal-on-warcraft-twitch-stream"
-    },
-    {
-      "id": "wowhead-383741",
-      "source": "Wowhead",
-      "title": "WoW: Forever Development Notes Updated - UI and Accessibility Updates",
-      "description": "Blizzard has updated WoW: Forever Development notes before the official launch, adding new updates for UI and accessibility.",
-      "details": "We’ve added this section to the previous post.\nUser Interface and Accessibility\nSwing Timer bar will no longer fade out due to distance until the swing finishes.\nWhen combined bag is enabled, the background art of the inventory slots are updated to show which bag the slot is from.\nFixed an issue where Nameplates did not display Elite enemy status.\nDebuff icons on the Nameplate can now be clicked through.\nSpellbook and Talents frame now opens at the same height as other panels.\nCombat mode for the Spellbook frame has been reduced in size.\nPvP scoreboard display has been updated.\nKilling a player while at Honor cap will no longer show honor gained in floating text or chat messages.\nWhile in keybinds menu, hovering over an action bar keybind will now highlight the button on the action bar.",
-      "category": "Forever",
-      "date": "2026-11-04T19:38:53.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56008-wow-forever-development-notes-updated-ui-and-accessibility-updates.jpg",
-      "url": "https://www.wowhead.com/news=383741/wow-forever-development-notes-updated-ui-and-accessibility-updates"
     }
   ],
   "blizzard": null
