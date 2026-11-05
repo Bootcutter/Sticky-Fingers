@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-11-05T12:26:45.928Z",
+  "generatedAt": "2026-11-05T20:41:33.286Z",
   "news": [
+    {
+      "id": "wowhead-383771",
+      "source": "Wowhead",
+      "title": "Blizzard Investigating Issues with Certain Escort Quests in WoW: Forever",
+      "description": "Blizzard is investigating issues with certain quests in WoW: Forever.",
+      "details": "BlizzardCS has started writing comments on Wowhead quest pages, noting that certain quests are bugged and that they're investigating the issue.\nEscort Quests\nBlizzardCS has commented on the quest pages of Freedom to Ruul, Free From the Hold, and The Defias Brotherhood. These are all escort quests that can immediately fail if the quest giver dies or, in this case, despawns.\nBlizzard\nWe're aware that Ruul/Gilthares Firebough/Defias Traitor may disappear when moving near or across zone and area boundaries, causing the quest to fail. We're already investigating the issue.\nUndead Paladin Quest\nOne of the early Undead Paladin quests is Rediscovering the Light, which requires players to rediscover how to use Holy Light. Sometimes healing the NPCs doesn't give progress towards the quest objective and Blizzard is aware of the issue.\nBlizzardWe're aware that healing Injured Deathguards may not…",
+      "category": "Forever",
+      "date": "2026-11-05T20:23:47.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56039-blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383771/blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383769",
+      "source": "Wowhead",
+      "title": "New Prerequisites Required for Ruins of Lordaeron Dungeon Quests in WoW: Forever",
+      "description": "Two Horde quests for Ruins of Lordaeron have new prerequisite quests on live servers!",
+      "details": "Ruins of Lordaeron DungeonAll Dungeon Quests\nDungeon quests are a very good source of experience in WoW: Forever, as the experience from killing dungeon mobs was nerfed and the amount of experience from dungeon quests were buffed. Ruins of Lordaeron is the second dungeon Horde players are likely to run and when collecting the Dungeon quests, there's a change on the live servers: two of the Horde quests now have a quest chain prerequisite in order to pick them up.\nWhile Alliance players don't have any prerequisites to pick up their quests, The Wrath of Rath'mael and The New Plague now both require a quest chain to be completed when they were previously available right away on Beta.\nThe Wrath of Rath'mael quest is no longer available from Deathguard Kristof right away. Instead, players have to complete a level 13 quest chain that starts with Rear Guard Patrol at Deathguard Linnea in the…",
+      "category": "Forever",
+      "date": "2026-11-05T18:51:44.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56037-new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383769/new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383691",
+      "source": "Wowhead",
+      "title": "The Weekly Reset with Taliesin and Evitel: Forever Forever? Talebound and More",
+      "description": "Taliesin and Evitel check out WoW: Forever, where it's going, and how it's different from Retail. Also Talebound, decor, and more.",
+      "details": "Taliesin and Evitel cover the latest news and do a deep dive into pertinent topics in The Weekly Reset. This week, WoW: Forever, where it's going, and how it is different from Retail. Also Talebound, decor, and more.\nWorld of Warcraft Forever launches THIS WEEK! It's going to be an amazing time, a clean slate, a new path... but where will that path lead? If Forever does indeed last for forever, the game is inevitably going to change, so what will it look like in a year? 5 years? 10?\nWe talk horizontal progression, expansions, and playable races. We look forward to the biggest WoW launch ever, and even find time to talk a bit about Midnight and Talebound too!\nShow Topics\nPlanet Azeroth: Episode 1 ft. Bill Bailey\nPlanet Azeroth: Episode 2 ft. Bill Bailey\nThe WoW: Forever Podcast Episode 6 Now Available\nName Reservations Included Overly Restrictive Name Check But Fix Incoming\nTalebound…",
+      "category": "WoW",
+      "date": "2026-11-05T17:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/55976-the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more.jpg",
+      "url": "https://www.wowhead.com/news=383691/the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more"
+    },
+    {
+      "id": "wowhead-383761",
+      "source": "Wowhead",
+      "title": "How to Phase to See Group Members After Joining New Group",
+      "description": "When you join a new group in WoW: Forever, you'll have to manually trigger a phase transition to see your group members.",
+      "details": "Blizzard made a change after the WoW: Forever Beta and announced it on their podcast. When you join a group in WoW: Forever, you don't automatically phase to the same layer as them. Instead, players will have to click an arrow on the top left of their chat window to manually trigger the phase.\nThis can be useful when you're out in the world and don't want to trigger a phase change immediately! This popup will occur even if you're in Town doing nothing, so if you don't see your group, make sure to check for this arrow!",
+      "category": "Forever",
+      "date": "2026-11-05T16:36:51.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56030-how-to-phase-to-see-group-members-after-joining-new-group.jpg",
+      "url": "https://www.wowhead.com/news=383761/how-to-phase-to-see-group-members-after-joining-new-group"
+    },
+    {
+      "id": "wowhead-383760",
+      "source": "Wowhead",
+      "title": "WoW: Forever Known Issues After Launch",
+      "description": "Blizzard has posted known issues with WoW: Forever after yesterday's launch.",
+      "details": "In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.\nKnown Issues\nDungeons\nIn Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.\nGamepad\nAn error may be generated when attempting to delete more than 1 rare or epic item.\nInstructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.\nNPCs\nPvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).\nQuests\n“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.\nUser Interface\nBank pages are displaying in pages, causing the tabs to be listed outside the frame.\nWorld\nThe entrance of Stormwind Keep may not…",
+      "category": "Forever",
+      "date": "2026-11-05T16:32:18.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56028-wo-w-forever-known-issues.png",
+      "url": "https://www.wowhead.com/news=383760/wo-w-forever-known-issues"
+    },
+    {
+      "id": "wowhead-383745",
+      "source": "Wowhead",
+      "title": "McDonald's Canada Offering WoW Game Time for Reward Points",
+      "description": "McDonald's Canada is offering new WoW reward redemptions on their app until November 23rd.",
+      "details": "The McDonald's x Xbox crossover continues and is now available in Canada! Previously available in Ireland and the UK, and then Australia, Canadians can now redeem their McDonalds' rewards points for WoW items.\nAll redemptions cost 2,000 Rewards Points and will be available until November 23rd.\n14 Days of Game Time\nRed Hot Portable Bakery\nLil' Ragnaros\nThis is the third time that Red Hot Portable Bakery has become available, each time in a different region. From previous promotions, the redemption code is not region-specific. This means that you can get a friend to give you their code. If you're not interested in each of the collection items from Retail, you may want to grab the Game Time, which will work for all versions of the game, including Forever!",
+      "category": "WoW",
+      "date": "2026-11-05T16:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56022-mcdonalds-canada-offering-wow-game-time-for-reward-points.png",
+      "url": "https://www.wowhead.com/news=383745/mcdonalds-canada-offering-wow-game-time-for-reward-points"
+    },
+    {
+      "id": "wowhead-383754",
+      "source": "Wowhead",
+      "title": "Earn 700 Discord Orbs with New WoW: Forever Quest",
+      "description": "Play WoW: Forever for 15 minutes and earn 700 Discord Orbs!",
+      "details": "A new Discord Quest asks players to play WoW: Forever for 15 minutes to earn 700 Discord Orbs (840 with Nitro). You can find this quest by going to Direct Messages > Quests > World of Warcraft Play Quest.\nOnce you accept the quest, play the game for 15 minutes and then claim your Orbs! Discord Orbs can be used to purchase cosmetics from the Discord shop.",
+      "category": "Forever",
+      "date": "2026-11-05T14:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56021-earn-700-discord-orbs-with-new-wow-forever-quest.png",
+      "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest"
+    },
     {
       "id": "wowhead-383758",
       "source": "Wowhead",
@@ -22,83 +99,6 @@
       "date": "2026-11-05T06:41:36.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56024-blizzard-aware-of-population-issues-in-certain-areas.jpg",
       "url": "https://www.wowhead.com/news=383757/blizzard-aware-of-population-issues-in-certain-areas"
-    },
-    {
-      "id": "wowhead-383753",
-      "source": "Wowhead",
-      "title": "The Great Outdoors Quest Bugged and How to Complete",
-      "description": "The tutorial quest for camping, \"The Great Outdoors,\" is slightly bugged, but players can quickly work around it.",
-      "details": "Camping Overview\nWoW: Forever has a brand-new camping system and one of the first quests in the starting zones is The Great Outdoors. This is a tutorial quest to teach you how to benefit from the camping system. This quest has two objectives:\nSit near the campfire\nGain the Boosted Rest buff\nThe \"Sit near the campfire\" objective appears to be a little bugged and doesn't trigger normally when you /sit. However, if you /sit while already /sitting, this will complete the objective correctly. Once you wait for a full minute, you get a small Rested XP buff!",
-      "category": "Forever",
-      "date": "2026-11-05T01:04:04.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56020-the-great-outdoors-quest-bugged-and-how-to-complete.jpg",
-      "url": "https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete"
-    },
-    {
-      "id": "wowhead-383750",
-      "source": "Wowhead",
-      "title": "Official Warcraft Twitch Stream Showing Heat Map of Level Ups",
-      "description": "The official Warcraft Twitch Stream is showing a player heat map as players spawn into the game and level up!",
-      "details": "Servers are now live and players can see a heat map of players spawning into the game as both Alliance and Horde.\nYou can also see when people level up and where they are when it happens.",
-      "category": "Forever",
-      "date": "2026-11-05T00:51:34.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56017-official-warcraft-twitch-stream-showing-heat-map-of-level-ups.jpg",
-      "url": "https://www.wowhead.com/news=383750/official-warcraft-twitch-stream-showing-heat-map-of-level-ups"
-    },
-    {
-      "id": "wowhead-383751",
-      "source": "Wowhead",
-      "title": "Obtain the Pouch of Violet Dust Toy - Increases Camp Benefits by 1 Hour",
-      "description": "Blizzard has revealed another way to earn the Pouch of Violet Dust Toy!",
-      "details": "You can now obtain the Pouch of Violet Dust toy via Twitch drops which increases camp benefits by 1 hour.\nBy watching any eligible World of Warcraft Twitch stream from now until November 12th, you can earn the Pouch of Violet Dust toy. Some players have already earned this by watching the Legendary Crafting stream from earlier. This toy turns the campfire purple and increases the duration of camp benefits by 1 hour. However, this toy is only available to be used until early December.\nPlayers can collect and use an ephemeral new launch-celebration toy to enhance their campfire and spread the benefits of comradery as they begin their journey through Azeroth in World of Warcraft: Forever.\nWatch any eligible World of Warcraft stream on Twitch.tv from November 4 at 4:30 pm PST to November 12 at 4:30 pm PST to claim the Pouch of Violet Dust Toy. This ephemeral item is available only within…",
-      "category": "Forever",
-      "date": "2026-11-05T00:32:54.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56018-obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour.jpg",
-      "url": "https://www.wowhead.com/news=383751/obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour"
-    },
-    {
-      "id": "wowhead-383749",
-      "source": "Wowhead",
-      "title": "World of Warcraft: Forever is Now Live",
-      "description": "World of Warcraft: Forever is now live! Enjoy your Journey through Azeroth.",
-      "details": "More Information:\nIf you are at a screen where Gameplay Rulesets are showing as unavailable, you need to requeue.\nWorld of Warcraft: Forever is now live! Enjoy your Journey through Azeroth.\nWowhead ToolsWowhead Guides Compendium\nWoW: Forever is now officially live in all regions! Enjoy a reimagined Azeroth full of new zones, quests, professions, classes, and so much more. Stay tuned to Wowhead for any queue times and known issues with the game as the launch day continues.\nMake sure to check out all of Wowhead's Tools for WoW: Forever and all of Wowhead's Guides which will be updated as we learn more about the changes in Azeroth.\nWoW: Forever Queue Time Updates\n3:10 PST: Queue times are stated to be about 5-10 minutes for most players, with many reporting between 1500-4000 as their queue position. That said, getting through the queue has presented many with unavailable rulesets.\n4:15…",
-      "category": "Forever",
-      "date": "2026-11-04T23:01:38.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56016-world-of-warcraft-forever-is-now-live.png",
-      "url": "https://www.wowhead.com/news=383749/world-of-warcraft-forever-is-now-live"
-    },
-    {
-      "id": "wowhead-383748",
-      "source": "Wowhead",
-      "title": "Secret Twitch Drop Awarded Pouch of Violet Dust Toy to Live Stream Viewers in WoW: Forever",
-      "description": "Players who watched the Legendary crafting stream on Twitch have been awarded a Pouch of Violet Dust Toy via Twitch Drops!",
-      "details": "If you watched the Legendary crafting stream earlier today, you may have been awarded a new Twitch drop. In the last few moments of the stream, when Taldramir, the Whispering Wood was revealed, players completed a Twitch Drop that awarded Pouch of Violet Dust! If you completed this, head to your Twitch drop and claim your prize!\nIt's unknown what the exact criteria was to obtain this Twitch Drop. Many players reported getting this item at the end of the Legendary Crafting stream, while others have reported getting it from any WoW streamer around the same time. In addition, the Drop Page has this listed with an End Date of Wednesday, November 4th at 1:59 PM PST / 4:59 PM EST.\nAs this time has now passed, this seems to indicate that this Twitch Drop is no longer available and was only given to players who watched any WoW stream when the Legendary reveal went live. It's unknown whether…",
-      "category": "Forever",
-      "date": "2026-11-04T22:18:26.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56015-secret-twitch-drop-awards-pouch-of-violet-dust-toy-in-wow-forever.png",
-      "url": "https://www.wowhead.com/news=383748/secret-twitch-drop-awards-pouch-of-violet-dust-toy-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383747",
-      "source": "Wowhead",
-      "title": "Taldramir, the Whispering Wood Revealed as WoW: Forever Legendary",
-      "description": "Taldramir, the Whispering Wood has been revealed as WoW: Forever's new legendary!",
-      "details": "The build has been completed and as many had speculated, Blizzard was indeed teasing a Legendary!\nWhile Blizzard didn't reveal any details on the class restrictions or its effects, this 2-Handed Legendary staff has a clear Druid theme. In addition, this weapon can be seen in the Skyborne Key art.",
-      "category": "Forever",
-      "date": "2026-11-04T22:05:13.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56014-taldramir-the-whispering-wood-revealed-as-wow-forever-legendary.jpg",
-      "url": "https://www.wowhead.com/news=383747/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary"
-    },
-    {
-      "id": "wowhead-383744",
-      "source": "Wowhead",
-      "title": "The Questie Addon is Back in WoW: Forever",
-      "description": "If you played Classic in 2019 (and beyond), the Questie addon is likely a well-known name to you, and the addon is back in WoW: Forever.",
-      "details": "As we head into the launch of World of Warcraft: Forever, the thing that will occupy most of our time for the foreseeable future is leveling our characters out in the new and improved Azeroth!\nDownload Questie Addon on CurseForge\nWhile some people may follow leveling guides, others want to completely avoid any type of outside help to experience the world anew, as close to \"original\" as possible. Some players, however, may find themselves somewhere in the middle of those two camps, and for those people we can highly recommend the addon Questie.\nIf you played Classic in 2019 (and beyond), the Questie addon is likely a well-known name to you, as the base game didn't have any type of quest indicators like the ones introduced in Wrath of the Lich King.\nIn Forever, the game, even without addons, has this type of feature, so Questie is more about some of the quality-of-life aspects that it…",
-      "category": "Forever",
-      "date": "2026-11-04T21:30:48.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56012-the-questie-addon-is-back-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383744/the-questie-addon-is-back-in-wow-forever"
     }
   ],
   "blizzard": null
