@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-06T09:28:01.302Z",
+  "generatedAt": "2026-11-06T17:31:50.941Z",
   "news": [
+    {
+      "id": "wowhead-383782",
+      "source": "Wowhead",
+      "title": "Major QoL Update to Popular Alliance Quest in WoW: Forever",
+      "description": "In WoW: Forever, an iconic quest has received some major quality-of-life updates to allow players to complete this quest faster!",
+      "details": "In WoW: Forever, the iconic Alliance quest, The Attack!, has received some major quality-of-life updates, allowing players to complete this quest with much less frustration and downtime.\nPrior to WoW: Forever, players starting this quest would automatically trigger the event, and only players nearby in that person's party would be able to accept the quest with them. In WoW: Forever, there is an additional dialogue option after starting the quest to make sure everyone in your party is ready!\nAlong with that, players can now pick up the quest and share it even as the event is happening. In Classic WoW, anyone interested in doing this quest would have to wait for the event to be completed before they and their party could start, often causing long queues and lines as players got to this quest chain. Now groups can pick up additional players should they have room, and anyone can pick up the…",
+      "category": "Forever",
+      "date": "2026-11-06T17:30:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56049-major-qol-update-to-popular-alliance-quest-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383782/major-qol-update-to-popular-alliance-quest-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383772",
+      "source": "Wowhead",
+      "title": "New Battle.net Icons for WoW: Forever",
+      "description": "New WoW: Forever icons have been added to Battle.net!",
+      "details": "On the Battle.net launcher, players can click on their icon to change it. From this menu, players can filter by game and choose from many available icons, which now include the new WoW: Forever ones!\nFour new icons are available featuring the Undead Paladin, Dwarf Shaman and the Skyborne from the WoW: Forever Key art!",
+      "category": "Forever",
+      "date": "2026-11-06T16:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56040-new-battle-net-icons-for-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383772/new-battle-net-icons-for-wow-forever"
+    },
+    {
+      "id": "wowhead-383770",
+      "source": "Wowhead",
+      "title": "Four New Key Art Pieces for WoW: Forever Launch",
+      "description": "Blizzard has released beautiful new artwork for the WoW: Forever launch!",
+      "details": "With the launch of WoW: Forever, Blizzard has released four new Key Art pieces highlighting prominent new features.\nCampfire\nCamping is a brand new system in WoW: Forever that incentivizes people to slow down, get some buffs and socialize around a campfire!\nDwarf Shaman\nDwarf Shamans are a new race-class combo in WoW: Forever!\nForsaken Paladin\nForsaken Paladins are a new race-class combo in WoW: Forever!\nSkyborne\nThe Skyborne launch key art features the Taldramir, the Whispering Wood legendary!",
+      "category": "Forever",
+      "date": "2026-11-06T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56038-four-new-key-art-pieces-for-wow-forever-launch.jpg",
+      "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch"
+    },
+    {
+      "id": "wowhead-383768",
+      "source": "Wowhead",
+      "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
+      "description": "Dungeons are a great source of experience, but only if you have dungeon quests. Here's where to find all the dungeon quests for the first few dungeons.",
+      "details": "Every Dungeon Quest Location\nIn WoW: Forever, base dungeon experience from killing mobs has been nerfed, but experience from completing dungeon quests has been buffed. Completing Dungeon Quests is very important, as without them, you won't be getting all the possible experience (or even the majority of it) from a given dungeon.\nBelow, you'll find the available quests for every dungeon, where to pick them up, the estimated amount of time to get them, and any prerequisite questing that you need to do. Many of these quests are shareable, so if one person in the group has it, they can share it with the rest of the party!\nAll Ragefire Chasm Quests\nHard: Level 9 | Medium: Level 12 | At Level: Level 14 | Easy: Level 19\nQuestLevelSideEffortShare?Starts\nSlaying the Beast9 Orgrimmar, The Drag - Neeru Fireblade /way 49 50\nThe Power to Destroy...9 Undercity, Royal Quarter - Varimathras /way 56…",
+      "category": "Forever",
+      "date": "2026-11-06T14:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56036-every-quest-for-dungeons-up-to-level-20-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever"
+    },
     {
       "id": "wowhead-383778",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-05T17:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/55976-the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more.jpg",
       "url": "https://www.wowhead.com/news=383691/the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more"
-    },
-    {
-      "id": "wowhead-383761",
-      "source": "Wowhead",
-      "title": "How to Phase to See Group Members After Joining New Group",
-      "description": "When you join a new group in WoW: Forever, you'll have to manually trigger a phase transition to see your group members.",
-      "details": "Blizzard made a change after the WoW: Forever Beta and announced it on their podcast. When you join a group in WoW: Forever, you don't automatically phase to the same layer as them. Instead, players will have to click an arrow on the top left of their chat window to manually trigger the phase.\nThis can be useful when you're out in the world and don't want to trigger a phase change immediately! This popup will occur even if you're in Town doing nothing, so if you don't see your group, make sure to check for this arrow!",
-      "category": "Forever",
-      "date": "2026-11-05T16:36:51.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56030-how-to-phase-to-see-group-members-after-joining-new-group.jpg",
-      "url": "https://www.wowhead.com/news=383761/how-to-phase-to-see-group-members-after-joining-new-group"
-    },
-    {
-      "id": "wowhead-383760",
-      "source": "Wowhead",
-      "title": "WoW: Forever Known Issues After Launch",
-      "description": "Blizzard has posted known issues with WoW: Forever after yesterday's launch.",
-      "details": "In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.\nKnown Issues\nDungeons\nIn Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.\nGamepad\nAn error may be generated when attempting to delete more than 1 rare or epic item.\nInstructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.\nNPCs\nPvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).\nQuests\n“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.\nUser Interface\nBank pages are displaying in pages, causing the tabs to be listed outside the frame.\nWorld\nThe entrance of Stormwind Keep may not…",
-      "category": "Forever",
-      "date": "2026-11-05T16:32:18.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56028-wo-w-forever-known-issues.png",
-      "url": "https://www.wowhead.com/news=383760/wo-w-forever-known-issues"
-    },
-    {
-      "id": "wowhead-383745",
-      "source": "Wowhead",
-      "title": "McDonald's Canada Offering WoW Game Time for Reward Points",
-      "description": "McDonald's Canada is offering new WoW reward redemptions on their app until November 23rd.",
-      "details": "The McDonald's x Xbox crossover continues and is now available in Canada! Previously available in Ireland and the UK, and then Australia, Canadians can now redeem their McDonalds' rewards points for WoW items.\nAll redemptions cost 2,000 Rewards Points and will be available until November 23rd.\n14 Days of Game Time\nRed Hot Portable Bakery\nLil' Ragnaros\nThis is the third time that Red Hot Portable Bakery has become available, each time in a different region. From previous promotions, the redemption code is not region-specific. This means that you can get a friend to give you their code. If you're not interested in each of the collection items from Retail, you may want to grab the Game Time, which will work for all versions of the game, including Forever!",
-      "category": "WoW",
-      "date": "2026-11-05T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56022-mcdonalds-canada-offering-wow-game-time-for-reward-points.png",
-      "url": "https://www.wowhead.com/news=383745/mcdonalds-canada-offering-wow-game-time-for-reward-points"
-    },
-    {
-      "id": "wowhead-383754",
-      "source": "Wowhead",
-      "title": "Earn 700 Discord Orbs with New WoW: Forever Quest",
-      "description": "Play WoW: Forever for 15 minutes and earn 700 Discord Orbs!",
-      "details": "A new Discord Quest asks players to play WoW: Forever for 15 minutes to earn 700 Discord Orbs (840 with Nitro). You can find this quest by going to Direct Messages > Quests > World of Warcraft Play Quest.\nOnce you accept the quest, play the game for 15 minutes and then claim your Orbs! Discord Orbs can be used to purchase cosmetics from the Discord shop.",
-      "category": "Forever",
-      "date": "2026-11-05T14:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56021-earn-700-discord-orbs-with-new-wow-forever-quest.png",
-      "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest"
     }
   ],
   "blizzard": null
