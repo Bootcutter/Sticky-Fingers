@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-05T20:41:33.286Z",
+  "generatedAt": "2026-11-06T01:35:28.334Z",
   "news": [
+    {
+      "id": "wowhead-383774",
+      "source": "Wowhead",
+      "title": "Minimum Deposit of 1 Silver Required to List Items on Auction House in WoW: Forever",
+      "description": "In WoW: Forever, listing an item on the Auction House always incurs a deposit of at least 1 silver.",
+      "details": "When players list an item on the Auction House, a deposit is required. The deposit is given back to players if the item successfully sells, but is lost if the item is cancelled or the Auction expires. In the original version of WoW, the deposit requirement depends on the item's Vendor Price and the duration:\nDurationDeposit Cost\n2 Hours5% of Vendor Price\n8 Hours20% of Vendor Price\n24 Hours60% of Vendor Price\nVendor Price of 4 Silver and 61 Copper\nIn WoW: Forever, there appears to be one more rule: A minimum of 1 Silver is required.\nWith a Vendor price of 4 Silver and 61 Copper, we would expect an 8-hour listing of this item to require 92 Copper, but this is listed at 1 Silver. Similarly, if you take any cheap vendor item, the Deposit is always listed as 1 Silver. This increased deposit imposes a significant risk to players if the item doesn't sell within the time frame. Many players…",
+      "category": "Forever",
+      "date": "2026-11-05T23:29:31.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56042-minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow.png",
+      "url": "https://www.wowhead.com/news=383774/minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow"
+    },
     {
       "id": "wowhead-383771",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-05T06:45:40.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56026-temporary-portals-replace-boats-and-zeppelins-due-to-bugs.jpg",
       "url": "https://www.wowhead.com/news=383758/temporary-portals-replace-boats-and-zeppelins-due-to-bugs"
-    },
-    {
-      "id": "wowhead-383757",
-      "source": "Wowhead",
-      "title": "Blizzard Aware of Population Issues in Certain Areas",
-      "description": "Blizzard has announced that they are aware that certain areas are not feeling as populated as they should be and will be working on a fix tomorrow.",
-      "details": "Hi There,\nJust wanted to chime in and say that we are aware of some issues with certain areas not feeling as populated as they should. We will be tweaking some numbers tomorrow to help things feel a bit more lively.\nThanks for the feedback on this one!",
-      "category": "Forever",
-      "date": "2026-11-05T06:41:36.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56024-blizzard-aware-of-population-issues-in-certain-areas.jpg",
-      "url": "https://www.wowhead.com/news=383757/blizzard-aware-of-population-issues-in-certain-areas"
     }
   ],
   "blizzard": null
