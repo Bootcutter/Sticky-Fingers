@@ -32,14 +32,25 @@ jobs:
           GUILD_REALM: ${{ vars.GUILD_REALM }}
           GUILD_SLUG: ${{ vars.GUILD_SLUG }}
 
-      - name: Commit news.json if it changed
+      - name: Fetch guild roster and character profiles
+        run: node scripts/fetch-guild.mjs
+        # A Blizzard outage shouldn't stop the news refresh from being committed.
+        continue-on-error: true
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          BLIZZARD_REGION: ${{ vars.BLIZZARD_REGION || 'eu' }}
+          BLIZZARD_NAMESPACE: ${{ vars.BLIZZARD_NAMESPACE || 'forever' }}
+          GUILD_SLUG: ${{ vars.GUILD_SLUG || 'sticky-fingers-rare-proc' }}
+
+      - name: Commit data files if they changed
         run: |
-          if git diff --quiet -- news.json; then
+          if git diff --quiet -- news.json guild.json && [ -z "$(git ls-files --others --exclude-standard -- guild.json)" ]; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add news.json
-          git commit -m "Refresh news.json"
+          git add news.json guild.json
+          git commit -m "Refresh news.json and guild.json"
           git push

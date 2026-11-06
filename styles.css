@@ -134,6 +134,8 @@ button.story { padding: 0; border: 0; background: transparent; cursor: pointer; 
 .member__class { color: #d3b6b0; font: 10px/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .crew__foot { position: relative; display: flex; justify-content: space-between; margin-top: 55px; padding-top: 17px; border-top: 1px solid rgba(232,223,208,.13); color: var(--faint); font: 8px var(--mono); letter-spacing: .11em; }
 .crew__foot i { padding: 0 6px; color: var(--rust); font-style: normal; }
+.crew__dossier { color: var(--ink); transition: color .2s; }
+.crew__dossier:hover, .crew__dossier:focus-visible { color: var(--rust); }
 
 .news { position: relative; isolation: isolate; padding: 105px max(10vw, calc((100% - 1600px) / 2)) 75px; overflow: hidden; background: #090708; border-top: 1px solid rgba(240,32,37,.18); }
 .news::before { content: ""; position: absolute; z-index: 1; top: 0; left: max(10vw, calc((100% - 1600px) / 2)); width: 2px; height: 60px; background: linear-gradient(var(--rust), transparent); }

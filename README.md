@@ -21,3 +21,14 @@ Push the files to a GitHub repository, then in **Settings → Pages**, choose **
   - Run it manually from **Actions → Refresh news → Run workflow**, or locally with `node scripts/fetch-news.mjs` (Node 20+, same environment variables). Without Blizzard credentials, only Wowhead news is included.
 - The supplied LifeCraft font is loaded locally from `assets/LifeCraft_Font.ttf`. Font Meme lists LifeCraft as donationware and notes commercial use might require a donation; contact designer Eliot Truelove if needed: [Font Meme listing](https://fontmeme.com/fonts/lifecraft-font/).
 - Google Fonts are optional; local system font fallbacks are included.
+
+## Guild dossier page
+
+`guild.html` shows the live guild: roster cards, professions ("who can craft it"), level/class/role/race stats, records and guild activity.
+
+- Data comes from `guild.json`, built by `scripts/fetch-guild.mjs` in the same hourly **Refresh news** workflow. WoW Forever has no realms, so the guild is looked up by slug alone (`GUILD_SLUG`, default `sticky-fingers-rare-proc`) in the `profile-forever-eu` namespace.
+- Characters below level 10 (or that haven't logged out yet) have no public profile; they're listed from the roster with a placeholder and fill in automatically later.
+- Portraits: a character whose name matches an entry in `roster.json` uses that art; everyone else gets a generated placeholder based on race, gender and class.
+- The API doesn't expose the in-game MOTD or rank names, so edit them in `guild-notes.json`.
+- Link straight to a character with `guild.html#char-<slug>`, e.g. `guild.html#char-lil-stormy`.
+- Locally: put `BLIZZARD_CLIENT_ID` and `BLIZZARD_CLIENT_SECRET` in a `.env` file (git-ignored) and run `node --env-file=.env scripts/fetch-guild.mjs`.

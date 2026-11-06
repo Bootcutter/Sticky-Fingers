@@ -1,0 +1,14 @@
+{
+  "motd": {
+    "text": "Welcome to Sticky Fingers Rare Proc. Bank tab 2 is not a free-for-all. Need a craft? Check the guild crafting list before you buy from the auction house.",
+    "author": "Lil Stormy",
+    "date": "2026-11-07"
+  },
+  "ranks": {
+    "0": "Guild Master",
+    "1": "Officer",
+    "2": "Veteran",
+    "3": "Member",
+    "4": "Recruit"
+  }
+}

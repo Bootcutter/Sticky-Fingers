@@ -1,0 +1,2098 @@
+{
+  "generatedAt": "2026-11-06T23:06:19.284Z",
+  "region": "EU",
+  "guild": {
+    "id": 110163,
+    "name": "Sticky Fingers Rare Proc",
+    "slug": "sticky-fingers-rare-proc",
+    "faction": "Horde",
+    "ruleset": "Normal",
+    "memberCount": 19,
+    "achievementPoints": 0,
+    "created": "2026-11-05T17:34:40.000Z"
+  },
+  "activity": [],
+  "achievements": {
+    "total": 0,
+    "points": 0,
+    "recent": []
+  },
+  "members": [
+    {
+      "name": "Bosse",
+      "surname": "Healsalot",
+      "slug": "bosse-healsalot",
+      "rank": 3,
+      "level": 21,
+      "classId": 5,
+      "className": "Priest",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "MALE",
+        "race": "Undead",
+        "className": "Priest",
+        "level": 19,
+        "experience": 6812,
+        "lastLogin": "2026-11-06T12:54:04.000Z",
+        "itemLevel": 12,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Discipline",
+          "trees": [
+            {
+              "name": "Discipline",
+              "points": 9
+            },
+            {
+              "name": "Holy",
+              "points": 1
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Alchemy",
+            "type": "primary",
+            "skill": 121,
+            "max": 150,
+            "recipes": 16
+          },
+          {
+            "name": "Herbalism",
+            "type": "primary",
+            "skill": 97,
+            "max": 150,
+            "recipes": 3
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 34,
+            "max": 75,
+            "recipes": 6
+          },
+          {
+            "name": "Fishing",
+            "type": "secondary",
+            "skill": 1,
+            "max": 75,
+            "recipes": 1
+          },
+          {
+            "name": "First Aid",
+            "type": "secondary",
+            "skill": 82,
+            "max": 150,
+            "recipes": 3
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Neophyte's Shirt",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Robe of Evocation",
+            "quality": "RARE",
+            "level": 18
+          },
+          {
+            "slot": "Waist",
+            "name": "Willow Belt of Holy Wrath",
+            "quality": "UNCOMMON",
+            "level": 16
+          },
+          {
+            "slot": "Legs",
+            "name": "Ghastly Trousers",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Feet",
+            "name": "Rotmender's Treads",
+            "quality": "RARE",
+            "level": 24
+          },
+          {
+            "slot": "Wrist",
+            "name": "Tabitha's Cuffs",
+            "quality": "UNCOMMON",
+            "level": 24
+          },
+          {
+            "slot": "Hands",
+            "name": "Rotmender's Gloves",
+            "quality": "RARE",
+            "level": 22
+          },
+          {
+            "slot": "Ring 1",
+            "name": "Slain Baron's Signet",
+            "quality": "UNCOMMON",
+            "level": 23
+          },
+          {
+            "slot": "Back",
+            "name": "Warped Cloak",
+            "quality": "POOR",
+            "level": 12
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Gnarled Necromancer's Staff",
+            "quality": "RARE",
+            "level": 24
+          },
+          {
+            "slot": "Ranged",
+            "name": "Greater Magic Wand",
+            "quality": "UNCOMMON",
+            "level": 23
+          }
+        ],
+        "stats": {
+          "health": 562,
+          "power": 895,
+          "powerType": "Mana",
+          "crit": 4.6,
+          "haste": 0,
+          "dodge": 4.3,
+          "attackPower": 12,
+          "spellPower": 36,
+          "dps": 16
+        },
+        "questsCompleted": 156,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Honored",
+            "value": 1301,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Friendly",
+            "value": 713,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2776,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 1602,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Neutral",
+            "value": 896,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 698,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Krazake",
+      "surname": "Zelock",
+      "slug": "krazake-zelock",
+      "rank": 3,
+      "level": 13,
+      "classId": 9,
+      "className": "Warlock",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "MALE",
+        "race": "Undead",
+        "className": "Warlock",
+        "level": 13,
+        "experience": 233,
+        "lastLogin": "2026-11-06T17:24:08.000Z",
+        "itemLevel": 5,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Affliction",
+          "trees": [
+            {
+              "name": "Affliction",
+              "points": 3
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Tailoring",
+            "type": "primary",
+            "skill": 63,
+            "max": 75,
+            "recipes": 12
+          },
+          {
+            "name": "Enchanting",
+            "type": "primary",
+            "skill": 60,
+            "max": 75,
+            "recipes": 13
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 24,
+            "max": 75,
+            "recipes": 8
+          },
+          {
+            "name": "Fishing",
+            "type": "secondary",
+            "skill": 1,
+            "max": 75,
+            "recipes": 1
+          },
+          {
+            "name": "First Aid",
+            "type": "secondary",
+            "skill": 51,
+            "max": 75,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Chest",
+            "name": "White Linen Robe",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Waist",
+            "name": "Simple Cord",
+            "quality": "COMMON",
+            "level": 12
+          },
+          {
+            "slot": "Legs",
+            "name": "Handstitched Linen Britches",
+            "quality": "UNCOMMON",
+            "level": 14
+          },
+          {
+            "slot": "Feet",
+            "name": "Patchwork Shoes",
+            "quality": "POOR",
+            "level": 10
+          },
+          {
+            "slot": "Wrist",
+            "name": "Willow Bracers of the Owl",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Hands",
+            "name": "Willow Gloves of the Owl",
+            "quality": "UNCOMMON",
+            "level": 16
+          },
+          {
+            "slot": "Back",
+            "name": "Hunting Cloak",
+            "quality": "COMMON",
+            "level": 13
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Ceremonial Knife",
+            "quality": "COMMON",
+            "level": 12
+          },
+          {
+            "slot": "Off Hand",
+            "name": "Disciple's Stein of the Whale",
+            "quality": "UNCOMMON",
+            "level": 12
+          },
+          {
+            "slot": "Ranged",
+            "name": "Lesser Magic Wand",
+            "quality": "UNCOMMON",
+            "level": 15
+          }
+        ],
+        "stats": {
+          "health": 303,
+          "power": 542,
+          "powerType": "Mana",
+          "crit": 4.9,
+          "haste": 0,
+          "dodge": 4.2,
+          "attackPower": 13,
+          "spellPower": 3,
+          "dps": 6.3
+        },
+        "questsCompleted": 95,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Friendly",
+            "value": 5360,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Neutral",
+            "value": 2093,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2093,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 650,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 593,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Lil",
+      "surname": "Stormy",
+      "slug": "lil-stormy",
+      "rank": 0,
+      "level": 22,
+      "classId": 7,
+      "className": "Shaman",
+      "raceId": 96,
+      "race": "Windshaper Skyborne",
+      "details": {
+        "gender": "FEMALE",
+        "race": "Windshaper Skyborne",
+        "className": "Shaman",
+        "level": 21,
+        "experience": 6616,
+        "lastLogin": "2026-11-06T12:42:07.000Z",
+        "itemLevel": 10,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Enhancement",
+          "trees": [
+            {
+              "name": "Enhancement",
+              "points": 12
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Mining",
+            "type": "primary",
+            "skill": 110,
+            "max": 150,
+            "recipes": 6
+          },
+          {
+            "name": "Engineering",
+            "type": "primary",
+            "skill": 123,
+            "max": 150,
+            "recipes": 16
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 3,
+            "max": 75,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Thendal Novice's Shirt",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Skywatcher's Vestments",
+            "quality": "UNCOMMON",
+            "level": 13
+          },
+          {
+            "slot": "Waist",
+            "name": "Belt of Blades",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Legs",
+            "name": "Tracker's Pants",
+            "quality": "UNCOMMON",
+            "level": 13
+          },
+          {
+            "slot": "Feet",
+            "name": "Feral Shoes of the Bear",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Wrist",
+            "name": "Spare Part Bindings",
+            "quality": "UNCOMMON",
+            "level": 24
+          },
+          {
+            "slot": "Hands",
+            "name": "Nightclaw Gloves",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Ring 1",
+            "name": "Ancient Heirloom",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Back",
+            "name": "Grave Shroud",
+            "quality": "UNCOMMON",
+            "level": 23
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Forsaken Greataxe",
+            "quality": "RARE",
+            "level": 24
+          },
+          {
+            "slot": "Ranged",
+            "name": "Totem of Charged Flames",
+            "quality": "UNCOMMON",
+            "level": 10
+          }
+        ],
+        "stats": {
+          "health": 562,
+          "power": 685,
+          "powerType": "Mana",
+          "crit": 10.8,
+          "haste": 2,
+          "dodge": 5.7,
+          "attackPower": 179,
+          "spellPower": 0,
+          "dps": 34
+        },
+        "questsCompleted": 209,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Windshapers",
+            "standing": "Friendly",
+            "value": 3010,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Nightclaw Druids",
+            "standing": "Friendly",
+            "value": 2100,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Friendly",
+            "value": 1736,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Friendly",
+            "value": 1161,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Undercity",
+            "standing": "Friendly",
+            "value": 132,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Friendly",
+            "value": 55,
+            "max": 6000,
+            "tier": 4
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Hou",
+      "surname": "Lee",
+      "slug": "hou-lee",
+      "rank": 3,
+      "level": 14,
+      "classId": 2,
+      "className": "Paladin",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "FEMALE",
+        "race": "Undead",
+        "className": "Paladin",
+        "level": 12,
+        "experience": 5323,
+        "lastLogin": "2026-11-05T21:07:07.000Z",
+        "itemLevel": 5,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Protection",
+          "trees": [
+            {
+              "name": "Protection",
+              "points": 2
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Mining",
+            "type": "primary",
+            "skill": 60,
+            "max": 75,
+            "recipes": 3
+          },
+          {
+            "name": "Blacksmithing",
+            "type": "primary",
+            "skill": 42,
+            "max": 75,
+            "recipes": 18
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 59,
+            "max": 150,
+            "recipes": 10
+          },
+          {
+            "name": "Fishing",
+            "type": "secondary",
+            "skill": 71,
+            "max": 75,
+            "recipes": 2
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Brawler's Harness",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Rough Copper Vest",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Waist",
+            "name": "Copper Chain Belt",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Legs",
+            "name": "Copper Chain Pants",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Feet",
+            "name": "Strange Copper Boots",
+            "quality": "RARE",
+            "level": 15
+          },
+          {
+            "slot": "Wrist",
+            "name": "Copper Bracers",
+            "quality": "COMMON",
+            "level": 7
+          },
+          {
+            "slot": "Hands",
+            "name": "Runed Copper Gauntlets",
+            "quality": "UNCOMMON",
+            "level": 12
+          },
+          {
+            "slot": "Back",
+            "name": "Worn Hide Cloak",
+            "quality": "POOR",
+            "level": 10
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Copper Shortsword",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Off Hand",
+            "name": "Veteran Shield",
+            "quality": "UNCOMMON",
+            "level": 15
+          }
+        ],
+        "stats": {
+          "health": 346,
+          "power": 314,
+          "powerType": "Mana",
+          "crit": 4.9,
+          "haste": 0,
+          "dodge": 4.5,
+          "attackPower": 88,
+          "spellPower": 5,
+          "dps": 11.7
+        },
+        "questsCompleted": 97,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Friendly",
+            "value": 5185,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Neutral",
+            "value": 2093,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2093,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 650,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 593,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Simons",
+      "surname": "Mage",
+      "slug": "simons-mage",
+      "rank": 3,
+      "level": 21,
+      "classId": 8,
+      "className": "Mage",
+      "raceId": 2,
+      "race": "Orc",
+      "details": {
+        "gender": "MALE",
+        "race": "Orc",
+        "className": "Mage",
+        "level": 21,
+        "experience": 3723,
+        "lastLogin": "2026-11-06T00:27:12.000Z",
+        "itemLevel": 15,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Frost",
+          "trees": [
+            {
+              "name": "Frost",
+              "points": 10
+            },
+            {
+              "name": "Arcane",
+              "points": 2
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Tailoring",
+            "type": "primary",
+            "skill": 80,
+            "max": 150,
+            "recipes": 36
+          },
+          {
+            "name": "Enchanting",
+            "type": "primary",
+            "skill": 130,
+            "max": 150,
+            "recipes": 26
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 7,
+            "max": 75,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shoulders",
+            "name": "Talbar Mantle",
+            "quality": "UNCOMMON",
+            "level": 26
+          },
+          {
+            "slot": "Shirt",
+            "name": "Apprentice's Shirt",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Robe of the Moccasin",
+            "quality": "RARE",
+            "level": 22
+          },
+          {
+            "slot": "Waist",
+            "name": "Novice Arcanist's Sash",
+            "quality": "RARE",
+            "level": 15
+          },
+          {
+            "slot": "Legs",
+            "name": "Ghastly Trousers",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Feet",
+            "name": "Barbaric Cloth Boots",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Wrist",
+            "name": "Ritual Bands of the Eagle",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Hands",
+            "name": "Buccaneer's Gloves of the Sorcerer",
+            "quality": "UNCOMMON",
+            "level": 20
+          },
+          {
+            "slot": "Ring 1",
+            "name": "Slain Baron's Signet",
+            "quality": "UNCOMMON",
+            "level": 23
+          },
+          {
+            "slot": "Ring 2",
+            "name": "Bounty Hunter's Ring",
+            "quality": "UNCOMMON",
+            "level": 20
+          },
+          {
+            "slot": "Back",
+            "name": "Woolen Cape",
+            "quality": "UNCOMMON",
+            "level": 16
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Coldspire Staff",
+            "quality": "RARE",
+            "level": 24
+          },
+          {
+            "slot": "Ranged",
+            "name": "Greater Magic Wand",
+            "quality": "UNCOMMON",
+            "level": 23
+          }
+        ],
+        "stats": {
+          "health": 602,
+          "power": 1065,
+          "powerType": "Mana",
+          "crit": 4.8,
+          "haste": 0,
+          "dodge": 4.4,
+          "attackPower": 19,
+          "spellPower": 12,
+          "dps": 16.5
+        },
+        "questsCompleted": 143,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Orgrimmar",
+            "standing": "Honored",
+            "value": 1241,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Friendly",
+            "value": 4397,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Friendly",
+            "value": 1585,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Undercity",
+            "standing": "Neutral",
+            "value": 2033,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Neutral",
+            "value": 1695,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 897,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Nandor",
+      "surname": "Therelentles",
+      "slug": "nandor-therelentles",
+      "rank": 3,
+      "level": 12,
+      "classId": 4,
+      "className": "Rogue",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "MALE",
+        "race": "Undead",
+        "className": "Rogue",
+        "level": 12,
+        "experience": 6184,
+        "lastLogin": "2026-11-05T21:23:08.000Z",
+        "itemLevel": 3,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Subtlety",
+          "trees": [
+            {
+              "name": "Subtlety",
+              "points": 3
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Skinning",
+            "type": "primary",
+            "skill": 71,
+            "max": 75,
+            "recipes": 2
+          },
+          {
+            "name": "Herbalism",
+            "type": "primary",
+            "skill": 39,
+            "max": 75,
+            "recipes": 3
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 11,
+            "max": 75,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Thug Shirt",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Howlhide Vest",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Waist",
+            "name": "Burnt Leather Belt",
+            "quality": "COMMON",
+            "level": 9
+          },
+          {
+            "slot": "Legs",
+            "name": "Zombie Skin Leggings",
+            "quality": "COMMON",
+            "level": 5
+          },
+          {
+            "slot": "Feet",
+            "name": "Zombie Skin Boots",
+            "quality": "COMMON",
+            "level": 8
+          },
+          {
+            "slot": "Wrist",
+            "name": "Zombie Skin Bracers",
+            "quality": "COMMON",
+            "level": 8
+          },
+          {
+            "slot": "Hands",
+            "name": "Sewing Gloves",
+            "quality": "COMMON",
+            "level": 8
+          },
+          {
+            "slot": "Back",
+            "name": "Simple Cape",
+            "quality": "COMMON",
+            "level": 11
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Tim's Lost Rib",
+            "quality": "UNCOMMON",
+            "level": 12
+          },
+          {
+            "slot": "Off Hand",
+            "name": "Sharpened Letter Opener",
+            "quality": "POOR",
+            "level": 7
+          },
+          {
+            "slot": "Ranged",
+            "name": "Small Throwing Knife",
+            "quality": "COMMON",
+            "level": 3
+          }
+        ],
+        "stats": {
+          "health": 262,
+          "power": 100,
+          "powerType": "Energy",
+          "crit": 8.8,
+          "haste": 0,
+          "dodge": 17.6,
+          "attackPower": 70,
+          "spellPower": 0,
+          "dps": 11.2
+        },
+        "questsCompleted": 88,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Friendly",
+            "value": 4860,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Neutral",
+            "value": 2043,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2043,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 1050,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 543,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Beefy",
+      "surname": "Brannan",
+      "slug": "beefy-brannan",
+      "rank": 3,
+      "level": 20,
+      "classId": 11,
+      "className": "Druid",
+      "raceId": 6,
+      "race": "Tauren",
+      "details": {
+        "gender": "MALE",
+        "race": "Tauren",
+        "className": "Druid",
+        "level": 20,
+        "experience": 21610,
+        "lastLogin": "2026-11-06T22:01:39.000Z",
+        "itemLevel": 11,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Feral Combat",
+          "trees": [
+            {
+              "name": "Feral Combat",
+              "points": 11
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Skinning",
+            "type": "primary",
+            "skill": 147,
+            "max": 225,
+            "recipes": 2
+          },
+          {
+            "name": "Herbalism",
+            "type": "primary",
+            "skill": 47,
+            "max": 75,
+            "recipes": 3
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 7,
+            "max": 75,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Chest",
+            "name": "Hunting Tunic",
+            "quality": "UNCOMMON",
+            "level": 17
+          },
+          {
+            "slot": "Waist",
+            "name": "Grassland Sash",
+            "quality": "UNCOMMON",
+            "level": 20
+          },
+          {
+            "slot": "Legs",
+            "name": "Greasy Tinker's Pants",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Feet",
+            "name": "Rambling Boots",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Wrist",
+            "name": "Plains Hunter Wristguards",
+            "quality": "COMMON",
+            "level": 10
+          },
+          {
+            "slot": "Hands",
+            "name": "Ceremonial Leather Gloves",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Ring 1",
+            "name": "Bounty Hunter's Ring",
+            "quality": "UNCOMMON",
+            "level": 20
+          },
+          {
+            "slot": "Back",
+            "name": "Shimmering Cloak of the Tiger",
+            "quality": "UNCOMMON",
+            "level": 21
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Big Bad Basher",
+            "quality": "UNCOMMON",
+            "level": 24
+          }
+        ],
+        "stats": {
+          "health": 644,
+          "power": 659,
+          "powerType": "Mana",
+          "crit": 3.8,
+          "haste": 0,
+          "dodge": 5.4,
+          "attackPower": 78,
+          "spellPower": 0,
+          "dps": 21.5
+        },
+        "questsCompleted": 190,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Honored",
+            "value": 880,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Friendly",
+            "value": 3413,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Friendly",
+            "value": 1437,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Friendly",
+            "value": 91,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Undercity",
+            "standing": "Neutral",
+            "value": 2571,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Cenarion Circle",
+            "standing": "Neutral",
+            "value": 2535,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Banker",
+      "surname": "Brannan",
+      "slug": "banker-brannan",
+      "rank": 3,
+      "level": 1,
+      "classId": 4,
+      "className": "Rogue",
+      "raceId": 8,
+      "race": "Troll",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Darkley",
+      "surname": "Beartooth",
+      "slug": "darkley-beartooth",
+      "rank": 3,
+      "level": 9,
+      "classId": 11,
+      "className": "Druid",
+      "raceId": 6,
+      "race": "Tauren",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Foxy",
+      "surname": "Oldhag",
+      "slug": "foxy-oldhag",
+      "rank": 1,
+      "level": 17,
+      "classId": 2,
+      "className": "Paladin",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "FEMALE",
+        "race": "Undead",
+        "className": "Paladin",
+        "level": 16,
+        "experience": 8513,
+        "lastLogin": "2026-11-06T17:36:23.000Z",
+        "itemLevel": 6,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Holy",
+          "trees": [
+            {
+              "name": "Holy",
+              "points": 7
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Mining",
+            "type": "primary",
+            "skill": 72,
+            "max": 150,
+            "recipes": 3
+          },
+          {
+            "name": "Blacksmithing",
+            "type": "primary",
+            "skill": 40,
+            "max": 75,
+            "recipes": 19
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 1,
+            "max": 75,
+            "recipes": 4
+          },
+          {
+            "name": "Fishing",
+            "type": "secondary",
+            "skill": 1,
+            "max": 75,
+            "recipes": 1
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Brawler's Harness",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Infantry Tunic of the Bear",
+            "quality": "UNCOMMON",
+            "level": 13
+          },
+          {
+            "slot": "Waist",
+            "name": "War Paint Waistband",
+            "quality": "UNCOMMON",
+            "level": 17
+          },
+          {
+            "slot": "Legs",
+            "name": "Charger's Pants of Spirit",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Feet",
+            "name": "Finscale Soles",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Wrist",
+            "name": "Outrunner's Cuffs of Arcane Protection",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Hands",
+            "name": "Warrior's Gloves",
+            "quality": "COMMON",
+            "level": 9
+          },
+          {
+            "slot": "Back",
+            "name": "Spellbinder Cloak",
+            "quality": "COMMON",
+            "level": 13
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Axe of Orgrimmar",
+            "quality": "RARE",
+            "level": 18
+          }
+        ],
+        "stats": {
+          "health": 441,
+          "power": 440,
+          "powerType": "Mana",
+          "crit": 4.8,
+          "haste": 0,
+          "dodge": 4.1,
+          "attackPower": 114,
+          "spellPower": 0,
+          "dps": 24.2
+        },
+        "questsCompleted": 130,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Honored",
+            "value": 1210,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Neutral",
+            "value": 2868,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2568,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 1050,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 993,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Sleepy",
+      "surname": "Tom",
+      "slug": "sleepy-tom",
+      "rank": 3,
+      "level": 16,
+      "classId": 1,
+      "className": "Warrior",
+      "raceId": 2,
+      "race": "Orc",
+      "details": {
+        "gender": "MALE",
+        "race": "Orc",
+        "className": "Warrior",
+        "level": 16,
+        "experience": 10162,
+        "lastLogin": "2026-11-06T18:37:24.000Z",
+        "itemLevel": 9,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Protection",
+          "trees": [
+            {
+              "name": "Protection",
+              "points": 7
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Alchemy",
+            "type": "primary",
+            "skill": 41,
+            "max": 75,
+            "recipes": 8
+          },
+          {
+            "name": "Herbalism",
+            "type": "primary",
+            "skill": 61,
+            "max": 150,
+            "recipes": 3
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 15,
+            "max": 75,
+            "recipes": 5
+          },
+          {
+            "name": "Fishing",
+            "type": "secondary",
+            "skill": 20,
+            "max": 75,
+            "recipes": 1
+          },
+          {
+            "name": "First Aid",
+            "type": "secondary",
+            "skill": 82,
+            "max": 150,
+            "recipes": 4
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Brawler's Harness",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Battle Chain Tunic",
+            "quality": "UNCOMMON",
+            "level": 13
+          },
+          {
+            "slot": "Waist",
+            "name": "Runed Copper Belt",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Legs",
+            "name": "Gargoyle Leggings",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Feet",
+            "name": "Rough Bronze Boots",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Wrist",
+            "name": "Runed Copper Bracers",
+            "quality": "UNCOMMON",
+            "level": 19
+          },
+          {
+            "slot": "Hands",
+            "name": "Veteran Gloves",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Ring 1",
+            "name": "Depleted Ritual Band",
+            "quality": "COMMON",
+            "level": 9
+          },
+          {
+            "slot": "Back",
+            "name": "Calico Cloak",
+            "quality": "POOR",
+            "level": 14
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Hammer of Orgrimmar",
+            "quality": "RARE",
+            "level": 18
+          },
+          {
+            "slot": "Off Hand",
+            "name": "Lupine Buckler of Stamina",
+            "quality": "UNCOMMON",
+            "level": 17
+          }
+        ],
+        "stats": {
+          "health": 471,
+          "power": 100,
+          "powerType": "Rage",
+          "crit": 4.3,
+          "haste": 0,
+          "dodge": 4.2,
+          "attackPower": 152,
+          "spellPower": 0,
+          "dps": 23.3
+        },
+        "questsCompleted": 127,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Orgrimmar",
+            "standing": "Honored",
+            "value": 470,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Friendly",
+            "value": 4545,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Friendly",
+            "value": 737,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Neutral",
+            "value": 1825,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Undercity",
+            "standing": "Neutral",
+            "value": 987,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 962,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Brie",
+      "surname": "Das",
+      "slug": "brie-das",
+      "rank": 3,
+      "level": 15,
+      "classId": 9,
+      "className": "Warlock",
+      "raceId": 2,
+      "race": "Orc",
+      "details": {
+        "gender": "MALE",
+        "race": "Orc",
+        "className": "Warlock",
+        "level": 15,
+        "experience": 10527,
+        "lastLogin": "2026-11-06T22:00:04.000Z",
+        "itemLevel": 7,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Destruction",
+          "trees": [
+            {
+              "name": "Destruction",
+              "points": 6
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Tailoring",
+            "type": "primary",
+            "skill": 51,
+            "max": 75,
+            "recipes": 26
+          },
+          {
+            "name": "Skinning",
+            "type": "primary",
+            "skill": 75,
+            "max": 150,
+            "recipes": 2
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Chest",
+            "name": "Barbaric Linen Vest",
+            "quality": "UNCOMMON",
+            "level": 14
+          },
+          {
+            "slot": "Waist",
+            "name": "Barbaric Cloth Belt",
+            "quality": "COMMON",
+            "level": 14
+          },
+          {
+            "slot": "Legs",
+            "name": "Simple Kilt",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Feet",
+            "name": "Barbaric Cloth Boots",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Wrist",
+            "name": "Green Linen Bracers",
+            "quality": "UNCOMMON",
+            "level": 12
+          },
+          {
+            "slot": "Hands",
+            "name": "Heavy Woolen Gloves",
+            "quality": "UNCOMMON",
+            "level": 17
+          },
+          {
+            "slot": "Back",
+            "name": "Feral Cloak of the Owl",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Staff of Orgrimmar",
+            "quality": "RARE",
+            "level": 18
+          },
+          {
+            "slot": "Ranged",
+            "name": "Greater Magic Wand",
+            "quality": "UNCOMMON",
+            "level": 23
+          }
+        ],
+        "stats": {
+          "health": 343,
+          "power": 673,
+          "powerType": "Mana",
+          "crit": 5.1,
+          "haste": 0,
+          "dodge": 5,
+          "attackPower": 17,
+          "spellPower": 26,
+          "dps": 13
+        },
+        "questsCompleted": 89,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Orgrimmar",
+            "standing": "Friendly",
+            "value": 5613,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Friendly",
+            "value": 3501,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Friendly",
+            "value": 687,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Undercity",
+            "standing": "Neutral",
+            "value": 956,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Neutral",
+            "value": 705,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 552,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Bossa",
+      "surname": "Novha",
+      "slug": "bossa-novha",
+      "rank": 3,
+      "level": 1,
+      "classId": 8,
+      "className": "Mage",
+      "raceId": 5,
+      "race": "Undead",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Sparky",
+      "surname": "Tom",
+      "slug": "sparky-tom",
+      "rank": 3,
+      "level": 1,
+      "classId": 8,
+      "className": "Mage",
+      "raceId": 5,
+      "race": "Undead",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Hilda",
+      "surname": "Rothild",
+      "slug": "hilda-rothild",
+      "rank": 3,
+      "level": 1,
+      "classId": 8,
+      "className": "Mage",
+      "raceId": 5,
+      "race": "Undead",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Lil",
+      "surname": "Bolty",
+      "slug": "lil-bolty",
+      "rank": 4,
+      "level": 5,
+      "classId": 8,
+      "className": "Mage",
+      "raceId": 8,
+      "race": "Troll",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Moy",
+      "surname": "Ashmourne",
+      "slug": "moy-ashmourne",
+      "rank": 4,
+      "level": 15,
+      "classId": 2,
+      "className": "Paladin",
+      "raceId": 5,
+      "race": "Undead",
+      "details": {
+        "gender": "MALE",
+        "race": "Undead",
+        "className": "Paladin",
+        "level": 15,
+        "experience": 8294,
+        "lastLogin": "2026-11-06T16:15:50.000Z",
+        "itemLevel": 5,
+        "achievementPoints": 0,
+        "title": null,
+        "spec": {
+          "name": "Retribution",
+          "trees": [
+            {
+              "name": "Retribution",
+              "points": 6
+            }
+          ]
+        },
+        "professions": [
+          {
+            "name": "Mining",
+            "type": "primary",
+            "skill": 68,
+            "max": 150,
+            "recipes": 3
+          },
+          {
+            "name": "Blacksmithing",
+            "type": "primary",
+            "skill": 74,
+            "max": 150,
+            "recipes": 10
+          },
+          {
+            "name": "Cooking",
+            "type": "secondary",
+            "skill": 1,
+            "max": 75,
+            "recipes": 4
+          },
+          {
+            "name": "First Aid",
+            "type": "secondary",
+            "skill": 53,
+            "max": 150,
+            "recipes": 2
+          }
+        ],
+        "equipment": [
+          {
+            "slot": "Shirt",
+            "name": "Brawler's Harness",
+            "quality": "COMMON",
+            "level": 1
+          },
+          {
+            "slot": "Chest",
+            "name": "Warrior's Tunic",
+            "quality": "UNCOMMON",
+            "level": 11
+          },
+          {
+            "slot": "Waist",
+            "name": "Runed Copper Belt",
+            "quality": "UNCOMMON",
+            "level": 18
+          },
+          {
+            "slot": "Legs",
+            "name": "Copper Chain Pants",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Feet",
+            "name": "Copper Chain Boots",
+            "quality": "UNCOMMON",
+            "level": 10
+          },
+          {
+            "slot": "Wrist",
+            "name": "Bard's Bracers of the Gorilla",
+            "quality": "UNCOMMON",
+            "level": 15
+          },
+          {
+            "slot": "Hands",
+            "name": "Warrior's Gloves",
+            "quality": "COMMON",
+            "level": 9
+          },
+          {
+            "slot": "Back",
+            "name": "Worn Hide Cloak",
+            "quality": "POOR",
+            "level": 10
+          },
+          {
+            "slot": "Main Hand",
+            "name": "Driftwood Smasher",
+            "quality": "UNCOMMON",
+            "level": 13
+          }
+        ],
+        "stats": {
+          "health": 381,
+          "power": 422,
+          "powerType": "Mana",
+          "crit": 4.9,
+          "haste": 0,
+          "dodge": 4.2,
+          "attackPower": 107,
+          "spellPower": 0,
+          "dps": 16.6
+        },
+        "questsCompleted": 122,
+        "honorableKills": 0,
+        "reputations": [
+          {
+            "faction": "Undercity",
+            "standing": "Honored",
+            "value": 1350,
+            "max": 12000,
+            "tier": 5
+          },
+          {
+            "faction": "Orgrimmar",
+            "standing": "Neutral",
+            "value": 2528,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Darkspear Trolls",
+            "standing": "Neutral",
+            "value": 2528,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 1050,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Thunder Bluff",
+            "standing": "Neutral",
+            "value": 1028,
+            "max": 3000,
+            "tier": 3
+          }
+        ],
+        "titles": []
+      },
+      "detailsStale": false
+    },
+    {
+      "name": "Kíng",
+      "surname": "Ofmetal",
+      "slug": "kíng-ofmetal",
+      "rank": 3,
+      "level": 7,
+      "classId": 7,
+      "className": "Shaman",
+      "raceId": 96,
+      "race": "Windshaper Skyborne",
+      "details": null,
+      "detailsStale": false
+    },
+    {
+      "name": "Quéén",
+      "surname": "Ofmetal",
+      "slug": "quéén-ofmetal",
+      "rank": 4,
+      "level": 6,
+      "classId": 3,
+      "className": "Hunter",
+      "raceId": 96,
+      "race": "Windshaper Skyborne",
+      "details": null,
+      "detailsStale": false
+    }
+  ]
+}
