@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-06T01:35:28.334Z",
+  "generatedAt": "2026-11-06T09:28:01.302Z",
   "news": [
+    {
+      "id": "wowhead-383778",
+      "source": "Wowhead",
+      "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
+      "description": "The first set of hotfixes are out for WoW: Forever, which fixes issues with various NPCs and spawns Deathstalker Erland faster for his quest!",
+      "details": "The 3rd Druid Trainer on Zephras Isle now offers training as intended.\nTrade supply vendors now sell apprentice tradeskill bags.\nPlainsrunning no longer stacks in the battleground prep phase.\nPlainsrunning no longer works while carrying a flag.\nDeathstalker Erland for Escorting Erland spawns much more frequently.\nYarrog Baneshadow for the quest item Burning Blade Medallion now spawns more frequently.\nHere you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 5, 2026\nEnemies and NPCs\nDurotar - Fixed an issue where Yarrog Baneshadow was respawning more slowly than intended.\nZephras - Lotheluum Starbreeze now offers training to Druids as expected.\nDustwallow Marsh - Fixed an issue where some murlocs in Dustwallow Marsh were respawning too quickly.\nSwamp of Sorrows -…",
+      "category": "Forever",
+      "date": "2026-11-06T02:36:06.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56048-wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news.jpg",
+      "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news"
+    },
     {
       "id": "wowhead-383774",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-05T14:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56021-earn-700-discord-orbs-with-new-wow-forever-quest.png",
       "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest"
-    },
-    {
-      "id": "wowhead-383758",
-      "source": "Wowhead",
-      "title": "Temporary Portals Replace Boats and Zeppelins Due to Bugs",
-      "description": "Blizzard has announced that portals have temporarily replaced some boats and zeppelins due to bugs.",
-      "details": "Hi There,\nWe are aware of some issues with transports such as boats and zeppelins becoming lost in the maelstrom for extended periods of time.\nAs a temporary fix, we’ve spawned portals near most transport docks or inside of the zeppelin towers to help you move between continents if your boat gets lost. We have a proper fix going out in the morning, and once we’ve verified that’s in and working, we’ll be removing those portals.\nHope this helps. Thank you!",
-      "category": "Forever",
-      "date": "2026-11-05T06:45:40.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56026-temporary-portals-replace-boats-and-zeppelins-due-to-bugs.jpg",
-      "url": "https://www.wowhead.com/news=383758/temporary-portals-replace-boats-and-zeppelins-due-to-bugs"
     }
   ],
   "blizzard": null
