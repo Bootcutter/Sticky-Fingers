@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-11-06T17:31:50.941Z",
+  "generatedAt": "2026-11-06T23:13:55.279Z",
   "news": [
+    {
+      "id": "wowhead-383790",
+      "source": "Wowhead",
+      "title": "Upcoming Pet Changes in WoW: Forever - Upcoming Class Tuning for November 10th",
+      "description": "The first set of class tuning adjustments has Hunter and Warlock pet changes and adjusts what stats Enhancement Shaman will want on their gear!",
+      "details": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:\nWe’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.\nAffliction Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Affliction Warlocks’ total damage output.\nEnhancement Shamans are finding that…",
+      "category": "Forever",
+      "date": "2026-11-06T21:13:27.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56059-upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class.jpg",
+      "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class"
+    },
+    {
+      "id": "wowhead-383787",
+      "source": "Wowhead",
+      "title": "Raid Rewards and PvP Balance - Crix Interview on WoW: Forever",
+      "description": "Crix interviewed Kris Zierhut and Tim Jones on WoW: Forever and discussed raid rewards, PvP balance and more!",
+      "details": "Check out Crix on his YouTube Channel, Twitch, and Twitter.\nWe've summarized the key points from the interview below.\nWhat Success Looks Like\nFor Kris, he hopes that they are still pulling in and picking up new players and growing the audience of players.\nA stable ecosystem of raids and PvP events to go to, but not overwhelming.\nFor Tim, he wants there to be many opportunies still: zones to explore, quests to do, raids to defeat.\nHe wants to go to places that players want to go to, but also new mysterious zones, raids and dungeons.\nA key thing is that every time there is a patch with new content, they mix up the meta enough with new unsolved problems so that the best way to play is ever shifting.\nThey also want to add to the threads in the world that were never finished, and then add more threads to new stories.\nChanging Old Classic Decisions\nFor Kris, it's been really weird because he…",
+      "category": "Forever",
+      "date": "2026-11-06T20:52:14.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56056-raid-rewards-and-pvp-balance-crix-interview-on-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever"
+    },
+    {
+      "id": "wowhead-383789",
+      "source": "Wowhead",
+      "title": "Blizzard Fixing Issues Causing Duplicates of NPCs and Mobs",
+      "description": "Blizzard is addressing the issue of NPCs and mobs being briefly duplicated across each layer.",
+      "details": "For a brief period of time, NPCs and mobs had multiple copies of themselves, creating some very dangerous areas, or many clones of the same NPC.\nBlizzard posted in a server message that this is being worked on after a \"blip in the multiverse\".\nGreetings! There was a slight blip in the multiverse. We are in the process of de-blipping all zones now.",
+      "category": "Forever",
+      "date": "2026-11-06T20:11:48.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56055-blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs.jpg",
+      "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs"
+    },
+    {
+      "id": "wowhead-383786",
+      "source": "Wowhead",
+      "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
+      "description": "Kris Zierhut has announced that the minimum deposit on the Auction House on WoW: Forever will be changed soon.",
+      "details": "When WoW: Forever launched, the minimum deposit for the Auction House had been increased to 1 Silver. This adds a lot of risk to players in the early economy, as losing 1 Silver every time you don't sell an item can quickly add up, especially when money is tight. In an interview with Crix, Kris Zierhut discusses how they handle internal disagreements. At the end of the segment, he addresses the minimum deposit change, noting that it will be changing soon.\nKris ZierhutMaybe the minimum price on the Auction House should be 1 Copper, and not 1 Silver for deposits. We were just talking about that one earlier today and after talking about it with people more, yes, we're changing it back to one copper as the minimum deposit. That's coming. Not yet, but coming.\nWhenever this change is live, players will no longer need to take on a significant risk when putting items on the Auction…",
+      "category": "Forever",
+      "date": "2026-11-06T19:08:08.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56054-minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383785",
+      "source": "Wowhead",
+      "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
+      "description": "Blizzard has addressed the Shaman Classic Discord shutdown, noting that they are looking at revisiting Shaman talents, but no sooner than early next year.",
+      "details": "Elemental Shaman GuideEnhancement Shaman Guide\nEarlier this week, before the WoW: Forever launch, the Shaman Classic Discord shut down in protest of \"how the developers are approaching all Shaman specs in WoW Forever.\"\nIn a recent interview with Crix, Kris Zierhut addresses the shutdown and gives his thoughts on the current state of Shaman and what the future for Shamans could be.\nKris ZierhutI think some of their issues are legitimate and some of them are that they're mad they can't have improved Ghost Wolf.\nKris goes on to discuss how they're looking particularly hard at Enhancement, as they're being pushed towards wanting too much spell power gear. Enhancement Shamans should want to wear Strength, Intellect, and Spell Power, similar to Ret Paladins. They do not want Enhancement to run around in Cloth Robes.\nHe also comments on the state of Elemental, as they're watching it really…",
+      "category": "Forever",
+      "date": "2026-11-06T18:34:57.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56053-shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic.jpg",
+      "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic"
+    },
+    {
+      "id": "wowhead-383784",
+      "source": "Wowhead",
+      "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
+      "description": "Blizzard has released a new issue of their WoW Weekly blog post, recapping the Forever launch, Discord integration, and the reveal of a new Forever Legendary weapon.",
+      "details": "Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that World of Warcraft: Forever is now live, join the ongoing conversations on Discord both in and out of the game, explore another way to play with gamepad support, and more.\nWorld of Warcraft: Forever Now Live!\nWhether you’re stepping into World of Warcraft for the first time or finding your way back to Azeroth, there’s a place for you in World of Warcraft: Forever. Explore a new and reimagined Azeroth at your own pace, discover new places or revisit old favorites, and meet fellow adventurers along the way. This permanent home alongside modern and Classic WoW puts community first and makes the journey as meaningful as the destination.\nClick to Learn More\nWoW: Forever—What’s New and What Feels Familiar\nFrom a well-fought battle to a look that feels uniquely yours, the moments that…",
+      "category": "WoW",
+      "date": "2026-11-06T18:31:23.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56052-the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir.jpg",
+      "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir"
+    },
     {
       "id": "wowhead-383782",
       "source": "Wowhead",
@@ -33,72 +99,6 @@
       "date": "2026-11-06T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56038-four-new-key-art-pieces-for-wow-forever-launch.jpg",
       "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch"
-    },
-    {
-      "id": "wowhead-383768",
-      "source": "Wowhead",
-      "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
-      "description": "Dungeons are a great source of experience, but only if you have dungeon quests. Here's where to find all the dungeon quests for the first few dungeons.",
-      "details": "Every Dungeon Quest Location\nIn WoW: Forever, base dungeon experience from killing mobs has been nerfed, but experience from completing dungeon quests has been buffed. Completing Dungeon Quests is very important, as without them, you won't be getting all the possible experience (or even the majority of it) from a given dungeon.\nBelow, you'll find the available quests for every dungeon, where to pick them up, the estimated amount of time to get them, and any prerequisite questing that you need to do. Many of these quests are shareable, so if one person in the group has it, they can share it with the rest of the party!\nAll Ragefire Chasm Quests\nHard: Level 9 | Medium: Level 12 | At Level: Level 14 | Easy: Level 19\nQuestLevelSideEffortShare?Starts\nSlaying the Beast9 Orgrimmar, The Drag - Neeru Fireblade /way 49 50\nThe Power to Destroy...9 Undercity, Royal Quarter - Varimathras /way 56…",
-      "category": "Forever",
-      "date": "2026-11-06T14:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56036-every-quest-for-dungeons-up-to-level-20-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383778",
-      "source": "Wowhead",
-      "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
-      "description": "The first set of hotfixes are out for WoW: Forever, which fixes issues with various NPCs and spawns Deathstalker Erland faster for his quest!",
-      "details": "The 3rd Druid Trainer on Zephras Isle now offers training as intended.\nTrade supply vendors now sell apprentice tradeskill bags.\nPlainsrunning no longer stacks in the battleground prep phase.\nPlainsrunning no longer works while carrying a flag.\nDeathstalker Erland for Escorting Erland spawns much more frequently.\nYarrog Baneshadow for the quest item Burning Blade Medallion now spawns more frequently.\nHere you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 5, 2026\nEnemies and NPCs\nDurotar - Fixed an issue where Yarrog Baneshadow was respawning more slowly than intended.\nZephras - Lotheluum Starbreeze now offers training to Druids as expected.\nDustwallow Marsh - Fixed an issue where some murlocs in Dustwallow Marsh were respawning too quickly.\nSwamp of Sorrows -…",
-      "category": "Forever",
-      "date": "2026-11-06T02:36:06.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56048-wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news.jpg",
-      "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news"
-    },
-    {
-      "id": "wowhead-383774",
-      "source": "Wowhead",
-      "title": "Minimum Deposit of 1 Silver Required to List Items on Auction House in WoW: Forever",
-      "description": "In WoW: Forever, listing an item on the Auction House always incurs a deposit of at least 1 silver.",
-      "details": "When players list an item on the Auction House, a deposit is required. The deposit is given back to players if the item successfully sells, but is lost if the item is cancelled or the Auction expires. In the original version of WoW, the deposit requirement depends on the item's Vendor Price and the duration:\nDurationDeposit Cost\n2 Hours5% of Vendor Price\n8 Hours20% of Vendor Price\n24 Hours60% of Vendor Price\nVendor Price of 4 Silver and 61 Copper\nIn WoW: Forever, there appears to be one more rule: A minimum of 1 Silver is required.\nWith a Vendor price of 4 Silver and 61 Copper, we would expect an 8-hour listing of this item to require 92 Copper, but this is listed at 1 Silver. Similarly, if you take any cheap vendor item, the Deposit is always listed as 1 Silver. This increased deposit imposes a significant risk to players if the item doesn't sell within the time frame. Many players…",
-      "category": "Forever",
-      "date": "2026-11-05T23:29:31.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56042-minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow.png",
-      "url": "https://www.wowhead.com/news=383774/minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow"
-    },
-    {
-      "id": "wowhead-383771",
-      "source": "Wowhead",
-      "title": "Blizzard Investigating Issues with Certain Escort Quests in WoW: Forever",
-      "description": "Blizzard is investigating issues with certain quests in WoW: Forever.",
-      "details": "BlizzardCS has started writing comments on Wowhead quest pages, noting that certain quests are bugged and that they're investigating the issue.\nEscort Quests\nBlizzardCS has commented on the quest pages of Freedom to Ruul, Free From the Hold, and The Defias Brotherhood. These are all escort quests that can immediately fail if the quest giver dies or, in this case, despawns.\nBlizzard\nWe're aware that Ruul/Gilthares Firebough/Defias Traitor may disappear when moving near or across zone and area boundaries, causing the quest to fail. We're already investigating the issue.\nUndead Paladin Quest\nOne of the early Undead Paladin quests is Rediscovering the Light, which requires players to rediscover how to use Holy Light. Sometimes healing the NPCs doesn't give progress towards the quest objective and Blizzard is aware of the issue.\nBlizzardWe're aware that healing Injured Deathguards may not…",
-      "category": "Forever",
-      "date": "2026-11-05T20:23:47.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56039-blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383771/blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383769",
-      "source": "Wowhead",
-      "title": "New Prerequisites Required for Ruins of Lordaeron Dungeon Quests in WoW: Forever",
-      "description": "Two Horde quests for Ruins of Lordaeron have new prerequisite quests on live servers!",
-      "details": "Ruins of Lordaeron DungeonAll Dungeon Quests\nDungeon quests are a very good source of experience in WoW: Forever, as the experience from killing dungeon mobs was nerfed and the amount of experience from dungeon quests were buffed. Ruins of Lordaeron is the second dungeon Horde players are likely to run and when collecting the Dungeon quests, there's a change on the live servers: two of the Horde quests now have a quest chain prerequisite in order to pick them up.\nWhile Alliance players don't have any prerequisites to pick up their quests, The Wrath of Rath'mael and The New Plague now both require a quest chain to be completed when they were previously available right away on Beta.\nThe Wrath of Rath'mael quest is no longer available from Deathguard Kristof right away. Instead, players have to complete a level 13 quest chain that starts with Rear Guard Patrol at Deathguard Linnea in the…",
-      "category": "Forever",
-      "date": "2026-11-05T18:51:44.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56037-new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383769/new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383691",
-      "source": "Wowhead",
-      "title": "The Weekly Reset with Taliesin and Evitel: Forever Forever? Talebound and More",
-      "description": "Taliesin and Evitel check out WoW: Forever, where it's going, and how it's different from Retail. Also Talebound, decor, and more.",
-      "details": "Taliesin and Evitel cover the latest news and do a deep dive into pertinent topics in The Weekly Reset. This week, WoW: Forever, where it's going, and how it is different from Retail. Also Talebound, decor, and more.\nWorld of Warcraft Forever launches THIS WEEK! It's going to be an amazing time, a clean slate, a new path... but where will that path lead? If Forever does indeed last for forever, the game is inevitably going to change, so what will it look like in a year? 5 years? 10?\nWe talk horizontal progression, expansions, and playable races. We look forward to the biggest WoW launch ever, and even find time to talk a bit about Midnight and Talebound too!\nShow Topics\nPlanet Azeroth: Episode 1 ft. Bill Bailey\nPlanet Azeroth: Episode 2 ft. Bill Bailey\nThe WoW: Forever Podcast Episode 6 Now Available\nName Reservations Included Overly Restrictive Name Check But Fix Incoming\nTalebound…",
-      "category": "WoW",
-      "date": "2026-11-05T17:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/55976-the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more.jpg",
-      "url": "https://www.wowhead.com/news=383691/the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more"
     }
   ],
   "blizzard": null
