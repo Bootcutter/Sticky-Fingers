@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-07T16:52:06.504Z",
+  "generatedAt": "2026-11-07T20:56:11.937Z",
   "news": [
+    {
+      "id": "wowhead-383803",
+      "source": "Wowhead",
+      "title": "Quests Give No Gold at Level 60 in WoW: Forever - \"Intentional Change\" According to Jokerd",
+      "description": "Quests at level 60 give no gold and according to Jokerd, this is an intentional change.",
+      "details": "Jokerd accomplished the World First level 60 in WoW: Forever yesterday and he has now discovered that quests are not giving Gold. At max level, quests in Era give bonus Gold instead of experience, but in WoW: Forever that appears to have changed. Jokerd claims to have messaged a WoW developer, who replied that this change is intentional, with a possible Weekly quest giving a random amount of gold instead.\nWhile Blizzard hasn’t formally commented on this yet, it will be a while before other players reach max level to check for themselves. Recent changes like the adjustment to Auction House listing prices and the addition of BMAH vendors, who provide an unofficial market cap on some reagents, show Blizzard is clearly trying to moderate the economy. Until more players reach level 60 and begin playing through endgame content, though, we can’t know the full impact this will have on overall…",
+      "category": "Forever",
+      "date": "2026-11-07T20:19:50.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56069-quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to.jpg",
+      "url": "https://www.wowhead.com/news=383803/quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to"
+    },
+    {
+      "id": "wowhead-383796",
+      "source": "Wowhead",
+      "title": "GMs Appeared In-Person to Celebrate the Launch of WoW: Forever",
+      "description": "For the first time in years, players have seen GM characters in-game - many appeared to celebrate the launch of WoW: Forever!",
+      "details": "With at least two confirmed sightings in Thunder Bluff last night, along with at least one Alliance location, it seems that Blizzard is just as excited about the launch of Forever as players have been.\nThe last time GMs were seen in numbers in the world was for the launch of Classic Anniversary. Since then, GM sightings have been extraordinarily rare, if not non-existent. Many players fondly remember Vanilla, when a GM might appear to help with a ticket you'd put in, crack jokes with players, or simply enjoy the game like everyone else. Over time, that happened less and less frequently, until GM appearances were all but unheard of.\nOne detail that many players noticed once sightings started pouring in: every GM had the last name Snowstorm, a cheeky homage to Blizzard. They also all had jokes!\nWe can't know for sure if this is a one-time event or if we'll be seeing GMs more often in…",
+      "category": "Forever",
+      "date": "2026-11-07T19:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56063-gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever"
+    },
     {
       "id": "wowhead-383781",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-06T20:11:48.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56055-blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs.jpg",
       "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs"
-    },
-    {
-      "id": "wowhead-383786",
-      "source": "Wowhead",
-      "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
-      "description": "Kris Zierhut has announced that the minimum deposit on the Auction House on WoW: Forever will be changed soon.",
-      "details": "When WoW: Forever launched, the minimum deposit for the Auction House had been increased to 1 Silver. This adds a lot of risk to players in the early economy, as losing 1 Silver every time you don't sell an item can quickly add up, especially when money is tight. In an interview with Crix, Kris Zierhut discusses how they handle internal disagreements. At the end of the segment, he addresses the minimum deposit change, noting that it will be changing soon.\nKris ZierhutMaybe the minimum price on the Auction House should be 1 Copper, and not 1 Silver for deposits. We were just talking about that one earlier today and after talking about it with people more, yes, we're changing it back to one copper as the minimum deposit. That's coming. Not yet, but coming.\nWhenever this change is live, players will no longer need to take on a significant risk when putting items on the Auction…",
-      "category": "Forever",
-      "date": "2026-11-06T19:08:08.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56054-minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever.png",
-      "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383785",
-      "source": "Wowhead",
-      "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
-      "description": "Blizzard has addressed the Shaman Classic Discord shutdown, noting that they are looking at revisiting Shaman talents, but no sooner than early next year.",
-      "details": "Elemental Shaman GuideEnhancement Shaman Guide\nEarlier this week, before the WoW: Forever launch, the Shaman Classic Discord shut down in protest of \"how the developers are approaching all Shaman specs in WoW Forever.\"\nIn a recent interview with Crix, Kris Zierhut addresses the shutdown and gives his thoughts on the current state of Shaman and what the future for Shamans could be.\nKris ZierhutI think some of their issues are legitimate and some of them are that they're mad they can't have improved Ghost Wolf.\nKris goes on to discuss how they're looking particularly hard at Enhancement, as they're being pushed towards wanting too much spell power gear. Enhancement Shamans should want to wear Strength, Intellect, and Spell Power, similar to Ret Paladins. They do not want Enhancement to run around in Cloth Robes.\nHe also comments on the state of Elemental, as they're watching it really…",
-      "category": "Forever",
-      "date": "2026-11-06T18:34:57.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56053-shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic.jpg",
-      "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic"
     }
   ],
   "blizzard": null
