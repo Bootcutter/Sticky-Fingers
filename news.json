@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-07T02:53:11.222Z",
+  "generatedAt": "2026-11-07T10:18:55.532Z",
   "news": [
+    {
+      "id": "wowhead-383798",
+      "source": "Wowhead",
+      "title": "WoW: Forever Makes History with Biggest Launch Ever!",
+      "description": "Blizzard has revealed that WoW: Forever has achieved a historic launch with the biggest launch ever!",
+      "details": "On X (Twitter), Blizzard posted two big milestones about the WoW: Forever launch and thanked players for playing.\nBlizzardCongratulations everyone, you made HISTORY!\nWoW: Forever has achieved:\n🔹The biggest launch in WoW history by peak concurrent players\n🔹The highest number of returning players in WoW history\nThis is all because of you, the players. From all of us, THANK YOU!",
+      "category": "Forever",
+      "date": "2026-11-07T04:18:40.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56065-wow-forever-makes-history-with-biggest-launch-ever.jpg",
+      "url": "https://www.wowhead.com/news=383798/wow-forever-makes-history-with-biggest-launch-ever"
+    },
+    {
+      "id": "wowhead-383797",
+      "source": "Wowhead",
+      "title": "World First Level 60s in WoW: Forever in Less Than Three Days",
+      "description": "The World First level 60 has been claimed in WoW: Forever. Congratulations!",
+      "details": "The World First level 60 has been claimed in WoW: Forever - by a group of five all leveling at the exact same time. Congratulations!\nAfter almost 52 hours, the World First level 60 has been claimed in WoW: Forever. Congratulations to the following characters for leveling so quickly!\nJokerd Prime\nBurning Speed\nCloud Bells\nLmgd Mmr\nVitochie Gofast\nThis team of 5 worked together to pull massive amounts of mobs and then AoE'd them down for efficient experience gains. The Paladin would pull everything, and then the mages would use Arcane Explosion to AoE them down quickly.\nEveryone went to painstaking lengths to make sure the experience was as synchronized as possible - as Jokerd explained on his stream, even one experience point could make the difference between one player being left behind. The last four percent of level 59 were the most challenging, with quite a bit of extensive math…",
+      "category": "Forever",
+      "date": "2026-11-07T03:11:19.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56064-world-first-level-60s-in-wow-forever-in-less-than-three-days.jpg",
+      "url": "https://www.wowhead.com/news=383797/world-first-level-60s-in-wow-forever-in-less-than-three-days"
+    },
     {
       "id": "wowhead-383794",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-06T18:31:23.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56052-the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir.jpg",
       "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir"
-    },
-    {
-      "id": "wowhead-383782",
-      "source": "Wowhead",
-      "title": "Major QoL Update to Popular Alliance Quest in WoW: Forever",
-      "description": "In WoW: Forever, an iconic quest has received some major quality-of-life updates to allow players to complete this quest faster!",
-      "details": "In WoW: Forever, the iconic Alliance quest, The Attack!, has received some major quality-of-life updates, allowing players to complete this quest with much less frustration and downtime.\nPrior to WoW: Forever, players starting this quest would automatically trigger the event, and only players nearby in that person's party would be able to accept the quest with them. In WoW: Forever, there is an additional dialogue option after starting the quest to make sure everyone in your party is ready!\nAlong with that, players can now pick up the quest and share it even as the event is happening. In Classic WoW, anyone interested in doing this quest would have to wait for the event to be completed before they and their party could start, often causing long queues and lines as players got to this quest chain. Now groups can pick up additional players should they have room, and anyone can pick up the…",
-      "category": "Forever",
-      "date": "2026-11-06T17:30:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56049-major-qol-update-to-popular-alliance-quest-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383782/major-qol-update-to-popular-alliance-quest-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383772",
-      "source": "Wowhead",
-      "title": "New Battle.net Icons for WoW: Forever",
-      "description": "New WoW: Forever icons have been added to Battle.net!",
-      "details": "On the Battle.net launcher, players can click on their icon to change it. From this menu, players can filter by game and choose from many available icons, which now include the new WoW: Forever ones!\nFour new icons are available featuring the Undead Paladin, Dwarf Shaman and the Skyborne from the WoW: Forever Key art!",
-      "category": "Forever",
-      "date": "2026-11-06T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56040-new-battle-net-icons-for-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383772/new-battle-net-icons-for-wow-forever"
     }
   ],
   "blizzard": null
