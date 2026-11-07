@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-07T10:18:55.532Z",
+  "generatedAt": "2026-11-07T16:52:06.504Z",
   "news": [
+    {
+      "id": "wowhead-383781",
+      "source": "Wowhead",
+      "title": "Black Market Auction House, Global Raid Launch, Quest Helpers - MrGM Interview on WoW: Forever",
+      "description": "MrGM interviewed Kris Zierhut and Josh Greenfield on WoW: Forever and discussed the Black Market Auction House, Quest Helpers and more",
+      "details": "Follow MrGM on YouTube and X (Twitter).\nWe've summarized the key points from the interview below.\nInteresting Storylines to Pay Attention To\nThe Riverglades has a fun dynamic and interplays with Warcraft 2\nThe Undead Paladin stuff is near and dear to Aggrend's Heart\nHyjal can be seen from anywhere and it's really cool to finally see it\nA cool storyline to pay attention to is what's going on with the Skyborne. They aren't just an island in Skywall. There's a much deeper history, especially in the history of Desolace and Dire Maul. Pay attention to who you're talking to when you go to Shen'dralas.\nMaps and Flying\nThey want to fill in the map as if you could fly.\nThey are not going to put in Flying mounts in this game, ever.\nThey wanted it to be built out in a way that you could fly over it, where there are no empty voids.\nGilneas\nThe World team can copy and paste World Chunks.\nThey have…",
+      "category": "Forever",
+      "date": "2026-11-07T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56050-black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on.jpg",
+      "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on"
+    },
     {
       "id": "wowhead-383798",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-06T18:34:57.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56053-shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic.jpg",
       "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic"
-    },
-    {
-      "id": "wowhead-383784",
-      "source": "Wowhead",
-      "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
-      "description": "Blizzard has released a new issue of their WoW Weekly blog post, recapping the Forever launch, Discord integration, and the reveal of a new Forever Legendary weapon.",
-      "details": "Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that World of Warcraft: Forever is now live, join the ongoing conversations on Discord both in and out of the game, explore another way to play with gamepad support, and more.\nWorld of Warcraft: Forever Now Live!\nWhether you’re stepping into World of Warcraft for the first time or finding your way back to Azeroth, there’s a place for you in World of Warcraft: Forever. Explore a new and reimagined Azeroth at your own pace, discover new places or revisit old favorites, and meet fellow adventurers along the way. This permanent home alongside modern and Classic WoW puts community first and makes the journey as meaningful as the destination.\nClick to Learn More\nWoW: Forever—What’s New and What Feels Familiar\nFrom a well-fought battle to a look that feels uniquely yours, the moments that…",
-      "category": "WoW",
-      "date": "2026-11-06T18:31:23.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56052-the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir.jpg",
-      "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir"
     }
   ],
   "blizzard": null
