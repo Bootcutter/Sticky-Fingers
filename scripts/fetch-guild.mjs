@@ -13,13 +13,15 @@
 //   BLIZZARD_NAMESPACE   – namespace flavour (default forever → profile-forever-eu)
 //   BLIZZARD_LOCALE      – default en_GB
 //   GUILD_SLUG           – default sticky-fingers-rare-proc
+//   GUILD_OUTPUT         – output file in the repo root (default guild.json)
 //
 // Locally: node --env-file=.env scripts/fetch-guild.mjs
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { inflateSync } from "node:zlib";
 
-const OUTPUT = new URL("../guild.json", import.meta.url);
+const OUTPUT_NAME = (process.env.GUILD_OUTPUT || "guild.json").replace(/[^\w.-]/g, "");
+const OUTPUT = new URL(`../${OUTPUT_NAME}`, import.meta.url);
 const CREST_DIR = new URL("../assets/crest/", import.meta.url);
 const USER_AGENT = "StickyFingersGuildSite/1.0 (+https://github.com/Bootcutter/Sticky-Fingers)";
 const env = process.env;
@@ -356,7 +358,7 @@ async function readPrevious() {
 
 async function main() {
   if (!env.BLIZZARD_CLIENT_ID || !env.BLIZZARD_CLIENT_SECRET) {
-    console.warn("No Blizzard credentials set; guild.json not updated.");
+    console.warn(`No Blizzard credentials set; ${OUTPUT_NAME} not updated.`);
     return;
   }
 
@@ -451,12 +453,12 @@ async function main() {
 
   const { generatedAt, ...previousContent } = previous;
   if (JSON.stringify(previousContent) === JSON.stringify(next)) {
-    console.log("guild.json unchanged.");
+    console.log(`${OUTPUT_NAME} unchanged.`);
     return;
   }
   await writeFile(OUTPUT, `${JSON.stringify({ generatedAt: new Date().toISOString(), ...next }, null, 2)}\n`);
   const detailed = members.filter((member) => member.details).length;
-  console.log(`guild.json written: ${members.length} members, ${detailed} with full profiles.`);
+  console.log(`${OUTPUT_NAME} written: ${members.length} members, ${detailed} with full profiles.`);
 }
 
 main().catch((error) => {

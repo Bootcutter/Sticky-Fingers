@@ -34,3 +34,4 @@ Push the files to a GitHub repository, then in **Settings → Pages**, choose **
 - The API doesn't expose the in-game MOTD or rank names, so edit them in `guild-notes.json`.
 - Link straight to a character with `guild.html#char-<slug>`, e.g. `guild.html#char-lil-stormy`.
 - Locally: put `BLIZZARD_CLIENT_ID` and `BLIZZARD_CLIENT_SECRET` in a `.env` file (git-ignored) and run `node --env-file=.env scripts/fetch-guild.mjs`.
+- **Second guild page:** `guild2.html` is the same dossier for the EU PvP guild **Wipers**. It shares `guild.js`/`guild.css`; the `<body>` attributes `data-guild-data="guild2.json"`, `data-guild-notes="guild2-notes.json"` and an empty `data-portraits` (no custom art) point it at its own files. The workflow builds `guild2.json` with `GUILD_SLUG=wipers GUILD_OUTPUT=guild2.json`. Optional `ticker` lines in a notes file replace the scrolling jokes.

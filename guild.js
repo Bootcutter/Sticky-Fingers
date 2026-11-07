@@ -18,7 +18,15 @@ const numberFormat = new Intl.NumberFormat("en-GB");
 const dateFormat = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" });
 const relativeFormat = new Intl.RelativeTimeFormat("en-GB", { numeric: "auto" });
 
-const state = { members: [], filter: "all", search: "", sort: "level", notes: { ranks: {} }, portraits: new Map() };
+const state = { members: [], filter: "all", search: "", sort: "level", notes: { ranks: {} }, portraits: new Map(), guildName: "" };
+
+// Each guild page points at its own data via <body data-guild-data data-guild-notes data-portraits>.
+// An empty data-portraits skips custom art (roster.json belongs to Sticky Fingers).
+const PAGE = {
+  data: document.body.dataset.guildData || "guild.json",
+  notes: document.body.dataset.guildNotes || "guild-notes.json",
+  portraits: document.body.dataset.portraits ?? "roster.json"
+};
 
 // ---------- Small DOM helpers (all data goes through textContent) ----------
 
@@ -421,10 +429,10 @@ function renderMotd(notes, data) {
   const pieces = [
     `${data.guild.memberCount ?? data.members.length} SUSPECTS ON THE BOOKS`,
     top ? `${fullName(top).toUpperCase()} LEADS THE RACE TO 60 AT LEVEL ${top.level}` : null,
-    "LOOT FIRST. ASK LATER.",
+    ...(Array.isArray(notes?.ticker) ? notes.ticker.filter((line) => typeof line === "string").slice(0, 2) : ["LOOT FIRST. ASK LATER."]),
     `${data.guild.faction?.toUpperCase() || "HORDE"} · ${data.region} · ${(data.guild.ruleset || "").toUpperCase()}`,
-    "BANK TAB 2 IS NOT A FREE-FOR-ALL"
-  ].filter(Boolean);
+    ...(Array.isArray(notes?.ticker) ? notes.ticker.filter((line) => typeof line === "string").slice(2) : ["BANK TAB 2 IS NOT A FREE-FOR-ALL"])
+  ].filter(Boolean).map((piece) => piece.toUpperCase());
   const ticker = $("#motdTicker");
   ticker.replaceChildren(...[...pieces, ...pieces].flatMap((piece) => [piece, h("b", {}, "✳")]));
 }
@@ -775,7 +783,7 @@ function openCharacter(member, trigger) {
   dialogTrigger = trigger;
   dialogPanel.style.setProperty("--cls", color);
 
-  $("#charRank").textContent = `${rankName(member.rank)} · Sticky Fingers Rare Proc`;
+  $("#charRank").textContent = [rankName(member.rank), state.guildName].filter(Boolean).join(" · ");
   const dialogArt = buildArt(member);
   $("#charArt").replaceChildren(...dialogArt.nodes);
   $("#charArt").classList.toggle("g-dialog__art--dual", dialogArt.dual);
@@ -883,13 +891,14 @@ function openFromHash() {
 async function boot() {
   try {
     const [guild, notes, roster] = await Promise.all([
-      loadJson("./guild.json").then(validateGuild),
-      loadJson("./guild-notes.json", { optional: true }),
-      loadJson("./roster.json", { optional: true })
+      loadJson(`./${PAGE.data}`).then(validateGuild),
+      loadJson(`./${PAGE.notes}`, { optional: true }),
+      PAGE.portraits ? loadJson(`./${PAGE.portraits}`, { optional: true }) : null
     ]);
     state.notes = notes && typeof notes === "object" ? notes : { ranks: {} };
     state.portraits = readPortraits(roster);
     state.members = guild.members;
+    state.guildName = guild.guild.name;
 
     renderHero(guild);
     renderMotd(state.notes, guild);

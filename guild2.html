@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#100f10">
+    <meta name="description" content="Wipers - Horde PvP guild on WoW Forever EU. Roster, professions and guild statistics.">
+    <title>Wipers - Guild</title>
+    <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
+    <link rel="stylesheet" href="styles.css?v=13">
+    <link rel="stylesheet" href="guild.css?v=2">
+    <script src="guild.js?v=3" defer></script>
+  </head>
+  <body class="guild-page" data-guild-data="guild2.json" data-guild-notes="guild2-notes.json" data-portraits="">
+    <a class="skip-link" href="#roster">Skip to roster</a>
+
+    <header class="g-hero" id="top">
+      <img class="g-hero__art" src="undead-art.jpg" alt="">
+      <div class="g-hero__wash"></div>
+      <span class="g-hero__ghost" aria-hidden="true">WIPE<br>RS</span>
+      <nav class="masthead" aria-label="Site">
+        <a class="masthead__sigil g-back" href="index.html" aria-label="Back to Sticky Fingers home"><img src="assets/sigil.svg" alt=""><span>← MAIN HALL</span></a>
+        <div class="g-nav">
+          <a href="#motd">MOTD</a>
+          <a href="#roster">ROSTER</a>
+          <a href="#numbers">NUMBERS</a>
+          <a href="#boards">BOARDS</a>
+          <a href="#crafting">CRAFTING</a>
+        </div>
+      </nav>
+
+      <div class="g-crest" id="guildCrest" role="img" aria-label="Guild crest" hidden></div>
+      <div class="g-hero__title">
+        <span class="cover__overline"><i></i> <span id="heroOverline">GUILD DOSSIER · EU · HORDE · PVP</span> <i></i></span>
+        <h1 id="guildTitle">Wipers</h1>
+        <dl class="g-hero__facts" id="heroFacts" aria-live="polite">
+          <div><dt>Members</dt><dd>—</dd></div>
+          <div><dt>Avg level</dt><dd>—</dd></div>
+          <div><dt>Founded</dt><dd>—</dd></div>
+          <div><dt>Ruleset</dt><dd>—</dd></div>
+        </dl>
+      </div>
+      <span class="cover__side-note" id="heroUpdated">READING THE LEDGER</span>
+    </header>
+
+    <main>
+      <section class="g-motd" id="motd" aria-labelledby="motdTitle">
+        <div class="g-motd__board">
+          <span class="g-motd__pin" aria-hidden="true"></span>
+          <span class="section-mark"><i>✳</i> MESSAGE OF THE DAY</span>
+          <h2 class="visually-hidden" id="motdTitle">Message of the day</h2>
+          <blockquote class="g-motd__text" id="motdText">…</blockquote>
+          <p class="g-motd__by" id="motdBy"></p>
+        </div>
+        <div class="g-motd__ticker" aria-hidden="true"><span id="motdTicker"></span></div>
+      </section>
+
+      <section class="g-section g-roster" id="roster" aria-labelledby="rosterTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 01</span>
+          <h2 id="rosterTitle">The <em>roster</em></h2>
+          <span class="g-heading__note" id="rosterNote">LOADING</span>
+        </div>
+
+        <div class="g-toolbar" role="group" aria-label="Filter and sort the roster">
+          <div class="g-chips" id="classChips"></div>
+          <div class="g-toolbar__right">
+            <label class="g-search">
+              <span class="visually-hidden">Search characters</span>
+              <input id="rosterSearch" type="search" placeholder="Search name, profession…" autocomplete="off">
+            </label>
+            <label class="g-select">
+              <span>SORT</span>
+              <select id="rosterSort">
+                <option value="level">Level</option>
+                <option value="rank">Rank</option>
+                <option value="name">Name</option>
+                <option value="seen">Last seen</option>
+                <option value="ilvl">Item level</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="g-grid" id="rosterGrid" aria-live="polite"></div>
+        <p class="events-status" id="rosterStatus" role="status">Loading the roster…</p>
+      </section>
+
+      <section class="g-section g-numbers" id="numbers" aria-labelledby="numbersTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 02</span>
+          <h2 id="numbersTitle">By the <em>numbers</em></h2>
+          <span class="g-heading__note">ALL FIGURES ALLEGED</span>
+        </div>
+
+        <div class="g-bento">
+          <article class="g-panel g-panel--race" aria-labelledby="raceTitle">
+            <header><span class="g-panel__kicker">PROGRESS</span><h3 id="raceTitle">Race to 60</h3></header>
+            <ol class="g-ladder" id="levelLadder"></ol>
+          </article>
+
+          <article class="g-panel g-panel--classes" aria-labelledby="classesTitle">
+            <header><span class="g-panel__kicker">COMPOSITION</span><h3 id="classesTitle">Classes</h3></header>
+            <div class="g-stack" id="classStack" role="img"></div>
+            <ul class="g-legend" id="classLegend"></ul>
+          </article>
+
+          <article class="g-panel g-panel--roles" aria-labelledby="rolesTitle">
+            <header><span class="g-panel__kicker">ROLES</span><h3 id="rolesTitle">Raid shape</h3></header>
+            <div class="g-roles" id="roleSplit"></div>
+            <p class="g-panel__foot">Role inferred from the talent tree with the most points.</p>
+          </article>
+
+          <article class="g-panel g-panel--races" aria-labelledby="racesTitle">
+            <header><span class="g-panel__kicker">BLOODLINES</span><h3 id="racesTitle">Races</h3></header>
+            <ul class="g-bars" id="raceBars"></ul>
+          </article>
+
+          <article class="g-panel g-panel--totals" aria-labelledby="totalsTitle">
+            <header><span class="g-panel__kicker">COMBINED</span><h3 id="totalsTitle">Guild totals</h3></header>
+            <dl class="g-totals" id="guildTotals"></dl>
+          </article>
+
+          <article class="g-panel g-panel--records" aria-labelledby="recordsTitle">
+            <header><span class="g-panel__kicker">HALL OF FAME</span><h3 id="recordsTitle">Records</h3></header>
+            <ul class="g-records" id="guildRecords"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="g-section g-boards" id="boards" aria-labelledby="boardsTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 03</span>
+          <h2 id="boardsTitle">Hall of <em>shame</em></h2>
+          <span class="g-heading__note">FROM IN-GAME STATISTICS</span>
+        </div>
+        <dl class="g-boards__headline" id="boardsHeadline"></dl>
+        <div class="g-boards__layout">
+          <div class="g-board-grid" id="boardGrid"></div>
+          <aside class="g-panel g-bosses" aria-labelledby="bossTitle">
+            <header><span class="g-panel__kicker">DUNGEON BODY COUNT</span><h3 id="bossTitle">Bosses down</h3></header>
+            <ul class="g-boss" id="bossList"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="g-section g-crafting" id="crafting" aria-labelledby="craftingTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 04</span>
+          <h2 id="craftingTitle">Who can <em>craft it</em></h2>
+          <span class="g-heading__note">ASK NICELY. TIP WELL.</span>
+        </div>
+        <div class="g-crafts" id="craftGrid"></div>
+      </section>
+
+      <section class="g-section g-deeds" id="deeds" aria-labelledby="deedsTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 05</span>
+          <h2 id="deedsTitle">Guild <em>deeds</em></h2>
+          <span class="g-heading__note" id="deedsNote">ACTIVITY · ACHIEVEMENTS</span>
+        </div>
+        <div class="g-deeds__body" id="deedsBody"></div>
+      </section>
+
+      <footer class="colophon">
+        <img src="assets/sigil.svg" alt="" width="44" height="44">
+        <p>Data via the Blizzard API<br><em>updated hourly.</em></p>
+        <a href="#top" aria-label="Back to top">↑</a>
+      </footer>
+    </main>
+
+    <dialog class="event-dialog g-dialog" id="charDialog" aria-labelledby="charName">
+      <article class="event-dialog__panel g-dialog__panel">
+        <header class="event-dialog__header">
+          <span class="event-dialog__category" id="charRank"></span>
+          <button class="event-dialog__close" id="closeChar" type="button" aria-label="Close character details">×</button>
+        </header>
+        <div class="g-dialog__hero">
+          <div class="g-dialog__art" id="charArt"></div>
+          <div class="g-dialog__id">
+            <span class="g-dialog__level" id="charLevel"></span>
+            <h2 id="charName"></h2>
+            <p class="g-dialog__line" id="charLine"></p>
+            <p class="g-dialog__seen" id="charSeen"></p>
+          </div>
+        </div>
+        <div class="g-dialog__body" id="charBody"></div>
+      </article>
+    </dialog>
+  </body>
+</html>

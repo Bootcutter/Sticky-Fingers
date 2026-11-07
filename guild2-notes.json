@@ -1,0 +1,18 @@
+{
+  "motd": {
+    "text": "Welcome to Wipers. PvP realm rules: stay grouped, call targets, and never fly into Tarren Mill alone.",
+    "author": "",
+    "date": ""
+  },
+  "ticker": [
+    "WIPE FIRST. ASK LATER.",
+    "THE GRAVEYARD IS A SPAWN POINT, NOT A PLAN"
+  ],
+  "ranks": {
+    "0": "Guild Master",
+    "1": "Officer",
+    "2": "Veteran",
+    "3": "Member",
+    "4": "Recruit"
+  }
+}
