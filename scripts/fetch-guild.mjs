@@ -348,6 +348,12 @@ async function fetchRulesets(blizzard) {
   }));
 }
 
+const VOLATILE_KEYS = new Set(["lastLogin"]);
+
+function meaningful(value) {
+  return JSON.stringify(value, (key, item) => (VOLATILE_KEYS.has(key) ? undefined : item));
+}
+
 async function readPrevious() {
   try {
     return JSON.parse(await readFile(OUTPUT, "utf8"));
@@ -451,8 +457,10 @@ async function main() {
     members
   };
 
+  // The workflow runs every 10 minutes; skip writes (and so commits) when only volatile
+  // fields such as last-login times moved. They catch up with the next real change.
   const { generatedAt, ...previousContent } = previous;
-  if (JSON.stringify(previousContent) === JSON.stringify(next)) {
+  if (meaningful(previousContent) === meaningful(next)) {
     console.log(`${OUTPUT_NAME} unchanged.`);
     return;
   }
