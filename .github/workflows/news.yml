@@ -45,12 +45,13 @@ jobs:
 
       - name: Commit data files if they changed
         run: |
-          if git diff --quiet -- news.json guild.json && [ -z "$(git ls-files --others --exclude-standard -- guild.json)" ]; then
+          if git diff --quiet -- news.json guild.json assets/crest && [ -z "$(git ls-files --others --exclude-standard -- guild.json assets/crest)" ]; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add news.json guild.json
+          git add assets/crest 2>/dev/null || true
           git commit -m "Refresh news.json and guild.json"
           git push

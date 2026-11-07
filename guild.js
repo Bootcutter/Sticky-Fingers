@@ -241,14 +241,73 @@ function portraitSvg(member) {
     </svg>`);
 }
 
-function portraitFor(member, options) {
+const FALLBACK_BOX = { x: 560, y: 400, w: 480, h: 580, W: 1600, H: 1200 };
+const RENDER_HOST = /^https:\/\/render\.worldofwarcraft\.com\//;
+
+function renderUrl(member, key = "main") {
+  const url = member.details?.render?.[key];
+  return typeof url === "string" && RENDER_HOST.test(url) ? url : null;
+}
+
+// Positions Blizzard's 1600x1200 render so the figure fills a box of the given aspect (height / width).
+function cropStyle(box, aspect) {
+  const b = box && box.w > 0 && box.h > 0 ? box : FALLBACK_BOX;
+  const W = b.W || 1600;
+  const cx = b.x + b.w / 2;
+  const cy = b.y + b.h / 2 + b.h * 0.015;
+  const spanW = Math.max(b.w * 1.3, (b.h * 1.12) / aspect);
+  const spanH = spanW * aspect;
+  return {
+    width: `${(W / spanW) * 100}%`,
+    left: `${(-(cx - spanW / 2) / spanW) * 100}%`,
+    top: `${(-(cy - spanH / 2) / spanH) * 100}%`
+  };
+}
+
+function renderLayer(member, { aspect = 1, className = "" } = {}) {
+  const url = renderUrl(member);
+  if (!url) return null;
+  const race = (member.details?.race || member.race || "").split(" ").pop();
+  const img = h("img", {
+    class: "g-render__figure", src: url, alt: `${fullName(member)} in game`, loading: "lazy", decoding: "async",
+    style: cropStyle(member.details.render.box, aspect)
+  });
+  const layer = h("div", { class: `g-render ${className}`.trim(), style: { "--cls": classColor(member) } },
+    h("span", { class: "g-render__race", "aria-hidden": "true" }, race),
+    h("span", { class: "g-render__floor", "aria-hidden": "true" }),
+    img);
+  img.addEventListener("error", () => layer.dispatchEvent(new CustomEvent("render-failed", { bubbles: true })), { once: true });
+  return layer;
+}
+
+function customImage(member) {
   const custom = state.portraits.get(normalise(fullName(member)));
+  if (!custom) return null;
+  return h("img", { class: "g-art__custom", src: `assets/${encodeURIComponent(custom)}`, alt: `${fullName(member)}, ${member.className || "adventurer"}`, loading: "lazy" });
+}
+
+// Card/dialog art: custom portrait (with the in-game render revealed on hover), else the render, else a placeholder.
+function buildArt(member, { aspect = 1 } = {}) {
+  const custom = customImage(member);
+  const render = renderLayer(member, { aspect, className: custom ? "g-render--reveal" : "" });
+  const nodes = [];
+  let kind = "placeholder";
   if (custom) {
-    const img = h("img", { src: `assets/${encodeURIComponent(custom)}`, alt: `${fullName(member)}, ${member.className || "adventurer"}`, loading: "lazy" });
-    img.addEventListener("error", () => img.replaceWith(portraitSvg(member, options)), { once: true });
-    return { node: img, custom: true };
+    kind = "custom";
+    custom.addEventListener("error", () => custom.replaceWith(render ? renderLayer(member, { aspect }) : portraitSvg(member)), { once: true });
+    nodes.push(custom);
+    if (render) {
+      render.addEventListener("render-failed", () => render.remove(), { once: true });
+      nodes.push(render, h("span", { class: "g-render__tag", "aria-hidden": "true" }, "IN-GAME"));
+    }
+  } else if (render) {
+    kind = "render";
+    render.addEventListener("render-failed", () => render.replaceWith(portraitSvg(member)), { once: true });
+    nodes.push(render);
+  } else {
+    nodes.push(portraitSvg(member));
   }
-  return { node: portraitSvg(member, options), custom: false };
+  return { nodes, kind, dual: Boolean(custom && render) };
 }
 
 // ---------- Data loading ----------
@@ -309,10 +368,41 @@ function renderHero(data) {
     ["Founded", created ? dateFormat.format(created) : "—", age ? `DAY ${age}` : null],
     ["Ruleset", guild.ruleset || "—"]
   ];
+  const ruleset = (data.rulesets || []).find((r) => r.id === guild.rulesetId) || (data.rulesets || []).find((r) => r.name === guild.ruleset);
   $("#heroFacts").replaceChildren(...facts.map(([label, value, small]) =>
     h("div", {}, h("dt", {}, label), h("dd", {}, value, small ? [" ", h("small", {}, small)] : null))));
+  if (ruleset?.status) {
+    const up = ruleset.status === "UP";
+    const others = (data.rulesets || []).filter((r) => r !== ruleset).map((r) => `${r.name}: ${r.statusName || r.status}`).join(" · ");
+    $("#heroFacts").append(h("div", { class: `g-status g-status--${up ? "up" : "down"}`, title: others ? `Other rulesets: ${others}` : null },
+      h("dt", {}, "Server"), h("dd", {}, h("i", { "aria-hidden": "true" }), up ? "Online" : (ruleset.statusName || "Down"))));
+  }
+  renderCrest(guild.crest);
   const updated = data.generatedAt ? timeAgo(data.generatedAt) : null;
   $("#heroUpdated").textContent = updated ? `LEDGER UPDATED ${updated.toUpperCase()}` : "LEDGER UPDATED HOURLY";
+}
+
+function crestColor(color) {
+  if (!color) return null;
+  const clamp = (n) => Math.max(0, Math.min(255, Math.round(Number(n) || 0)));
+  return `rgba(${clamp(color.r)}, ${clamp(color.g)}, ${clamp(color.b)}, ${Math.max(0, Math.min(1, Number(color.a ?? 1)))})`;
+}
+
+// In-game tabard: background colour, then border and emblem images tinted via CSS masks.
+function renderCrest(crest) {
+  const slot = $("#guildCrest");
+  if (!slot || !crest?.emblem?.image || !crest?.border?.image) return;
+  const safe = (url) => (typeof url === "string" && /^assets\/crest\/[\w-]+\.png$/.test(url) ? url : null);
+  const emblem = safe(crest.emblem.image);
+  const border = safe(crest.border.image);
+  if (!emblem || !border) return;
+  const layer = (url, color, cls) => h("span", { class: cls, style: { "--img": `url("${url}")`, "--tint": crestColor(color) || "#fff" } });
+  slot.replaceChildren(
+    h("span", { class: "g-crest__bg", style: { "--tint": crestColor(crest.background) || "#3a0c12" } }),
+    layer(border, crest.border.color, "g-crest__layer"),
+    layer(emblem, crest.emblem.color, "g-crest__layer"));
+  slot.hidden = false;
+  document.body.classList.add("has-crest");
 }
 
 function renderMotd(notes, data) {
@@ -391,11 +481,11 @@ function sortedMembers() {
 function createCard(member, index) {
   const color = classColor(member);
   const details = member.details;
-  const { node: portrait, custom } = portraitFor(member);
+  const art_ = buildArt(member);
   const isGm = member.rank === 0;
 
   const art = h("div", { class: "g-card__art" },
-    portrait,
+    art_.nodes,
     h("span", { class: "g-card__lvl" }, h("b", {}, member.level ?? "?"), h("span", {}, "LVL")),
     member.rank !== undefined && member.rank <= 1 ? h("span", { class: `g-card__rank${isGm ? " g-card__rank--gm" : ""}` }, rankName(member.rank)) : null,
     h("span", { class: "g-card__ring", title: `Level ${member.level} of ${MAX_LEVEL}` }, h("span", { style: { "--p": percent(member.level ?? 0, MAX_LEVEL) } }))
@@ -422,7 +512,7 @@ function createCard(member, index) {
     onclick: () => openCharacter(member, trigger)
   }, art, body);
 
-  return h("article", { class: `g-card${custom ? "" : " g-card--placeholder"}`, style: { "--cls": color, "--i": String(index) } }, trigger);
+  return h("article", { class: `g-card g-card--${art_.kind}${art_.dual ? " g-card--dual" : ""}`, style: { "--cls": color, "--i": String(index) } }, trigger);
 }
 
 function renderGrid() {
@@ -539,6 +629,89 @@ function renderRecords() {
     h("span", {}, label), h("b", { title: fullName(member) }, fullName(member)), h("i", {}, value))));
 }
 
+// ---------- Leaderboards ----------
+
+const BOARDS = [
+  { stat: "Total kills", title: "Body count", unit: ["kill", "kills"] },
+  { stat: "Total Killing Blows", title: "Executioner", unit: ["killing blow", "killing blows"] },
+  { stat: "Total deaths", title: "Floor inspector", unit: ["death", "deaths"] },
+  { stat: "Deaths from falling", title: "Gravity tested", unit: ["fall", "falls"] },
+  { stat: "Total 5-player dungeons entered", title: "Dungeon crawler", unit: ["dungeon", "dungeons"] },
+  { stat: "Greed rolls made on loot", title: "Greed is good", unit: ["greed roll", "greed rolls"] },
+  { stat: "Need rolls made on loot", title: "Needs it more", unit: ["need roll", "need rolls"] },
+  { stat: "Critters killed", title: "Critter crusher", unit: ["critter", "critters"] },
+  { stat: "Health potions consumed", title: "Potion addict", unit: ["potion", "potions"] },
+  { stat: "Food eaten", title: "Snack attack", unit: ["meal", "meals"] },
+  { stat: "Number of times hearthed", title: "Homesick", unit: ["hearth", "hearths"] },
+  { stat: "Quests abandoned", title: "Commitment issues", unit: ["abandoned", "abandoned"] }
+];
+
+function statOf(member, name) {
+  const value = member.details?.statistics?.values?.[name];
+  return Number.isFinite(value) ? value : 0;
+}
+
+function avatar(member, size = "md") {
+  const url = renderUrl(member, "avatar");
+  const wrap = h("span", { class: `g-avatar g-avatar--${size}`, style: { "--cls": classColor(member) } }, member.name.slice(0, 1));
+  if (url) {
+    const img = h("img", { src: url, alt: "", loading: "lazy" });
+    img.addEventListener("error", () => img.remove(), { once: true });
+    wrap.append(img);
+  }
+  return wrap;
+}
+
+function renderLeaderboards() {
+  const scouted = state.members.filter((m) => m.details?.statistics);
+  const totalKills = scouted.reduce((t, m) => t + statOf(m, "Total kills"), 0);
+  const totalDeaths = scouted.reduce((t, m) => t + statOf(m, "Total deaths"), 0);
+  const dungeons = scouted.reduce((t, m) => t + statOf(m, "Total 5-player dungeons entered"), 0);
+  $("#boardsHeadline").replaceChildren(
+    ...[["Guild kills", numberFormat.format(totalKills)], ["Guild deaths", numberFormat.format(totalDeaths)],
+      ["Kills per death", totalDeaths ? (totalKills / totalDeaths).toFixed(1) : "∞"], ["Dungeon runs", numberFormat.format(dungeons)]]
+      .map(([label, value]) => h("div", {}, h("dt", {}, label), h("dd", {}, value))));
+
+  const cards = BOARDS.map((board) => {
+    const ranked = scouted.map((m) => ({ m, v: statOf(m, board.stat) })).filter((r) => r.v > 0).sort((a, b) => b.v - a.v);
+    if (!ranked.length) return null;
+    const [first, ...rest] = ranked;
+    const total = ranked.reduce((t, r) => t + r.v, 0);
+    return h("article", { class: "g-board", style: { "--cls": classColor(first.m) } },
+      h("header", {}, h("span", { class: "g-panel__kicker" }, board.stat.toUpperCase()), h("h3", {}, board.title)),
+      h("div", { class: "g-board__champ" },
+        avatar(first.m, "lg"),
+        h("div", { class: "g-board__champ-id" }, h("b", { title: fullName(first.m) }, fullName(first.m)), h("span", {}, `${numberFormat.format(first.v)} ${board.unit[first.v === 1 ? 0 : 1]}`)),
+        h("span", { class: "g-board__crown", "aria-hidden": "true" }, "01")),
+      h("ol", { class: "g-board__rest", start: "2" }, rest.slice(0, 3).map((r, i) => h("li", { style: { "--cls": classColor(r.m) } },
+        h("span", { class: "g-board__pos" }, String(i + 2).padStart(2, "0")),
+        avatar(r.m, "sm"),
+        h("span", { class: "g-board__who" }, fullName(r.m)),
+        h("b", {}, numberFormat.format(r.v)),
+        h("em", { style: { "--p": percent(r.v, first.v) } })))),
+      h("p", { class: "g-board__total" }, `Guild total ${numberFormat.format(total)} · ${ranked.length} contributor${ranked.length === 1 ? "" : "s"}`));
+  }).filter(Boolean);
+
+  const grid = $("#boardGrid");
+  grid.replaceChildren(...cards);
+  if (!cards.length) grid.append(h("div", { class: "g-empty" }, h("b", {}, "No tallies yet"), h("p", {}, "Statistics show up once members pass level 10.")));
+
+  // Dungeon boss body count, summed across the guild.
+  const bosses = new Map();
+  scouted.forEach((m) => (m.details.statistics.bosses || []).forEach((entry) => {
+    const key = `${entry.boss}|${entry.instance}`;
+    if (!bosses.has(key)) bosses.set(key, { ...entry, kills: 0, who: [] });
+    const item = bosses.get(key);
+    item.kills += entry.kills;
+    item.who.push(m);
+  }));
+  const list = [...bosses.values()].sort((a, b) => b.kills - a.kills || a.boss.localeCompare(b.boss));
+  $("#bossList").replaceChildren(...(list.length ? list.map((item) => h("li", {},
+    h("div", { class: "g-boss__name" }, h("b", {}, item.boss), h("span", {}, item.instance)),
+    h("div", { class: "g-boss__who" }, item.who.map((m) => avatar(m, "xs"))),
+    h("strong", {}, `×${item.kills}`))) : [h("li", { class: "g-boss__none" }, "No dungeon bosses down yet.")]));
+}
+
 // ---------- Crafting directory ----------
 
 function renderCrafting() {
@@ -603,7 +776,9 @@ function openCharacter(member, trigger) {
   dialogPanel.style.setProperty("--cls", color);
 
   $("#charRank").textContent = `${rankName(member.rank)} · Sticky Fingers Rare Proc`;
-  $("#charArt").replaceChildren(portraitFor(member, { large: true }).node);
+  const dialogArt = buildArt(member);
+  $("#charArt").replaceChildren(...dialogArt.nodes);
+  $("#charArt").classList.toggle("g-dialog__art--dual", dialogArt.dual);
   $("#charLevel").textContent = [`Level ${member.level ?? "?"}`, details?.spec?.name].filter(Boolean).join(" · ");
   $("#charName").textContent = fullName(member);
   const gender = details?.gender ? `${details.gender[0]}${details.gender.slice(1).toLowerCase()} ` : "";
@@ -617,11 +792,20 @@ function openCharacter(member, trigger) {
     body.append(h("p", { class: "g-note" }, h("b", {}, "Not yet scouted. "),
       "Blizzard only publishes a character's profile once they reach level 10 and log out. Spec, gear and professions appear here after that."));
   } else {
+    const tall = renderLayer(member, { aspect: 1.25, className: "g-render--tall" });
+    if (tall) {
+      tall.addEventListener("render-failed", () => tall.closest(".g-block")?.remove(), { once: true });
+      body.append(block("In-game look", tall));
+    }
+
     const stats = details.stats || {};
     const kpis = [
       ["Health", stats.health], [stats.powerType || "Power", stats.power], ["Item level", details.itemLevel],
       ["Crit", stats.crit !== null && stats.crit !== undefined ? `${stats.crit}%` : null], ["Quests", details.questsCompleted],
-      ["Honor kills", details.honorableKills]
+      ["Honor kills", details.honorableKills],
+      ["Total kills", details.statistics?.values?.["Total kills"]],
+      ["Deaths", details.statistics?.values?.["Total deaths"]],
+      ["Mounts", details.mounts]
     ].filter(([, value]) => value !== null && value !== undefined);
     body.append(block("Vitals", h("dl", { class: "g-kpis" }, kpis.map(([label, value]) =>
       h("div", { class: "g-kpi" }, h("dt", {}, label), h("dd", {}, typeof value === "number" ? numberFormat.format(value) : value))))));
@@ -717,6 +901,7 @@ async function boot() {
     renderRaces();
     renderTotals(guild);
     renderRecords();
+    renderLeaderboards();
     renderCrafting();
     renderDeeds(guild);
     openFromHash();

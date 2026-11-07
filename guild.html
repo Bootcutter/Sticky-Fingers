@@ -8,8 +8,8 @@
     <title>Sticky Fingers Rare Proc - Guild</title>
     <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
     <link rel="stylesheet" href="styles.css?v=13">
-    <link rel="stylesheet" href="guild.css?v=1">
-    <script src="guild.js?v=1" defer></script>
+    <link rel="stylesheet" href="guild.css?v=2">
+    <script src="guild.js?v=2" defer></script>
   </head>
   <body class="guild-page">
     <a class="skip-link" href="#roster">Skip to roster</a>
@@ -24,10 +24,12 @@
           <a href="#motd">MOTD</a>
           <a href="#roster">ROSTER</a>
           <a href="#numbers">NUMBERS</a>
+          <a href="#boards">BOARDS</a>
           <a href="#crafting">CRAFTING</a>
         </div>
       </nav>
 
+      <div class="g-crest" id="guildCrest" role="img" aria-label="Guild crest" hidden></div>
       <div class="g-hero__title">
         <span class="cover__overline"><i></i> <span id="heroOverline">GUILD DOSSIER · EU · HORDE</span> <i></i></span>
         <h1 id="guildTitle">Sticky Fingers<br><em>Rare Proc</em></h1>
@@ -126,9 +128,25 @@
         </div>
       </section>
 
-      <section class="g-section g-crafting" id="crafting" aria-labelledby="craftingTitle">
+      <section class="g-section g-boards" id="boards" aria-labelledby="boardsTitle">
         <div class="g-heading">
           <span class="section-mark"><i>✳</i> 03</span>
+          <h2 id="boardsTitle">Hall of <em>shame</em></h2>
+          <span class="g-heading__note">FROM IN-GAME STATISTICS</span>
+        </div>
+        <dl class="g-boards__headline" id="boardsHeadline"></dl>
+        <div class="g-boards__layout">
+          <div class="g-board-grid" id="boardGrid"></div>
+          <aside class="g-panel g-bosses" aria-labelledby="bossTitle">
+            <header><span class="g-panel__kicker">DUNGEON BODY COUNT</span><h3 id="bossTitle">Bosses down</h3></header>
+            <ul class="g-boss" id="bossList"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="g-section g-crafting" id="crafting" aria-labelledby="craftingTitle">
+        <div class="g-heading">
+          <span class="section-mark"><i>✳</i> 04</span>
           <h2 id="craftingTitle">Who can <em>craft it</em></h2>
           <span class="g-heading__note">ASK NICELY. TIP WELL.</span>
         </div>
@@ -137,7 +155,7 @@
 
       <section class="g-section g-deeds" id="deeds" aria-labelledby="deedsTitle">
         <div class="g-heading">
-          <span class="section-mark"><i>✳</i> 04</span>
+          <span class="section-mark"><i>✳</i> 05</span>
           <h2 id="deedsTitle">Guild <em>deeds</em></h2>
           <span class="g-heading__note" id="deedsNote">ACTIVITY · ACHIEVEMENTS</span>
         </div>

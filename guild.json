@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:11:01.096Z",
+  "generatedAt": "2026-11-07T00:17:45.483Z",
   "region": "EU",
   "guild": {
     "id": 110163,
@@ -9,8 +9,36 @@
     "ruleset": "Normal",
     "memberCount": 19,
     "achievementPoints": 0,
-    "created": "2026-11-05T17:34:40.000Z"
+    "created": "2026-11-05T17:34:40.000Z",
+    "rulesetId": 2,
+    "crest": null
   },
+  "rulesets": [
+    {
+      "id": 1,
+      "name": "PvP",
+      "status": "UP",
+      "statusName": "Up"
+    },
+    {
+      "id": 15,
+      "name": "Roleplay PvP",
+      "status": "UP",
+      "statusName": "Up"
+    },
+    {
+      "id": 3,
+      "name": "Roleplay",
+      "status": "UP",
+      "statusName": "Up"
+    },
+    {
+      "id": 2,
+      "name": "Normal",
+      "status": "UP",
+      "statusName": "Up"
+    }
+  ],
   "activity": [],
   "achievements": {
     "total": 0,
@@ -231,7 +259,94 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 26,
+            "Health potions consumed": 5,
+            "Mana potions consumed": 14,
+            "Elixirs consumed": 2,
+            "Beverages consumed": 99,
+            "Food eaten": 19,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 16,
+            "Mounts owned": 2,
+            "Greed rolls made on loot": 80,
+            "Need rolls made on loot": 7,
+            "Total 5-player dungeons entered": 5,
+            "Rath'mael Kills (Ruins of Lordaeron)": 1,
+            "Bazzalan kills (Ragefire Chasm)": 2,
+            "Mutanus the Devourer kills (Wailing Caverns)": 1,
+            "Archmage Arugal kills (Shadowfang Keep)": 1,
+            "Total kills": 1989,
+            "Total kills that grant experience or honor": 1853,
+            "Creatures killed": 1960,
+            "Different creature types killed": 7,
+            "Creature type killed the most": 774,
+            "Critters killed": 29,
+            "Total Killing Blows": 683,
+            "World Killing Blows": 594,
+            "Continent with the most Killing Blows": 426,
+            "Total deaths": 2,
+            "Resurrected by priests": 1,
+            "Redeemed by paladins": 1,
+            "Quests completed": 151,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 7,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 3,
+            "Weapon skills at maximum skill": 5,
+            "Cooking skill": 61,
+            "Cooking Recipes known": 20,
+            "First Aid skill": 208,
+            "First Aid Manuals learned": 8,
+            "Fishing skill": 1,
+            "Highest Alchemy skill": 126,
+            "Alchemy Recipes learned": 34,
+            "Highest Herbalism skill": 120,
+            "Flight paths taken": 21,
+            "Summons accepted": 2,
+            "Number of times hearthed": 7
+          },
+          "bosses": [
+            {
+              "boss": "Rath'mael",
+              "instance": "Ruins of Lordaeron",
+              "kills": 1
+            },
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 2
+            },
+            {
+              "boss": "Mutanus the Devourer",
+              "instance": "Wailing Caverns",
+              "kills": 1
+            },
+            {
+              "boss": "Archmage Arugal",
+              "instance": "Shadowfang Keep",
+              "kills": 1
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/6/724742-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/6/724742-avatar.jpg",
+          "box": {
+            "x": 480,
+            "y": 418,
+            "w": 464,
+            "h": 557,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": 2,
+        "pets": 4
       },
       "detailsStale": false
     },
@@ -413,7 +528,60 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 4,
+            "Health potions consumed": 2,
+            "Food eaten": 6,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 6,
+            "Mounts owned": 2,
+            "Greed rolls made on loot": 2,
+            "Total kills": 633,
+            "Total kills that grant experience or honor": 620,
+            "Creatures killed": 633,
+            "Different creature types killed": 6,
+            "Creature type killed the most": 274,
+            "Total Killing Blows": 292,
+            "World Killing Blows": 292,
+            "Continent with the most Killing Blows": 292,
+            "Quests completed": 63,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 2,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 3,
+            "Weapon skills at maximum skill": 3,
+            "Cooking skill": 24,
+            "Cooking Recipes known": 18,
+            "First Aid skill": 51,
+            "First Aid Manuals learned": 10,
+            "Fishing skill": 1,
+            "Highest Enchanting skill": 60,
+            "Enchanting formulae learned": 27,
+            "Materials produced from disenchanting": 46,
+            "Items disenchanted": 29,
+            "Highest Tailoring skill": 63,
+            "Tailoring Patterns learned": 26,
+            "Number of times hearthed": 4
+          },
+          "bosses": []
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/131/1348483-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/131/1348483-avatar.jpg",
+          "box": {
+            "x": 599,
+            "y": 427,
+            "w": 346,
+            "h": 548,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": 2,
+        "pets": 4
       },
       "detailsStale": false
     },
@@ -618,7 +786,91 @@
             "tier": 4
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 9,
+            "Elixirs consumed": 6,
+            "Beverages consumed": 1,
+            "Food eaten": 3,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 15,
+            "Mounts owned": 2,
+            "Vanity pets owned": 1,
+            "Greed rolls made on loot": 61,
+            "Need rolls made on loot": 7,
+            "Total 5-player dungeons entered": 5,
+            "Rath'mael Kills (Ruins of Lordaeron)": 1,
+            "Bazzalan kills (Ragefire Chasm)": 2,
+            "Mutanus the Devourer kills (Wailing Caverns)": 1,
+            "Archmage Arugal kills (Shadowfang Keep)": 1,
+            "Total kills": 2088,
+            "Total kills that grant experience or honor": 1762,
+            "Creatures killed": 2060,
+            "Different creature types killed": 6,
+            "Creature type killed the most": 932,
+            "Critters killed": 28,
+            "Total Killing Blows": 1273,
+            "World Killing Blows": 619,
+            "Continent with the most Killing Blows": 448,
+            "Total deaths": 15,
+            "Total raid and dungeon deaths": 8,
+            "Deaths from falling": 1,
+            "Resurrected by priests": 1,
+            "Redeemed by paladins": 1,
+            "Quests completed": 197,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 2,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 1,
+            "Weapon skills at maximum skill": 6,
+            "Cooking skill": 3,
+            "Cooking Recipes known": 10,
+            "Highest Engineering skill": 129,
+            "Engineering Schematics learned": 47,
+            "Highest Mining skill": 116,
+            "Smelting Recipes learned": 15,
+            "Flight paths taken": 28,
+            "Number of times hearthed": 7
+          },
+          "bosses": [
+            {
+              "boss": "Rath'mael",
+              "instance": "Ruins of Lordaeron",
+              "kills": 1
+            },
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 2
+            },
+            {
+              "boss": "Mutanus the Devourer",
+              "instance": "Wailing Caverns",
+              "kills": 1
+            },
+            {
+              "boss": "Archmage Arugal",
+              "instance": "Shadowfang Keep",
+              "kills": 1
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/0/2756352-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/0/2756352-avatar.jpg",
+          "box": {
+            "x": 651,
+            "y": 400,
+            "w": 233,
+            "h": 575,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": 2,
+        "pets": 5
       },
       "detailsStale": false
     },
@@ -800,7 +1052,68 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 7,
+            "Health potions consumed": 5,
+            "Elixirs consumed": 17,
+            "Beverages consumed": 1,
+            "Food eaten": 14,
+            "Healthstones used": 2,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 12,
+            "Mounts owned": 2,
+            "Greed rolls made on loot": 7,
+            "Need rolls made on loot": 5,
+            "Total 5-player dungeons entered": 1,
+            "Bazzalan kills (Ragefire Chasm)": 1,
+            "Total kills": 916,
+            "Total kills that grant experience or honor": 873,
+            "Creatures killed": 915,
+            "Different creature types killed": 7,
+            "Creature type killed the most": 383,
+            "Critters killed": 1,
+            "Total Killing Blows": 472,
+            "World Killing Blows": 447,
+            "Continent with the most Killing Blows": 432,
+            "Total deaths": 3,
+            "Total raid and dungeon deaths": 1,
+            "Total deaths in 5-player dungeons": 1,
+            "Deaths from falling": 1,
+            "Spirit returned to body by shamans": 1,
+            "Quests completed": 103,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 2,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 2,
+            "Weapon skills at maximum skill": 7,
+            "Cooking skill": 79,
+            "Cooking Recipes known": 26,
+            "Fishing skill": 71,
+            "Fish caught": 71,
+            "Fish and other things caught": 71,
+            "Highest Blacksmithing skill": 73,
+            "Blacksmithing Plans learned": 62,
+            "Highest Mining skill": 74,
+            "Smelting Recipes learned": 15,
+            "Flight paths taken": 2,
+            "Number of times hearthed": 8,
+            "Total cheers": 1
+          },
+          "bosses": [
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 1
+            }
+          ]
+        },
+        "render": null,
+        "mounts": 2,
+        "pets": 4
       },
       "detailsStale": false
     },
@@ -997,7 +1310,83 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 2,
+            "Health potions consumed": 8,
+            "Beverages consumed": 401,
+            "Food eaten": 119,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 11,
+            "Mounts owned": 1,
+            "Greed rolls made on loot": 69,
+            "Need rolls made on loot": 14,
+            "Total 5-player dungeons entered": 5,
+            "Rath'mael Kills (Ruins of Lordaeron)": 1,
+            "Bazzalan kills (Ragefire Chasm)": 2,
+            "Mutanus the Devourer kills (Wailing Caverns)": 1,
+            "Total kills": 1476,
+            "Total kills that grant experience or honor": 1412,
+            "Creatures killed": 1448,
+            "Different creature types killed": 7,
+            "Creature type killed the most": 590,
+            "Critters killed": 28,
+            "Total Killing Blows": 820,
+            "World Killing Blows": 595,
+            "Continent with the most Killing Blows": 594,
+            "Total deaths": 10,
+            "Quests completed": 108,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 12,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 1,
+            "Weapon skills at maximum skill": 3,
+            "Cooking skill": 7,
+            "Cooking Recipes known": 10,
+            "Highest Enchanting skill": 130,
+            "Enchanting formulae learned": 55,
+            "Materials produced from disenchanting": 141,
+            "Items disenchanted": 90,
+            "Highest Tailoring skill": 80,
+            "Tailoring Patterns learned": 76,
+            "Flight paths taken": 12,
+            "Number of times hearthed": 9
+          },
+          "bosses": [
+            {
+              "boss": "Rath'mael",
+              "instance": "Ruins of Lordaeron",
+              "kills": 1
+            },
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 2
+            },
+            {
+              "boss": "Mutanus the Devourer",
+              "instance": "Wailing Caverns",
+              "kills": 1
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/131/4157571-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/131/4157571-avatar.jpg",
+          "box": {
+            "x": 565,
+            "y": 396,
+            "w": 434,
+            "h": 587,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": 1,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -1171,7 +1560,54 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 5,
+            "Health potions consumed": 5,
+            "Elixirs consumed": 6,
+            "Food eaten": 4,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 6,
+            "Need rolls made on loot": 1,
+            "Total kills": 379,
+            "Total kills that grant experience or honor": 371,
+            "Creatures killed": 379,
+            "Different creature types killed": 5,
+            "Creature type killed the most": 157,
+            "Total Killing Blows": 356,
+            "World Killing Blows": 356,
+            "Continent with the most Killing Blows": 356,
+            "Total deaths": 3,
+            "Quests completed": 58,
+            "Average quests completed per day": 0,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 1,
+            "Weapon skills at maximum skill": 3,
+            "Cooking skill": 11,
+            "Cooking Recipes known": 10,
+            "Highest Herbalism skill": 39,
+            "Highest Skinning skill": 71,
+            "Number of times hearthed": 4,
+            "Total waves": 2
+          },
+          "bosses": []
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/105/6617449-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/105/6617449-avatar.jpg",
+          "box": {
+            "x": 625,
+            "y": 419,
+            "w": 283,
+            "h": 556,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -1340,7 +1776,61 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 5,
+            "Health potions consumed": 3,
+            "Mana potions consumed": 1,
+            "Elixirs consumed": 4,
+            "Beverages consumed": 43,
+            "Food eaten": 8,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 13,
+            "Greed rolls made on loot": 9,
+            "Need rolls made on loot": 2,
+            "Total kills": 1108,
+            "Total kills that grant experience or honor": 1094,
+            "Creatures killed": 1106,
+            "Different creature types killed": 3,
+            "Creature type killed the most": 728,
+            "Critters killed": 1,
+            "Total Killing Blows": 635,
+            "World Killing Blows": 635,
+            "Continent with the most Killing Blows": 581,
+            "Total deaths": 17,
+            "Deaths from falling": 1,
+            "Quests completed": 154,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 32,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 1,
+            "Weapon skills at maximum skill": 6,
+            "Cooking skill": 7,
+            "Cooking Recipes known": 10,
+            "Highest Herbalism skill": 48,
+            "Highest Skinning skill": 147,
+            "Flight paths taken": 24,
+            "Number of times hearthed": 7
+          },
+          "bosses": []
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/85/6806869-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/85/6806869-avatar.jpg",
+          "box": {
+            "x": 525,
+            "y": 280,
+            "w": 534,
+            "h": 726,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -1502,7 +1992,40 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 1,
+            "Beverages consumed": 3,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 5,
+            "Greed rolls made on loot": 2,
+            "Total kills": 311,
+            "Total kills that grant experience or honor": 311,
+            "Creatures killed": 311,
+            "Different creature types killed": 2,
+            "Creature type killed the most": 172,
+            "Total Killing Blows": 259,
+            "World Killing Blows": 259,
+            "Continent with the most Killing Blows": 259,
+            "Total deaths": 7,
+            "Quests completed": 39,
+            "Average quests completed per day": 0,
+            "Professions learned": 1,
+            "Professions at maximum skill": 1,
+            "Secondary skills at maximum skill": 2,
+            "Weapon skills at maximum skill": 3,
+            "Cooking skill": 14,
+            "Cooking Recipes known": 10,
+            "Fishing skill": 1,
+            "Highest Mining skill": 22,
+            "Smelting Recipes learned": 7
+          },
+          "bosses": []
+        },
+        "render": null,
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -1671,7 +2194,68 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 1,
+            "Health potions consumed": 4,
+            "Beverages consumed": 9,
+            "Food eaten": 14,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 6,
+            "Greed rolls made on loot": 5,
+            "Need rolls made on loot": 9,
+            "Total 5-player dungeons entered": 1,
+            "Bazzalan kills (Ragefire Chasm)": 1,
+            "Total kills": 859,
+            "Total kills that grant experience or honor": 830,
+            "Creatures killed": 858,
+            "Different creature types killed": 7,
+            "Creature type killed the most": 415,
+            "Critters killed": 1,
+            "Total Killing Blows": 553,
+            "World Killing Blows": 553,
+            "Continent with the most Killing Blows": 543,
+            "Total deaths": 9,
+            "Quests completed": 100,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 1,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 2,
+            "Weapon skills at maximum skill": 4,
+            "Cooking skill": 1,
+            "Cooking Recipes known": 10,
+            "Fishing skill": 1,
+            "Highest Blacksmithing skill": 40,
+            "Blacksmithing Plans learned": 40,
+            "Highest Mining skill": 72,
+            "Smelting Recipes learned": 9,
+            "Number of times hearthed": 8
+          },
+          "bosses": [
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 1
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-avatar.jpg",
+          "box": {
+            "x": 607,
+            "y": 429,
+            "w": 284,
+            "h": 553,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -1866,7 +2450,75 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 1,
+            "Bandages used": 32,
+            "Bandage used most": 17,
+            "Health potions consumed": 14,
+            "Elixirs consumed": 26,
+            "Food eaten": 19,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 11,
+            "Greed rolls made on loot": 8,
+            "Need rolls made on loot": 3,
+            "Total 5-player dungeons entered": 1,
+            "Bazzalan kills (Ragefire Chasm)": 1,
+            "Total kills": 762,
+            "Total kills that grant experience or honor": 748,
+            "Creatures killed": 761,
+            "Different creature types killed": 4,
+            "Creature type killed the most": 472,
+            "Critters killed": 1,
+            "Total Killing Blows": 529,
+            "World Killing Blows": 509,
+            "Continent with the most Killing Blows": 509,
+            "Total deaths": 12,
+            "Redeemed by paladins": 1,
+            "Quests completed": 89,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 5,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 3,
+            "Weapon skills at maximum skill": 5,
+            "Cooking skill": 15,
+            "Cooking Recipes known": 12,
+            "First Aid skill": 122,
+            "First Aid Manuals learned": 12,
+            "Fishing skill": 20,
+            "Fish caught": 19,
+            "Fish and other things caught": 19,
+            "Highest Alchemy skill": 40,
+            "Alchemy Recipes learned": 18,
+            "Highest Herbalism skill": 60,
+            "Flight paths taken": 11,
+            "Number of times hearthed": 5
+          },
+          "bosses": [
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 1
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-avatar.jpg",
+          "box": {
+            "x": 561,
+            "y": 396,
+            "w": 485,
+            "h": 587,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -2028,7 +2680,68 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 9,
+            "Health potions consumed": 7,
+            "Beverages consumed": 14,
+            "Food eaten": 40,
+            "Healthstones used": 10,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 13,
+            "Greed rolls made on loot": 16,
+            "Need rolls made on loot": 6,
+            "Total 5-player dungeons entered": 3,
+            "Bazzalan kills (Ragefire Chasm)": 3,
+            "Total kills": 837,
+            "Total kills that grant experience or honor": 821,
+            "Creatures killed": 830,
+            "Different creature types killed": 4,
+            "Creature type killed the most": 505,
+            "Critters killed": 7,
+            "Total Killing Blows": 495,
+            "World Killing Blows": 421,
+            "Continent with the most Killing Blows": 421,
+            "Total deaths": 37,
+            "Total raid and dungeon deaths": 4,
+            "Total deaths in 5-player dungeons": 4,
+            "Deaths from falling": 1,
+            "Revived by druids": 1,
+            "Quests completed": 74,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 5,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Weapon skills at maximum skill": 4,
+            "Highest Skinning skill": 75,
+            "Highest Tailoring skill": 51,
+            "Tailoring Patterns learned": 54,
+            "Flight paths taken": 7,
+            "Number of times hearthed": 1
+          },
+          "bosses": [
+            {
+              "boss": "Bazzalan",
+              "instance": "Ragefire Chasm",
+              "kills": 3
+            }
+          ]
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/61/11040573-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/61/11040573-avatar.jpg",
+          "box": {
+            "x": 583,
+            "y": 410,
+            "w": 416,
+            "h": 573,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },
@@ -2249,7 +2962,62 @@
             "tier": 3
           }
         ],
-        "titles": []
+        "titles": [],
+        "statistics": {
+          "values": {
+            "Times camped": 31,
+            "Bandages used": 18,
+            "Bandage used most": 18,
+            "Health potions consumed": 8,
+            "Beverages consumed": 10,
+            "Food eaten": 3,
+            "Most factions at Honored or higher": 1,
+            "Most Horde factions at Exalted": 4,
+            "Total factions encountered": 6,
+            "Need rolls made on loot": 1,
+            "Total kills": 489,
+            "Total kills that grant experience or honor": 474,
+            "Creatures killed": 489,
+            "Different creature types killed": 5,
+            "Creature type killed the most": 185,
+            "Total Killing Blows": 474,
+            "World Killing Blows": 474,
+            "Continent with the most Killing Blows": 474,
+            "Total deaths": 2,
+            "Quests completed": 98,
+            "Average quests completed per day": 0,
+            "Quests abandoned": 2,
+            "Professions learned": 2,
+            "Professions at maximum skill": 2,
+            "Secondary skills at maximum skill": 2,
+            "Weapon skills at maximum skill": 4,
+            "Cooking skill": 1,
+            "Cooking Recipes known": 10,
+            "First Aid skill": 53,
+            "First Aid Manuals learned": 6,
+            "Highest Blacksmithing skill": 74,
+            "Blacksmithing Plans learned": 22,
+            "Highest Mining skill": 68,
+            "Smelting Recipes learned": 9,
+            "Number of times hearthed": 3,
+            "Total waves": 1
+          },
+          "bosses": []
+        },
+        "render": {
+          "main": "https://render.worldofwarcraft.com/forever-eu/character/64/6857536-main-raw.png",
+          "avatar": "https://render.worldofwarcraft.com/forever-eu/character/64/6857536-avatar.jpg",
+          "box": {
+            "x": 527,
+            "y": 424,
+            "w": 383,
+            "h": 551,
+            "W": 1600,
+            "H": 1200
+          }
+        },
+        "mounts": null,
+        "pets": null
       },
       "detailsStale": false
     },

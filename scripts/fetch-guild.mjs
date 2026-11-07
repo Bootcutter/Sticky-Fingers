@@ -16,9 +16,11 @@
 //
 // Locally: node --env-file=.env scripts/fetch-guild.mjs
 
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { inflateSync } from "node:zlib";
 
 const OUTPUT = new URL("../guild.json", import.meta.url);
+const CREST_DIR = new URL("../assets/crest/", import.meta.url);
 const USER_AGENT = "StickyFingersGuildSite/1.0 (+https://github.com/Bootcutter/Sticky-Fingers)";
 const env = process.env;
 const region = (env.BLIZZARD_REGION || "eu").toLowerCase();
@@ -167,7 +169,100 @@ function reputationSummary(data) {
     .slice(0, 6);
 }
 
-async function fetchCharacter(blizzard, slug) {
+// Statistics come as nested categories; flatten to { "Total kills": 2088, ... }.
+function flattenStatistics(data) {
+  const values = {};
+  const bosses = [];
+  const visit = (category, root) => {
+    for (const stat of category.statistics || []) {
+      if (!stat.name || !Number.isFinite(stat.quantity)) continue;
+      values[stat.name] = stat.quantity;
+      const boss = root === "Dungeons & Raids" && stat.name.match(/^(.+?) [Kk]ills \((.+)\)$/);
+      if (boss) bosses.push({ boss: boss[1], instance: boss[2], kills: stat.quantity });
+    }
+    for (const sub of category.sub_categories || []) visit(sub, root);
+  };
+  for (const category of data.categories || []) visit(category, category.name);
+  return { values, bosses };
+}
+
+// Minimal PNG reader (8-bit RGBA, non-interlaced) to find the character's bounding box
+// inside Blizzard's 1600x1200 transparent render, so the page can crop to the figure.
+function paeth(a, b, c) {
+  const p = a + b - c;
+  const pa = Math.abs(p - a), pb = Math.abs(p - b), pc = Math.abs(p - c);
+  return pa <= pb && pa <= pc ? a : pb <= pc ? b : c;
+}
+
+function pngAlphaBox(buffer) {
+  if (buffer.readUInt32BE(0) !== 0x89504e47) throw new Error("not a PNG");
+  let offset = 8;
+  let width = 0, height = 0, colorType = 0, bitDepth = 0, interlace = 0;
+  const idat = [];
+  while (offset < buffer.length) {
+    const length = buffer.readUInt32BE(offset);
+    const type = buffer.toString("ascii", offset + 4, offset + 8);
+    const data = buffer.subarray(offset + 8, offset + 8 + length);
+    if (type === "IHDR") {
+      width = data.readUInt32BE(0); height = data.readUInt32BE(4);
+      bitDepth = data[8]; colorType = data[9]; interlace = data[12];
+    } else if (type === "IDAT") idat.push(data);
+    else if (type === "IEND") break;
+    offset += 12 + length;
+  }
+  if (bitDepth !== 8 || colorType !== 6 || interlace !== 0) throw new Error(`unsupported PNG (depth ${bitDepth}, type ${colorType})`);
+  const bpp = 4;
+  const stride = width * bpp;
+  const raw = inflateSync(Buffer.concat(idat));
+  const prev = new Uint8Array(stride);
+  const line = new Uint8Array(stride);
+  let minX = width, minY = height, maxX = -1, maxY = -1;
+  for (let y = 0; y < height; y += 1) {
+    const filter = raw[y * (stride + 1)];
+    const start = y * (stride + 1) + 1;
+    for (let i = 0; i < stride; i += 1) {
+      const left = i >= bpp ? line[i - bpp] : 0;
+      const up = prev[i];
+      const upLeft = i >= bpp ? prev[i - bpp] : 0;
+      let value = raw[start + i];
+      if (filter === 1) value += left;
+      else if (filter === 2) value += up;
+      else if (filter === 3) value += (left + up) >> 1;
+      else if (filter === 4) value += paeth(left, up, upLeft);
+      line[i] = value & 255;
+    }
+    for (let x = 0; x < width; x += 1) {
+      if (line[x * bpp + 3] > 24) {
+        if (x < minX) minX = x;
+        if (x > maxX) maxX = x;
+        if (y < minY) minY = y;
+        if (y > maxY) maxY = y;
+      }
+    }
+    prev.set(line);
+  }
+  if (maxX < 0) return null;
+  return { x: minX, y: minY, w: maxX - minX + 1, h: maxY - minY + 1, W: width, H: height };
+}
+
+async function characterRender(media, previous) {
+  const urls = (media?.assets || []).map((asset) => asset.value).filter((url) => typeof url === "string");
+  const main = urls.find((url) => /-main-raw\.png$/.test(url));
+  const avatar = urls.find((url) => /-avatar\.jpg$/.test(url));
+  if (!main) return null;
+  const render = { main, avatar: avatar || null, box: null };
+  try {
+    const response = await fetch(main, { headers: { "User-Agent": USER_AGENT } });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    render.box = pngAlphaBox(Buffer.from(await response.arrayBuffer()));
+  } catch (error) {
+    console.warn(`Render crop for ${main} unavailable: ${error.message}`);
+    if (previous?.main === main) render.box = previous.box ?? null;
+  }
+  return render;
+}
+
+async function fetchCharacter(blizzard, slug, previous) {
   const base = `/profile/wow/character/${encodeURIComponent(slug)}`;
   const profile = await blizzard(base, "profile");
   const parts = await Promise.allSettled([
@@ -178,9 +273,13 @@ async function fetchCharacter(blizzard, slug) {
     blizzard(`${base}/quests/completed`, "profile"),
     blizzard(`${base}/pvp-summary`, "profile"),
     blizzard(`${base}/reputations`, "profile"),
-    blizzard(`${base}/titles`, "profile")
+    blizzard(`${base}/titles`, "profile"),
+    blizzard(`${base}/achievements/statistics`, "profile"),
+    blizzard(`${base}/character-media`, "profile"),
+    blizzard(`${base}/collections/mounts`, "profile"),
+    blizzard(`${base}/collections/pets`, "profile")
   ]);
-  const [professions, specs, equipment, stats, quests, pvp, reputations, titles] =
+  const [professions, specs, equipment, stats, quests, pvp, reputations, titles, statistics, media, mounts, pets] =
     parts.map((part) => (part.status === "fulfilled" ? part.value : null));
 
   return {
@@ -200,8 +299,51 @@ async function fetchCharacter(blizzard, slug) {
     questsCompleted: quests?.quests?.length ?? null,
     honorableKills: pvp?.honorable_kills ?? null,
     reputations: reputations ? reputationSummary(reputations) : [],
-    titles: (titles?.titles || []).map((item) => item.name).filter(Boolean)
+    titles: (titles?.titles || []).map((item) => item.name).filter(Boolean),
+    statistics: statistics ? flattenStatistics(statistics) : previous?.statistics ?? null,
+    // character-media can 404 for hours after a character first appears.
+    render: media ? await characterRender(media, previous?.render) : previous?.render ?? null,
+    mounts: mounts?.mounts?.length ?? null,
+    pets: pets?.pets?.length ?? null
   };
+}
+
+// The guild profile only includes `crest` once a tabard has been designed in game.
+// Tabard images are saved into assets/crest/ because the render server sends no CORS
+// headers for them, and the page tints them with CSS masks (which need same-origin images).
+// Forever's own tabard path currently returns 403, so fall back to the retail path.
+async function fetchCrest(blizzard, crest) {
+  if (!crest?.emblem || !crest?.border) return null;
+  const rgba = (color) => (color?.rgba ? { r: color.rgba.r, g: color.rgba.g, b: color.rgba.b, a: color.rgba.a ?? 1 } : null);
+  const image = async (kind, id) => {
+    const media = await blizzard(`/data/wow/media/guild-crest/${kind}/${id}`, "static");
+    const url = media.assets?.find((asset) => asset.key === "image")?.value;
+    if (!url) return null;
+    for (const candidate of [url, url.replace(/\/forever-([a-z]+)\//, "/$1/")]) {
+      const response = await fetch(candidate, { headers: { "User-Agent": USER_AGENT } });
+      if (!response.ok || !(response.headers.get("content-type") || "").startsWith("image/png")) continue;
+      await mkdir(CREST_DIR, { recursive: true });
+      const name = `${kind}-${Number(id)}.png`;
+      await writeFile(new URL(name, CREST_DIR), Buffer.from(await response.arrayBuffer()));
+      return `assets/crest/${name}`;
+    }
+    return null;
+  };
+  const [emblem, border] = await Promise.all([image("emblem", crest.emblem.id), image("border", crest.border.id)]);
+  return {
+    emblem: { image: emblem, color: rgba(crest.emblem.color) },
+    border: { image: border, color: rgba(crest.border.color) },
+    background: rgba(crest.background?.color)
+  };
+}
+
+async function fetchRulesets(blizzard) {
+  const index = await blizzard("/data/wow/ruleset/index", "dynamic");
+  const ids = (index.rulesets || []).map((item) => item.id).filter(Number.isFinite);
+  const details = await Promise.allSettled(ids.map((id) => blizzard(`/data/wow/ruleset/${id}`, "dynamic")));
+  return details.filter((item) => item.status === "fulfilled").map(({ value }) => ({
+    id: value.id, name: value.name, status: value.status?.type ?? null, statusName: value.status?.name ?? null
+  }));
 }
 
 async function readPrevious() {
@@ -234,6 +376,13 @@ async function main() {
   if (profile.status === "rejected") throw profile.reason;
   if (roster.status === "rejected") throw roster.reason;
 
+  const [crest, rulesets] = await Promise.allSettled([
+    fetchCrest(blizzard, profile.value.crest),
+    fetchRulesets(blizzard)
+  ]);
+  if (crest.status === "rejected") console.warn(`Guild crest unavailable: ${crest.reason.message}`);
+  if (rulesets.status === "rejected") console.warn(`Ruleset status unavailable: ${rulesets.reason.message}`);
+
   const classNames = new Map((classes.value?.classes || []).map((item) => [item.id, item.name]));
   const raceNames = new Map((races.value?.races || []).map((item) => [item.id, item.name]));
   const info = profile.value;
@@ -255,7 +404,7 @@ async function main() {
       detailsStale: false
     };
     try {
-      member.details = await fetchCharacter(blizzard, slug);
+      member.details = await fetchCharacter(blizzard, slug, previousDetails.get(slug));
     } catch (error) {
       if (error.status !== 404) console.warn(`${slug}: ${error.message}`);
       // A transient failure keeps the last good profile; a 404 means none exists yet.
@@ -279,8 +428,11 @@ async function main() {
       ruleset: info.ruleset?.name ?? null,
       memberCount: info.member_count ?? members.length,
       achievementPoints: info.achievement_points ?? 0,
-      created: toIso(info.created_timestamp)
+      created: toIso(info.created_timestamp),
+      rulesetId: info.ruleset?.id ?? null,
+      crest: crest.status === "fulfilled" ? crest.value : previous.guild?.crest ?? null
     },
+    rulesets: rulesets.status === "fulfilled" ? rulesets.value : previous.rulesets || [],
     activity: activity.status === "fulfilled"
       ? (activity.value.activities || []).map(describeActivity).filter((item) => item?.title).slice(0, 12)
       : previous.activity || [],

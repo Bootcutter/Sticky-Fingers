@@ -28,7 +28,9 @@ Push the files to a GitHub repository, then in **Settings → Pages**, choose **
 
 - Data comes from `guild.json`, built by `scripts/fetch-guild.mjs` in the same hourly **Refresh news** workflow. WoW Forever has no realms, so the guild is looked up by slug alone (`GUILD_SLUG`, default `sticky-fingers-rare-proc`) in the `profile-forever-eu` namespace.
 - Characters below level 10 (or that haven't logged out yet) have no public profile; they're listed from the roster with a placeholder and fill in automatically later.
-- Portraits: a character whose name matches an entry in `roster.json` uses that art; everyone else gets a generated placeholder based on race, gender and class.
+- Portraits: a character whose name matches an entry in `roster.json` uses that art, and hovering the card reveals their real in-game render. Everyone else shows the in-game render from Blizzard's render server (auto-cropped to the figure by the fetch script), or a generated race/gender/class placeholder until a render exists.
+- **Hall of shame** leaderboards (kills, deaths, falls, greed rolls, potions…) and the dungeon boss tally come from each character's in-game statistics.
+- The header shows live ruleset (server) status, and the in-game guild crest once a tabard has been designed. The crest images are saved to `assets/crest/` by the fetch script.
 - The API doesn't expose the in-game MOTD or rank names, so edit them in `guild-notes.json`.
 - Link straight to a character with `guild.html#char-<slug>`, e.g. `guild.html#char-lil-stormy`.
 - Locally: put `BLIZZARD_CLIENT_ID` and `BLIZZARD_CLIENT_SECRET` in a `.env` file (git-ignored) and run `node --env-file=.env scripts/fetch-guild.mjs`.
