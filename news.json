@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-06T23:13:55.279Z",
+  "generatedAt": "2026-11-07T02:53:11.222Z",
   "news": [
+    {
+      "id": "wowhead-383794",
+      "source": "Wowhead",
+      "title": "Many Class, Dungeon and Quest Fixes - WoW: Forever Hotfixes for November 6th",
+      "description": "Blizzard has posted WoW: Forever hotfixes for today, which includes a lot of class, dungeon, and questing fixes!",
+      "details": "Warlock's Voidwalker health has been increased!\nMage's Arcane Blast now correctly lasts 18 seconds.\nThe Cooldown manager shows the correct duration of CC spells.\nThe Drowned City instance portal now works as intended.\nZaetar's Spirit now spawns after defeating Princess Theradras in Maraudon\nVarious quest improvements and fixes.\nImprovements to the visibility of other players across long distances.\nVarious NPC fixes regarding loot and spawn rate.\nHere you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 6, 2026\nClasses\nFixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.\nCooldown Manager\nThe Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns…",
+      "category": "Forever",
+      "date": "2026-11-07T01:07:50.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56061-many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th.jpg",
+      "url": "https://www.wowhead.com/news=383794/many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th"
+    },
     {
       "id": "wowhead-383790",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-06T16:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56040-new-battle-net-icons-for-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383772/new-battle-net-icons-for-wow-forever"
-    },
-    {
-      "id": "wowhead-383770",
-      "source": "Wowhead",
-      "title": "Four New Key Art Pieces for WoW: Forever Launch",
-      "description": "Blizzard has released beautiful new artwork for the WoW: Forever launch!",
-      "details": "With the launch of WoW: Forever, Blizzard has released four new Key Art pieces highlighting prominent new features.\nCampfire\nCamping is a brand new system in WoW: Forever that incentivizes people to slow down, get some buffs and socialize around a campfire!\nDwarf Shaman\nDwarf Shamans are a new race-class combo in WoW: Forever!\nForsaken Paladin\nForsaken Paladins are a new race-class combo in WoW: Forever!\nSkyborne\nThe Skyborne launch key art features the Taldramir, the Whispering Wood legendary!",
-      "category": "Forever",
-      "date": "2026-11-06T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56038-four-new-key-art-pieces-for-wow-forever-launch.jpg",
-      "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch"
     }
   ],
   "blizzard": null
