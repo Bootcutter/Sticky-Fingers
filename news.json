@@ -1,12 +1,23 @@
 {
-  "generatedAt": "2026-11-07T20:56:11.937Z",
+  "generatedAt": "2026-11-08T08:56:33.366Z",
   "news": [
+    {
+      "id": "wowhead-383805",
+      "source": "Wowhead",
+      "title": "Layering Issues in Thousand Needles Harpy Cave Result in Quest Competition Issues",
+      "description": "There's a harpy cave in the Thousand Needles where layering appears to be broken, leading to quest competition issues.",
+      "details": "In the Thousand Needles, a set of quests leads you into the Roguefeather Den, which is filled with harpies. These quests include:\nTest of Endurance\nStop the Screeching\nStolen Freewind Supplies\nThe problem with the Roguefeather Den is that layering appears to be broken inside this cave, leading to a massive number of players in a tiny area. This creates heavy competition for spawns, especially when trying to tag certain mobs for quest objectives. Both Grenka Bloodscreech and Screeching Windcaller have rarer spawns and these quests may take a long time because of the layering issues.\nLots of people.\nInside this cave, you can see other players attacking things, but not what they're attacking. In addition, you seem to get hit by the AoE silence effect of the harpies in other layers, but can't see anything in yours. This seems to indicate that the layers are only partially combined and…",
+      "category": "Forever",
+      "date": "2026-11-08T03:11:52.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56070-layering-issues-in-thousand-needles-harpy-cave-result-in-quest-competition.jpg",
+      "url": "https://www.wowhead.com/news=383805/layering-issues-in-thousand-needles-harpy-cave-result-in-quest-competition"
+    },
     {
       "id": "wowhead-383803",
       "source": "Wowhead",
       "title": "Quests Give No Gold at Level 60 in WoW: Forever - \"Intentional Change\" According to Jokerd",
       "description": "Quests at level 60 give no gold and according to Jokerd, this is an intentional change.",
-      "details": "Jokerd accomplished the World First level 60 in WoW: Forever yesterday and he has now discovered that quests are not giving Gold. At max level, quests in Era give bonus Gold instead of experience, but in WoW: Forever that appears to have changed. Jokerd claims to have messaged a WoW developer, who replied that this change is intentional, with a possible Weekly quest giving a random amount of gold instead.\nWhile Blizzard hasn’t formally commented on this yet, it will be a while before other players reach max level to check for themselves. Recent changes like the adjustment to Auction House listing prices and the addition of BMAH vendors, who provide an unofficial market cap on some reagents, show Blizzard is clearly trying to moderate the economy. Until more players reach level 60 and begin playing through endgame content, though, we can’t know the full impact this will have on overall…",
+      "details": "Quests at level 60 give no gold and according to him, this is an intentional change.\nJokerd accomplished the World First level 60 in WoW: Forever yesterday and he has now discovered that quests can not give Gold. At max level, quests in Era and Retail give bonus Gold instead of experience, but in WoW: Forever that appears to not currently be the case. Jokerd claims to have messaged a WoW developer, who replied that this change is intentional, with a possible Weekly quest giving a random amount of gold instead.\nWhile Blizzard hasn’t formally commented on this yet, it will be a while before other players reach max level to check for themselves. Recent changes like the adjustment to Auction House listing prices and the addition of BMAH vendors, who provide an unofficial market cap on some reagents, show Blizzard is clearly trying to moderate the economy. Until more players reach level 60…",
       "category": "Forever",
       "date": "2026-11-07T20:19:50.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56069-quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to.jpg",
@@ -88,17 +99,6 @@
       "date": "2026-11-06T20:52:14.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56056-raid-rewards-and-pvp-balance-crix-interview-on-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever"
-    },
-    {
-      "id": "wowhead-383789",
-      "source": "Wowhead",
-      "title": "Blizzard Fixing Issues Causing Duplicates of NPCs and Mobs",
-      "description": "Blizzard is addressing the issue of NPCs and mobs being briefly duplicated across each layer.",
-      "details": "For a brief period of time, NPCs and mobs had multiple copies of themselves, creating some very dangerous areas, or many clones of the same NPC.\nBlizzard posted in a server message that this is being worked on after a \"blip in the multiverse\".\nGreetings! There was a slight blip in the multiverse. We are in the process of de-blipping all zones now.",
-      "category": "Forever",
-      "date": "2026-11-06T20:11:48.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56055-blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs.jpg",
-      "url": "https://www.wowhead.com/news=383789/blizzard-fixing-issues-causing-duplicates-of-npcs-and-mobs"
     }
   ],
   "blizzard": null
