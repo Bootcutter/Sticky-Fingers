@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-08T08:56:33.366Z",
+  "generatedAt": "2026-11-08T15:49:28.101Z",
   "news": [
+    {
+      "id": "wowhead-383802",
+      "source": "Wowhead",
+      "title": "The Darkmoon Faire is Coming To Elwynn Forest First in WoW: Forever",
+      "description": "The iconic Darkmoon Faire event will be making its first stop in WoW Forever in Elwynn Forest, giving the Alliance the first home-field advantage.",
+      "details": "The iconic Darkmoon Faire event will be making its first stop in WoW Forever in Elwynn Forest, giving the Alliance the first home-field advantage to the event.\nPlayers in Elwynn can see the Faire being set up, and the in-game calendar lets all players know the fair will be active on Monday, with the event going on for one week.\nThe Darkmoon Faire has fun mini games, reputation farms, and rare items to obtain, but one of its most iconic purposes in Classic WoW was obtaining the powerful world buff: Sayge's Dark Fortune of Damage, giving players a 10% damage buff for 2 hours. We've learned that World Buffs in Forever will not work the same way they did in Classic, as they won't be allowed in raids, but will still work in the open world.\nWith this being the first Darkmoon Faire of Forever, we don't yet know if there are any new surprises in store. We'll have to wait and see once the Faire…",
+      "category": "Forever",
+      "date": "2026-11-08T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56068-the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever"
+    },
     {
       "id": "wowhead-383805",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-06T21:13:27.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56059-upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class.jpg",
       "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class"
-    },
-    {
-      "id": "wowhead-383787",
-      "source": "Wowhead",
-      "title": "Raid Rewards and PvP Balance - Crix Interview on WoW: Forever",
-      "description": "Crix interviewed Kris Zierhut and Tim Jones on WoW: Forever and discussed raid rewards, PvP balance and more!",
-      "details": "Check out Crix on his YouTube Channel, Twitch, and Twitter.\nWe've summarized the key points from the interview below.\nWhat Success Looks Like\nFor Kris, he hopes that they are still pulling in and picking up new players and growing the audience of players.\nA stable ecosystem of raids and PvP events to go to, but not overwhelming.\nFor Tim, he wants there to be many opportunies still: zones to explore, quests to do, raids to defeat.\nHe wants to go to places that players want to go to, but also new mysterious zones, raids and dungeons.\nA key thing is that every time there is a patch with new content, they mix up the meta enough with new unsolved problems so that the best way to play is ever shifting.\nThey also want to add to the threads in the world that were never finished, and then add more threads to new stories.\nChanging Old Classic Decisions\nFor Kris, it's been really weird because he…",
-      "category": "Forever",
-      "date": "2026-11-06T20:52:14.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56056-raid-rewards-and-pvp-balance-crix-interview-on-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever"
     }
   ],
   "blizzard": null
