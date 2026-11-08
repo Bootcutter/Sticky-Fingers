@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-08T15:49:28.101Z",
+  "generatedAt": "2026-11-08T19:59:50.666Z",
   "news": [
+    {
+      "id": "wowhead-383808",
+      "source": "Wowhead",
+      "title": "Blizzard Buffs Dungeon Enemy Experience Gains",
+      "description": "Blizzard has just buffed the experience gains from dungeon creatures by a massive 50%",
+      "details": "After the dungeon changes buffed experience from dungeon quests and nerfed dungeon experience from mobs, many players adopted a one-and-done strategy for dungeons. Players felt like it was not worth their time to do it again, since the majority of the experience was from the quests themselves. With this hotfix, it won't feel as bad to run a dungeon again if your friends need help.\nAt about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.\nHappy dungeon crawling, and good luck with those Deviate Hides!",
+      "category": "Forever",
+      "date": "2026-11-08T19:52:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56073-blizzard-buffs-dungeon-enemy-experience-gains.jpg",
+      "url": "https://www.wowhead.com/news=383808/blizzard-buffs-dungeon-enemy-experience-gains"
+    },
+    {
+      "id": "wowhead-383792",
+      "source": "Wowhead",
+      "title": "Everything About WoW: Forever Raids - Joardee Interview on WoW: Forever",
+      "description": "Joardee interviewed Josh Greenfield and Tim Jones on WoW: Forever and discussed everything about WoW: Forever's raids!",
+      "details": "Check out Joardee on his YouTube Channel, Twitch, and Twitter.\nWe've summarized the key points from the interview below.\nRaid Philosophy\nTim Jones is really excited about having different raids.\nWhen we go back to Blackwing Lair and Molten Core, they want it to feel familiar but new.\nNarratively, they plan to use those raids to mark various points in time.\nFor Season of Discovery, Scarlet Enclave was super fun and creative, but maybe too challenging.\nThey maybe pushed things too far at the end of SoD with the complexity of boss fights and tuning.\nWill be really exciting when they can reincorporate Scarlet Enclave back into Forever down the road.\nThey want the encounters to be approachable. Somewhere in the realms of the difficulty and complexity of the Season of Mastery raids and baseline Naxx.\nThey'll be keeping the same visual language of Vanilla raids: no gigantic visual outlines on…",
+      "category": "Forever",
+      "date": "2026-11-08T19:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56060-everything-about-wow-forever-raids-joardee-interview-on-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383792/everything-about-wow-forever-raids-joardee-interview-on-wow-forever"
+    },
     {
       "id": "wowhead-383802",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-07T03:11:19.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56064-world-first-level-60s-in-wow-forever-in-less-than-three-days.jpg",
       "url": "https://www.wowhead.com/news=383797/world-first-level-60s-in-wow-forever-in-less-than-three-days"
-    },
-    {
-      "id": "wowhead-383794",
-      "source": "Wowhead",
-      "title": "Many Class, Dungeon and Quest Fixes - WoW: Forever Hotfixes for November 6th",
-      "description": "Blizzard has posted WoW: Forever hotfixes for today, which includes a lot of class, dungeon, and questing fixes!",
-      "details": "Warlock's Voidwalker health has been increased!\nMage's Arcane Blast now correctly lasts 18 seconds.\nThe Cooldown manager shows the correct duration of CC spells.\nThe Drowned City instance portal now works as intended.\nZaetar's Spirit now spawns after defeating Princess Theradras in Maraudon\nVarious quest improvements and fixes.\nImprovements to the visibility of other players across long distances.\nVarious NPC fixes regarding loot and spawn rate.\nHere you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 6, 2026\nClasses\nFixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.\nCooldown Manager\nThe Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns…",
-      "category": "Forever",
-      "date": "2026-11-07T01:07:50.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56061-many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th.jpg",
-      "url": "https://www.wowhead.com/news=383794/many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th"
-    },
-    {
-      "id": "wowhead-383790",
-      "source": "Wowhead",
-      "title": "Upcoming Pet Changes in WoW: Forever - Upcoming Class Tuning for November 10th",
-      "description": "The first set of class tuning adjustments has Hunter and Warlock pet changes and adjusts what stats Enhancement Shaman will want on their gear!",
-      "details": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:\nWe’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.\nAffliction Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Affliction Warlocks’ total damage output.\nEnhancement Shamans are finding that…",
-      "category": "Forever",
-      "date": "2026-11-06T21:13:27.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56059-upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class.jpg",
-      "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class"
     }
   ],
   "blizzard": null
