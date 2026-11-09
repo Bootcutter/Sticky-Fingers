@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:13:05.985Z",
+  "generatedAt": "2026-11-09T17:24:56.143Z",
   "region": "EU",
   "guild": {
     "id": 352037,
@@ -4122,7 +4122,7 @@
       "surname": "Wazza",
       "slug": "wayne-wazza",
       "rank": 6,
-      "level": 31,
+      "level": 32,
       "classId": 3,
       "className": "Hunter",
       "raceId": 2,
@@ -4131,10 +4131,10 @@
         "gender": "MALE",
         "race": "Orc",
         "className": "Hunter",
-        "level": 30,
-        "experience": 2227,
-        "lastLogin": "2026-11-08T18:48:33.000Z",
-        "itemLevel": 20,
+        "level": 32,
+        "experience": 2135,
+        "lastLogin": "2026-11-09T17:22:27.000Z",
+        "itemLevel": 22,
         "achievementPoints": 0,
         "title": null,
         "spec": {
@@ -4142,7 +4142,7 @@
           "trees": [
             {
               "name": "Beast Mastery",
-              "points": 21
+              "points": 23
             }
           ]
         },
@@ -4157,7 +4157,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 204,
+            "skill": 208,
             "max": 300,
             "recipes": 2
           },
@@ -4171,7 +4171,7 @@
           {
             "name": "First Aid",
             "type": "secondary",
-            "skill": 184,
+            "skill": 188,
             "max": 225,
             "recipes": 8
           }
@@ -4179,9 +4179,9 @@
         "equipment": [
           {
             "slot": "Head",
-            "name": "Emblazoned Hat",
+            "name": "Humbert's Helm",
             "quality": "UNCOMMON",
-            "level": 31
+            "level": 30
           },
           {
             "slot": "Shoulders",
@@ -4203,9 +4203,9 @@
           },
           {
             "slot": "Waist",
-            "name": "Beastmaster's Girdle",
-            "quality": "UNCOMMON",
-            "level": 28
+            "name": "Slitherwrap Girdle",
+            "quality": "RARE",
+            "level": 33
           },
           {
             "slot": "Legs",
@@ -4227,9 +4227,9 @@
           },
           {
             "slot": "Hands",
-            "name": "Gloves of the Moon",
-            "quality": "UNCOMMON",
-            "level": 20
+            "name": "Cartilage Shapers",
+            "quality": "RARE",
+            "level": 33
           },
           {
             "slot": "Ring 1",
@@ -4245,9 +4245,9 @@
           },
           {
             "slot": "Back",
-            "name": "Bristlebark Cape",
+            "name": "Twilight Cape of the Monkey",
             "quality": "UNCOMMON",
-            "level": 21
+            "level": 35
           },
           {
             "slot": "Main Hand",
@@ -4269,44 +4269,44 @@
           }
         ],
         "stats": {
-          "health": 1092,
+          "health": 1183,
           "power": 1095,
           "powerType": "Mana",
-          "crit": 5,
+          "crit": 5.5,
           "haste": 0,
-          "dodge": 9.3,
-          "attackPower": 205,
+          "dodge": 10.2,
+          "attackPower": 232,
           "spellPower": 0,
-          "dps": 33
+          "dps": 35
         },
-        "questsCompleted": 240,
+        "questsCompleted": 258,
         "honorableKills": 8,
         "reputations": [
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 5265,
+            "value": 5640,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Honored",
-            "value": 1738,
+            "value": 1982,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Thunder Bluff",
-            "standing": "Friendly",
-            "value": 5356,
-            "max": 6000,
-            "tier": 4
+            "standing": "Honored",
+            "value": 12,
+            "max": 12000,
+            "tier": 5
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 2243,
+            "value": 2675,
             "max": 6000,
             "tier": 4
           },
@@ -4328,43 +4328,45 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 4,
-            "Bandages used": 26,
+            "Times camped": 5,
+            "Bandages used": 31,
             "Bandage used most": 11,
-            "Health potions consumed": 6,
+            "Health potions consumed": 7,
             "Mana potions consumed": 6,
             "Elixirs consumed": 4,
-            "Beverages consumed": 144,
-            "Food eaten": 34,
-            "Most factions at Honored or higher": 2,
+            "Beverages consumed": 162,
+            "Food eaten": 36,
+            "Most factions at Honored or higher": 3,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 14,
-            "Greed rolls made on loot": 78,
-            "Need rolls made on loot": 10,
+            "Greed rolls made on loot": 82,
+            "Need rolls made on loot": 16,
             "Total deaths from other players": 5,
             "Total deaths from opposite faction": 5,
-            "Total 5-player dungeons entered": 5,
+            "Total 5-player dungeons entered": 6,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
+            "Shade of the Archmage Kills (City of Dalaran)": 1,
+            "Lyn the Ignored Kills (City of Dalaran)": 1,
             "Bazzalan kills (Ragefire Chasm)": 1,
             "Mutanus the Devourer kills (Wailing Caverns)": 1,
             "Archmage Arugal kills (Shadowfang Keep)": 1,
             "Aku'mai kills (Blackfathom Deeps)": 1,
-            "Total kills": 2553,
-            "Total kills that grant experience or honor": 2300,
-            "Creatures killed": 2519,
-            "Different creature types killed": 8,
-            "Creature type killed the most": 1429,
+            "Total kills": 2861,
+            "Total kills that grant experience or honor": 2571,
+            "Creatures killed": 2827,
+            "Different creature types killed": 9,
+            "Creature type killed the most": 1558,
             "Critters killed": 26,
             "Total Honorable Kills": 8,
             "World Honorable Kills": 8,
             "Continent with the most Honorable Kills": 7,
-            "Total Killing Blows": 1788,
-            "World Killing Blows": 1546,
-            "Continent with the most Killing Blows": 1243,
-            "Total deaths": 14,
-            "Total raid and dungeon deaths": 2,
-            "Total deaths in 5-player dungeons": 2,
-            "Quests completed": 215,
+            "Total Killing Blows": 1940,
+            "World Killing Blows": 1652,
+            "Continent with the most Killing Blows": 1303,
+            "Total deaths": 17,
+            "Total raid and dungeon deaths": 4,
+            "Total deaths in 5-player dungeons": 4,
+            "Quests completed": 233,
             "Average quests completed per day": 0,
             "Quests abandoned": 23,
             "Professions learned": 2,
@@ -4373,20 +4375,30 @@
             "Weapon skills at maximum skill": 10,
             "Cooking skill": 1,
             "Cooking Recipes known": 10,
-            "First Aid skill": 184,
-            "First Aid Manuals learned": 20,
-            "Highest Leatherworking skill": 95,
+            "First Aid skill": 188,
+            "First Aid Manuals learned": 18,
+            "Highest Leatherworking skill": 98,
             "Leatherworking Patterns learned": 46,
-            "Highest Skinning skill": 204,
-            "Flight paths taken": 47,
+            "Highest Skinning skill": 208,
+            "Flight paths taken": 56,
             "Summons accepted": 2,
-            "Number of times hearthed": 20,
+            "Number of times hearthed": 21,
             "Number of hugs": 1
           },
           "bosses": [
             {
               "boss": "Rath'mael",
               "instance": "Ruins of Lordaeron",
+              "kills": 1
+            },
+            {
+              "boss": "Shade of the Archmage",
+              "instance": "City of Dalaran",
+              "kills": 1
+            },
+            {
+              "boss": "Lyn the Ignored",
+              "instance": "City of Dalaran",
               "kills": 1
             },
             {

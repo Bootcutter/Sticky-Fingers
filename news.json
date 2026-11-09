@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-08T23:30:41.809Z",
+  "generatedAt": "2026-11-09T17:24:31.891Z",
   "news": [
+    {
+      "id": "wowhead-383801",
+      "source": "Wowhead",
+      "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
+      "description": "The Cozy Sleeping Bag in WoW: Forever gives you a 3% experience buff and is worth going out of your way for, even though it does take a while to get.",
+      "details": "The Cozy Sleeping Bag in World of Warcraft: Forever is a quest chain that takes you traveling all around Azeroth. It gives good experience as you go, but the primary draw is that the final stage rewards the Cozy Sleeping Bag. Some players may have been familiar with this quest chain from Season of Discovery, but now that Forever is released, there's no better time to grab a sleeping bag and get cozy.\nCollecting the Cozy Sleeping Bag may sound like a bit of a chore that could be skipped, but when you are viewing the path ahead to level 60, it really is a detour you should take sooner rather than later.\nAlliance Route Directions Horde Route Directions\nAs Alliance, getting the sleeping bag takes approximately 89 minutes. Horde are coming in a little slower at approximately 103 minutes; this is due to the third step being closer to Alliance's second step (Horde have to go Barrens > Westfall…",
+      "category": "Forever",
+      "date": "2026-11-09T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56067-level-faster-with-your-cozy-sleeping-bag-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever"
+    },
     {
       "id": "wowhead-383808",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-07T04:18:40.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56065-wow-forever-makes-history-with-biggest-launch-ever.jpg",
       "url": "https://www.wowhead.com/news=383798/wow-forever-makes-history-with-biggest-launch-ever"
-    },
-    {
-      "id": "wowhead-383797",
-      "source": "Wowhead",
-      "title": "World First Level 60s in WoW: Forever in Less Than Three Days",
-      "description": "The World First level 60 has been claimed in WoW: Forever. Congratulations!",
-      "details": "The World First level 60 has been claimed in WoW: Forever - by a group of five all leveling at the exact same time. Congratulations!\nAfter almost 52 hours, the World First level 60 has been claimed in WoW: Forever. Congratulations to the following characters for leveling so quickly!\nJokerd Prime\nBurning Speed\nCloud Bells\nLmgd Mmr\nVitochie Gofast\nThis team of 5 worked together to pull massive amounts of mobs and then AoE'd them down for efficient experience gains. The Paladin would pull everything, and then the mages would use Arcane Explosion to AoE them down quickly.\nEveryone went to painstaking lengths to make sure the experience was as synchronized as possible - as Jokerd explained on his stream, even one experience point could make the difference between one player being left behind. The last four percent of level 59 were the most challenging, with quite a bit of extensive math…",
-      "category": "Forever",
-      "date": "2026-11-07T03:11:19.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56064-world-first-level-60s-in-wow-forever-in-less-than-three-days.jpg",
-      "url": "https://www.wowhead.com/news=383797/world-first-level-60s-in-wow-forever-in-less-than-three-days"
     }
   ],
   "blizzard": null
