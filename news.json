@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-09T17:24:31.891Z",
+  "generatedAt": "2026-11-09T22:01:15.564Z",
   "news": [
+    {
+      "id": "wowhead-383815",
+      "source": "Wowhead",
+      "title": "Blizzard Taking Down WoW: Forever Servers Shortly",
+      "description": "Blizzard has announced via in-game server messages that they are taking down the WoW: Forever servers briefly.",
+      "details": "The WoW: Forever servers are coming down for a short brief amount of time, according to in-game server messages.\nSorry, we have to take the servers down briefly. A few mischievous murlocs have invaded the server room, and they're refusing to stop mrrglglgl-ing at everything.",
+      "category": "Forever",
+      "date": "2026-11-09T21:55:05.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56077-blizzard-taking-down-wow-forever-servers-shortly.jpg",
+      "url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly"
+    },
     {
       "id": "wowhead-383801",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-07T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56050-black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on.jpg",
       "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on"
-    },
-    {
-      "id": "wowhead-383798",
-      "source": "Wowhead",
-      "title": "WoW: Forever Makes History with Biggest Launch Ever!",
-      "description": "Blizzard has revealed that WoW: Forever has achieved a historic launch with the biggest launch ever!",
-      "details": "On X (Twitter), Blizzard posted two big milestones about the WoW: Forever launch and thanked players for playing.\nBlizzardCongratulations everyone, you made HISTORY!\nWoW: Forever has achieved:\n🔹The biggest launch in WoW history by peak concurrent players\n🔹The highest number of returning players in WoW history\nThis is all because of you, the players. From all of us, THANK YOU!",
-      "category": "Forever",
-      "date": "2026-11-07T04:18:40.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56065-wow-forever-makes-history-with-biggest-launch-ever.jpg",
-      "url": "https://www.wowhead.com/news=383798/wow-forever-makes-history-with-biggest-launch-ever"
     }
   ],
   "blizzard": null
