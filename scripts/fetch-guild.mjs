@@ -364,7 +364,8 @@ async function readPrevious() {
 
 async function main() {
   if (!env.BLIZZARD_CLIENT_ID || !env.BLIZZARD_CLIENT_SECRET) {
-    console.warn(`No Blizzard credentials set; ${OUTPUT_NAME} not updated.`);
+    // Shows as a yellow annotation on the Actions run instead of passing silently.
+    console.warn(`${env.GITHUB_ACTIONS ? "::warning::" : ""}No Blizzard credentials set (add the BLIZZARD_CLIENT_ID and BLIZZARD_CLIENT_SECRET repo secrets); ${OUTPUT_NAME} not updated.`);
     return;
   }
 
