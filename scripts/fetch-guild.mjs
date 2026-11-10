@@ -115,7 +115,9 @@ function professionList(data) {
       type,
       skill: best?.skill_points ?? entry.skill_points ?? 0,
       max: best?.max_skill_points ?? entry.max_skill_points ?? 0,
-      recipes: tiers.reduce((sum, tier) => sum + (tier.known_recipes?.length || 0), 0)
+      recipes: tiers.reduce((sum, tier) => sum + (tier.known_recipes?.length || 0), 0),
+      known: [...new Set(tiers.flatMap((tier) => (tier.known_recipes || []).map((recipe) => recipe.name)).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b))
     };
   }).filter((item) => item.name);
   return [...pick(data.primaries, "primary"), ...pick(data.secondaries, "secondary")];
@@ -133,18 +135,71 @@ function activeSpec(data) {
   return trees.length ? { name: trees[0].name, trees } : null;
 }
 
+// Compact in-game tooltip: only display strings, so the page can print them as-is.
+function itemTooltip(item) {
+  const text = (value) => (typeof value === "string" && value.trim() ? value.trim() : null);
+  const green = (color) => color && color.g > 200 && color.r < 100;
+  const tip = {
+    bind: text(item.binding?.name),
+    type: text(item.inventory_type?.name),
+    sub: text(item.item_subclass?.name),
+    armor: text(item.armor?.display?.display_string),
+    damage: text(item.weapon?.damage?.display_string),
+    speed: text(item.weapon?.attack_speed?.display_string),
+    dps: text(item.weapon?.dps?.display_string),
+    stats: (item.stats || []).map((stat) => text(stat.display?.display_string) && { t: stat.display.display_string, g: Boolean(stat.is_equip_bonus || green(stat.display.color)) }).filter(Boolean),
+    enchants: (item.enchantments || []).map((entry) => text(entry.display_string)).filter(Boolean),
+    spells: (item.spells || []).map((entry) => text(entry.description)).filter(Boolean),
+    req: text(item.requirements?.level?.display_string),
+    durability: text(item.durability?.display_string),
+    desc: text(item.description),
+    set: text(item.set?.display_string)
+  };
+  return Object.fromEntries(Object.entries(tip).filter(([, value]) => value !== null && !(Array.isArray(value) && !value.length)));
+}
+
 function equipmentList(data) {
   return (data.equipped_items || []).map((item) => ({
     slot: item.slot?.name,
+    slotType: item.slot?.type ?? null,
+    id: item.item?.id ?? null,
     name: item.name,
     quality: item.quality?.type,
-    level: item.level?.value ?? null
+    level: item.level?.value ?? null,
+    tip: itemTooltip(item)
   })).filter((item) => item.slot && item.name);
 }
 
 function statsSummary(data) {
   const best = (...values) => round(Math.max(...values.filter(Number.isFinite)));
+  const pair = (stat) => (stat && Number.isFinite(stat.effective) ? [stat.base ?? stat.effective, stat.effective] : null);
+  const pct = (stat) => round(stat?.value ?? stat);
+  const num = (value) => (Number.isFinite(value) ? round(value) : null);
   return {
+    attributes: {
+      strength: pair(data.strength), agility: pair(data.agility), stamina: pair(data.stamina),
+      intellect: pair(data.intellect), spirit: pair(data.spirit), armor: pair(data.armor), defense: pair(data.defense)
+    },
+    resistances: {
+      arcane: data.arcane_resistance?.effective ?? null, fire: data.fire_resistance?.effective ?? null,
+      nature: data.nature_resistance?.effective ?? null, frost: data.frost_resistance?.effective ?? null,
+      shadow: data.shadow_resistance?.effective ?? null
+    },
+    melee: {
+      min: num(data.main_hand_damage_min), max: num(data.main_hand_damage_max), speed: num(data.main_hand_speed),
+      dps: num(data.main_hand_dps), offDps: num(data.off_hand_dps), hit: pct(data.melee_hit), crit: pct(data.melee_crit), haste: pct(data.melee_haste)
+    },
+    ranged: {
+      ap: data.ranged_attack_power ?? null, min: num(data.ranged_damage_min), max: num(data.ranged_damage_max),
+      hit: pct(data.ranged_hit), crit: pct(data.ranged_crit), haste: pct(data.ranged_haste)
+    },
+    spell: {
+      healing: data.spell_healing ?? null, hit: pct(data.spell_hit), crit: pct(data.spell_crit), haste: pct(data.spell_haste),
+      penetration: data.spell_penetration ?? null, regen: data.mana_regen ?? null, regenCombat: data.mana_regen_combat ?? null
+    },
+    parry: pct(data.parry),
+    block: pct(data.block),
+    speed: data.movement_speed ?? null,
     health: data.health ?? null,
     power: data.power ?? null,
     powerType: data.power_type?.name ?? null,
@@ -168,24 +223,41 @@ function reputationSummary(data) {
     }))
     .filter((item) => item.faction)
     .sort((a, b) => b.tier - a.tier || b.value / (b.max || 1) - a.value / (a.max || 1))
-    .slice(0, 6);
+    .slice(0, 40);
 }
 
-// Statistics come as nested categories; flatten to { "Total kills": 2088, ... }.
+// Completed character achievements, newest first. Descriptions and icons live in the shared catalog.
+function achievementSummary(data) {
+  const done = (data.achievements || [])
+    .filter((entry) => entry.completed_timestamp && entry.achievement?.name)
+    .map((entry) => ({ id: entry.achievement.id ?? entry.id, name: entry.achievement.name, date: toIso(entry.completed_timestamp) }))
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  return { total: data.total_quantity ?? done.length, points: data.total_points ?? 0, list: done };
+}
+
+// Statistics come as nested categories; flatten to { "Total kills": 2088, ... } and keep
+// the category each one sits in so the page can group them.
 function flattenStatistics(data) {
   const values = {};
   const bosses = [];
+  const groups = [];
   const visit = (category, root) => {
+    const names = [];
     for (const stat of category.statistics || []) {
       if (!stat.name || !Number.isFinite(stat.quantity)) continue;
       values[stat.name] = stat.quantity;
+      names.push(stat.name);
       const boss = root === "Dungeons & Raids" && stat.name.match(/^(.+?) [Kk]ills \((.+)\)$/);
       if (boss) bosses.push({ boss: boss[1], instance: boss[2], kills: stat.quantity });
+    }
+    if (names.length) {
+      const label = category.name && category.name !== root ? `${root} · ${category.name}` : root || category.name || "Other";
+      groups.push({ name: label, stats: names });
     }
     for (const sub of category.sub_categories || []) visit(sub, root);
   };
   for (const category of data.categories || []) visit(category, category.name);
-  return { values, bosses };
+  return { values, bosses, groups };
 }
 
 // Minimal PNG reader (8-bit RGBA, non-interlaced) to find the character's bounding box
@@ -279,9 +351,10 @@ async function fetchCharacter(blizzard, slug, previous) {
     blizzard(`${base}/achievements/statistics`, "profile"),
     blizzard(`${base}/character-media`, "profile"),
     blizzard(`${base}/collections/mounts`, "profile"),
-    blizzard(`${base}/collections/pets`, "profile")
+    blizzard(`${base}/collections/pets`, "profile"),
+    blizzard(`${base}/achievements`, "profile")
   ]);
-  const [professions, specs, equipment, stats, quests, pvp, reputations, titles, statistics, media, mounts, pets] =
+  const [professions, specs, equipment, stats, quests, pvp, reputations, titles, statistics, media, mounts, pets, achievements] =
     parts.map((part) => (part.status === "fulfilled" ? part.value : null));
 
   return {
@@ -306,8 +379,76 @@ async function fetchCharacter(blizzard, slug, previous) {
     // character-media can 404 for hours after a character first appears.
     render: media ? await characterRender(media, previous?.render) : previous?.render ?? null,
     mounts: mounts?.mounts?.length ?? null,
-    pets: pets?.pets?.length ?? null
+    pets: pets?.pets?.length ?? null,
+    achievements: achievements ? achievementSummary(achievements) : previous?.achievements ?? null
   };
+}
+
+// Item icons and achievement descriptions never change, so they are cached in the output
+// file's `catalog` and only missing ids are looked up (capped per run to keep it quick).
+const CATALOG_LIMIT = { items: 400, achievements: 200, wowhead: 300 };
+
+// Does Wowhead's Classic database know this item? Forever-only items 404 there, so the page
+// only links to Wowhead (which lists drops, vendors and quests) when the answer is yes.
+async function onWowhead(id) {
+  const response = await fetch(`https://nether.wowhead.com/classic/tooltip/item/${id}?dataEnv=4&locale=0`, { headers: { "User-Agent": USER_AGENT } });
+  if (response.ok) return true;
+  if (response.status === 404) return false;
+  throw new Error(`Wowhead returned HTTP ${response.status}`);
+}
+
+async function buildCatalog(blizzard, members, previous) {
+  const catalog = {
+    items: { ...(previous?.items || {}) },
+    achievements: { ...(previous?.achievements || {}) },
+    wowhead: { ...(previous?.wowhead || {}) }
+  };
+  const icon = (media) => media?.assets?.find((asset) => asset.key === "icon")?.value ?? null;
+  const itemIds = new Set();
+  const achievementIds = new Set();
+  for (const member of members) {
+    for (const item of member.details?.equipment || []) if (item.id) itemIds.add(String(item.id));
+    for (const entry of member.details?.achievements?.list || []) if (entry.id) achievementIds.add(String(entry.id));
+  }
+  const missingItems = [...itemIds].filter((id) => !(id in catalog.items)).slice(0, CATALOG_LIMIT.items);
+  const missingAchievements = [...achievementIds].filter((id) => !(id in catalog.achievements)).slice(0, CATALOG_LIMIT.achievements);
+  const missingWowhead = [...itemIds].filter((id) => !(id in catalog.wowhead)).slice(0, CATALOG_LIMIT.wowhead);
+
+  await mapLimit(missingWowhead, 4, async (id) => {
+    try {
+      catalog.wowhead[id] = await onWowhead(id);
+    } catch (error) {
+      // Unknown for now; asked again on the next run.
+    }
+  });
+
+  await mapLimit(missingItems, 8, async (id) => {
+    try {
+      catalog.items[id] = icon(await blizzard(`/data/wow/media/item/${id}`, "static"));
+    } catch (error) {
+      if (error.status === 404) catalog.items[id] = null;
+    }
+  });
+  await mapLimit(missingAchievements, 8, async (id) => {
+    try {
+      const [info, media] = await Promise.all([
+        blizzard(`/data/wow/achievement/${id}`, "static"),
+        blizzard(`/data/wow/media/achievement/${id}`, "static").catch(() => null)
+      ]);
+      catalog.achievements[id] = {
+        description: info.description ?? null,
+        category: info.category?.name ?? null,
+        points: info.points ?? 0,
+        reward: info.reward_description ?? null,
+        icon: icon(media)
+      };
+    } catch (error) {
+      if (error.status === 404) catalog.achievements[id] = null;
+    }
+  });
+  const pending = itemIds.size + achievementIds.size - Object.keys(catalog.items).length - Object.keys(catalog.achievements).length;
+  if (pending > 0) console.log(`Catalog: about ${pending} icons/achievements left for later runs.`);
+  return catalog;
 }
 
 // The guild profile only includes `crest` once a tabard has been designed in game.
@@ -426,6 +567,7 @@ async function main() {
     return member;
   });
 
+  const catalog = await buildCatalog(blizzard, members, previous.catalog);
   const achievementData = achievements.status === "fulfilled" ? achievements.value : null;
   const next = {
     region: region.toUpperCase(),
@@ -455,7 +597,8 @@ async function main() {
           })).filter((item) => item.name)
         }
       : previous.achievements || { total: 0, points: 0, recent: [] },
-    members
+    members,
+    catalog
   };
 
   // The workflow runs every 10 minutes; skip writes (and so commits) when only volatile

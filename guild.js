@@ -18,7 +18,7 @@ const numberFormat = new Intl.NumberFormat("en-GB");
 const dateFormat = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" });
 const relativeFormat = new Intl.RelativeTimeFormat("en-GB", { numeric: "auto" });
 
-const state = { members: [], filter: "all", search: "", sort: "level", notes: { ranks: {} }, portraits: new Map(), guildName: "" };
+const state = { catalog: {}, crafters: new Map(), members: [], filter: "all", search: "", sort: "level", notes: { ranks: {} }, portraits: new Map(), guildName: "" };
 
 // Each guild page points at its own data via <body data-guild-data data-guild-notes data-portraits>.
 // An empty data-portraits skips custom art (roster.json belongs to Sticky Fingers).
@@ -766,95 +766,526 @@ function renderDeeds(data) {
   $("#deedsNote").textContent = `${activity.length} ACTIVITY · ${data.achievements?.total ?? 0} ACHIEVEMENTS`;
 }
 
-// ---------- Character dialog ----------
+// ---------- Character sheet dialog ----------
 
 const dialog = $("#charDialog");
 const dialogPanel = dialog.querySelector(".g-dialog__panel");
+const sheetBody = $("#charBody");
 let dialogTrigger = null;
 let closeTimer = null;
+
+const SLOT_TYPES = {
+  Head: "HEAD", Neck: "NECK", Shoulders: "SHOULDER", Shoulder: "SHOULDER", Back: "BACK", Chest: "CHEST", Shirt: "SHIRT",
+  Tabard: "TABARD", Wrist: "WRIST", Hands: "HANDS", Waist: "WAIST", Legs: "LEGS", Feet: "FEET", "Ring 1": "FINGER_1",
+  "Ring 2": "FINGER_2", "Trinket 1": "TRINKET_1", "Trinket 2": "TRINKET_2", "Main Hand": "MAIN_HAND", "Off Hand": "OFF_HAND",
+  Ranged: "RANGED", Ammo: "AMMO"
+};
+const SLOT_LABELS = {
+  HEAD: "Head", NECK: "Neck", SHOULDER: "Shoulder", BACK: "Back", CHEST: "Chest", SHIRT: "Shirt", TABARD: "Tabard", WRIST: "Wrist",
+  HANDS: "Hands", WAIST: "Waist", LEGS: "Legs", FEET: "Feet", FINGER_1: "Finger", FINGER_2: "Finger", TRINKET_1: "Trinket",
+  TRINKET_2: "Trinket", MAIN_HAND: "Main Hand", OFF_HAND: "Off Hand", RANGED: "Ranged", AMMO: "Ammo"
+};
+const DOLL_LEFT = ["HEAD", "NECK", "SHOULDER", "BACK", "CHEST", "SHIRT", "TABARD", "WRIST"];
+const DOLL_RIGHT = ["HANDS", "WAIST", "LEGS", "FEET", "FINGER_1", "FINGER_2", "TRINKET_1", "TRINKET_2"];
+const DOLL_BOTTOM = ["MAIN_HAND", "OFF_HAND", "RANGED"];
+const RESISTANCES = [["arcane", "Arcane", "#d5a6ff"], ["fire", "Fire", "#ff7a3d"], ["nature", "Nature", "#5fd35f"], ["frost", "Frost", "#7fd0ff"], ["shadow", "Shadow", "#a77bd9"]];
+const SHEET_TABS = [["character", "Character"], ["stats", "Stats"], ["bosses", "Bosses"], ["recipes", "Recipes"], ["achievements", "Achievements"], ["reputation", "Reputation"]];
+
+function iconUrl(url) {
+  return typeof url === "string" && RENDER_HOST.test(url) ? url : null;
+}
+
+function fmt(value, suffix = "") {
+  if (value === null || value === undefined || Number.isNaN(value)) return "—";
+  return `${typeof value === "number" ? numberFormat.format(value) : value}${suffix}`;
+}
 
 function block(title, ...content) {
   return h("section", { class: "g-block" }, h("h4", {}, title), ...content);
 }
 
-function openCharacter(member, trigger) {
+function emptyNote(title, text) {
+  return h("div", { class: "g-empty g-empty--sheet" }, h("b", {}, title), h("p", {}, text));
+}
+
+// ----- Character tab: the in-game paper doll -----
+
+function itemTooltip(item, id) {
+  const tip = item.tip || {};
+  const row = (left, right) => (left || right ? h("span", { class: "g-tip__row" }, h("span", {}, left || ""), h("span", {}, right || "")) : null);
+  const quality = item.quality || "COMMON";
+  return h("span", { class: "g-tip", role: "tooltip", id },
+    h("b", { class: `g-tip__name q-${quality} g-q-${quality}` }, item.name),
+    tip.bind ? h("span", {}, tip.bind) : null,
+    row(tip.type, tip.sub),
+    row(tip.damage, tip.speed),
+    tip.dps ? h("span", {}, tip.dps) : null,
+    tip.armor ? h("span", {}, tip.armor) : null,
+    (tip.stats || []).filter((s) => !s.g).map((s) => h("span", {}, s.t)),
+    (tip.enchants || []).map((text) => h("span", { class: "g-tip__green" }, text)),
+    tip.durability ? h("span", {}, tip.durability) : null,
+    tip.req ? h("span", {}, tip.req) : null,
+    (tip.stats || []).filter((s) => s.g).map((s) => h("span", { class: "g-tip__green" }, `Equip: ${s.t}`)),
+    (tip.spells || []).map((text) => h("span", { class: "g-tip__green" }, text)),
+    tip.set ? h("span", { class: "g-tip__set" }, tip.set) : null,
+    tip.desc ? h("span", { class: "g-tip__desc" }, `“${tip.desc}”`) : null,
+    item.level ? h("span", { class: "g-tip__ilvl" }, `Item Level ${item.level}`) : null,
+    itemSource(item));
+}
+
+function slotLabel(label) {
+  return h("span", { class: "g-slot__label", "aria-hidden": "true" }, label);
+}
+
+function gearSlot(type, item, side) {
+  const label = SLOT_LABELS[type] || type;
+  if (!item) {
+    return h("div", { class: `g-slot g-slot--empty g-slot--${side}`, title: `${label}: empty` },
+      slotLabel(label), h("span", { class: "visually-hidden" }, `${label}: empty`));
+  }
+  const tipId = `tip-${type.toLowerCase()}`;
+  const icon = iconUrl(state.catalog.items?.[item.id]);
+  const quality = (item.quality || "COMMON").toLowerCase();
+  const img = icon ? h("img", { src: icon, alt: "", loading: "lazy", decoding: "async" }) : null;
+  img?.addEventListener("error", () => img.replaceWith(slotLabel(label)), { once: true });
+  const button = h("button", {
+    type: "button", class: "g-slot__btn", "aria-describedby": tipId, "aria-expanded": "false",
+    "aria-label": `${label}: ${item.name}. Click to pin details.`
+  }, img || slotLabel(label));
+  const slot = h("div", { class: `g-slot g-slot--${side} g-slot--${quality}` }, button, itemTooltip(item, tipId));
+  // Hover previews the tooltip; a click pins it open so the source link can be clicked (and works on touch).
+  button.addEventListener("click", () => {
+    const open = !slot.classList.contains("is-open");
+    closePinnedSlots();
+    slot.classList.toggle("is-open", open);
+    button.setAttribute("aria-expanded", String(open));
+  });
+  return slot;
+}
+
+function closePinnedSlots() {
+  sheetBody.querySelectorAll(".g-slot.is-open").forEach((node) => {
+    node.classList.remove("is-open");
+    node.querySelector(".g-slot__btn")?.setAttribute("aria-expanded", "false");
+  });
+}
+
+sheetBody.addEventListener("click", (event) => {
+  if (!event.target.closest(".g-slot")) closePinnedSlots();
+});
+
+// Recipe name -> guild members who know it, so crafted gear can say who makes it.
+function crafterIndex() {
+  const index = new Map();
+  for (const member of state.members) {
+    for (const profession of member.details?.professions || []) {
+      for (const recipe of profession.known || []) {
+        const key = normalise(recipe);
+        if (!index.has(key)) index.set(key, { profession: profession.name, members: [] });
+        index.get(key).members.push(member);
+      }
+    }
+  }
+  return index;
+}
+
+function itemSource(item) {
+  const crafted = state.crafters.get(normalise(item.name));
+  const onWowhead = item.id && state.catalog.wowhead?.[item.id] === true;
+  const lines = [];
+  if (crafted) {
+    const names = crafted.members.slice(0, 3).map((m) => m.name).join(", ");
+    const more = crafted.members.length > 3 ? ` +${crafted.members.length - 3}` : "";
+    lines.push(h("span", {}, h("b", {}, `Crafted · ${crafted.profession}`), h("span", { class: "g-tip__muted" }, ` In the guild: ${names}${more}`)));
+  }
+  if (onWowhead) {
+    lines.push(h("a", { class: "g-tip__link", href: `https://www.wowhead.com/classic/item=${encodeURIComponent(item.id)}`, target: "_blank", rel: "noopener noreferrer" },
+      "Drops, vendors & quests on Wowhead ↗"));
+  } else if (!crafted) {
+    lines.push(h("span", { class: "g-tip__muted" }, state.catalog.wowhead && item.id in state.catalog.wowhead
+      ? "Forever-only item. No public database lists where it drops yet."
+      : "Source lookup arrives with the next data refresh."));
+  }
+  return h("span", { class: "g-tip__source" }, h("span", { class: "g-tip__head" }, "Where it's from"), lines);
+}
+
+function attrRow(label, pair, suffix = "") {
+  if (pair === null || pair === undefined) return null;
+  const [base, effective] = Array.isArray(pair) ? pair : [pair, pair];
+  const boosted = effective > base;
+  return h("div", { class: "g-attr" }, h("dt", {}, label),
+    h("dd", { class: boosted ? "is-boosted" : null, title: boosted ? `${base} base + ${effective - base}` : null }, fmt(effective, suffix)));
+}
+
+function damageRange(min, max) {
+  return Number.isFinite(min) && Number.isFinite(max) ? `${Math.round(min)} – ${Math.round(max)}` : null;
+}
+
+function combatRows(stats, mode) {
+  const melee = stats.melee || {};
+  const ranged = stats.ranged || {};
+  const spell = stats.spell || {};
+  const rows = {
+    melee: [["Damage", damageRange(melee.min, melee.max)], ["Speed", melee.speed], ["DPS", melee.dps ?? stats.dps], ["Power", stats.attackPower],
+      ["Hit", melee.hit, "%"], ["Crit", melee.crit ?? stats.crit, "%"]],
+    ranged: [["Damage", damageRange(ranged.min, ranged.max)], ["Power", ranged.ap], ["Hit", ranged.hit, "%"], ["Crit", ranged.crit, "%"]],
+    spell: [["Damage", stats.spellPower], ["Healing", spell.healing], ["Hit", spell.hit, "%"], ["Crit", spell.crit, "%"],
+      ["Regen", spell.regen], ["Haste", spell.haste, "%"]]
+  }[mode];
+  return rows.filter(([, value]) => value !== null && value !== undefined)
+    .map(([label, value, suffix]) => h("div", { class: "g-attr" }, h("dt", {}, label), h("dd", {}, fmt(value, suffix))));
+}
+
+function defaultCombatMode(member) {
+  if (member.classId === 3) return "ranged";
+  if ([5, 8, 9].includes(member.classId) || roleOf(member) === "healer") return "spell";
+  return "melee";
+}
+
+function statBoxes(member) {
+  const stats = member.details.stats || {};
+  const a = stats.attributes;
+  const base = h("dl", { class: "g-statbox" },
+    a ? [attrRow("Strength", a.strength), attrRow("Agility", a.agility), attrRow("Stamina", a.stamina),
+      attrRow("Intellect", a.intellect), attrRow("Spirit", a.spirit), attrRow("Armor", a.armor)]
+      : [attrRow("Health", stats.health), attrRow(stats.powerType || "Power", stats.power), attrRow("Crit", stats.crit, "%"), attrRow("Dodge", stats.dodge, "%")]);
+
+  let mode = defaultCombatMode(member);
+  const list = h("dl", { class: "g-statbox__list" });
+  const switcher = h("div", { class: "g-statbox__modes", role: "group", "aria-label": "Combat stats" });
+  const draw = () => {
+    list.replaceChildren(...combatRows(stats, mode));
+    switcher.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+  };
+  ["melee", "ranged", "spell"].forEach((m) => switcher.append(h("button", {
+    type: "button", "data-mode": m, onclick: () => { mode = m; draw(); }
+  }, m)));
+  draw();
+  return h("div", { class: "g-doll__stats" }, base, h("div", { class: "g-statbox g-statbox--combat" }, switcher, list));
+}
+
+function resistanceBadges(stats) {
+  const r = stats?.resistances;
+  if (!r) return null;
+  return h("ul", { class: "g-resists", "aria-label": "Resistances" }, RESISTANCES.map(([key, label, color]) =>
+    h("li", { style: { "--res": color }, title: `${label} resistance` }, h("b", {}, r[key] ?? 0), h("span", {}, label.slice(0, 3)))));
+}
+
+function dollModel(member) {
+  const fallback = () => h("div", { class: "g-doll__placeholder" }, portraitSvg(member));
+  const model = renderLayer(member, { aspect: 1.15, className: "g-render--doll" });
+  if (!model) return fallback();
+  model.addEventListener("render-failed", () => model.replaceWith(fallback()), { once: true });
+  // The model box is as wide as the space between the slot columns, so crop to its real shape.
+  const figure = model.querySelector(".g-render__figure");
+  if ("ResizeObserver" in window) {
+    new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect;
+      if (width && height) Object.entries(cropStyle(member.details.render.box, height / width)).forEach(([prop, value]) => figure.style.setProperty(prop, value));
+    }).observe(model);
+  }
+  return model;
+}
+
+function characterTab(member) {
   const details = member.details;
-  const color = classColor(member);
-  dialogTrigger = trigger;
-  dialogPanel.style.setProperty("--cls", color);
+  const bySlot = new Map((details?.equipment || []).map((item) => [item.slotType || SLOT_TYPES[item.slot] || item.slot, item]));
+  const bottom = bySlot.has("AMMO") ? [...DOLL_BOTTOM, "AMMO"] : DOLL_BOTTOM;
 
-  $("#charRank").textContent = [rankName(member.rank), state.guildName].filter(Boolean).join(" · ");
-  const dialogArt = buildArt(member);
-  $("#charArt").replaceChildren(...dialogArt.nodes);
-  $("#charArt").classList.toggle("g-dialog__art--dual", dialogArt.dual);
-  $("#charLevel").textContent = [`Level ${member.level ?? "?"}`, details?.spec?.name].filter(Boolean).join(" · ");
-  $("#charName").textContent = fullName(member);
-  const gender = details?.gender ? `${details.gender[0]}${details.gender.slice(1).toLowerCase()} ` : "";
-  $("#charLine").textContent = `${gender}${details?.race || member.race || ""} ${member.className || ""}`.trim();
-  $("#charSeen").textContent = details?.lastLogin ? `Last seen ${timeAgo(details.lastLogin)}${member.detailsStale ? " · cached" : ""}` : "";
+  const doll = h("div", { class: "g-doll" },
+    h("div", { class: "g-doll__col g-doll__col--left" }, DOLL_LEFT.map((type) => gearSlot(type, bySlot.get(type), "left"))),
+    h("div", { class: "g-doll__center" },
+      h("div", { class: "g-doll__model" }, dollModel(member), resistanceBadges(details?.stats),
+        details?.itemLevel ? h("span", { class: "g-doll__ilvl" }, h("b", {}, details.itemLevel), "ITEM LEVEL") : null),
+      details ? statBoxes(member) : null),
+    h("div", { class: "g-doll__col g-doll__col--right" }, DOLL_RIGHT.map((type) => gearSlot(type, bySlot.get(type), "right"))),
+    h("div", { class: "g-doll__weapons" }, bottom.map((type) => gearSlot(type, bySlot.get(type), "bottom"))));
 
-  const body = $("#charBody");
-  body.replaceChildren();
-
+  const parts = [doll];
   if (!details) {
-    body.append(h("p", { class: "g-note" }, h("b", {}, "Not yet scouted. "),
-      "Blizzard only publishes a character's profile once they reach level 10 and log out. Spec, gear and professions appear here after that."));
-  } else {
-    const tall = renderLayer(member, { aspect: 1.25, className: "g-render--tall" });
-    if (tall) {
-      tall.addEventListener("render-failed", () => tall.closest(".g-block")?.remove(), { once: true });
-      body.append(block("In-game look", tall));
-    }
+    parts.push(h("p", { class: "g-note" }, h("b", {}, "Not yet scouted. "),
+      "Blizzard only publishes a character's profile once they reach level 10 and log out. Gear, stats, recipes and achievements appear here after that."));
+    return parts;
+  }
+  const trees = details.spec?.trees || [];
+  if (trees.some((t) => t.points)) {
+    parts.push(block("Talents",
+      h("div", { class: "g-trees" }, trees.filter((t) => t.points).map((tree, i) => h("span", { style: { "--n": String(tree.points), "--a": String(i === 0 ? 1 : .45) } }, tree.name))),
+      h("div", { class: "g-trees__legend" }, trees.map((tree) => h("span", {}, `${tree.name} `, h("b", {}, tree.points))))));
+  }
+  if (details.titles?.length) parts.push(block("Titles", h("p", { class: "g-dialog__line" }, details.titles.join(" · "))));
+  return parts;
+}
 
-    const stats = details.stats || {};
-    const kpis = [
-      ["Health", stats.health], [stats.powerType || "Power", stats.power], ["Item level", details.itemLevel],
-      ["Crit", stats.crit !== null && stats.crit !== undefined ? `${stats.crit}%` : null], ["Quests", details.questsCompleted],
-      ["Honor kills", details.honorableKills],
-      ["Total kills", details.statistics?.values?.["Total kills"]],
-      ["Deaths", details.statistics?.values?.["Total deaths"]],
-      ["Mounts", details.mounts]
-    ].filter(([, value]) => value !== null && value !== undefined);
-    body.append(block("Vitals", h("dl", { class: "g-kpis" }, kpis.map(([label, value]) =>
-      h("div", { class: "g-kpi" }, h("dt", {}, label), h("dd", {}, typeof value === "number" ? numberFormat.format(value) : value))))));
+// ----- Stats tab -----
 
-    const trees = details.spec?.trees || [];
-    const spent = trees.reduce((t, tree) => t + tree.points, 0);
-    if (spent) {
-      body.append(block("Talents",
-        h("div", { class: "g-trees" }, trees.filter((t) => t.points).map((tree, i) => h("span", { style: { "--n": String(tree.points), "--a": String(i === 0 ? 1 : .45) } }, tree.name))),
-        h("div", { class: "g-trees__legend" }, trees.map((tree) => h("span", {}, `${tree.name} `, h("b", {}, tree.points))))));
-    }
+function statCard(title, rows) {
+  const items = rows.filter(([, value]) => value !== null && value !== undefined && value !== "");
+  if (!items.length) return null;
+  return h("article", { class: "g-statcard" }, h("h5", {}, title), h("dl", {}, items.map(([label, value, suffix = "", boosted]) =>
+    h("div", {}, h("dt", {}, label), h("dd", { class: boosted ? "is-boosted" : null }, fmt(value, suffix))))));
+}
 
-    if (details.professions?.length) {
-      body.append(block("Professions", details.professions.map((p) => h("div", { class: "g-prof" },
+function statsTab(member) {
+  const d = member.details;
+  const s = d.stats || {};
+  const a = s.attributes || {};
+  const m = s.melee || {};
+  const r = s.ranged || {};
+  const sp = s.spell || {};
+  const v = d.statistics?.values || {};
+  const eff = (pair) => (pair ? pair[1] : null);
+  const up = (pair) => Boolean(pair && pair[1] > pair[0]);
+
+  const cards = [
+    statCard("Vitals", [["Health", s.health], [s.powerType || "Power", s.power], ["Item level", d.itemLevel], ["Move speed", s.speed, "%"]]),
+    statCard("Attributes", [["Strength", eff(a.strength), "", up(a.strength)], ["Agility", eff(a.agility), "", up(a.agility)], ["Stamina", eff(a.stamina), "", up(a.stamina)],
+      ["Intellect", eff(a.intellect), "", up(a.intellect)], ["Spirit", eff(a.spirit), "", up(a.spirit)]]),
+    statCard("Melee", [["Damage", damageRange(m.min, m.max)], ["Speed", m.speed], ["DPS", m.dps ?? s.dps], ["Attack power", s.attackPower], ["Hit", m.hit, "%"], ["Crit", m.crit ?? s.crit, "%"], ["Haste", m.haste, "%"]]),
+    statCard("Ranged", [["Damage", damageRange(r.min, r.max)], ["Attack power", r.ap], ["Hit", r.hit, "%"], ["Crit", r.crit, "%"], ["Haste", r.haste, "%"]]),
+    statCard("Spell", [["Bonus damage", s.spellPower], ["Bonus healing", sp.healing], ["Hit", sp.hit, "%"], ["Crit", sp.crit, "%"], ["Haste", sp.haste, "%"],
+      ["Penetration", sp.penetration], ["Mana regen", sp.regen], ["Regen in combat", sp.regenCombat]]),
+    statCard("Defense", [["Armor", eff(a.armor), "", up(a.armor)], ["Defense", eff(a.defense)], ["Dodge", s.dodge, "%"], ["Parry", s.parry, "%"], ["Block", s.block, "%"]]),
+    s.resistances ? statCard("Resistances", RESISTANCES.map(([key, label]) => [label, s.resistances[key]])) : null,
+    statCard("Record", [["Quests done", d.questsCompleted], ["Honorable kills", d.honorableKills], ["Total kills", v["Total kills"]], ["Deaths", v["Total deaths"]],
+      ["Mounts", d.mounts], ["Pets", d.pets], ["Achievement pts", d.achievements?.points ?? d.achievementPoints]])
+  ].filter(Boolean);
+
+  const parts = [h("div", { class: "g-statgrid" }, cards)];
+  if (!s.attributes) parts.push(h("p", { class: "g-panel__foot" }, "The full stat sheet fills in with the next data refresh."));
+
+  const values = d.statistics?.values;
+  if (values && Object.keys(values).length) {
+    const groups = Array.isArray(d.statistics.groups) && d.statistics.groups.length
+      ? d.statistics.groups
+      : [{ name: "All statistics", stats: Object.keys(values) }];
+    parts.push(block("Game statistics", h("div", { class: "g-gamestats" }, groups.map((group, index) => h("details", { class: "g-gamestat", open: index < 2 },
+      h("summary", {}, group.name, h("b", {}, group.stats.length)),
+      h("dl", {}, group.stats.filter((name) => name in values).map((name) => h("div", {}, h("dt", {}, name), h("dd", {}, fmt(values[name]))))))))));
+  }
+  return parts;
+}
+
+// ----- Bosses tab -----
+
+const RAIDS = new Set(["Molten Core", "Onyxia's Lair", "Blackwing Lair", "Zul'Gurub", "Ruins of Ahn'Qiraj", "Temple of Ahn'Qiraj", "Ahn'Qiraj Temple", "Naxxramas"]);
+// Rough level order, so dungeons read like a levelling journey. Unknown (Forever-only) ones go last.
+const DUNGEON_ORDER = ["Ragefire Chasm", "Wailing Caverns", "Deadmines", "The Deadmines", "Shadowfang Keep", "Blackfathom Deeps", "The Stockade", "Stormwind Stockade",
+  "Gnomeregan", "Razorfen Kraul", "Scarlet Monastery", "Razorfen Downs", "Uldaman", "Zul'Farrak", "Maraudon", "Sunken Temple", "Temple of Atal'Hakkar",
+  "Blackrock Depths", "Lower Blackrock Spire", "Upper Blackrock Spire", "Blackrock Spire", "Dire Maul", "Stratholme", "Scholomance",
+  "Zul'Gurub", "Molten Core", "Onyxia's Lair", "Blackwing Lair", "Ruins of Ahn'Qiraj", "Temple of Ahn'Qiraj", "Ahn'Qiraj Temple", "Naxxramas"];
+
+function instanceCard(name, bosses) {
+  const kills = bosses.reduce((t, b) => t + b.kills, 0);
+  const top = Math.max(...bosses.map((b) => b.kills));
+  return h("article", { class: "g-instance" },
+    h("header", {}, h("h5", {}, name), h("span", {}, `${bosses.length} boss${bosses.length === 1 ? "" : "es"} · ${numberFormat.format(kills)} kill${kills === 1 ? "" : "s"}`)),
+    h("ol", {}, bosses.map((b) => h("li", {},
+      h("span", {}, b.boss),
+      h("b", {}, `×${numberFormat.format(b.kills)}`),
+      h("em", { style: { "--p": percent(b.kills, top) } })))));
+}
+
+function bossesTab(member) {
+  const stats = member.details.statistics;
+  const bosses = Array.isArray(stats?.bosses) ? stats.bosses.filter((b) => b && b.boss && b.instance && b.kills > 0) : [];
+  const values = stats?.values || {};
+  const byInstance = new Map();
+  bosses.forEach((b) => {
+    if (!byInstance.has(b.instance)) byInstance.set(b.instance, []);
+    byInstance.get(b.instance).push(b);
+  });
+  const rank = (name) => {
+    const i = DUNGEON_ORDER.indexOf(name);
+    return i < 0 ? DUNGEON_ORDER.length : i;
+  };
+  const instances = [...byInstance.entries()]
+    .map(([name, list]) => [name, list.sort((a, b) => b.kills - a.kills || a.boss.localeCompare(b.boss))])
+    .sort((a, b) => rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0]));
+  const raids = instances.filter(([name]) => RAIDS.has(name));
+  const dungeons = instances.filter(([name]) => !RAIDS.has(name));
+  const total = bosses.reduce((t, b) => t + b.kills, 0);
+  const favourite = bosses.reduce((top, b) => (!top || b.kills > top.kills ? b : top), null);
+
+  const head = h("dl", { class: "g-sheet__summary" },
+    h("div", {}, h("dt", {}, "Bosses down"), h("dd", {}, fmt(bosses.length))),
+    h("div", {}, h("dt", {}, "Boss kills"), h("dd", {}, fmt(total))),
+    h("div", {}, h("dt", {}, "Dungeons entered"), h("dd", {}, fmt(values["Total 5-player dungeons entered"] ?? 0))),
+    h("div", {}, h("dt", {}, "Dungeon deaths"), h("dd", {}, fmt(values["Total deaths in 5-player dungeons"] ?? 0))),
+    favourite ? h("div", {}, h("dt", {}, "Most farmed"), h("dd", { class: "g-sheet__small" }, `${favourite.boss} ×${favourite.kills}`)) : null);
+
+  if (!stats) return [head, emptyNote("No tally yet", "Boss kills fill in with the next data refresh.")];
+  return [head,
+    block("Dungeons", dungeons.length
+      ? h("div", { class: "g-instances" }, dungeons.map(([name, list]) => instanceCard(name, list)))
+      : emptyNote("No dungeon bosses", "Not a single dungeon boss down. Ragefire Chasm is right there.")),
+    block("Raids", raids.length
+      ? h("div", { class: "g-instances" }, raids.map(([name, list]) => instanceCard(name, list)))
+      : emptyNote("No raid bosses yet", "Molten Core waits. Bring fire resistance and forty friends."))];
+}
+
+// ----- Recipes tab -----
+
+function recipesTab(member) {
+  const professions = member.details.professions || [];
+  if (!professions.length) return [emptyNote("No trade", "No professions learned yet. Pure freeloader energy.")];
+  const total = professions.reduce((t, p) => t + (p.known?.length ?? p.recipes ?? 0), 0);
+  const search = h("input", { type: "search", placeholder: "Search recipes…", autocomplete: "off" });
+  const sections = professions.map((p) => {
+    const known = Array.isArray(p.known) ? p.known : null;
+    const list = known?.length ? h("ul", { class: "g-recipes__list" }, known.map((name) => h("li", { "data-name": normalise(name) }, name))) : null;
+    const section = h("section", { class: "g-recipes__prof" },
+      h("header", { class: "g-prof" },
         professionIcon(p.name),
         h("span", {}, p.name, h("small", {}, p.type)),
         h("b", {}, `${p.skill} / ${p.max}`),
-        h("em", { style: { "--p": percent(p.skill, p.max) } })))));
-    }
+        h("em", { style: { "--p": percent(p.skill, p.max) } })),
+      h("p", { class: "g-recipes__count" }, `${known?.length ?? p.recipes ?? 0} known`),
+      list || h("p", { class: "g-panel__foot" }, known ? "No recipes for this one." : "Recipe names fill in with the next data refresh."));
+    return { section, list };
+  });
+  const none = h("p", { class: "g-recipes__none", hidden: true }, "No recipe matches that.");
+  search.addEventListener("input", () => {
+    const query = normalise(search.value);
+    let shown = 0;
+    sections.forEach(({ section, list }) => {
+      if (!list) {
+        section.hidden = Boolean(query);
+        return;
+      }
+      let hits = 0;
+      list.querySelectorAll("li").forEach((li) => {
+        const match = !query || li.dataset.name.includes(query);
+        li.hidden = !match;
+        if (match) hits += 1;
+      });
+      section.hidden = Boolean(query) && !hits;
+      shown += hits;
+    });
+    none.hidden = !query || shown > 0;
+  });
+  return [
+    h("div", { class: "g-sheet__toolbar" },
+      h("p", {}, h("b", {}, numberFormat.format(total)), ` recipe${total === 1 ? "" : "s"} across ${professions.length} skill${professions.length === 1 ? "" : "s"}`),
+      h("label", { class: "g-search" }, h("span", { class: "visually-hidden" }, "Search recipes"), search)),
+    h("div", { class: "g-recipes" }, sections.map((s) => s.section)),
+    none
+  ];
+}
 
-    if (details.equipment?.length) {
-      body.append(block("Gear", h("ul", { class: "g-gear" }, details.equipment.map((item) => h("li", {},
-        h("span", {}, item.slot),
-        h("b", { class: `q-${item.quality} g-q-${item.quality}` }, item.name),
-        h("i", {}, item.level ? `ilvl ${item.level}` : ""))))));
-    }
+// ----- Achievements tab -----
 
-    if (details.reputations?.length) {
-      body.append(block("Standing", h("div", { class: "g-reps" }, details.reputations.map((rep) => h("div", { class: "g-rep" },
-        h("span", {}, rep.faction), h("b", {}, rep.standing),
-        h("em", { style: { "--p": percent(rep.value, rep.max), "--rep": REP_COLORS[rep.standing] || "#2fa84f" } }))))));
-    }
+function achievementsTab(member) {
+  const data = member.details.achievements;
+  const titles = member.details.titles || [];
+  const head = h("dl", { class: "g-sheet__summary" },
+    h("div", {}, h("dt", {}, "Completed"), h("dd", {}, fmt(data?.list?.length ?? 0))),
+    h("div", {}, h("dt", {}, "Points"), h("dd", {}, fmt(data?.points ?? member.details.achievementPoints ?? 0))),
+    h("div", {}, h("dt", {}, "Titles"), h("dd", {}, fmt(titles.length))));
+  if (!data) return [head, emptyNote("Ledger pending", "Achievements fill in with the next data refresh.")];
+  if (!data.list?.length) return [head, emptyNote("Clean record", "Nothing earned yet. Everyone starts somewhere, usually face-down in Durotar.")];
+  const catalog = state.catalog.achievements || {};
+  return [head,
+    titles.length ? h("p", { class: "g-dialog__line g-sheet__titles" }, h("b", {}, "Titles: "), titles.join(" · ")) : null,
+    h("ol", { class: "g-achievements" }, data.list.map((entry) => {
+      const info = catalog[entry.id] || {};
+      const icon = iconUrl(info.icon);
+      const img = icon ? h("img", { src: icon, alt: "", loading: "lazy" }) : null;
+      img?.addEventListener("error", () => img.replaceWith("✳"), { once: true });
+      return h("li", {},
+        h("span", { class: "g-ach__icon", "aria-hidden": "true" }, img || "✳"),
+        h("div", { class: "g-ach__text" },
+          h("b", {}, entry.name),
+          info.description ? h("p", {}, info.description) : null,
+          info.reward ? h("p", { class: "g-ach__reward" }, info.reward) : null),
+        h("div", { class: "g-ach__meta" },
+          info.category ? h("span", {}, info.category) : null,
+          entry.date ? h("time", { datetime: entry.date }, dateFormat.format(new Date(entry.date))) : null,
+          info.points ? h("b", {}, `${info.points} pts`) : null));
+    }))];
+}
 
-    if (details.titles?.length) body.append(block("Titles", h("p", { class: "g-dialog__line" }, details.titles.join(" · "))));
+// ----- Reputation tab -----
+
+function reputationTab(member) {
+  const reps = member.details.reputations || [];
+  if (!reps.length) return [emptyNote("Nobody knows them", "No faction standings on record yet.")];
+  return [h("div", { class: "g-reps g-reps--sheet" }, reps.map((rep) => h("div", { class: "g-rep" },
+    h("span", {}, rep.faction),
+    h("b", {}, rep.standing, rep.max ? h("small", {}, ` ${numberFormat.format(rep.value)} / ${numberFormat.format(rep.max)}`) : null),
+    h("em", { style: { "--p": percent(rep.value, rep.max), "--rep": REP_COLORS[rep.standing] || "#2fa84f" } }))))];
+}
+
+// ----- Tabs + open/close -----
+
+const TAB_BUILDERS = { character: characterTab, stats: statsTab, bosses: bossesTab, recipes: recipesTab, achievements: achievementsTab, reputation: reputationTab };
+const tabList = $("#charTabs");
+
+function selectTab(name, { focus = false } = {}) {
+  tabList.querySelectorAll("[role=tab]").forEach((tab) => {
+    const on = tab.dataset.tab === name;
+    tab.setAttribute("aria-selected", String(on));
+    tab.tabIndex = on ? 0 : -1;
+    if (on && focus) tab.focus();
+  });
+  sheetBody.querySelectorAll("[role=tabpanel]").forEach((panel) => { panel.hidden = panel.dataset.tab !== name; });
+  sheetBody.scrollTop = 0;
+}
+
+tabList.addEventListener("click", (event) => {
+  const tab = event.target.closest("[role=tab]");
+  if (tab) selectTab(tab.dataset.tab);
+});
+tabList.addEventListener("keydown", (event) => {
+  const tabs = [...tabList.querySelectorAll("[role=tab]")];
+  const index = tabs.indexOf(document.activeElement);
+  if (index < 0) return;
+  const step = { ArrowRight: 1, ArrowLeft: -1, Home: -index, End: tabs.length - 1 - index }[event.key];
+  if (step === undefined) return;
+  event.preventDefault();
+  selectTab(tabs[(index + step + tabs.length) % tabs.length].dataset.tab, { focus: true });
+});
+
+function sheetPortrait(member) {
+  const custom = customImage(member);
+  const wrap = h("span", { class: "g-sheet__portrait", style: { "--cls": classColor(member) } });
+  if (custom) {
+    custom.addEventListener("error", () => custom.replaceWith(avatar(member, "lg")), { once: true });
+    wrap.append(custom);
+  } else {
+    wrap.append(avatar(member, "lg"));
   }
+  wrap.append(h("span", { class: "g-sheet__lvl" }, member.level ?? "?"));
+  return wrap;
+}
+
+function openCharacter(member, trigger) {
+  const details = member.details;
+  dialogTrigger = trigger;
+  dialogPanel.style.setProperty("--cls", classColor(member));
+
+  $("#charPortrait").replaceChildren(sheetPortrait(member));
+  $("#charRank").textContent = [rankName(member.rank), state.guildName].filter(Boolean).join(" · ");
+  $("#charName").textContent = fullName(member);
+  const gender = details?.gender ? `${details.gender[0]}${details.gender.slice(1).toLowerCase()} ` : "";
+  $("#charLine").replaceChildren(`Level ${member.level ?? "?"} ${details?.spec?.name ? `${details.spec.name} ` : ""}${gender}${details?.race || member.race || ""} `,
+    h("b", {}, member.className || ""));
+  $("#charSeen").textContent = details?.lastLogin ? `Last seen ${timeAgo(details.lastLogin)}${member.detailsStale ? " · cached" : ""}` : "Not yet scouted";
+
+  const tabs = details ? SHEET_TABS : SHEET_TABS.slice(0, 1);
+  tabList.hidden = tabs.length < 2;
+  tabList.replaceChildren(...tabs.map(([name, label]) => h("button", {
+    type: "button", role: "tab", id: `charTab-${name}`, "aria-controls": `charPanel-${name}`, "data-tab": name
+  }, label)));
+  sheetBody.replaceChildren(...tabs.map(([name]) => h("div", {
+    role: "tabpanel", id: `charPanel-${name}`, "aria-labelledby": `charTab-${name}`, "data-tab": name, class: `g-sheet__panel g-sheet__panel--${name}`
+  }, TAB_BUILDERS[name](member))));
+  selectTab("character");
 
   if (member.slug) history.replaceState(null, "", `#char-${encodeURIComponent(member.slug)}`);
   window.clearTimeout(closeTimer);
   if (!dialog.open) dialog.showModal();
   requestAnimationFrame(() => dialogPanel.classList.add("is-visible"));
-  dialogPanel.scrollTop = 0;
   $("#closeChar").focus();
 }
 
@@ -899,6 +1330,8 @@ async function boot() {
     state.portraits = readPortraits(roster);
     state.members = guild.members;
     state.guildName = guild.guild.name;
+    state.catalog = guild.catalog && typeof guild.catalog === "object" ? guild.catalog : {};
+    state.crafters = crafterIndex();
 
     renderHero(guild);
     renderMotd(state.notes, guild);

@@ -8,8 +8,8 @@
     <title>Sticky Fingers Rare Proc - Guild</title>
     <link rel="icon" type="image/svg+xml" href="assets/sigil.svg">
     <link rel="stylesheet" href="styles.css?v=13">
-    <link rel="stylesheet" href="guild.css?v=2">
-    <script src="guild.js?v=3" defer></script>
+    <link rel="stylesheet" href="guild.css?v=4">
+    <script src="guild.js?v=5" defer></script>
   </head>
   <body class="guild-page">
     <a class="skip-link" href="#roster">Skip to roster</a>
@@ -171,20 +171,18 @@
 
     <dialog class="event-dialog g-dialog" id="charDialog" aria-labelledby="charName">
       <article class="event-dialog__panel g-dialog__panel">
-        <header class="event-dialog__header">
-          <span class="event-dialog__category" id="charRank"></span>
-          <button class="event-dialog__close" id="closeChar" type="button" aria-label="Close character details">×</button>
-        </header>
-        <div class="g-dialog__hero">
-          <div class="g-dialog__art" id="charArt"></div>
-          <div class="g-dialog__id">
-            <span class="g-dialog__level" id="charLevel"></span>
+        <header class="g-sheet__top">
+          <div class="g-sheet__portrait-slot" id="charPortrait"></div>
+          <div class="g-sheet__id">
+            <span class="event-dialog__category" id="charRank"></span>
             <h2 id="charName"></h2>
             <p class="g-dialog__line" id="charLine"></p>
-            <p class="g-dialog__seen" id="charSeen"></p>
           </div>
-        </div>
-        <div class="g-dialog__body" id="charBody"></div>
+          <p class="g-dialog__seen" id="charSeen"></p>
+          <button class="event-dialog__close" id="closeChar" type="button" aria-label="Close character sheet">×</button>
+        </header>
+        <div class="g-sheet__body" id="charBody"></div>
+        <nav class="g-tabs" id="charTabs" role="tablist" aria-label="Character sheet"></nav>
       </article>
     </dialog>
   </body>
