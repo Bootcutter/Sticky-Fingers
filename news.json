@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-10T03:38:46.714Z",
+  "generatedAt": "2026-11-10T11:45:26.979Z",
   "news": [
+    {
+      "id": "wowhead-383819",
+      "source": "Wowhead",
+      "title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
+      "description": "Blizzard has posted hotfixes for today, which includes many class bug fixes, a nerf to The Drowned City, and reducing the population in zones with significant population.",
+      "details": "Hotfixes\nNovember 9, 2026\nClasses\nDruid\nThe Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned.\nIdol of Ferocity no longer lists Mangle as an ability it discounts.\nFeral\nFixed an issue where Feral Charge (Cat) was not putting the Druid in combat right away.\nFixed an issue where Natural Instinct was not applying correctly to Lacerate or Pounce.\nFixed an issue where the Pounce Stun debuff was not showing in the enemy debuffs while active.\nHunter\nVulgara the Insatiable and the Shrieklings of Zephras should now belong to the correct hunter pet families.\nFixed an issue causing Hunters to sometimes aggro enemies from very far away by targeting them.\nMage\nFlamestirke’s ticks on the ground no longer incorrectly consume clearcasting.\nArcane Concentration’s activation chance now correctly splits across the cast and every bolt (was granting 10% on cast and per…",
+      "category": "Forever",
+      "date": "2026-11-10T04:30:43.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56084-drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for.jpg",
+      "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for"
+    },
     {
       "id": "wowhead-383817",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-07T20:19:50.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56069-quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to.jpg",
       "url": "https://www.wowhead.com/news=383803/quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to"
-    },
-    {
-      "id": "wowhead-383796",
-      "source": "Wowhead",
-      "title": "GMs Appeared In-Person to Celebrate the Launch of WoW: Forever",
-      "description": "For the first time in years, players have seen GM characters in-game - many appeared to celebrate the launch of WoW: Forever!",
-      "details": "With at least two confirmed sightings in Thunder Bluff last night, along with at least one Alliance location, it seems that Blizzard is just as excited about the launch of Forever as players have been.\nThe last time GMs were seen in numbers in the world was for the launch of Classic Anniversary. Since then, GM sightings have been extraordinarily rare, if not non-existent. Many players fondly remember Vanilla, when a GM might appear to help with a ticket you'd put in, crack jokes with players, or simply enjoy the game like everyone else. Over time, that happened less and less frequently, until GM appearances were all but unheard of.\nOne detail that many players noticed once sightings started pouring in: every GM had the last name Snowstorm, a cheeky homage to Blizzard. They also all had jokes!\nWe can't know for sure if this is a one-time event or if we'll be seeing GMs more often in…",
-      "category": "Forever",
-      "date": "2026-11-07T19:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56063-gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever"
     }
   ],
   "blizzard": null
