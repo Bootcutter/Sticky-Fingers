@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-09T22:01:15.564Z",
+  "generatedAt": "2026-11-10T03:38:46.714Z",
   "news": [
+    {
+      "id": "wowhead-383817",
+      "source": "Wowhead",
+      "title": "Blizzard Made Character Creation on Higher Population Faction Increasingly Difficult",
+      "description": "To maintain faction balance on PvP servers, Blizzard has adjusted their character creation system and it will become increasingly more difficult to create a character on the more populated faction.",
+      "details": "Blizzard wants to maintain as close to a 50/50 faction balance as possible on PvP realms, and is making it harder to create characters on the more populated faction. While realms are at worst a 55/45 split, they want them closer. The more populated faction in each region is:\nHorde on PvP NA\nAlliance on EU RPPVP\nIt’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.\nTo better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like…",
+      "category": "Forever",
+      "date": "2026-11-10T02:08:11.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56081-blizzard-made-character-creation-on-higher-population-faction-increasingly.jpg",
+      "url": "https://www.wowhead.com/news=383817/blizzard-made-character-creation-on-higher-population-faction-increasingly"
+    },
     {
       "id": "wowhead-383815",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-07T19:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56063-gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever"
-    },
-    {
-      "id": "wowhead-383781",
-      "source": "Wowhead",
-      "title": "Black Market Auction House, Global Raid Launch, Quest Helpers - MrGM Interview on WoW: Forever",
-      "description": "MrGM interviewed Kris Zierhut and Josh Greenfield on WoW: Forever and discussed the Black Market Auction House, Quest Helpers and more",
-      "details": "Follow MrGM on YouTube and X (Twitter).\nWe've summarized the key points from the interview below.\nInteresting Storylines to Pay Attention To\nThe Riverglades has a fun dynamic and interplays with Warcraft 2\nThe Undead Paladin stuff is near and dear to Aggrend's Heart\nHyjal can be seen from anywhere and it's really cool to finally see it\nA cool storyline to pay attention to is what's going on with the Skyborne. They aren't just an island in Skywall. There's a much deeper history, especially in the history of Desolace and Dire Maul. Pay attention to who you're talking to when you go to Shen'dralas.\nMaps and Flying\nThey want to fill in the map as if you could fly.\nThey are not going to put in Flying mounts in this game, ever.\nThey wanted it to be built out in a way that you could fly over it, where there are no empty voids.\nGilneas\nThe World team can copy and paste World Chunks.\nThey have…",
-      "category": "Forever",
-      "date": "2026-11-07T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56050-black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on.jpg",
-      "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on"
     }
   ],
   "blizzard": null
