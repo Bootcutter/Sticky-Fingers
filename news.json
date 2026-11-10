@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-11-10T16:25:22.207Z",
+  "generatedAt": "2026-11-10T23:55:29.302Z",
   "news": [
+    {
+      "id": "wowhead-383832",
+      "source": "Wowhead",
+      "title": "Blizzard Adding Gold to Many Quests Near Max Level in WoW: Forever",
+      "description": "Blizzard is adding gold to most quests above level 48, including ones that never previously rewarded gold at all!",
+      "details": "Blizzard has now confirmed via a Blue Post that the XP-to-Gold conversion has been removed in WoW: Forever and their reasons for the change. However, they agree that this is a little too negative for Gold income near level 60, so they'll be hotfixing in additional gold rewards to most quests above level 48 with the next 24 hours.\nWhen we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced in 2006 in the weeks leading up the original Burning Crusade launch, and it was intended to provide a boost in gold for players who were wrapping up original WoW content in preparation for the first expansion.\nWe left that functionality in place in Classic Era in 2019, but we decided that for WoW: Forever, we would remove the XP to Gold conversion, as it created an…",
+      "category": "Forever",
+      "date": "2026-11-10T21:58:16.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56099-blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours.jpg",
+      "url": "https://www.wowhead.com/news=383832/blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours"
+    },
+    {
+      "id": "wowhead-383831",
+      "source": "Wowhead",
+      "title": "Dungeon Experience in WoW: Forever is Now 60% of Classic Era - Blizzard Happy with Dungeon Level Speeds",
+      "description": "Blizzard has confirmed that dungeon experience in WoW: Forever is now 60% of Classic era values, and that they feel the adjustment is working well.",
+      "details": "We’ve tracked this very carefully, and the hotfix that we deployed on Sunday, November 8 took dungeon kill XP from 40% of the values in Classic Era to 60% of the values in Classic Era. We have subsequently felt that the adjustment is working well to produce dungeon leveling speeds that fit with the rest of WoW Forever content.",
+      "category": "Forever",
+      "date": "2026-11-10T21:52:03.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56097-dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with.jpg",
+      "url": "https://www.wowhead.com/news=383831/dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with"
+    },
+    {
+      "id": "wowhead-383828",
+      "source": "Wowhead",
+      "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
+      "description": "With the weekly reset, many items had their Vendor Prices changed on WoW: Forever, likely targeting Vendor Shuffles.",
+      "details": "Shuffles are a popular gold-making tactic because they take cheap materials and mass-convert them into more expensive items. This usually results in a profit that can quickly stack up over time if players manage to find one and take advantage of it because this is essentially just adding gold into the economy. This is typically why developers usually fix these quickly.\nOne of the most notable shuffles in Classic is the Iron Grenades shuffle, which took a Iron Bar, Heavy Blasting Powder and Silk Cloth and turned them into multiple Iron Grenades. When prices on the materials are low enough, you could turn 5 silver of vendor materials into 3 Iron Grenades worth 5 silver each.\nRecent hotfixes appear to have changed the vendor prices of various crafted items, including reducing the vendor price of Iron Grenades. However, it wasn't all nerfs, as some items actually had their vendor price…",
+      "category": "Forever",
+      "date": "2026-11-10T21:05:09.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56094-vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed.jpg",
+      "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed"
+    },
+    {
+      "id": "wowhead-383826",
+      "source": "Wowhead",
+      "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
+      "description": "Some Warlock and Hunter class tuning is now live in WoW: Forever.",
+      "details": "Last week, Blizzard announced upcoming class tuning that should go be going live today. While not all the changes are in yet, we've found a change to the Enhancement Shaman class weapon and now some additional changes for Hunters and Warlocks.\nHunter\nHunters are getting some mana changes to two of their spells.\nSummon Hawk now costs a flat 11% base Mana at all ranks.\nArcane Shot now costs a flat 11% base Mana at all ranks.\nWarlocks\nSome of the changes from the announced class tuning are here for Warlocks. This likely aims to address the spamming of Wrack even without DoTs.\nSoul Siphon now specifically names Corruption, Siphon Life, and Bane of Agony (was other Affliction effects) to increase the effects of Drain Life, Drain Soul, and Wrack.\nWrack now deals less damage per tick, but while channeling, Siphon Life, Corruption and Bane of Agony's tick rate increases by 100%.\nImp's Firebolt…",
+      "category": "Forever",
+      "date": "2026-11-10T20:16:31.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56093-warlock-and-hunter-class-tuning-now-live-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383824",
+      "source": "Wowhead",
+      "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
+      "description": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon.",
+      "details": "Blizzard recently announced class changes, which address Enhancement Shamans wanting too much spell power gear. They announced that Enhancement Shamans would want to collect Strength and Attack Power gear for the upcoming class changes. As part of this change, the Shaman class weapon, which comes from The Tempest's Weapons / The Tempest's Weapons, has been hotfixed to change the attack speed and the stats.\nRage of the Storm\nAttack Speed changed to 3.6 (was 3.2)\nNow has +16 Strength (replaces +12 Intellect)\nOld · 1.60.1.70888\nRage of the Storm\nItem Level 40\nBinds when picked up\nMaceTwo-Hand\nSpeed 3.2091 - 137 Damage\n(35.6 damage per second)\n+12 Intellect\n+15 Stamina\nEquip: Increases the damage dealt by your Stormstrike ability by 10%.\nDurability 105 / 105\nSell Price: OLD\nNew · 1.60.1.70888 (hotfixes 2026-11-10 19:04 UTC)\nRage of the Storm\nItem Level 40\nBinds when picked…",
+      "category": "Forever",
+      "date": "2026-11-10T19:12:35.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56088-enhancement-shaman-class-weapon-hotfixed-on-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever"
+    },
     {
       "id": "wowhead-383145",
       "source": "Wowhead",
@@ -44,61 +99,6 @@
       "date": "2026-11-10T04:30:43.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56084-drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for.jpg",
       "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for"
-    },
-    {
-      "id": "wowhead-383817",
-      "source": "Wowhead",
-      "title": "Blizzard Made Character Creation on Higher Population Faction Increasingly Difficult",
-      "description": "To maintain faction balance on PvP servers, Blizzard has adjusted their character creation system and it will become increasingly more difficult to create a character on the more populated faction.",
-      "details": "Blizzard wants to maintain as close to a 50/50 faction balance as possible on PvP realms, and is making it harder to create characters on the more populated faction. While realms are at worst a 55/45 split, they want them closer. The more populated faction in each region is:\nHorde on PvP NA\nAlliance on EU RPPVP\nIt’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.\nTo better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like…",
-      "category": "Forever",
-      "date": "2026-11-10T02:08:11.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56081-blizzard-made-character-creation-on-higher-population-faction-increasingly.jpg",
-      "url": "https://www.wowhead.com/news=383817/blizzard-made-character-creation-on-higher-population-faction-increasingly"
-    },
-    {
-      "id": "wowhead-383815",
-      "source": "Wowhead",
-      "title": "Blizzard Taking Down WoW: Forever Servers Shortly",
-      "description": "Blizzard has announced via in-game server messages that they are taking down the WoW: Forever servers briefly.",
-      "details": "The WoW: Forever servers are coming down for a short brief amount of time, according to in-game server messages.\nSorry, we have to take the servers down briefly. A few mischievous murlocs have invaded the server room, and they're refusing to stop mrrglglgl-ing at everything.",
-      "category": "Forever",
-      "date": "2026-11-09T21:55:05.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56077-blizzard-taking-down-wow-forever-servers-shortly.jpg",
-      "url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly"
-    },
-    {
-      "id": "wowhead-383801",
-      "source": "Wowhead",
-      "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
-      "description": "The Cozy Sleeping Bag in WoW: Forever gives you a 3% experience buff and is worth going out of your way for, even though it does take a while to get.",
-      "details": "The Cozy Sleeping Bag in World of Warcraft: Forever is a quest chain that takes you traveling all around Azeroth. It gives good experience as you go, but the primary draw is that the final stage rewards the Cozy Sleeping Bag. Some players may have been familiar with this quest chain from Season of Discovery, but now that Forever is released, there's no better time to grab a sleeping bag and get cozy.\nCollecting the Cozy Sleeping Bag may sound like a bit of a chore that could be skipped, but when you are viewing the path ahead to level 60, it really is a detour you should take sooner rather than later.\nAlliance Route Directions Horde Route Directions\nAs Alliance, getting the sleeping bag takes approximately 89 minutes. Horde are coming in a little slower at approximately 103 minutes; this is due to the third step being closer to Alliance's second step (Horde have to go Barrens > Westfall…",
-      "category": "Forever",
-      "date": "2026-11-09T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56067-level-faster-with-your-cozy-sleeping-bag-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383808",
-      "source": "Wowhead",
-      "title": "Blizzard Buffs Dungeon Enemy Experience Gains",
-      "description": "Blizzard has just buffed the experience gains from dungeon creatures by a massive 50%.",
-      "details": "After the dungeon changes buffed experience from dungeon quests and nerfed dungeon experience from mobs, many players adopted a one-and-done strategy for dungeons. Players felt like it was not worth their time to do it again, since the majority of the experience was from the quests themselves. With this hotfix, it won't feel as bad to run a dungeon again if your friends need help.\nAt about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.\nHappy dungeon crawling, and good luck with those Deviate Hides!",
-      "category": "Forever",
-      "date": "2026-11-08T19:52:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56073-blizzard-buffs-dungeon-enemy-experience-gains.jpg",
-      "url": "https://www.wowhead.com/news=383808/blizzard-buffs-dungeon-enemy-experience-gains"
-    },
-    {
-      "id": "wowhead-383792",
-      "source": "Wowhead",
-      "title": "Everything About WoW: Forever Raids - Joardee Interview on WoW: Forever",
-      "description": "Joardee interviewed Josh Greenfield and Tim Jones on WoW: Forever and discussed everything about WoW: Forever's raids!",
-      "details": "Check out Joardee on his YouTube Channel, Twitch, and Twitter.\nWe've summarized the key points from the interview below.\nRaid Philosophy\nTim Jones is really excited about having different raids.\nWhen we go back to Blackwing Lair and Molten Core, they want it to feel familiar but new.\nNarratively, they plan to use those raids to mark various points in time.\nFor Season of Discovery, Scarlet Enclave was super fun and creative, but maybe too challenging.\nThey maybe pushed things too far at the end of SoD with the complexity of boss fights and tuning.\nWill be really exciting when they can reincorporate Scarlet Enclave back into Forever down the road.\nThey want the encounters to be approachable. Somewhere in the realms of the difficulty and complexity of the Season of Mastery raids and baseline Naxx.\nThey'll be keeping the same visual language of Vanilla raids: no gigantic visual outlines on…",
-      "category": "Forever",
-      "date": "2026-11-08T19:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56060-everything-about-wow-forever-raids-joardee-interview-on-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383792/everything-about-wow-forever-raids-joardee-interview-on-wow-forever"
     }
   ],
   "blizzard": null
