@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:55:39.658Z",
+  "generatedAt": "2026-11-11T04:58:33.460Z",
   "region": "EU",
   "guild": {
     "id": 110163,
@@ -2579,10 +2579,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/157/1348509-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/157/1348509-avatar.jpg",
           "box": {
-            "x": 609,
-            "y": 360,
-            "w": 291,
-            "h": 624,
+            "x": 530,
+            "y": 335,
+            "w": 370,
+            "h": 649,
             "W": 1600,
             "H": 1200
           }
@@ -11702,8 +11702,8 @@
         "race": "Orc",
         "className": "Warlock",
         "level": 29,
-        "experience": 3568,
-        "lastLogin": "2026-11-10T22:41:18.000Z",
+        "experience": 13610,
+        "lastLogin": "2026-11-11T00:16:24.000Z",
         "itemLevel": 22,
         "achievementPoints": 0,
         "title": null,
@@ -11763,7 +11763,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 182,
+            "skill": 189,
             "max": 225,
             "recipes": 2,
             "known": [
@@ -11774,14 +11774,32 @@
           {
             "name": "Cooking",
             "type": "secondary",
-            "skill": 1,
-            "max": 75,
-            "recipes": 4,
+            "skill": 225,
+            "max": 225,
+            "recipes": 22,
             "known": [
               "Basic Campfire",
+              "Big Bear Steak",
+              "Boiled Clams",
+              "Brilliant Smallfish",
+              "Bristle Whisker Catfish",
               "Charred Wolf Meat",
+              "Coyote Steak",
+              "Crab Cake",
+              "Dry Pork Ribs",
+              "Goblin Deviled Clams",
               "Herb Baked Egg",
-              "Roasted Boar Meat"
+              "Hot Lion Chops",
+              "Longjaw Mud Snapper",
+              "Mithril Headed Trout",
+              "Rainbow Fin Albacore",
+              "Roasted Boar Meat",
+              "Rockscale Cod",
+              "Skywall Souffle",
+              "Slitherskin Mackerel",
+              "Smoked Sagefish",
+              "Soothing Turtle Bisque",
+              "Spiced Wolf Meat"
             ]
           },
           {
@@ -11808,7 +11826,7 @@
               "type": "Head",
               "sub": "Cloth",
               "armor": "33 Armor",
-              "durability": "Durability 45 / 45"
+              "durability": "Durability 38 / 45"
             }
           },
           {
@@ -11868,7 +11886,7 @@
                 "Equip: Reduces damage from falling."
               ],
               "req": "Requires Level 23",
-              "durability": "Durability 45 / 45"
+              "durability": "Durability 38 / 45"
             }
           },
           {
@@ -11902,7 +11920,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 70 / 70"
+              "durability": "Durability 58 / 70"
             }
           },
           {
@@ -11924,7 +11942,7 @@
                 }
               ],
               "req": "Requires Level 13",
-              "durability": "Durability 20 / 20"
+              "durability": "Durability 17 / 20"
             }
           },
           {
@@ -11958,7 +11976,7 @@
                 }
               ],
               "req": "Requires Level 24",
-              "durability": "Durability 65 / 65"
+              "durability": "Durability 57 / 65"
             }
           },
           {
@@ -11987,7 +12005,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 30 / 30"
+              "durability": "Durability 26 / 30"
             }
           },
           {
@@ -12012,7 +12030,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 20 / 20"
+              "durability": "Durability 15 / 20"
             }
           },
           {
@@ -12038,7 +12056,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 20 / 20",
+              "durability": "Durability 17 / 20",
               "set": "Rotmender's Raiment (1/5)"
             }
           },
@@ -12137,8 +12155,11 @@
                   "g": true
                 }
               ],
+              "enchants": [
+                "Firestone 1"
+              ],
               "req": "Requires Level 20",
-              "durability": "Durability 90 / 90"
+              "durability": "Durability 81 / 90"
             }
           },
           {
@@ -12165,7 +12186,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 65 / 65"
+              "durability": "Durability 59 / 65"
             }
           }
         ],
@@ -12196,8 +12217,8 @@
               314
             ],
             "defense": [
-              135,
-              135
+              138,
+              138
             ]
           },
           "resistances": {
@@ -12222,13 +12243,13 @@
             "min": 30,
             "max": 57,
             "hit": 0,
-            "crit": 4.4,
+            "crit": 4.5,
             "haste": 0
           },
           "spell": {
             "healing": 51,
             "hit": 0,
-            "crit": 4.5,
+            "crit": 5.5,
             "haste": 0,
             "penetration": 0,
             "regen": 101,
@@ -12240,41 +12261,41 @@
           "health": 861,
           "power": 1447,
           "powerType": "Mana",
-          "crit": 4.5,
+          "crit": 5.5,
           "haste": 0,
-          "dodge": 4.2,
+          "dodge": 4.4,
           "attackPower": 32,
           "spellPower": 45,
           "dps": 18
         },
-        "questsCompleted": 204,
+        "questsCompleted": 207,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 1183,
+            "value": 1308,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 5502,
+            "value": 5552,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 3471,
+            "value": 3521,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 2022,
+            "value": 2147,
             "max": 6000,
             "tier": 4
           },
@@ -12334,8 +12355,8 @@
             "Times camped": 75,
             "Health potions consumed": 18,
             "Beverages consumed": 17,
-            "Food eaten": 56,
-            "Healthstones used": 15,
+            "Food eaten": 57,
+            "Healthstones used": 17,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 14,
@@ -12350,36 +12371,36 @@
             "Mutanus the Devourer kills (Wailing Caverns)": 1,
             "Archmage Arugal kills (Shadowfang Keep)": 2,
             "Aku'mai kills (Blackfathom Deeps)": 1,
-            "Total kills": 3333,
-            "Total kills that grant experience or honor": 3133,
-            "Creatures killed": 3285,
+            "Total kills": 3352,
+            "Total kills that grant experience or honor": 3151,
+            "Creatures killed": 3304,
             "Different creature types killed": 8,
-            "Creature type killed the most": 1767,
+            "Creature type killed the most": 1768,
             "Critters killed": 48,
-            "Total Killing Blows": 1277,
-            "World Killing Blows": 984,
+            "Total Killing Blows": 1296,
+            "World Killing Blows": 1003,
             "Continent with the most Killing Blows": 613,
-            "Total deaths": 78,
+            "Total deaths": 79,
             "Total raid and dungeon deaths": 7,
             "Total deaths in 5-player dungeons": 7,
             "Deaths from falling": 4,
             "Revived by druids": 7,
             "Redeemed by paladins": 3,
-            "Resurrected by soulstones": 7,
-            "Quests completed": 182,
+            "Resurrected by soulstones": 8,
+            "Quests completed": 184,
             "Average quests completed per day": 0,
-            "Quests abandoned": 22,
+            "Quests abandoned": 26,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 2,
             "Weapon skills at maximum skill": 5,
-            "Cooking skill": 1,
-            "Cooking Recipes known": 10,
+            "Cooking skill": 225,
+            "Cooking Recipes known": 50,
             "Fishing skill": 1,
             "Highest Skinning skill": 182,
             "Highest Tailoring skill": 75,
             "Tailoring Patterns learned": 62,
-            "Flight paths taken": 50,
+            "Flight paths taken": 51,
             "Summons accepted": 1,
             "Number of times hearthed": 19
           },

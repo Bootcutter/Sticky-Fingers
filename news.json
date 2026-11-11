@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-10T23:55:29.302Z",
+  "generatedAt": "2026-11-11T04:58:27.014Z",
   "news": [
+    {
+      "id": "wowhead-383837",
+      "source": "Wowhead",
+      "title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
+      "description": "Blizzard has posted hotfixes for today, which includes a pet nerf for Hunters, a pet buff for Warlocks, Enhancement Shaman changes and more!",
+      "details": "Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 10, 2026\nAuction House\nWith realm restarts:\nAdjusted the minimum deposit amount to 1 copper (was 1 silver).\nFixed a bug causing unread mail to incorrectly read as from ‘Stormwind Auction House’ for all players.\nFixed a bug that was causing some mail to be delivered in about 2 minutes, rather than the intended 60-minute delivery time.\nClasses\nDruid\nFixed an issue where Omen of Clarity could not activate after swapping specializations.\nRestoration\nNature's Swiftness now also makes Wild Growth instant.\nHunter\nFixed a bug where Pets erroneously had 150% of their normal health. This is now corrected to 115% of their normal health.\nArcane Shot mana cost changed to 11% of base Mana for all ranks of Arcane…",
+      "category": "Forever",
+      "date": "2026-11-11T03:30:15.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56103-hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november.jpg",
+      "url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november"
+    },
+    {
+      "id": "wowhead-383833",
+      "source": "Wowhead",
+      "title": "Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever",
+      "description": "Blizzard has fixed an issue with missing Shaman totems due to server issues on Monday.",
+      "details": "Yesterday, at around 1 PM PST time, the WoW servers had issues and needed to come down for emergency maintenance. During this time, players reported some issues, including missing totems on Shamans such as Fire Totem. Blizzard has addressed this and it should be restored now.\nWe have just deployed a fix for this to all regions. Shamans who lost a totem due to the crash should find it restored to their bag.\nShamans who experienced the disappearance, who are currently in-game, will need to make sure you have bag space, and then logout and back in to receive them.",
+      "category": "Forever",
+      "date": "2026-11-11T01:13:27.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56101-blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow.jpg",
+      "url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow"
+    },
     {
       "id": "wowhead-383832",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-10T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56076-every-quest-for-level-20-to-30-dungeons-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383813",
-      "source": "Wowhead",
-      "title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
-      "description": "A New extensive quest chain to unlock potentially powerful weapons has been discovered in WoW: Forever, thanks to the Secret Finding Discord!",
-      "details": "A new, extensive secret chain dubbed the \"Dawn Waker Secret\" has been discovered in WoW: Forever, thanks to the Secret Finding Discord!\nDawn Waker Overview Guide WoW Forever\nPlayers in the Secret Finding Discord community have helped us put together an extensive guide on what we know so far about this incredibly extensive secret chain, starting in Zephras Isle, requiring the Night Watchman's Torch from Duskwood, and taking players all over the map! Although the current reward for the end is unknown, at the end of Part 1 you will be able to claim Eluvi'ana, a one-handed sword of uncommon quality. It is probably worth keeping hold of this in case you get the chance to upgrade it at some point.\nEluvi'ana\nPlayers are speculating that this is potentially tied to the secret message written on the board in the sixth episode of the WoW: Forever Podcast. As more information is discovered, we'll…",
-      "category": "Forever",
-      "date": "2026-11-10T14:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56078-new-dawn-waker-secret-found-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383819",
-      "source": "Wowhead",
-      "title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
-      "description": "Blizzard has posted hotfixes for today, which includes many class bug fixes, a nerf to The Drowned City, and reducing the population in zones with significant population.",
-      "details": "Hotfixes\nNovember 9, 2026\nClasses\nDruid\nThe Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned.\nIdol of Ferocity no longer lists Mangle as an ability it discounts.\nFeral\nFixed an issue where Feral Charge (Cat) was not putting the Druid in combat right away.\nFixed an issue where Natural Instinct was not applying correctly to Lacerate or Pounce.\nFixed an issue where the Pounce Stun debuff was not showing in the enemy debuffs while active.\nHunter\nVulgara the Insatiable and the Shrieklings of Zephras should now belong to the correct hunter pet families.\nFixed an issue causing Hunters to sometimes aggro enemies from very far away by targeting them.\nMage\nFlamestirke’s ticks on the ground no longer incorrectly consume clearcasting.\nArcane Concentration’s activation chance now correctly splits across the cast and every bolt (was granting 10% on cast and per…",
-      "category": "Forever",
-      "date": "2026-11-10T04:30:43.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56084-drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for.jpg",
-      "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for"
     }
   ],
   "blizzard": null
