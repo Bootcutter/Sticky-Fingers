@@ -1,0 +1,18 @@
+{
+  "motd": {
+    "text": "Welcome to Offline Chat. Raid nights: flasks on, addons updated, and somebody please answer in guild chat.",
+    "author": "",
+    "date": ""
+  },
+  "ticker": [
+    "FOR THE ALLIANCE. AFTER THE READY CHECK.",
+    "STATUS: ONLINE. CHAT: OFFLINE."
+  ],
+  "ranks": {
+    "0": "Guild Master",
+    "1": "Officer",
+    "2": "Raider",
+    "3": "Member",
+    "4": "Initiate"
+  }
+}

@@ -218,11 +218,11 @@ function portraitSvg(member) {
       <defs>
         <radialGradient id="${id}g" cx="50%" cy="40%" r="62%">
           <stop offset="0" stop-color="${color}" stop-opacity=".55"/>
-          <stop offset=".45" stop-color="#3a0c12" stop-opacity=".9"/>
-          <stop offset="1" stop-color="#060405"/>
+          <stop offset=".45" style="stop-color: var(--ph-mid, #3a0c12)" stop-opacity=".9"/>
+          <stop offset="1" style="stop-color: var(--ph-end, #060405)"/>
         </radialGradient>
         <linearGradient id="${id}b" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#140b0d"/><stop offset="1" stop-color="#040303"/>
+          <stop offset="0" style="stop-color: var(--ph-top, #140b0d)"/><stop offset="1" stop-color="#040303"/>
         </linearGradient>
         <filter id="${id}f" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4"/></filter>
       </defs>
