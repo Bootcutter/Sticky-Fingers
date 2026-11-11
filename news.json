@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-11T14:32:00.565Z",
+  "generatedAt": "2026-11-11T19:48:50.145Z",
   "news": [
+    {
+      "id": "wowhead-383843",
+      "source": "Wowhead",
+      "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast Featuring Tips Out",
+      "description": "This week's episode of Pull10 features Jorkerd, one of the five people to get world first level 60 in WoW: Forever, in just under 3 days!",
+      "details": "Pull 10 is a WoW Forever podcast hosted by content creators Joardee, rencognito, and JurdiJD. This week, they're joined by special guest Jokerd, organizer of the current WoW: Forever Beta Tournament with a $100,000 dollar prize pool!\nThe Race to World First 60: What was the preparation like, and how has WoW: Forever felt compared to previous Classic games and other MMORPGS?\nSubscribe to the Pull 10 YouTube channel for weekly episodes, follow them on Twitter, subscribe to their Patreon for excluisive content, and be sure to check out the Classic+ Project to vote and discuss everything you think should be included in World of Warcraft: Forever.",
+      "category": "Forever",
+      "date": "2026-11-11T19:42:15.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56107-jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast.jpg",
+      "url": "https://www.wowhead.com/news=383843/jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast"
+    },
+    {
+      "id": "wowhead-383835",
+      "source": "Wowhead",
+      "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
+      "description": "Dual spec is available in WoW: Forever, but it costs 50 gold!",
+      "details": "While the Classic 20th Anniversary Realms didn't release Dual Spec at launch , WoW: Forever features Dual spec right from the start if you have enough gold! Once you reach level 40 in WoW: Forever, your class trainer allows you to purchase your secondary talent tree for 50 gold.\nYour secondary spec (Dual spec) allows you to have a second separate talent build, which you can swap to and from this secondary talent build whenever you want. As respeccing your talent tree costs an increasing amount of Gold, dual spec allows players to have two different talent builds for whatever reason. Maybe you want to have a build for Tank and DPS, or a build for PvE and a build for PvP. Dual spec is very versatile, especially when you plan on swapping your talent builds frequently.\n50 Gold is a large amount of currency, especially when it unlocks at the same level when players also want to unlock their…",
+      "category": "Forever",
+      "date": "2026-11-11T18:29:47.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56102-dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree.png",
+      "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree"
+    },
+    {
+      "id": "wowhead-383825",
+      "source": "Wowhead",
+      "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
+      "description": "The Drowned City is a new dungeon that challenges players in the Level 37-42 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside!",
+      "details": "Drowned City Dungeon Guide\nOur dungeon guide has everything you'll need to tackle this dungeon: where to find it, boss strategies, notable trash, and more. Stay tuned for our Dungeon Journal tool to update as well!\nNew Dungeon: The Drowned City\nDrowned City is a level 37-42 Dungeon located in Stranglethorn Vale, off the far coast west of the peninsula. This is a major step up in difficulty compared to the previous dungeons in WoW: Forever, and players will need to pay attention to mechanics more than usual.\nDrowned City Quests\nThere are a total of 5 quests for this dungeon for both the Alliance and Horde. Two are located in Booty Bay and are neutral quests, one direct pickup for both factions, and the last two being unlocked through a series of quests prior.\nThe Drowned City quests include:\nQuestLevelSideEffortShare?Starts\nMagics of the Drowned City\n(leads to The Web of Magic)30…",
+      "category": "Forever",
+      "date": "2026-11-11T16:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56089-explore-the-drowned-city-new-dungeon-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383829",
+      "source": "Wowhead",
+      "title": "Gelkis or Magram: Which to Pick in WoW: Forever?",
+      "description": "When you start questing in Desolace in WoW: Forever, there are two competing clans to choose from - the Gelkis or the Magram. Which side is the better choice?",
+      "details": "When you reach Desolace around level 35 in World of Warcraft: Forever, you have the option to side with one of two rival clans: the Gelkis or the Magram. As you gain reputation with one, you lose it with the other, so you will have to choose carefully.\nGelkis Clan Centaur Reputation Guide Magram Clan Centaur Reputation Guide\nRegardless of which faction you choose, you will be able to acquire all 12 crafting recipes (2 per crafting profession); however, the requirements are different for each faction, so it will be easier to get the recipes you are after if you pick the right side.\nEnchanters, Leatherworkers, and Tailors\nPlayers with one of these three professions will probably want to side with the Gelkis clan.\nFor the Gelkis, these recipes require Honored to purchase for 15x Carved Centaur Totem, and one recipe for each profession can be obtained from a quest which only requires…",
+      "category": "Forever",
+      "date": "2026-11-11T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56095-gelkis-or-magram-which-to-pick-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever"
+    },
     {
       "id": "wowhead-383827",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-10T21:52:03.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56097-dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with.jpg",
       "url": "https://www.wowhead.com/news=383831/dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with"
-    },
-    {
-      "id": "wowhead-383828",
-      "source": "Wowhead",
-      "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
-      "description": "With the weekly reset, many items had their Vendor Prices changed on WoW: Forever, likely targeting Vendor Shuffles.",
-      "details": "Shuffles are a popular gold-making tactic because they take cheap materials and mass-convert them into more expensive items. This usually results in a profit that can quickly stack up over time if players manage to find one and take advantage of it because this is essentially just adding gold into the economy. This is typically why developers usually fix these quickly.\nOne of the most notable shuffles in Classic is the Iron Grenades shuffle, which took a Iron Bar, Heavy Blasting Powder and Silk Cloth and turned them into multiple Iron Grenades. When prices on the materials are low enough, you could turn 5 silver of vendor materials into 3 Iron Grenades worth 5 silver each.\nRecent hotfixes appear to have changed the vendor prices of various crafted items, including reducing the vendor price of Iron Grenades. However, it wasn't all nerfs, as some items actually had their vendor price…",
-      "category": "Forever",
-      "date": "2026-11-10T21:05:09.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56094-vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed.jpg",
-      "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed"
-    },
-    {
-      "id": "wowhead-383826",
-      "source": "Wowhead",
-      "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
-      "description": "Some Warlock and Hunter class tuning is now live in WoW: Forever.",
-      "details": "Last week, Blizzard announced upcoming class tuning that should go be going live today. While not all the changes are in yet, we've found a change to the Enhancement Shaman class weapon and now some additional changes for Hunters and Warlocks.\nHunter\nHunters are getting some mana changes to two of their spells.\nSummon Hawk now costs a flat 11% base Mana at all ranks.\nArcane Shot now costs a flat 11% base Mana at all ranks.\nWarlocks\nSome of the changes from the announced class tuning are here for Warlocks. This likely aims to address the spamming of Wrack even without DoTs.\nSoul Siphon now specifically names Corruption, Siphon Life, and Bane of Agony (was other Affliction effects) to increase the effects of Drain Life, Drain Soul, and Wrack.\nWrack now deals less damage per tick, but while channeling, Siphon Life, Corruption and Bane of Agony's tick rate increases by 100%.\nImp's Firebolt…",
-      "category": "Forever",
-      "date": "2026-11-10T20:16:31.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56093-warlock-and-hunter-class-tuning-now-live-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383824",
-      "source": "Wowhead",
-      "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
-      "description": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon.",
-      "details": "Blizzard recently announced class changes, which address Enhancement Shamans wanting too much spell power gear. They announced that Enhancement Shamans would want to collect Strength and Attack Power gear for the upcoming class changes. As part of this change, the Shaman class weapon, which comes from The Tempest's Weapons / The Tempest's Weapons, has been hotfixed to change the attack speed and the stats.\nRage of the Storm\nAttack Speed changed to 3.6 (was 3.2)\nNow has +16 Strength (replaces +12 Intellect)\nOld · 1.60.1.70888\nRage of the Storm\nItem Level 40\nBinds when picked up\nMaceTwo-Hand\nSpeed 3.2091 - 137 Damage\n(35.6 damage per second)\n+12 Intellect\n+15 Stamina\nEquip: Increases the damage dealt by your Stormstrike ability by 10%.\nDurability 105 / 105\nSell Price: OLD\nNew · 1.60.1.70888 (hotfixes 2026-11-10 19:04 UTC)\nRage of the Storm\nItem Level 40\nBinds when picked…",
-      "category": "Forever",
-      "date": "2026-11-10T19:12:35.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56088-enhancement-shaman-class-weapon-hotfixed-on-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever"
-    },
-    {
-      "id": "wowhead-383145",
-      "source": "Wowhead",
-      "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
-      "description": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood.",
-      "details": "With the Secret Finders hot on the trail of a secret that starts on Zephras Isle, players looking to help or complete the secret themselves will need to snag a torch that was initially discovered on the Forever beta.\nNight Watchman's Torch Guide Dawn Waker Secret Guide\nHidden in Duskwood lies a slain Night Watch Guard. What caused this poor guard's demise is unknown, but more importantly, players will notice that this slain guard has a quest!\nThis quest is an instant turn-in that rewards players with the Night Watchman's Torch, an item players can use to help light up dark areas around them. This item can currently be used anywhere in the world except for inns and capital cities.\nWhile the torch is only used in one portion of the secret, it sets a precedent - any new content added in Forever could play a role in future (or even current) secrets, so it's worthwhile for players to seek it…",
-      "category": "Forever",
-      "date": "2026-11-10T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/55505-secret-hunt-in-wow-forever-with-the-night-watchmans-torch.jpg",
-      "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch"
     }
   ],
   "blizzard": null
