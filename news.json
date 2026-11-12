@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-11-12T17:09:17.953Z",
+  "generatedAt": "2026-11-12T22:42:52.262Z",
   "news": [
+    {
+      "id": "wowhead-383855",
+      "source": "Wowhead",
+      "title": "Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever",
+      "description": "In the latest episode of the WoW: Forever podcast, Blizzard has confirmed that the SoD exclusive raid, The Scarlet Enclave, will eventually return in WoW: Forever!",
+      "details": "When discussing the potential favorite characters, lore, and stories to bring into the WoW: Forever universe, Aggrend brought up some of his personal favorites, including the Season of Discovery exclusive raid: The Scarlet Enclave.\n\"I mentioned Vol'jin; I think that's one I'm really excited to dive into, but I've been fortunate enough that I've been able to touch the Ashbringer a little bit, you know... Scarlet Enclave will return. The Ashbringer will return at some point; it might be a while, but that's going to come back.\"\nAlong with the Scarlet Enclave, the story of The Ashbringer will also return, potentially along with this raid, \"at some point\" in WoW: Forever. The Scarlet Enclave and The Ashbringer's story, created with familiar lore characters like the Dreadlord Balnazzar, and brand new Scarlet Crusade lore characters such as Caldoran and Beatrix, were very well received as the…",
+      "category": "Forever",
+      "date": "2026-11-12T22:02:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56115-season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383860",
+      "source": "Wowhead",
+      "title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
+      "description": "Players have discovered a new high-level Battle Mage weapon called Wit's Edge in WoW: Forever!",
+      "details": "Battle Mage is an archetype of mage that tends to use spells and melee attacks to defeat their foes. This hasn't been supported in past World of Warcraft, as Mage is traditionally a ranged DPS. With a new level 60 weapon discovered in WoW: Forever, Battle Mages may have some potential at max level!\nThis weapon provides some spell power and spell piercing, but also has a very unique effect: Wit's End. On a melee swing, there's a 15% chance for the Mage to gain Clearcasting. This could lead to some interesting rotations, where Mages want to weave in some melee swings between swings to get free casts.\nHow to Obtain Wit's End Weapon\nWit's Edge is an item created by using a Scroll of Wit on the Witchblade.\nScroll of Wit can be discovered through a Mage's comprehension skill on the level 175 skill scrolls, according to Reddit user Kissta96.\nWitchblade drops from Darkmaster Gandling in…",
+      "category": "Forever",
+      "date": "2026-11-12T19:25:01.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56122-new-high-level-battle-mage-weapon-discovered-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383858",
+      "source": "Wowhead",
+      "title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
+      "description": "Blizzard has confirmed that the Enhancement Shaman changes are now live.",
+      "details": "Enhancement Shaman Guide\nPlease note:\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.\nClasses\nShaman\nWeapon imbues and Weapon totems can now be used at the same time.\nEnhancement\nStormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).\nMental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).\nMaelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).\nMaelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the…",
+      "category": "Forever",
+      "date": "2026-11-12T19:12:41.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56118-enhancement-shaman-class-changes-now-live.jpg",
+      "url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live"
+    },
+    {
+      "id": "wowhead-383854",
+      "source": "Wowhead",
+      "title": "\"Start Making Other Arrangements\" - Josh Greenfield on Locking Character Creation on PvP Rulesets",
+      "description": "In episode 7 of the WoW: Forever podcast, Josh Greenfield comments on locking character creation on PvP rulesets, noting that Horde players who have not made a character on most PvP and RP-PVP realms should \"start…",
+      "details": "A few days ago, Blizzard announced that they are addressing overall faction balance on PvP servers. To do this, they made it harder to create a character on the more popular faction on PvP and RP-PVP realms, most of which are Horde. In the most recent podcast episode, Josh Greenfield (Aggrend) recommends that players who are looking to roll on those most populous factions should \"start making other arrangements.\" This likely indicates that this faction lock will be in place for a longer period of time.\nWe've kind of tightened it up a little bit. Unfortunately, that means if you haven't made a Horde character, you're going to want to start making other arrangements at this point because we kind of had to clamp that down.\nAggrend comments that one of the most important things on a PvP server is faction balance, and so they're super dedicated to maintaining that balance. Blizzard allows…",
+      "category": "Forever",
+      "date": "2026-11-12T17:58:03.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56114-start-making-other-arrangements-josh-greenfield-expands-on-pvp-ruleset-character.jpg",
+      "url": "https://www.wowhead.com/news=383854/start-making-other-arrangements-josh-greenfield-expands-on-pvp-ruleset-character"
+    },
+    {
+      "id": "wowhead-383853",
+      "source": "Wowhead",
+      "title": "The WoW: Forever Podcast Episode 7 Now Available - Lore Episode",
+      "description": "The WoW: Forever podcast continues! Episode 7 is here and the team is talking about the lore.",
+      "details": "in Episode 7 of the WoW: Forever podcast, the team is talking all about the Lore with special guests:\nSean Copeland, Lore Historial Lead\nPlatinum WoW\nNobbel87",
+      "category": "Forever",
+      "date": "2026-11-12T17:37:38.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56113-the-wow-forever-podcast-episode-7-now-available-lore-episode.jpg",
+      "url": "https://www.wowhead.com/news=383853/the-wow-forever-podcast-episode-7-now-available-lore-episode"
+    },
     {
       "id": "wowhead-383842",
       "source": "Wowhead",
@@ -44,61 +99,6 @@
       "date": "2026-11-12T04:14:59.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56112-restoration-druid-change-to-wild-growth-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383848",
-      "source": "Wowhead",
-      "title": "Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026",
-      "description": "Blizzard has posted hotfixes for today, which changes the crafting cost and bag size of some Tailoring Bags and disables Item Restoration.",
-      "details": "Certain Tailoring bags now cost more cloth to make, but make bigger bags.\nVarious mobs in the Riverglades have been nerfed in damage.\nVarious class changes and bug fixes.\nVarious Quest fixes\nHotfixes\nNovember 11, 2026\nClasses\nDruid\nFeral\nRend and Tear now works on Pounce Bleed.\nHunter\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would continue to channel even when the Hunter had started moving.\nPaladin\nJudgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.\nRetribution\nWith the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.\nPriest\nConfounding Flash (Gnome) can now correctly be used while in Shadowform.\nHoly\nThe Twilight…",
-      "category": "Forever",
-      "date": "2026-11-12T00:52:58.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56111-tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026.png",
-      "url": "https://www.wowhead.com/news=383848/tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026"
-    },
-    {
-      "id": "wowhead-383843",
-      "source": "Wowhead",
-      "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast",
-      "description": "This week's episode of Pull10 features Jorkerd, one of the five people to get world first level 60 in WoW: Forever, in just under 3 days!",
-      "details": "Pull 10 is a WoW Forever podcast hosted by content creators Joardee, rencognito, and JurdiJD. This week, they're joined by special guest Jokerd, one of the five World First level 60 players in Forever!\nThe Race to World First 60: What was the preparation like, and how has WoW: Forever felt compared to previous Classic games and other MMORPGS?\nSubscribe to the Pull 10 YouTube channel for weekly episodes, follow them on Twitter, subscribe to their Patreon for excluisive content, and be sure to check out the Classic+ Project to vote and discuss everything you think should be included in World of Warcraft: Forever.",
-      "category": "Forever",
-      "date": "2026-11-11T19:42:15.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56107-jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast.jpg",
-      "url": "https://www.wowhead.com/news=383843/jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast"
-    },
-    {
-      "id": "wowhead-383835",
-      "source": "Wowhead",
-      "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
-      "description": "Dual spec is available in WoW: Forever, but it costs 50 gold!",
-      "details": "While the Classic 20th Anniversary Realms didn't release Dual Spec at launch , WoW: Forever features Dual spec right from the start if you have enough gold! Once you reach level 40 in WoW: Forever, your class trainer allows you to purchase your secondary talent tree for 50 gold.\nYour secondary spec (Dual spec) allows you to have a second separate talent build, which you can swap to and from this secondary talent build whenever you want. As respeccing your talent tree costs an increasing amount of Gold, dual spec allows players to have two different talent builds for whatever reason. Maybe you want to have a build for Tank and DPS, or a build for PvE and a build for PvP. Dual spec is very versatile, especially when you plan on swapping your talent builds frequently.\n50 Gold is a large amount of currency, especially when it unlocks at the same level when players also want to unlock their…",
-      "category": "Forever",
-      "date": "2026-11-11T18:29:47.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56102-dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree.png",
-      "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree"
-    },
-    {
-      "id": "wowhead-383825",
-      "source": "Wowhead",
-      "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
-      "description": "The Drowned City is a new dungeon that challenges players in the Level 37-42 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside!",
-      "details": "Drowned City Dungeon Guide\nOur dungeon guide has everything you'll need to tackle this dungeon: where to find it, boss strategies, notable trash, and more. Stay tuned for our Dungeon Journal tool to update as well!\nNew Dungeon: The Drowned City\nDrowned City is a level 37-42 Dungeon located in Stranglethorn Vale, off the far coast west of the peninsula. This is a major step up in difficulty compared to the previous dungeons in WoW: Forever, and players will need to pay attention to mechanics more than usual.\nDrowned City Quests\nThere are a total of 5 quests for this dungeon for both the Alliance and Horde. Two are located in Booty Bay and are neutral quests, one direct pickup for both factions, and the last two being unlocked through a series of quests prior.\nThe Drowned City quests include:\nQuestLevelSideEffortShare?Starts\nMagics of the Drowned City\n(leads to The Web of Magic)30…",
-      "category": "Forever",
-      "date": "2026-11-11T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56089-explore-the-drowned-city-new-dungeon-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383829",
-      "source": "Wowhead",
-      "title": "Gelkis or Magram: Which to Pick in WoW: Forever?",
-      "description": "When you start questing in Desolace in WoW: Forever, there are two competing clans to choose from - the Gelkis or the Magram. Which side is the better choice?",
-      "details": "When you reach Desolace around level 35 in World of Warcraft: Forever, you have the option to side with one of two rival clans: the Gelkis or the Magram. As you gain reputation with one, you lose it with the other, so you will have to choose carefully.\nGelkis Clan Centaur Reputation Guide Magram Clan Centaur Reputation Guide\nRegardless of which faction you choose, you will be able to acquire all 12 crafting recipes (2 per crafting profession); however, the requirements are different for each faction, so it will be easier to get the recipes you are after if you pick the right side.\nEnchanters, Leatherworkers, and Tailors\nPlayers with one of these three professions will probably want to side with the Gelkis clan.\nFor the Gelkis, these recipes require Honored to purchase for 15x Carved Centaur Totem, and one recipe for each profession can be obtained from a quest which only requires…",
-      "category": "Forever",
-      "date": "2026-11-11T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56095-gelkis-or-magram-which-to-pick-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever"
     }
   ],
   "blizzard": null
