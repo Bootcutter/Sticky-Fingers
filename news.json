@@ -1,12 +1,23 @@
 {
-  "generatedAt": "2026-11-11T19:48:50.145Z",
+  "generatedAt": "2026-11-12T01:42:12.595Z",
   "news": [
+    {
+      "id": "wowhead-383848",
+      "source": "Wowhead",
+      "title": "Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026",
+      "description": "Blizzard has posted hotfixes for today, which changes the crafting cost and bag size of some Tailoring Bags and disables Item Restoration.",
+      "details": "Certain Tailoring bags now cost more cloth to make, but make bigger bags.\nVarious mobs in the Riverglades have been nerfed in damage.\nVarious class changes and bug fixes.\nVarious Quest fixes\nHotfixes\nNovember 11, 2026\nClasses\nDruid\nFeral\nRend and Tear now works on Pounce Bleed.\nHunter\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would continue to channel even when the Hunter had started moving.\nPaladin\nJudgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.\nRetribution\nWith the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.\nPriest\nConfounding Flash (Gnome) can now correctly be used while in Shadowform.\nHoly\nThe Twilight…",
+      "category": "Forever",
+      "date": "2026-11-12T00:52:58.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56111-tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026.png",
+      "url": "https://www.wowhead.com/news=383848/tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026"
+    },
     {
       "id": "wowhead-383843",
       "source": "Wowhead",
-      "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast Featuring Tips Out",
+      "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast",
       "description": "This week's episode of Pull10 features Jorkerd, one of the five people to get world first level 60 in WoW: Forever, in just under 3 days!",
-      "details": "Pull 10 is a WoW Forever podcast hosted by content creators Joardee, rencognito, and JurdiJD. This week, they're joined by special guest Jokerd, organizer of the current WoW: Forever Beta Tournament with a $100,000 dollar prize pool!\nThe Race to World First 60: What was the preparation like, and how has WoW: Forever felt compared to previous Classic games and other MMORPGS?\nSubscribe to the Pull 10 YouTube channel for weekly episodes, follow them on Twitter, subscribe to their Patreon for excluisive content, and be sure to check out the Classic+ Project to vote and discuss everything you think should be included in World of Warcraft: Forever.",
+      "details": "Pull 10 is a WoW Forever podcast hosted by content creators Joardee, rencognito, and JurdiJD. This week, they're joined by special guest Jokerd, one of the five World First level 60 players in Forever!\nThe Race to World First 60: What was the preparation like, and how has WoW: Forever felt compared to previous Classic games and other MMORPGS?\nSubscribe to the Pull 10 YouTube channel for weekly episodes, follow them on Twitter, subscribe to their Patreon for excluisive content, and be sure to check out the Classic+ Project to vote and discuss everything you think should be included in World of Warcraft: Forever.",
       "category": "Forever",
       "date": "2026-11-11T19:42:15.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56107-jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast.jpg",
@@ -88,17 +99,6 @@
       "date": "2026-11-10T21:58:16.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56099-blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours.jpg",
       "url": "https://www.wowhead.com/news=383832/blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours"
-    },
-    {
-      "id": "wowhead-383831",
-      "source": "Wowhead",
-      "title": "Dungeon Experience in WoW: Forever is Now 60% of Classic Era - Blizzard Happy with Dungeon Level Speeds",
-      "description": "Blizzard has confirmed that dungeon experience in WoW: Forever is now 60% of Classic era values, and that they feel the adjustment is working well.",
-      "details": "We’ve tracked this very carefully, and the hotfix that we deployed on Sunday, November 8 took dungeon kill XP from 40% of the values in Classic Era to 60% of the values in Classic Era. We have subsequently felt that the adjustment is working well to produce dungeon leveling speeds that fit with the rest of WoW Forever content.",
-      "category": "Forever",
-      "date": "2026-11-10T21:52:03.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56097-dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with.jpg",
-      "url": "https://www.wowhead.com/news=383831/dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with"
     }
   ],
   "blizzard": null
