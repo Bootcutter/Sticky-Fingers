@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-12T01:42:12.595Z",
+  "generatedAt": "2026-11-12T08:51:09.714Z",
   "news": [
+    {
+      "id": "wowhead-383851",
+      "source": "Wowhead",
+      "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
+      "description": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever.",
+      "details": "Restoration Druid Guide\nIn a hotfix today, Restoration Druids got a few changes to Wild Growth, the capstone talent in their tree.\nWild Growth\nCan no longer be cast while moving.\nSpell power coefficient increased by 100% to 0.066 (was 0.033)\nIt's unclear why Wild Growth could be cast while moving with the launch of WoW: Forever, but this is no longer the case. In its place, though, is Wild Growth getting double the spell power benefit, likely to help offset the nerf.",
+      "category": "Forever",
+      "date": "2026-11-12T04:14:59.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56112-restoration-druid-change-to-wild-growth-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever"
+    },
     {
       "id": "wowhead-383848",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-11T01:13:27.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56101-blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow.jpg",
       "url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow"
-    },
-    {
-      "id": "wowhead-383832",
-      "source": "Wowhead",
-      "title": "Blizzard Adding Gold to Many Quests Near Max Level in WoW: Forever",
-      "description": "Blizzard is adding gold to most quests above level 48, including ones that never previously rewarded gold at all!",
-      "details": "Blizzard has now confirmed via a Blue Post that the XP-to-Gold conversion has been removed in WoW: Forever and their reasons for the change. However, they agree that this is a little too negative for Gold income near level 60, so they'll be hotfixing in additional gold rewards to most quests above level 48 with the next 24 hours.\nWhen we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced in 2006 in the weeks leading up the original Burning Crusade launch, and it was intended to provide a boost in gold for players who were wrapping up original WoW content in preparation for the first expansion.\nWe left that functionality in place in Classic Era in 2019, but we decided that for WoW: Forever, we would remove the XP to Gold conversion, as it created an…",
-      "category": "Forever",
-      "date": "2026-11-10T21:58:16.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56099-blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours.jpg",
-      "url": "https://www.wowhead.com/news=383832/blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours"
     }
   ],
   "blizzard": null
