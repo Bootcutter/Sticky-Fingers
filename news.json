@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-13T02:55:31.491Z",
+  "generatedAt": "2026-11-13T18:02:26.911Z",
   "news": [
+    {
+      "id": "wowhead-383857",
+      "source": "Wowhead",
+      "title": "Might of Stormwind World Buff Returns in WoW: Forever",
+      "description": "First introduced in Season of Discovery, the Might of Stormwind World Buff has returned for Alliance players in WoW: Forever.",
+      "details": "The Might of Stormwind buff was introduced in SoD to be a direct 1:1 to the Horde's Warchief's Blessing buff, since prior to Season of Discovery, the Horde only had access to this Haste and Health world buff. Similar to the Horde getting their buff, Alliance players must complete End of the Dark Horde by looting the Head of Rend Blackhand off of Warchief Rend Blackhand in Upper Blackrock Spire. As a reminder, world buffs are only accessible in the open world and dungeons, and not in raid instances in WoW: Forever",
+      "category": "Forever",
+      "date": "2026-11-13T17:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56116-might-of-stormwind-world-buff-returns-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383857/might-of-stormwind-world-buff-returns-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383859",
+      "source": "Wowhead",
+      "title": "Secret Disguise Toy Found WoW: Forever",
+      "description": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison.",
+      "details": "A new secret toy, the Alcaz Operative Insignia, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. All the information for this secret has once again come from The WoW Secret Finding Discord!\nHow to Acquire the Alcaz Operative Disguise Toy\nPlayers can start this chain by entering and clearing out the dungeon of Alcaz prison. When doing so, DO NOT kill the first boss: The Questioner, as you will need him for the quest you pick up at the end of the dungeon: The Man in the Iron Chains.\nPlayers will then travel to Moonbrook in Westfall and then either Stormwind for Alliance or Booty Bay for Horde to be awarded the Fractured Insignia. Combining six of these will award the player the Alcaz Operative Insignia,\nBefore and After - Credit: @Aluuni",
+      "category": "Forever",
+      "date": "2026-11-13T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56119-secret-disguise-toy-found-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever"
+    },
     {
       "id": "wowhead-383846",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-12T17:37:38.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56113-the-wow-forever-podcast-episode-7-now-available-lore-episode.jpg",
       "url": "https://www.wowhead.com/news=383853/the-wow-forever-podcast-episode-7-now-available-lore-episode"
-    },
-    {
-      "id": "wowhead-383842",
-      "source": "Wowhead",
-      "title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
-      "description": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time!",
-      "details": "With Nintendo's recently released remaster of this iconic game for the Switch 2, it looks like Blizzard developers want to show some love for this game. According to our database, these boots can drop off of any boss within the new dungeon in WoW Forever: The Drowned City.\nIn The Legend of Zelda games, players acquire Iron Boots that allow players to walk at the bottom of bodies of water, but only walk slowly on land. According to this post on Reddit, when players equip these boots in WoW Forever, they'll mimic the same features!\nThis isn't the first reference to The Legend of Zelda in World of Warcraft, as the character Linken has existed since World of Warcraft's creation back in 2004. Players in Un'Goro Crater can unlock a series of quests by discovering It's a Secret to Everybody, leading players to get the powerful Linken's Sword of Mastery (the Master Sword!)\nFans of both Blizzard…",
-      "category": "Forever",
-      "date": "2026-11-12T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56106-loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383807",
-      "source": "Wowhead",
-      "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
-      "description": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party!",
-      "details": "Cozy Sleeping Bag Guide\nThe Cozy Sleeping Bag is an item added to WoW: Forever that grants an experience buff for 2 hours. For every minute that you spend lying down in the sleeping bag, you'll get a 1% experience buff, which stacks up to 3 times for a 3% bonus experience. Getting the Sleeping Bag takes you on an adventure across multiple zones and can take around 1 to 2 hours, which is a pretty significant investment.\nFor players who don't want to farm the Sleeping Bag, you can actually get cozy in another person's sleeping bag. If you see someone using a sleeping bag on the floor, you can ask them to join their party and use it to get the buff.",
-      "category": "Forever",
-      "date": "2026-11-12T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56074-party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow.jpg",
-      "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow"
     }
   ],
   "blizzard": null
