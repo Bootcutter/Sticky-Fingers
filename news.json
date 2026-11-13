@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-12T22:42:52.262Z",
+  "generatedAt": "2026-11-13T02:55:31.491Z",
   "news": [
+    {
+      "id": "wowhead-383846",
+      "source": "Wowhead",
+      "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
+      "description": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold!",
+      "details": "There have been some changes to the Gold Economy in WoW: Forever, from the Experience to Gold conversion being disabled, extra Quest Gold for higher level quests, the Auction House Deposit being increased to 1 Silver temporarily on launch, and more. Another change is a new quest for players who reach the max level of 60.\nLocated in Booty Bay, In Demand - Ancient Elven Curiosities is offered to level 60 players every week. For the two weeks that the game has been active, the quest has been the same both times: collect three items from the three wings of Dire Maul. This quest may change in the future, as we've only seen two weekly resets so far.\nOnce you've completed all three Dire Maul wings and looted all the items, turn in the quest back in Booty Bay to be awarded a Undermine Satchel. This Satchel contains one item that vendors for Gold and some other materials. The Gold item can…",
+      "category": "Forever",
+      "date": "2026-11-13T01:10:58.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56126-new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383862",
+      "source": "Wowhead",
+      "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
+      "description": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars!",
+      "details": "Dual Spec can be purchased at level 40 for 50 Gold, allowing you to have a secondary talent tree. However, once you learn Dual Spec, there's an annoying bug that can occur whenever you log out.\nFor some reason, after you learn Dual Spec, you can randomly have some of your Action Bars reset after you log out. This doesn't always seem to be the case, and it can happen to different bars every time. While this doesn't affect combat capabilities, it can be annoying to log in and see a bar completely reset.\nScreenshot Credit: Reloe. After logging in, the top-left bars are missing (Left Image) and have to be reimported (Right Image).\nDue to this bug, many players have downloaded the Myslot addon. This addon was designed to help you save and import your UI across accounts, PCs, or on a new alt, but this addon has become very useful for filling your missing Action Bars every time they reset due…",
+      "category": "Forever",
+      "date": "2026-11-12T22:45:42.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56123-dual-spec-bug-causes-empty-action-bars-after-logging-out.jpg",
+      "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out"
+    },
     {
       "id": "wowhead-383855",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-12T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56074-party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow.jpg",
       "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow"
-    },
-    {
-      "id": "wowhead-383818",
-      "source": "Wowhead",
-      "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
-      "description": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy.",
-      "details": "But Why Tho? Interview\nWe've summarized the key points from the interview below.\nBuilding on Classic\nThe team played a lot of classic WoW. They did the dungeons and raids, and looked at the complexity and fight duration.\nThey wanted additions in Forever to feel authentic and cohesive\nRaids and Dungeons\nThey often brainstorm how to make each boss super unique and different.\nInitial ideas of bosses felt a little more like Retail bosses, where characters were moving a lot or the bosses had a lot of moving parts.\nThey have an awesome QA group that playtests their encounters.\nThere's a lot of creativity to explore quirky mechanics and let players explore class buttons.\nFuture Content\nNew Patches could contain a new PvP season, reputation, crafting recipes, profession updates, zones, quests, mysteries, secrets, dungeons, and more.\nPlayers should expect more content for all players at all…",
-      "category": "Forever",
-      "date": "2026-11-12T14:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56082-catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview.jpg",
-      "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview"
-    },
-    {
-      "id": "wowhead-383851",
-      "source": "Wowhead",
-      "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
-      "description": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever.",
-      "details": "Restoration Druid Guide\nIn a hotfix today, Restoration Druids got a few changes to Wild Growth, the capstone talent in their tree.\nWild Growth\nCan no longer be cast while moving.\nSpell power coefficient increased by 100% to 0.066 (was 0.033)\nIt's unclear why Wild Growth could be cast while moving with the launch of WoW: Forever, but this is no longer the case. In its place, though, is Wild Growth getting double the spell power benefit, likely to help offset the nerf.",
-      "category": "Forever",
-      "date": "2026-11-12T04:14:59.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56112-restoration-druid-change-to-wild-growth-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever"
     }
   ],
   "blizzard": null
