@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-14T03:27:23.049Z",
+  "generatedAt": "2026-11-14T16:44:36.755Z",
   "news": [
+    {
+      "id": "wowhead-383880",
+      "source": "Wowhead",
+      "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+      "description": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience.",
+      "details": "Blizzard recently released a large set of hotfixes to dungeons, quests, NPCs, items, and more. These hotfixes had a change to dungeon experience, where if a mob is trivial to anyone in the group it will grant zero experience. Mobs turn grey when a player is too high-level and the mob is considered \"trivial\".\nWhile dungeon experience is nerfed in WoW: Forever at 60% of the original values, all experience still helps you level up. Inviting a high-level player to a dungeon can now remove a decent chunk of raw experience points from mob kills across an entire dungeon.\nBlizzardKilling enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.\nThis can get complicated, as trash mobs are typically a couple of levels lower than bosses and many players want to be the appropriate level for them. Some…",
+      "category": "Forever",
+      "date": "2026-11-14T16:16:46.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56141-dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party.jpg",
+      "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party"
+    },
+    {
+      "id": "wowhead-383861",
+      "source": "Wowhead",
+      "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
+      "description": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre!",
+      "details": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: Turning the player into an Ogre!\nOne of the new dungeons in WoW: Forever, the Krol'dok Stronghold, has a new set of gear for Protection Warriors and Paladins with the Krol'dok Battlegear. Some pieces, such as the Krol'dok Warplate Pauldrons, are BoE, while others like the Krol'dok Warplate Helmet are BoP drops from bosses within the dungeon. When players acquire all 5 pieces, not only do they benefit from all the set bonuses, but they also transform into an Ogre after reaching the max stacks from the set bonus!\nBlizzard has not only added new dungeon sets to Forever dungeons, such as Rotmender's Raiment from Ruins of Lordaeron or Violet Sorcerer's Vestments from the City of Dalaran, but has also updated Classic dungeon sets such as the Embrace of the…",
+      "category": "Forever",
+      "date": "2026-11-14T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56121-new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever"
+    },
     {
       "id": "wowhead-383876",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-13T18:03:42.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56127-new-short-story-cost-of-honor-for-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever"
-    },
-    {
-      "id": "wowhead-383857",
-      "source": "Wowhead",
-      "title": "Might of Stormwind World Buff Returns in WoW: Forever",
-      "description": "First introduced in Season of Discovery, the Might of Stormwind World Buff has returned for Alliance players in WoW: Forever.",
-      "details": "The Might of Stormwind buff was introduced in SoD to be a direct 1:1 to the Horde's Warchief's Blessing buff, since prior to Season of Discovery, the Horde only had access to this Haste and Health world buff. Similar to the Horde getting their buff, Alliance players must complete End of the Dark Horde by looting the Head of Rend Blackhand off of Warchief Rend Blackhand in Upper Blackrock Spire. As a reminder, world buffs are only accessible in the open world and dungeons, and not in raid instances in WoW: Forever",
-      "category": "Forever",
-      "date": "2026-11-13T17:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56116-might-of-stormwind-world-buff-returns-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383857/might-of-stormwind-world-buff-returns-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383859",
-      "source": "Wowhead",
-      "title": "Secret Disguise Toy Found WoW: Forever",
-      "description": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison.",
-      "details": "A new secret toy, the Alcaz Operative Insignia, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. All the information for this secret has once again come from The WoW Secret Finding Discord!\nHow to Acquire the Alcaz Operative Disguise Toy\nPlayers can start this chain by entering and clearing out the dungeon of Alcaz prison. When doing so, DO NOT kill the first boss: The Questioner, as you will need him for the quest you pick up at the end of the dungeon: The Man in the Iron Chains.\nPlayers will then travel to Moonbrook in Westfall and then either Stormwind for Alliance or Booty Bay for Horde to be awarded the Fractured Insignia. Combining six of these will award the player the Alcaz Operative Insignia,\nBefore and After - Credit: @Aluuni",
-      "category": "Forever",
-      "date": "2026-11-13T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56119-secret-disguise-toy-found-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever"
     }
   ],
   "blizzard": null
