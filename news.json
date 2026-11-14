@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-14T16:44:36.755Z",
+  "generatedAt": "2026-11-14T20:58:13.662Z",
   "news": [
+    {
+      "id": "wowhead-383871",
+      "source": "Wowhead",
+      "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
+      "description": "Krol'dok Stronghold is a new dungeon that challenges players in the Level 40-45 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside!",
+      "details": "Krol'dok Stronghold Dungeon Guide\nOur dungeon guide has everything you'll need to tackle this dungeon: where to find it, boss strategies, notable trash, and more. Stay tuned for our Dungeon Journal tool to update as well!\nNew Dungeon: Krol'dok Stronghold\nKrol'dok Stronghold is a level 40-45 Dungeon located in the new zone Riverglades. This is a very large dungeon, as players have infiltrated the capital city of the Krol'dok Ogres, assisted by the Twilight's Hammer and Shadowhide Gnoll Clan of Redridge.\nKrol'dok Stronghold Quests\nThere are a total of 5 quests for Alliance and 4 for Horde. Both have very long chain quests that start in their respective faction quest hubs. Both Horde and Alliance should make sure to have 12 Iron Bars and 4 Thick Leather for the quest: Key Ingredients.\nKrol'dok Stronghold quests include:\nQuestLevelSideEffortShare?Starts\nVengeance of the Highborne37 Alterac…",
+      "category": "Forever",
+      "date": "2026-11-14T19:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56139-infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever"
+    },
     {
       "id": "wowhead-383880",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-13T18:12:25.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56128-the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly.jpg",
       "url": "https://www.wowhead.com/news=383869/the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly"
-    },
-    {
-      "id": "wowhead-383868",
-      "source": "Wowhead",
-      "title": "New Short Story “Cost of Honor” for WoW: Forever",
-      "description": "Blizzard has released a new short story for WoW: Forever called \"The Cost of Honor\"!",
-      "details": "As a storm rages in the skies above, the young people of the Riverglades gather around a campfire to hear the stories behind their history’s legends from the great Demar Brant. Through tales of war, sacrifice, and hard choices, they learn that the true strength of a people lies not in victory alone, but in the courage to protect one another.\nJoin Demar Brant for a special fireside telling of our newest short story, “Cost of Honor”.\nWritten By : Jonathan Maberry\nIllustrated By : Surfside 3D\nNarrated By : Peter Jessop as Demar Brant\nDownloadable PDF\nRead more stories and stay up to date on the latest World of Warcraft news at worldofwarcraft.blizzard.com/news.",
-      "category": "Forever",
-      "date": "2026-11-13T18:03:42.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56127-new-short-story-cost-of-honor-for-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever"
     }
   ],
   "blizzard": null
