@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-13T23:27:59.050Z",
+  "generatedAt": "2026-11-14T03:27:23.049Z",
   "news": [
+    {
+      "id": "wowhead-383876",
+      "source": "Wowhead",
+      "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
+      "description": "Blizzard has posted hotfixes for today, which includes many fixes to dungeons, quests, enemies, and classes!",
+      "details": "Issues with Diminishing Returns not applying have been fixed.\nLarge number of class bug fixes and changes.\nMany items has stats corrected.\nMany quests had issues corrected.\nMore players are allowed to win the Stranglethorn Fishing event.\nThe Dual spec bug has been fixed.\nMany enemies have been changed or fixed.\nNovember 13, 2026\nClasses\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when using stuns against creatures.\nDruid\nRestoration\nFixed a bug incorrectly allowing Wild Growth to be cast while moving.\nWild Growth spell healing coefficient increased to 6.6% (was 3.3%).\nMage\nFrost Nova is now correctly broken by damage from procs and damage from Blizzard.\nPaladin\nJudgement of Command now activates on-hit effects and counts as a melee attack.\nDevelopers’ notes: All other judgements will…",
+      "category": "Forever",
+      "date": "2026-11-14T01:59:35.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56138-many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for.jpg",
+      "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for"
+    },
+    {
+      "id": "wowhead-383875",
+      "source": "Wowhead",
+      "title": "Blizzard Refunding Gold for Players Who Purchased Skills During Monday Server Issues",
+      "description": "Blizzard is refunding gold to players who purchased skills during the server issues on Monday.",
+      "details": "Earlier this week, Blizzard was forced to take down the servers due to issues. During this time, players lost some purchases during this time including some skills and Shaman Totems. They seem to be working on resolving the issues.\nWith in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.\nIf you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.\nThank you very much for your patience and understanding.",
+      "category": "Forever",
+      "date": "2026-11-14T01:53:22.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56136-blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server.jpg",
+      "url": "https://www.wowhead.com/news=383875/blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server"
+    },
     {
       "id": "wowhead-383849",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-13T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56119-secret-disguise-toy-found-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever"
-    },
-    {
-      "id": "wowhead-383846",
-      "source": "Wowhead",
-      "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
-      "description": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold!",
-      "details": "There have been some changes to the Gold Economy in WoW: Forever, from the Experience to Gold conversion being disabled, extra Quest Gold for higher level quests, the Auction House Deposit being increased to 1 Silver temporarily on launch, and more. Another change is a new quest for players who reach the max level of 60.\nLocated in Booty Bay, In Demand - Ancient Elven Curiosities is offered to level 60 players every week. For the two weeks that the game has been active, the quest has been the same both times: collect three items from the three wings of Dire Maul. This quest may change in the future, as we've only seen two weekly resets so far.\nOnce you've completed all three Dire Maul wings and looted all the items, turn in the quest back in Booty Bay to be awarded a Undermine Satchel. This Satchel contains one item that vendors for Gold and some other materials. The Gold item can…",
-      "category": "Forever",
-      "date": "2026-11-13T01:10:58.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56126-new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383862",
-      "source": "Wowhead",
-      "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
-      "description": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars!",
-      "details": "Dual Spec can be purchased at level 40 for 50 Gold, allowing you to have a secondary talent tree. However, once you learn Dual Spec, there's an annoying bug that can occur whenever you log out.\nFor some reason, after you learn Dual Spec, you can randomly have some of your Action Bars reset after you log out. This doesn't always seem to be the case, and it can happen to different bars every time. While this doesn't affect combat capabilities, it can be annoying to log in and see a bar completely reset.\nScreenshot Credit: Reloe. After logging in, the top-left bars are missing (Left Image) and have to be reimported (Right Image).\nDue to this bug, many players have downloaded the Myslot addon. This addon was designed to help you save and import your UI across accounts, PCs, or on a new alt, but this addon has become very useful for filling your missing Action Bars every time they reset due…",
-      "category": "Forever",
-      "date": "2026-11-12T22:45:42.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56123-dual-spec-bug-causes-empty-action-bars-after-logging-out.jpg",
-      "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out"
     }
   ],
   "blizzard": null
