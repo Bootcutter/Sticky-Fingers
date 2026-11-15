@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-14T20:58:13.662Z",
+  "generatedAt": "2026-11-15T07:16:42.901Z",
   "news": [
+    {
+      "id": "wowhead-383883",
+      "source": "Wowhead",
+      "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
+      "description": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey!",
+      "details": "Many players were very critical of yesterday's dungeon experience change, with many reports across social media and the forums sharing their personal experience of how these changes affected them. Many players pointed how dungeons have a wide variety of mob levels, and how tanks and healers usually want to be overleveled for dungeons to make for easier dungeon runs, and how this change was excluding them from groups.\nBlizzard has clearly heard this feedback, admitted they \"missed the mark,\" and have made another change.\nYesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.\nWith hotfixes that are now live, we’ve just deployed a further change to…",
+      "category": "Forever",
+      "date": "2026-11-15T01:20:35.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56143-dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above.jpg",
+      "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above"
+    },
     {
       "id": "wowhead-383871",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-13T18:33:36.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56129-blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash.jpg",
       "url": "https://www.wowhead.com/news=383870/blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash"
-    },
-    {
-      "id": "wowhead-383869",
-      "source": "Wowhead",
-      "title": "The WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More! — WoW Weekly",
-      "description": "Blizzard has posted a recap of this week in WoW, highlighting the continuation of the WoW: Forever podcast, a new short story, and more!",
-      "details": "This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story, and enjoy this week’s videos and more!\nWatch the WoW: Forever Podcast – The Lore Episode\nJoin WoW: Forever Podcast host Countdown To Classic and special guests PlatinumWoW and Nobbel for a conversation with Senior Game Designer Josh “Aggrend” Greenfield and Lore Historian Lead Sean Copeland. Together, they dive deeper into the lore and story of World of Warcraft: Forever.\nPress play to go behind the lore with the developers.\nWatch the WoW: Forever Short Story, “Cost of Honor”\nAs a storm rages in the skies above, the young people of the Riverglades gather around a campfire to hear the stories behind their history’s legends from the…",
-      "category": "WoW",
-      "date": "2026-11-13T18:12:25.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56128-the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly.jpg",
-      "url": "https://www.wowhead.com/news=383869/the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly"
     }
   ],
   "blizzard": null
