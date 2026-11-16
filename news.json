@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-15T19:59:36.041Z",
+  "generatedAt": "2026-11-16T21:15:14.396Z",
   "news": [
+    {
+      "id": "wowhead-383897",
+      "source": "Wowhead",
+      "title": "Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever",
+      "description": "Blizzard has released a Forever 101 video, which serves as an overview for new players of WoW: Forever.",
+      "details": "This video serves as an intro to new players for WoW: Forever and covers:\nSocial features - The Recent Allies panel and Camping\nProfession\nCapital Cities\nStocking up on supplies.\nPortals and summons.\nGuilds.\nMax Level Content.",
+      "category": "Forever",
+      "date": "2026-11-16T18:10:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56150-forever-101-blizzard-releases-new-player-overview-video-for-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever"
+    },
+    {
+      "id": "wowhead-383806",
+      "source": "Wowhead",
+      "title": "Should WoW: Forever Dungeons Let Players Complete Quests in One Run?",
+      "description": "In WoW: Forever, dungeon quests may not guarantee being completed in one clear. Should this be adjusted, or is this better for the game?",
+      "details": "World of Warcraft: Forever launched with all Classic dungeons, plus brand-new ones. Within those dungeons, quests range from old and iconic ones, such as The Defias Brotherhood, to brand-new ones like Destruction in Deadmines. The question is, should running a dungeon once guarantee that all your quests are completed?\nWoW Forever Dungeons Overview\nVeteran WoW players are all too familiar with two particular Wailing Caverns quests: Deviate Hides and Smart Drinks, where, unless everyone else in your party has completed them prior, you will not get enough quest items in just one clear of the dungeon to complete your quest, requiring the players to reset the dungeon and go again. In Episode 3 of the WoW Forever podcast, Senior Game Designer Rowan Ryder clarifies that this is indeed intentional.\n\"Philosophically, the goal for how many times you should run dungeon, we don't necessarily want…",
+      "category": "Forever",
+      "date": "2026-11-16T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56071-should-wow-forever-dungeons-let-players-complete-quests-in-one-run.jpg",
+      "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run"
+    },
     {
       "id": "wowhead-383845",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-14T01:59:35.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56138-many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for.jpg",
       "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for"
-    },
-    {
-      "id": "wowhead-383875",
-      "source": "Wowhead",
-      "title": "Blizzard Refunding Gold for Players Who Purchased Skills During Monday Server Issues",
-      "description": "Blizzard is refunding gold to players who purchased skills during the server issues on Monday.",
-      "details": "Earlier this week, Blizzard was forced to take down the servers due to issues. During this time, players lost some purchases during this time including some skills and Shaman Totems. They seem to be working on resolving the issues.\nWith in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.\nIf you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.\nThank you very much for your patience and understanding.",
-      "category": "Forever",
-      "date": "2026-11-14T01:53:22.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56136-blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server.jpg",
-      "url": "https://www.wowhead.com/news=383875/blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server"
-    },
-    {
-      "id": "wowhead-383849",
-      "source": "Wowhead",
-      "title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
-      "description": "Many players have mentioned that the Riverglades is one of the best leveling zones in WoW: Forever, so make sure to visit on your journey to 60!",
-      "details": "Riverglades Zone Guide\nThe Riverglades is a brand new zone in WoW: Forever and has been designed to feel like it always belonged in Classic WoW. Many players have mentioned that the Riverglades is their favorite leveling zone on their journey to level 60, so make sure to check it out yourself!\nRiverglades Information\nThe Riverglades is a new zone on the east edge of the Eastern Kingdoms and it neighbors the Badlands and Redridge Mountains. This zone is designed for players around 38 to 44, though players recommend going there around level 40 in order to be the appropriate level for some quests. The main method to enter the zone is through the ship in Tanaris, east of Gadgetzhan.\nThis will drop you off at Powderfuse Port, the neutral town. There is also a faction-specific town, Farholde Keep for the Alliance and Rog'mar for the Horde.\nRiverglades Quests\nThe quests in the Riverglades are…",
-      "category": "Forever",
-      "date": "2026-11-13T23:08:44.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56134-riverglades-is-one-of-the-best-leveling-zones-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever"
     }
   ],
   "blizzard": null
