@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:15:24.974Z",
+  "generatedAt": "2026-11-17T03:59:00.883Z",
   "region": "EU",
   "guild": {
     "id": 110163,
@@ -51,7 +51,7 @@
       "surname": "Healsalot",
       "slug": "bosse-healsalot",
       "rank": 3,
-      "level": 33,
+      "level": 34,
       "classId": 5,
       "className": "Priest",
       "raceId": 5,
@@ -60,9 +60,9 @@
         "gender": "MALE",
         "race": "Undead",
         "className": "Priest",
-        "level": 32,
-        "experience": 37048,
-        "lastLogin": "2026-11-15T20:09:38.000Z",
+        "level": 34,
+        "experience": 13333,
+        "lastLogin": "2026-11-16T21:50:57.000Z",
         "itemLevel": 31,
         "achievementPoints": 0,
         "title": null,
@@ -71,7 +71,7 @@
           "trees": [
             {
               "name": "Discipline",
-              "points": 22
+              "points": 24
             },
             {
               "name": "Holy",
@@ -83,9 +83,9 @@
           {
             "name": "Alchemy",
             "type": "primary",
-            "skill": 203,
+            "skill": 225,
             "max": 225,
-            "recipes": 26,
+            "recipes": 31,
             "known": [
               "Blackmouth Oil",
               "Cerulean Dye",
@@ -100,6 +100,8 @@
               "Elixir of Minor Strength",
               "Elixir of Ogre Strength",
               "Elixir of Wisdom",
+              "Fire Oil",
+              "Greater Mana Potion",
               "Lesser Cleric's Elixir",
               "Lesser Frenzy Potion",
               "Lesser Mana Potion",
@@ -111,14 +113,17 @@
               "Minor Mana Potion",
               "Minor Rejuvenation Potion",
               "Minor Troll's Blood Elixir",
+              "Oil of Immolation",
+              "Philosopher's Stone",
               "Shadow Protection Potion",
-              "Sulfuric Acid"
+              "Sulfuric Acid",
+              "Swim Speed Potion"
             ]
           },
           {
             "name": "Herbalism",
             "type": "primary",
-            "skill": 188,
+            "skill": 213,
             "max": 225,
             "recipes": 4,
             "known": [
@@ -210,7 +215,7 @@
                 }
               ],
               "req": "Requires Level 30",
-              "durability": "Durability 50 / 50"
+              "durability": "Durability 49 / 50"
             }
           },
           {
@@ -235,30 +240,31 @@
           {
             "slot": "Shoulders",
             "slotType": "SHOULDER",
-            "id": 4197,
-            "name": "Berylline Pads",
+            "id": 7684,
+            "name": "Bloodmage Mantle",
             "quality": "RARE",
-            "level": 36,
+            "level": 35,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Shoulder",
               "sub": "Cloth",
-              "armor": "39 Armor",
+              "armor": "38 Armor",
               "stats": [
                 {
-                  "t": "+10 Intellect",
+                  "t": "+9 Intellect",
                   "g": false
                 },
                 {
-                  "t": "+5 Stamina",
-                  "g": false
+                  "t": "+9 Spell Power",
+                  "g": true
                 },
                 {
-                  "t": "+7 Spell Power",
+                  "t": "+9 Health Per 5 Sec.",
                   "g": true
                 }
               ],
-              "durability": "Durability 44 / 50"
+              "req": "Requires Level 30",
+              "durability": "Durability 50 / 50"
             }
           },
           {
@@ -303,7 +309,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 75 / 80"
+              "durability": "Durability 77 / 80"
             }
           },
           {
@@ -358,7 +364,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 52 / 55"
+              "durability": "Durability 54 / 55"
             }
           },
           {
@@ -392,7 +398,7 @@
                 }
               ],
               "req": "Requires Level 27",
-              "durability": "Durability 35 / 40"
+              "durability": "Durability 40 / 40"
             }
           },
           {
@@ -451,7 +457,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 17 / 20",
+              "durability": "Durability 19 / 20",
               "set": "Rotmender's Raiment (1/5)"
             }
           },
@@ -608,7 +614,7 @@
               "enchants": [
                 "Enchanted: Beastslaying +2"
               ],
-              "durability": "Durability 99 / 100"
+              "durability": "Durability 100 / 100"
             }
           },
           {
@@ -631,39 +637,39 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 51 / 55"
+              "durability": "Durability 54 / 55"
             }
           }
         ],
         "stats": {
           "attributes": {
             "strength": [
-              25,
-              34
+              26,
+              35
             ],
             "agility": [
               27,
               27
             ],
             "stamina": [
-              34,
-              84
+              35,
+              80
             ],
             "intellect": [
-              62,
-              103
+              66,
+              106
             ],
             "spirit": [
-              72,
-              136
+              75,
+              139
             ],
             "armor": [
               0,
-              357
+              356
             ],
             "defense": [
-              147,
-              147
+              153,
+              153
             ]
           },
           "resistances": {
@@ -674,10 +680,10 @@
             "shadow": 0
           },
           "melee": {
-            "min": 47.5,
-            "max": 69.5,
+            "min": 47.6,
+            "max": 69.6,
             "speed": 2.6,
-            "dps": 22.5,
+            "dps": 22.6,
             "offDps": 1.1,
             "hit": 0,
             "crit": 0,
@@ -688,59 +694,59 @@
             "min": 43.8,
             "max": 82.5,
             "hit": 0,
-            "crit": 4.9,
+            "crit": 4.7,
             "haste": 0
           },
           "spell": {
-            "healing": 161,
+            "healing": 163,
             "hit": 0,
-            "crit": 4.4,
+            "crit": 4.2,
             "haste": 0,
             "penetration": 0,
-            "regen": 123,
-            "regenCombat": 65
+            "regen": 125,
+            "regenCombat": 66
           },
           "parry": 0,
           "block": 0,
           "speed": 100,
-          "health": 1093,
-          "power": 1954,
+          "health": 1098,
+          "power": 2062,
           "powerType": "Mana",
-          "crit": 4.9,
+          "crit": 4.7,
           "haste": 0,
-          "dodge": 4.3,
-          "attackPower": 24,
-          "spellPower": 77,
-          "dps": 22.5
+          "dodge": 4.2,
+          "attackPower": 25,
+          "spellPower": 79,
+          "dps": 22.6
         },
-        "questsCompleted": 273,
-        "honorableKills": 0,
+        "questsCompleted": 289,
+        "honorableKills": 1,
         "reputations": [
           {
             "faction": "Undercity",
             "standing": "Honored",
-            "value": 5703,
+            "value": 5953,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 3728,
+            "value": 3903,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 1985,
+            "value": 2160,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 1618,
+            "value": 1868,
             "max": 6000,
             "tier": 4
           },
@@ -754,35 +760,35 @@
           {
             "faction": "Ratchet",
             "standing": "Neutral",
-            "value": 1746,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Everlook",
-            "standing": "Neutral",
-            "value": 1123,
+            "value": 1748,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Booty Bay",
             "standing": "Neutral",
-            "value": 1123,
+            "value": 1128,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 1125,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Gadgetzan",
             "standing": "Neutral",
-            "value": 1123,
+            "value": 1125,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Powderfuse",
             "standing": "Neutral",
-            "value": 1123,
+            "value": 1125,
             "max": 3000,
             "tier": 3
           },
@@ -804,20 +810,20 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 48,
+            "Times camped": 55,
             "Health potions consumed": 5,
-            "Mana potions consumed": 41,
+            "Mana potions consumed": 43,
             "Elixirs consumed": 5,
-            "Beverages consumed": 207,
-            "Food eaten": 57,
+            "Beverages consumed": 228,
+            "Food eaten": 66,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 15,
             "Mounts owned": 2,
-            "Greed rolls made on loot": 168,
-            "Need rolls made on loot": 21,
+            "Greed rolls made on loot": 183,
+            "Need rolls made on loot": 23,
             "Total deaths from other players": 1,
-            "Total 5-player dungeons entered": 17,
+            "Total 5-player dungeons entered": 19,
             "Edwin VanCleef Kills (Deadmines)": 1,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Shade of the Archmage Kills (City of Dalaran)": 1,
@@ -827,38 +833,41 @@
             "Aku'mai kills (Blackfathom Deeps)": 1,
             "Charlga Razorflank kills (Razorfen Kraul)": 2,
             "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
-            "Total kills": 4356,
-            "Total kills that grant experience or honor": 3752,
-            "Creatures killed": 4309,
+            "Total kills": 4975,
+            "Total kills that grant experience or honor": 4316,
+            "Creatures killed": 4919,
             "Different creature types killed": 9,
-            "Creature type killed the most": 2190,
-            "Critters killed": 47,
-            "Total Killing Blows": 1028,
-            "World Killing Blows": 845,
-            "Continent with the most Killing Blows": 640,
+            "Creature type killed the most": 2504,
+            "Critters killed": 55,
+            "Total Honorable Kills": 1,
+            "World Honorable Kills": 1,
+            "Continent with the most Honorable Kills": 1,
+            "Total Killing Blows": 1089,
+            "World Killing Blows": 893,
+            "Continent with the most Killing Blows": 672,
             "Total deaths": 7,
             "Total raid and dungeon deaths": 4,
             "Total deaths in 5-player dungeons": 4,
             "Resurrected by priests": 1,
             "Redeemed by paladins": 1,
-            "Quests completed": 221,
+            "Quests completed": 237,
             "Average quests completed per day": 0,
-            "Quests abandoned": 36,
+            "Quests abandoned": 39,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 3,
             "Weapon skills at maximum skill": 5,
             "Cooking skill": 225,
             "Cooking Recipes known": 42,
-            "First Aid skill": 285,
+            "First Aid skill": 307,
             "First Aid Manuals learned": 8,
             "Fishing skill": 1,
-            "Highest Alchemy skill": 203,
-            "Alchemy Recipes learned": 54,
-            "Highest Herbalism skill": 188,
+            "Highest Alchemy skill": 225,
+            "Alchemy Recipes learned": 64,
+            "Highest Herbalism skill": 204,
             "Flight paths taken": 51,
-            "Summons accepted": 8,
-            "Number of times hearthed": 28,
+            "Summons accepted": 10,
+            "Number of times hearthed": 30,
             "Total cheers": 3,
             "Total waves": 1
           },
@@ -985,6 +994,14 @@
               ]
             },
             {
+              "name": "Kills · Honorable Kills",
+              "stats": [
+                "Total Honorable Kills",
+                "World Honorable Kills",
+                "Continent with the most Honorable Kills"
+              ]
+            },
+            {
               "name": "Kills · Killing Blows",
               "stats": [
                 "Total Killing Blows",
@@ -1079,9 +1096,14 @@
         "mounts": 2,
         "pets": 5,
         "achievements": {
-          "total": 3,
+          "total": 4,
           "points": 0,
           "list": [
+            {
+              "id": 62013,
+              "name": "Expert Alchemist",
+              "date": "2026-11-16T16:35:00.000Z"
+            },
             {
               "id": 62031,
               "name": "Novice Spelunker",
@@ -1120,7 +1142,7 @@
       "surname": "Zelock",
       "slug": "krazake-zelock",
       "rank": 3,
-      "level": 34,
+      "level": 35,
       "classId": 9,
       "className": "Warlock",
       "raceId": 5,
@@ -1129,9 +1151,9 @@
         "gender": "MALE",
         "race": "Undead",
         "className": "Warlock",
-        "level": 34,
-        "experience": 179,
-        "lastLogin": "2026-11-16T08:19:37.000Z",
+        "level": 35,
+        "experience": 3766,
+        "lastLogin": "2026-11-16T21:44:25.000Z",
         "itemLevel": 32,
         "achievementPoints": 0,
         "title": null,
@@ -1140,7 +1162,7 @@
           "trees": [
             {
               "name": "Affliction",
-              "points": 25
+              "points": 26
             }
           ]
         },
@@ -1148,7 +1170,7 @@
           {
             "name": "Tailoring",
             "type": "primary",
-            "skill": 163,
+            "skill": 164,
             "max": 225,
             "recipes": 36,
             "known": [
@@ -1270,7 +1292,7 @@
           {
             "name": "Fishing",
             "type": "secondary",
-            "skill": 100,
+            "skill": 114,
             "max": 150,
             "recipes": 2,
             "known": [
@@ -1749,24 +1771,24 @@
               32
             ],
             "stamina": [
-              42,
-              86
+              43,
+              87
             ],
             "intellect": [
-              61,
-              126
+              62,
+              127
             ],
             "spirit": [
-              70,
-              93
+              72,
+              95
             ],
             "armor": [
               66,
               413
             ],
             "defense": [
-              149,
-              149
+              161,
+              161
             ]
           },
           "resistances": {
@@ -1791,59 +1813,59 @@
             "min": 30,
             "max": 57,
             "hit": 5,
-            "crit": 5.3,
+            "crit": 5.2,
             "haste": 0
           },
           "spell": {
             "healing": 113,
             "hit": 5,
-            "crit": 7.6,
+            "crit": 7.5,
             "haste": 0,
             "penetration": 0,
-            "regen": 89,
+            "regen": 90,
             "regenCombat": 0
           },
           "parry": 0,
           "block": 0,
           "speed": 100,
-          "health": 1151,
-          "power": 2362,
+          "health": 1184,
+          "power": 2413,
           "powerType": "Mana",
-          "crit": 7.6,
+          "crit": 7.5,
           "haste": 0,
-          "dodge": 3.7,
+          "dodge": 3.9,
           "attackPower": 21,
           "spellPower": 113,
           "dps": 27.2
         },
-        "questsCompleted": 304,
-        "honorableKills": 0,
+        "questsCompleted": 318,
+        "honorableKills": 1,
         "reputations": [
           {
             "faction": "Undercity",
             "standing": "Honored",
-            "value": 7883,
+            "value": 8046,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 2287,
+            "value": 2637,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 1912,
+            "value": 2225,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 1538,
+            "value": 1851,
             "max": 6000,
             "tier": 4
           },
@@ -1864,35 +1886,35 @@
           {
             "faction": "Ratchet",
             "standing": "Neutral",
-            "value": 815,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Everlook",
-            "standing": "Neutral",
-            "value": 657,
+            "value": 817,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Booty Bay",
             "standing": "Neutral",
-            "value": 657,
+            "value": 662,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 660,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Gadgetzan",
             "standing": "Neutral",
-            "value": 657,
+            "value": 660,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Powderfuse",
             "standing": "Neutral",
-            "value": 657,
+            "value": 660,
             "max": 3000,
             "tier": 3
           },
@@ -1907,19 +1929,19 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 51,
+            "Times camped": 58,
             "Bandages used": 13,
             "Bandage used most": 10,
             "Health potions consumed": 18,
             "Elixirs consumed": 4,
             "Beverages consumed": 11,
-            "Food eaten": 140,
-            "Healthstones used": 20,
+            "Food eaten": 154,
+            "Healthstones used": 21,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 15,
             "Mounts owned": 2,
-            "Greed rolls made on loot": 227,
+            "Greed rolls made on loot": 233,
             "Need rolls made on loot": 17,
             "Total 5-player dungeons entered": 16,
             "Edwin VanCleef Kills (Deadmines)": 1,
@@ -1932,46 +1954,49 @@
             "Aku'mai kills (Blackfathom Deeps)": 1,
             "Charlga Razorflank kills (Razorfen Kraul)": 1,
             "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
-            "Total kills": 4610,
-            "Total kills that grant experience or honor": 4205,
-            "Creatures killed": 4555,
+            "Total kills": 5070,
+            "Total kills that grant experience or honor": 4599,
+            "Creatures killed": 5014,
             "Different creature types killed": 8,
-            "Creature type killed the most": 2028,
+            "Creature type killed the most": 2305,
             "Critters killed": 55,
-            "Total Killing Blows": 1771,
-            "World Killing Blows": 1201,
-            "Continent with the most Killing Blows": 1130,
+            "Total Honorable Kills": 1,
+            "World Honorable Kills": 1,
+            "Continent with the most Honorable Kills": 1,
+            "Total Killing Blows": 1912,
+            "World Killing Blows": 1342,
+            "Continent with the most Killing Blows": 1250,
             "Total deaths": 13,
             "Total raid and dungeon deaths": 3,
             "Total deaths in 5-player dungeons": 3,
             "Resurrected by priests": 1,
             "Revived by druids": 1,
             "Redeemed by paladins": 4,
-            "Quests completed": 252,
+            "Quests completed": 266,
             "Average quests completed per day": 0,
-            "Quests abandoned": 19,
+            "Quests abandoned": 20,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 3,
             "Weapon skills at maximum skill": 4,
-            "Cooking skill": 182,
+            "Cooking skill": 220,
             "Cooking Recipes known": 46,
             "First Aid skill": 108,
             "First Aid Manuals learned": 14,
-            "Fishing skill": 100,
-            "Fish caught": 117,
-            "Fish and other things caught": 117,
+            "Fishing skill": 114,
+            "Fish caught": 147,
+            "Fish and other things caught": 147,
             "Highest Enchanting skill": 177,
             "Enchanting formulae learned": 75,
-            "Materials produced from disenchanting": 667,
-            "Items disenchanted": 292,
-            "Highest Tailoring skill": 163,
+            "Materials produced from disenchanting": 682,
+            "Items disenchanted": 299,
+            "Highest Tailoring skill": 164,
             "Tailoring Patterns learned": 74,
-            "Flight paths taken": 51,
+            "Flight paths taken": 52,
             "Summons accepted": 1,
-            "Number of times hearthed": 32,
+            "Number of times hearthed": 34,
             "Total cheers": 1,
-            "Total waves": 1
+            "Total waves": 2
           },
           "bosses": [
             {
@@ -2095,6 +2120,14 @@
                 "Different creature types killed",
                 "Creature type killed the most",
                 "Critters killed"
+              ]
+            },
+            {
+              "name": "Kills · Honorable Kills",
+              "stats": [
+                "Total Honorable Kills",
+                "World Honorable Kills",
+                "Continent with the most Honorable Kills"
               ]
             },
             {
@@ -3662,8 +3695,8 @@
         "race": "Windshaper Skyborne",
         "className": "Shaman",
         "level": 47,
-        "experience": 31711,
-        "lastLogin": "2026-11-15T23:09:03.000Z",
+        "experience": 105003,
+        "lastLogin": "2026-11-16T23:44:45.000Z",
         "itemLevel": 43,
         "achievementPoints": 0,
         "title": null,
@@ -3684,7 +3717,7 @@
           {
             "name": "Leatherworking",
             "type": "primary",
-            "skill": 181,
+            "skill": 202,
             "max": 225,
             "recipes": 29,
             "known": [
@@ -3722,7 +3755,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 268,
+            "skill": 275,
             "max": 300,
             "recipes": 2,
             "known": [
@@ -3782,7 +3815,7 @@
                 }
               ],
               "req": "Requires Level 31",
-              "durability": "Durability 61 / 70"
+              "durability": "Durability 70 / 70"
             }
           },
           {
@@ -3835,7 +3868,7 @@
                 }
               ],
               "req": "Requires Level 39",
-              "durability": "Durability 56 / 70"
+              "durability": "Durability 69 / 70"
             }
           },
           {
@@ -3877,7 +3910,7 @@
                 }
               ],
               "req": "Requires Level 44",
-              "durability": "Durability 96 / 100"
+              "durability": "Durability 97 / 100"
             }
           },
           {
@@ -3903,7 +3936,7 @@
                 }
               ],
               "req": "Requires Level 37",
-              "durability": "Durability 34 / 40"
+              "durability": "Durability 39 / 40"
             }
           },
           {
@@ -3928,7 +3961,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 60 / 75"
+              "durability": "Durability 75 / 75"
             }
           },
           {
@@ -3950,7 +3983,7 @@
                 }
               ],
               "req": "Requires Level 32",
-              "durability": "Durability 37 / 45"
+              "durability": "Durability 44 / 45"
             }
           },
           {
@@ -3976,7 +4009,7 @@
                 }
               ],
               "req": "Requires Level 37",
-              "durability": "Durability 28 / 35"
+              "durability": "Durability 35 / 35"
             }
           },
           {
@@ -4004,7 +4037,7 @@
               "enchants": [
                 "Enchanted: Mining +5"
               ],
-              "durability": "Durability 24 / 30"
+              "durability": "Durability 30 / 30"
             }
           },
           {
@@ -4148,7 +4181,7 @@
               "spells": [
                 "Chance on hit: Bash the target in the face, causing 14 Physical damage every 2 sec for 20 sec."
               ],
-              "durability": "Durability 85 / 100",
+              "durability": "Durability 100 / 100",
               "desc": "That's more like it!"
             }
           },
@@ -4196,8 +4229,8 @@
               1265
             ],
             "defense": [
-              223,
-              223
+              227,
+              227
             ]
           },
           "resistances": {
@@ -4214,7 +4247,7 @@
             "dps": 79.7,
             "offDps": 19.1,
             "hit": 5,
-            "crit": 11.4,
+            "crit": 11.5,
             "haste": 2
           },
           "ranged": {
@@ -4222,7 +4255,7 @@
             "min": 22.9,
             "max": 22.9,
             "hit": 5,
-            "crit": 0.7,
+            "crit": 5.7,
             "haste": 2
           },
           "spell": {
@@ -4234,20 +4267,20 @@
             "regen": 86,
             "regenCombat": 43
           },
-          "parry": 4.5,
-          "block": 4.5,
+          "parry": 4.7,
+          "block": 4.7,
           "speed": 100,
           "health": 2065,
           "power": 2343,
           "powerType": "Mana",
-          "crit": 11.4,
+          "crit": 11.5,
           "haste": 2,
-          "dodge": 6.2,
+          "dodge": 6.3,
           "attackPower": 518,
           "spellPower": 28,
           "dps": 79.7
         },
-        "questsCompleted": 652,
+        "questsCompleted": 672,
         "honorableKills": 44,
         "reputations": [
           {
@@ -4260,28 +4293,28 @@
           {
             "faction": "Thunder Bluff",
             "standing": "Honored",
-            "value": 2490,
+            "value": 2525,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 1530,
+            "value": 1557,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Undercity",
             "standing": "Honored",
-            "value": 1308,
+            "value": 1336,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 5566,
+            "value": 5668,
             "max": 6000,
             "tier": 4
           },
@@ -4295,7 +4328,14 @@
           {
             "faction": "Gadgetzan",
             "standing": "Friendly",
-            "value": 2147,
+            "value": 2352,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Powderfuse",
+            "standing": "Friendly",
+            "value": 2125,
             "max": 6000,
             "tier": 4
           },
@@ -4307,30 +4347,23 @@
             "tier": 4
           },
           {
-            "faction": "Powderfuse",
-            "standing": "Friendly",
-            "value": 1877,
-            "max": 6000,
-            "tier": 4
-          },
-          {
             "faction": "Ratchet",
             "standing": "Friendly",
-            "value": 1680,
+            "value": 1922,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Booty Bay",
             "standing": "Friendly",
-            "value": 1095,
+            "value": 1362,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Everlook",
             "standing": "Friendly",
-            "value": 920,
+            "value": 1112,
             "max": 6000,
             "tier": 4
           },
@@ -4344,7 +4377,7 @@
           {
             "faction": "Durotar Supply and Logistics",
             "standing": "Neutral",
-            "value": 2250,
+            "value": 2825,
             "max": 3000,
             "tier": 3
           },
@@ -4370,9 +4403,16 @@
             "tier": 3
           },
           {
+            "faction": "Thorium Brotherhood",
+            "standing": "Neutral",
+            "value": 0,
+            "max": 3000,
+            "tier": 3
+          },
+          {
             "faction": "Bloodsail Buccaneers",
             "standing": "Hated",
-            "value": 34375,
+            "value": 33625,
             "max": 36000,
             "tier": 0
           },
@@ -4387,20 +4427,17 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 75,
-            "Health potions consumed": 29,
-            "Mana potions consumed": 6,
-            "Elixirs consumed": 30,
-            "Beverages consumed": 211,
+            "Times camped": 79,
+            "Health potions consumed": 31,
+            "Mana potions consumed": 7,
+            "Elixirs consumed": 31,
+            "Beverages consumed": 215,
             "Food eaten": 32,
             "Most factions at Revered or higher": 1,
             "Most factions at Honored or higher": 4,
             "Most Horde factions at Exalted": 5,
-            "Total factions encountered": 24,
+            "Total factions encountered": 25,
             "Mounts owned": 3,
-            "Vanity pets owned": 1,
-            "Greed rolls made on loot": 283,
-            "Need rolls made on loot": 30,
             "Total deaths from other players": 9,
             "Total deaths from opposite faction": 9,
             "Battlegrounds played": 1,
@@ -4424,19 +4461,19 @@
             "Amnennar the Coldbringer kills (Razorfen Downs)": 1,
             "High Inquisitor Whitemane kills (Scarlet Monastery)": 1,
             "Chief Ukorz Sandscalp kills (Zul'Farrak)": 1,
-            "Total kills": 9123,
-            "Total kills that grant experience or honor": 6787,
-            "Creatures killed": 8991,
+            "Total kills": 9261,
+            "Total kills that grant experience or honor": 6916,
+            "Creatures killed": 9129,
             "Different creature types killed": 9,
-            "Creature type killed the most": 4928,
+            "Creature type killed the most": 4931,
             "Critters killed": 87,
             "Total Honorable Kills": 44,
             "Battleground Honorable Kills": 44,
             "Battleground with the most Honorable Kills": 44,
             "Warsong Gulch Honorable Kills": 44,
-            "Total Killing Blows": 5411,
-            "World Killing Blows": 3264,
-            "Continent with the most Killing Blows": 1697,
+            "Total Killing Blows": 5549,
+            "World Killing Blows": 3402,
+            "Continent with the most Killing Blows": 1775,
             "Battleground Killing Blows": 5,
             "Battleground with the most Killing Blows": 5,
             "Warsong Gulch Killing Blows": 5,
@@ -4450,23 +4487,23 @@
             "Resurrected by priests": 2,
             "Revived by druids": 3,
             "Redeemed by paladins": 1,
-            "Quests completed": 555,
-            "Average quests completed per day": 0,
-            "Quests abandoned": 58,
+            "Quests completed": 574,
+            "Average quests completed per day": 574,
+            "Quests abandoned": 61,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 1,
             "Weapon skills at maximum skill": 6,
             "Cooking skill": 215,
-            "Cooking Recipes known": 34,
+            "Cooking Recipes known": 30,
             "Highest Leatherworking skill": 181,
             "Leatherworking Patterns learned": 60,
             "Highest Skinning skill": 268,
-            "Flight paths taken": 132,
+            "Flight paths taken": 140,
             "Summons accepted": 4,
             "Mage Portals taken": 4,
             "Mage portal taken most": 3,
-            "Number of times hearthed": 21,
+            "Number of times hearthed": 22,
             "Total cheers": 4
           },
           "bosses": [
@@ -4565,10 +4602,7 @@
             {
               "name": "Character · Gear",
               "stats": [
-                "Mounts owned",
-                "Vanity pets owned",
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
+                "Mounts owned"
               ]
             },
             {
@@ -7186,7 +7220,7 @@
         "className": "Rogue",
         "level": 33,
         "experience": 29380,
-        "lastLogin": "2026-11-16T20:39:58.000Z",
+        "lastLogin": "2026-11-17T00:30:35.000Z",
         "itemLevel": 26,
         "achievementPoints": 0,
         "title": null,
@@ -7877,8 +7911,6 @@
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 15,
-            "Greed rolls made on loot": 142,
-            "Need rolls made on loot": 16,
             "Duels lost": 1,
             "Total 5-player dungeons entered": 14,
             "Edwin VanCleef Kills (Deadmines)": 1,
@@ -7995,13 +8027,6 @@
                 "Most factions at Honored or higher",
                 "Most Horde factions at Exalted",
                 "Total factions encountered"
-              ]
-            },
-            {
-              "name": "Character · Gear",
-              "stats": [
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
               ]
             },
             {
@@ -8136,10 +8161,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/105/6617449-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/105/6617449-avatar.jpg",
           "box": {
-            "x": 513,
-            "y": 426,
-            "w": 411,
-            "h": 549,
+            "x": 515,
+            "y": 427,
+            "w": 410,
+            "h": 548,
             "W": 1600,
             "H": 1200
           }
@@ -9065,8 +9090,8 @@
         "race": "Tauren",
         "className": "Druid",
         "level": 36,
-        "experience": 3610,
-        "lastLogin": "2026-11-16T17:25:13.000Z",
+        "experience": 15701,
+        "lastLogin": "2026-11-17T00:37:25.000Z",
         "itemLevel": 26,
         "achievementPoints": 0,
         "title": null,
@@ -9075,7 +9100,7 @@
           "trees": [
             {
               "name": "Feral Combat",
-              "points": 26
+              "points": 27
             }
           ]
         },
@@ -9083,7 +9108,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 235,
+            "skill": 236,
             "max": 300,
             "recipes": 2,
             "known": [
@@ -9154,7 +9179,7 @@
                 }
               ],
               "req": "Requires Level 29",
-              "durability": "Durability 60 / 60"
+              "durability": "Durability 59 / 60"
             }
           },
           {
@@ -9184,7 +9209,7 @@
                 }
               ],
               "req": "Requires Level 28",
-              "durability": "Durability 60 / 60"
+              "durability": "Durability 58 / 60"
             }
           },
           {
@@ -9214,7 +9239,7 @@
                 }
               ],
               "req": "Requires Level 29",
-              "durability": "Durability 100 / 100"
+              "durability": "Durability 95 / 100"
             }
           },
           {
@@ -9322,7 +9347,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 35 / 35"
+              "durability": "Durability 33 / 35"
             }
           },
           {
@@ -9469,7 +9494,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 90 / 90"
+              "durability": "Durability 86 / 90"
             }
           }
         ],
@@ -9500,8 +9525,8 @@
               811
             ],
             "defense": [
-              171,
-              171
+              173,
+              173
             ]
           },
           "resistances": {
@@ -9551,7 +9576,7 @@
           "spellPower": 33,
           "dps": 21.3
         },
-        "questsCompleted": 370,
+        "questsCompleted": 373,
         "honorableKills": 0,
         "reputations": [
           {
@@ -9657,7 +9682,7 @@
         "statistics": {
           "values": {
             "Times camped": 30,
-            "Health potions consumed": 17,
+            "Health potions consumed": 19,
             "Mana potions consumed": 2,
             "Elixirs consumed": 4,
             "Beverages consumed": 85,
@@ -9665,8 +9690,6 @@
             "Most factions at Honored or higher": 2,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 17,
-            "Greed rolls made on loot": 169,
-            "Need rolls made on loot": 19,
             "Total deaths from other players": 1,
             "Total deaths from opposite faction": 1,
             "Duels won": 1,
@@ -9678,14 +9701,14 @@
             "Archmage Arugal kills (Shadowfang Keep)": 1,
             "Aku'mai kills (Blackfathom Deeps)": 1,
             "Charlga Razorflank kills (Razorfen Kraul)": 1,
-            "Total kills": 4745,
-            "Total kills that grant experience or honor": 3810,
-            "Creatures killed": 4713,
+            "Total kills": 4763,
+            "Total kills that grant experience or honor": 3828,
+            "Creatures killed": 4731,
             "Different creature types killed": 9,
-            "Creature type killed the most": 2380,
+            "Creature type killed the most": 2386,
             "Critters killed": 31,
-            "Total Killing Blows": 2115,
-            "World Killing Blows": 1833,
+            "Total Killing Blows": 2133,
+            "World Killing Blows": 1851,
             "Continent with the most Killing Blows": 1466,
             "Total deaths": 42,
             "Total raid and dungeon deaths": 6,
@@ -9696,7 +9719,7 @@
             "Revived by druids": 2,
             "Redeemed by paladins": 2,
             "Resurrected by soulstones": 1,
-            "Quests completed": 321,
+            "Quests completed": 324,
             "Average quests completed per day": 0,
             "Quests abandoned": 68,
             "Professions learned": 2,
@@ -9708,9 +9731,9 @@
             "Fishing skill": 1,
             "Highest Herbalism skill": 55,
             "Highest Skinning skill": 235,
-            "Flight paths taken": 85,
+            "Flight paths taken": 88,
             "Summons accepted": 1,
-            "Number of times hearthed": 29
+            "Number of times hearthed": 30
           },
           "bosses": [
             {
@@ -9772,13 +9795,6 @@
                 "Most factions at Honored or higher",
                 "Most Horde factions at Exalted",
                 "Total factions encountered"
-              ]
-            },
-            {
-              "name": "Character · Gear",
-              "stats": [
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
               ]
             },
             {
@@ -9984,7 +10000,7 @@
         "className": "Paladin",
         "level": 24,
         "experience": 29028,
-        "lastLogin": "2026-11-16T17:38:30.000Z",
+        "lastLogin": "2026-11-16T21:17:52.000Z",
         "itemLevel": 22,
         "achievementPoints": 0,
         "title": null,
@@ -10634,10 +10650,10 @@
             "First Aid Manuals learned": 6,
             "Highest Blacksmithing skill": 77,
             "Blacksmithing Plans learned": 22,
-            "Highest Mining skill": 78,
+            "Highest Mining skill": 85,
             "Smelting Recipes learned": 13,
             "Flight paths taken": 13,
-            "Number of times hearthed": 8,
+            "Number of times hearthed": 9,
             "Total waves": 2
           },
           "bosses": [
@@ -10807,10 +10823,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/64/6857536-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/64/6857536-avatar.jpg",
           "box": {
-            "x": 393,
-            "y": 420,
-            "w": 517,
-            "h": 555,
+            "x": 593,
+            "y": 340,
+            "w": 337,
+            "h": 639,
             "W": 1600,
             "H": 1200
           }
@@ -10836,7 +10852,7 @@
       "surname": "Beartooth",
       "slug": "darkley-beartooth",
       "rank": 3,
-      "level": 27,
+      "level": 28,
       "classId": 11,
       "className": "Druid",
       "raceId": 6,
@@ -10845,9 +10861,9 @@
         "gender": "MALE",
         "race": "Tauren",
         "className": "Druid",
-        "level": 27,
-        "experience": 14029,
-        "lastLogin": "2026-11-16T20:37:48.000Z",
+        "level": 28,
+        "experience": 7539,
+        "lastLogin": "2026-11-16T23:50:33.000Z",
         "itemLevel": 18,
         "achievementPoints": 0,
         "title": null,
@@ -10856,7 +10872,7 @@
           "trees": [
             {
               "name": "Feral Combat",
-              "points": 17
+              "points": 19
             }
           ]
         },
@@ -10897,7 +10913,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 134,
+            "skill": 138,
             "max": 150,
             "recipes": 2,
             "known": [
@@ -10967,7 +10983,7 @@
                 }
               ],
               "req": "Requires Level 18",
-              "durability": "Durability 21 / 50"
+              "durability": "Durability 50 / 50"
             }
           },
           {
@@ -11022,7 +11038,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 7 / 30",
+              "durability": "Durability 30 / 30",
               "set": "Embrace of the Viper (2/5)"
             }
           },
@@ -11056,7 +11072,7 @@
                 "Enchanted: Stamina +1 and Armor +8"
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 33 / 65",
+              "durability": "Durability 65 / 65",
               "set": "Embrace of the Viper (2/5)"
             }
           },
@@ -11085,32 +11101,32 @@
               "enchants": [
                 "Enchanted: Stamina +1 and Armor +8"
               ],
-              "durability": "Durability 19 / 40"
+              "durability": "Durability 40 / 40"
             }
           },
           {
             "slot": "Wrist",
             "slotType": "WRIST",
-            "id": 279875,
-            "name": "Spare Part Bindings",
-            "quality": "UNCOMMON",
-            "level": 24,
+            "id": 270032,
+            "name": "Cultist's Armguards",
+            "quality": "RARE",
+            "level": 29,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Wrist",
               "sub": "Leather",
-              "armor": "37 Armor",
+              "armor": "44 Armor",
               "stats": [
                 {
-                  "t": "+3 Agility",
+                  "t": "+7 Stamina",
                   "g": false
                 },
                 {
-                  "t": "+3 Stamina",
-                  "g": false
+                  "t": "+10 Attack Power",
+                  "g": true
                 }
               ],
-              "durability": "Durability 11 / 25"
+              "durability": "Durability 35 / 35"
             }
           },
           {
@@ -11143,7 +11159,7 @@
                 "Enchanted: Stamina +1 and Armor +8"
               ],
               "req": "Requires Level 22",
-              "durability": "Durability 10 / 30"
+              "durability": "Durability 30 / 30"
             }
           },
           {
@@ -11241,7 +11257,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 59 / 90"
+              "durability": "Durability 90 / 90"
             }
           },
           {
@@ -11264,32 +11280,32 @@
         "stats": {
           "attributes": {
             "strength": [
-              41,
-              66
+              42,
+              67
             ],
             "agility": [
-              29,
-              51
+              30,
+              49
             ],
             "stamina": [
-              39,
-              82
+              40,
+              87
             ],
             "intellect": [
-              44,
-              54
+              45,
+              55
             ],
             "spirit": [
-              55,
-              83
+              56,
+              84
             ],
             "armor": [
               44,
-              618
+              621
             ],
             "defense": [
-              129,
-              130
+              132,
+              133
             ]
           },
           "resistances": {
@@ -11300,27 +11316,27 @@
             "shadow": 0
           },
           "melee": {
-            "min": 85.1,
-            "max": 114.1,
+            "min": 88,
+            "max": 117,
             "speed": 3.4,
-            "dps": 29.3,
-            "offDps": 4.7,
+            "dps": 30.2,
+            "offDps": 5.1,
             "hit": 0,
-            "crit": 1.1,
+            "crit": 0.6,
             "haste": 0
           },
           "ranged": {
-            "ap": 12,
-            "min": 3.9,
-            "max": 3.9,
+            "ap": 22,
+            "min": 6.3,
+            "max": 6.3,
             "hit": 0,
-            "crit": 0.7,
+            "crit": 0.2,
             "haste": 0
           },
           "spell": {
             "healing": 0,
             "hit": 0,
-            "crit": 4,
+            "crit": 3.9,
             "haste": 0,
             "penetration": 0,
             "regen": 83,
@@ -11329,44 +11345,44 @@
           "parry": 0,
           "block": 0,
           "speed": 100,
-          "health": 1051,
-          "power": 1054,
+          "health": 1122,
+          "power": 1099,
           "powerType": "Mana",
-          "crit": 4,
+          "crit": 3.9,
           "haste": 0,
-          "dodge": 9.8,
-          "attackPower": 124,
+          "dodge": 9.4,
+          "attackPower": 136,
           "spellPower": 0,
-          "dps": 29.3
+          "dps": 30.2
         },
-        "questsCompleted": 217,
+        "questsCompleted": 226,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Thunder Bluff",
             "standing": "Honored",
-            "value": 2463,
+            "value": 3263,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 3986,
+            "value": 4123,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 2411,
+            "value": 2548,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 167,
+            "value": 305,
             "max": 6000,
             "tier": 4
           },
@@ -11413,6 +11429,13 @@
             "tier": 3
           },
           {
+            "faction": "Argent Dawn",
+            "standing": "Neutral",
+            "value": 400,
+            "max": 3000,
+            "tier": 3
+          },
+          {
             "faction": "Earthen Ring",
             "standing": "Neutral",
             "value": 400,
@@ -11429,24 +11452,22 @@
             "Healthstones used": 1,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 14,
-            "Greed rolls made on loot": 136,
-            "Need rolls made on loot": 15,
+            "Total factions encountered": 15,
             "Total 5-player dungeons entered": 14,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Bazzalan kills (Ragefire Chasm)": 5,
             "Mutanus the Devourer kills (Wailing Caverns)": 2,
             "Archmage Arugal kills (Shadowfang Keep)": 1,
             "Aku'mai kills (Blackfathom Deeps)": 1,
-            "Total kills": 3160,
-            "Total kills that grant experience or honor": 2786,
-            "Creatures killed": 3129,
+            "Total kills": 3244,
+            "Total kills that grant experience or honor": 2868,
+            "Creatures killed": 3213,
             "Different creature types killed": 8,
-            "Creature type killed the most": 1549,
+            "Creature type killed the most": 1624,
             "Critters killed": 31,
-            "Total Killing Blows": 1520,
-            "World Killing Blows": 1227,
-            "Continent with the most Killing Blows": 1227,
+            "Total Killing Blows": 1580,
+            "World Killing Blows": 1287,
+            "Continent with the most Killing Blows": 1287,
             "Total deaths": 33,
             "Total raid and dungeon deaths": 12,
             "Total deaths in 5-player dungeons": 12,
@@ -11454,9 +11475,9 @@
             "Deaths from falling": 2,
             "Resurrected by priests": 3,
             "Spirit returned to body by shamans": 2,
-            "Quests completed": 178,
+            "Quests completed": 187,
             "Average quests completed per day": 0,
-            "Quests abandoned": 23,
+            "Quests abandoned": 28,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 3,
@@ -11470,8 +11491,8 @@
             "Fish and other things caught": 10,
             "Highest Leatherworking skill": 54,
             "Leatherworking Patterns learned": 50,
-            "Highest Skinning skill": 134,
-            "Flight paths taken": 46,
+            "Highest Skinning skill": 138,
+            "Flight paths taken": 49,
             "Number of times hearthed": 4
           },
           "bosses": [
@@ -11522,13 +11543,6 @@
                 "Most factions at Honored or higher",
                 "Most Horde factions at Exalted",
                 "Total factions encountered"
-              ]
-            },
-            {
-              "name": "Character · Gear",
-              "stats": [
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
               ]
             },
             {
@@ -11682,7 +11696,7 @@
       "surname": "Oldhag",
       "slug": "foxy-oldhag",
       "rank": 1,
-      "level": 38,
+      "level": 39,
       "classId": 2,
       "className": "Paladin",
       "raceId": 5,
@@ -11691,9 +11705,9 @@
         "gender": "FEMALE",
         "race": "Undead",
         "className": "Paladin",
-        "level": 38,
-        "experience": 1275,
-        "lastLogin": "2026-11-16T16:37:52.000Z",
+        "level": 39,
+        "experience": 2772,
+        "lastLogin": "2026-11-16T23:24:14.000Z",
         "itemLevel": 33,
         "achievementPoints": 0,
         "title": null,
@@ -11702,7 +11716,7 @@
           "trees": [
             {
               "name": "Holy",
-              "points": 29
+              "points": 30
             }
           ]
         },
@@ -11710,9 +11724,9 @@
           {
             "name": "Mining",
             "type": "primary",
-            "skill": 207,
-            "max": 225,
-            "recipes": 11,
+            "skill": 212,
+            "max": 300,
+            "recipes": 12,
             "known": [
               "Lodestone",
               "Mining",
@@ -11721,6 +11735,7 @@
               "Smelt Copper",
               "Smelt Gold",
               "Smelt Iron",
+              "Smelt Mithril",
               "Smelt Silver",
               "Smelt Steel",
               "Smelt Tin"
@@ -11729,7 +11744,7 @@
           {
             "name": "Blacksmithing",
             "type": "primary",
-            "skill": 150,
+            "skill": 151,
             "max": 225,
             "recipes": 53,
             "known": [
@@ -11819,7 +11834,7 @@
           {
             "name": "Fishing",
             "type": "secondary",
-            "skill": 100,
+            "skill": 108,
             "max": 150,
             "recipes": 2,
             "known": [
@@ -11856,7 +11871,7 @@
                 }
               ],
               "req": "Requires Level 25",
-              "durability": "Durability 56 / 70"
+              "durability": "Durability 70 / 70"
             }
           },
           {
@@ -11905,7 +11920,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 35 / 50"
+              "durability": "Durability 50 / 50"
             }
           },
           {
@@ -11953,41 +11968,41 @@
               "enchants": [
                 "Enchanted: Intellect +4"
               ],
-              "durability": "Durability 55 / 80"
+              "durability": "Durability 80 / 80"
             }
           },
           {
             "slot": "Waist",
             "slotType": "WAIST",
-            "id": 6392,
-            "name": "Belt of Arugal",
+            "id": 250559,
+            "name": "Prefect's Belt",
             "quality": "RARE",
-            "level": 28,
+            "level": 35,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Waist",
-              "sub": "Cloth",
-              "armor": "26 Armor",
+              "sub": "Mail",
+              "armor": "132 Armor",
               "stats": [
                 {
-                  "t": "+3 Intellect",
+                  "t": "+7 Intellect",
                   "g": false
                 },
                 {
-                  "t": "+2 Agility",
+                  "t": "+6 Stamina",
                   "g": false
                 },
                 {
-                  "t": "+9 Spell Power",
+                  "t": "+7 Spell Damage",
                   "g": true
                 },
                 {
-                  "t": "+5 Spirit",
+                  "t": "+22 Spell Healing",
                   "g": true
                 }
               ],
-              "req": "Requires Level 23",
-              "durability": "Durability 20 / 30"
+              "req": "Requires Level 30",
+              "durability": "Durability 40 / 40"
             }
           },
           {
@@ -12017,7 +12032,7 @@
                 }
               ],
               "req": "Requires Level 30",
-              "durability": "Durability 36 / 65"
+              "durability": "Durability 65 / 65"
             }
           },
           {
@@ -12049,7 +12064,7 @@
               "enchants": [
                 "Enchanted: Stamina +3"
               ],
-              "durability": "Durability 16 / 35"
+              "durability": "Durability 35 / 35"
             }
           },
           {
@@ -12074,7 +12089,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 16 / 25"
+              "durability": "Durability 25 / 25"
             }
           },
           {
@@ -12111,7 +12126,7 @@
                 "Enchanted: Fishing +2"
               ],
               "req": "Requires Level 23",
-              "durability": "Durability 17 / 30"
+              "durability": "Durability 30 / 30"
             }
           },
           {
@@ -12270,7 +12285,7 @@
                 "Enchanted: Beastslaying +2"
               ],
               "req": "Requires Level 28",
-              "durability": "Durability 84 / 90"
+              "durability": "Durability 90 / 90"
             }
           },
           {
@@ -12303,39 +12318,39 @@
                 "Equip: 17% chance when struck in combat to gain 12 mana per 5 sec for 10 sec."
               ],
               "req": "Requires Level 29",
-              "durability": "Durability 98 / 100"
+              "durability": "Durability 100 / 100"
             }
           }
         ],
         "stats": {
           "attributes": {
             "strength": [
-              66,
-              71
+              67,
+              72
             ],
             "agility": [
-              42,
-              44
+              43,
+              43
             ],
             "stamina": [
-              65,
-              112
+              66,
+              119
             ],
             "intellect": [
-              45,
-              106
+              46,
+              111
             ],
             "spirit": [
-              55,
-              96
+              56,
+              92
             ],
             "armor": [
               10,
-              1316
+              1420
             ],
             "defense": [
-              185,
-              185
+              189,
+              189
             ]
           },
           "resistances": {
@@ -12346,13 +12361,13 @@
             "shadow": 0
           },
           "melee": {
-            "min": 75.2,
-            "max": 99.2,
+            "min": 76.2,
+            "max": 100.2,
             "speed": 2.8,
-            "dps": 31.1,
+            "dps": 31.5,
             "offDps": 0,
             "hit": 0,
-            "crit": 3.9,
+            "crit": 3.8,
             "haste": 0
           },
           "ranged": {
@@ -12364,55 +12379,55 @@
             "haste": 0
           },
           "spell": {
-            "healing": 178,
+            "healing": 191,
             "hit": 0,
-            "crit": 6.2,
+            "crit": 6.3,
             "haste": 0,
             "penetration": 0,
-            "regen": 94,
-            "regenCombat": 30
+            "regen": 91,
+            "regenCombat": 29
           },
           "parry": 4.8,
           "block": 4.8,
           "speed": 100,
-          "health": 1504,
-          "power": 2243,
+          "health": 1607,
+          "power": 2345,
           "powerType": "Mana",
-          "crit": 6.2,
+          "crit": 6.3,
           "haste": 0,
-          "dodge": 3.9,
-          "attackPower": 236,
-          "spellPower": 51,
-          "dps": 31.1
+          "dodge": 3.8,
+          "attackPower": 241,
+          "spellPower": 49,
+          "dps": 31.5
         },
-        "questsCompleted": 370,
-        "honorableKills": 0,
+        "questsCompleted": 404,
+        "honorableKills": 1,
         "reputations": [
           {
             "faction": "Undercity",
             "standing": "Honored",
-            "value": 10397,
+            "value": 10841,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 4603,
+            "value": 5103,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 4160,
+            "value": 4551,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 3606,
+            "value": 4110,
             "max": 6000,
             "tier": 4
           },
@@ -12426,14 +12441,14 @@
           {
             "faction": "Durotar Supply and Logistics",
             "standing": "Neutral",
-            "value": 2000,
+            "value": 2075,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Ratchet",
             "standing": "Neutral",
-            "value": 1576,
+            "value": 1583,
             "max": 3000,
             "tier": 3
           },
@@ -12445,30 +12460,30 @@
             "tier": 3
           },
           {
-            "faction": "Everlook",
+            "faction": "Powderfuse",
             "standing": "Neutral",
-            "value": 1038,
+            "value": 1050,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Booty Bay",
             "standing": "Neutral",
-            "value": 1038,
+            "value": 1048,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 1045,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Gadgetzan",
             "standing": "Neutral",
-            "value": 1038,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Powderfuse",
-            "standing": "Neutral",
-            "value": 1038,
+            "value": 1045,
             "max": 3000,
             "tier": 3
           },
@@ -12476,6 +12491,13 @@
             "faction": "Earthen Ring",
             "standing": "Neutral",
             "value": 1000,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Warsong Outriders",
+            "standing": "Neutral",
+            "value": 0,
             "max": 3000,
             "tier": 3
           },
@@ -12490,17 +12512,15 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 91,
+            "Times camped": 95,
             "Health potions consumed": 33,
-            "Mana potions consumed": 65,
+            "Mana potions consumed": 69,
             "Elixirs consumed": 5,
-            "Beverages consumed": 146,
-            "Food eaten": 84,
+            "Beverages consumed": 150,
+            "Food eaten": 87,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 17,
-            "Greed rolls made on loot": 298,
-            "Need rolls made on loot": 43,
+            "Total factions encountered": 19,
             "Total deaths from other players": 1,
             "Total deaths from opposite faction": 1,
             "Duels lost": 2,
@@ -12515,15 +12535,18 @@
             "Aku'mai kills (Blackfathom Deeps)": 1,
             "Charlga Razorflank kills (Razorfen Kraul)": 1,
             "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
-            "Total kills": 6907,
-            "Total kills that grant experience or honor": 5664,
-            "Creatures killed": 6817,
+            "Total kills": 7378,
+            "Total kills that grant experience or honor": 6038,
+            "Creatures killed": 7286,
             "Different creature types killed": 9,
-            "Creature type killed the most": 3455,
-            "Critters killed": 90,
-            "Total Killing Blows": 2268,
-            "World Killing Blows": 2009,
-            "Continent with the most Killing Blows": 1526,
+            "Creature type killed the most": 3735,
+            "Critters killed": 91,
+            "Total Honorable Kills": 1,
+            "World Honorable Kills": 1,
+            "Continent with the most Honorable Kills": 1,
+            "Total Killing Blows": 2346,
+            "World Killing Blows": 2087,
+            "Continent with the most Killing Blows": 1581,
             "Total deaths": 42,
             "Total raid and dungeon deaths": 6,
             "Total deaths in 5-player dungeons": 6,
@@ -12531,25 +12554,25 @@
             "Spirit returned to body by shamans": 2,
             "Redeemed by paladins": 6,
             "Resurrected by soulstones": 1,
-            "Quests completed": 323,
+            "Quests completed": 354,
             "Average quests completed per day": 0,
-            "Quests abandoned": 34,
+            "Quests abandoned": 55,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 2,
             "Weapon skills at maximum skill": 4,
             "Cooking skill": 191,
             "Cooking Recipes known": 40,
-            "Fishing skill": 100,
-            "Fish caught": 114,
-            "Fish and other things caught": 114,
-            "Highest Blacksmithing skill": 150,
+            "Fishing skill": 108,
+            "Fish caught": 131,
+            "Fish and other things caught": 131,
+            "Highest Blacksmithing skill": 151,
             "Blacksmithing Plans learned": 108,
-            "Highest Mining skill": 207,
-            "Smelting Recipes learned": 24,
-            "Flight paths taken": 93,
-            "Summons accepted": 13,
-            "Number of times hearthed": 39,
+            "Highest Mining skill": 212,
+            "Smelting Recipes learned": 28,
+            "Flight paths taken": 100,
+            "Summons accepted": 15,
+            "Number of times hearthed": 41,
             "Total cheers": 1
           },
           "bosses": [
@@ -12630,13 +12653,6 @@
               ]
             },
             {
-              "name": "Character · Gear",
-              "stats": [
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
-              ]
-            },
-            {
               "name": "Player vs. Player",
               "stats": [
                 "Total deaths from other players",
@@ -12684,6 +12700,14 @@
                 "Different creature types killed",
                 "Creature type killed the most",
                 "Critters killed"
+              ]
+            },
+            {
+              "name": "Kills · Honorable Kills",
+              "stats": [
+                "Total Honorable Kills",
+                "World Honorable Kills",
+                "Continent with the most Honorable Kills"
               ]
             },
             {
@@ -12772,9 +12796,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-avatar.jpg",
           "box": {
-            "x": 637,
+            "x": 638,
             "y": 429,
-            "w": 285,
+            "w": 283,
             "h": 553,
             "W": 1600,
             "H": 1200
@@ -13719,7 +13743,7 @@
       "surname": "Tom",
       "slug": "sleepy-tom",
       "rank": 3,
-      "level": 28,
+      "level": 29,
       "classId": 1,
       "className": "Warrior",
       "raceId": 2,
@@ -13728,10 +13752,10 @@
         "gender": "MALE",
         "race": "Orc",
         "className": "Warrior",
-        "level": 27,
-        "experience": 15367,
-        "lastLogin": "2026-11-16T14:47:17.000Z",
-        "itemLevel": 17,
+        "level": 29,
+        "experience": 2764,
+        "lastLogin": "2026-11-16T23:36:50.000Z",
+        "itemLevel": 19,
         "achievementPoints": 0,
         "title": null,
         "spec": {
@@ -13743,7 +13767,7 @@
             },
             {
               "name": "Arms",
-              "points": 2
+              "points": 4
             }
           ]
         },
@@ -13751,9 +13775,9 @@
           {
             "name": "Alchemy",
             "type": "primary",
-            "skill": 120,
+            "skill": 130,
             "max": 150,
-            "recipes": 22,
+            "recipes": 24,
             "known": [
               "Blackmouth Oil",
               "Cerulean Dye",
@@ -13766,6 +13790,8 @@
               "Elixir of Minor Strength",
               "Elixir of Wisdom",
               "Lesser Frenzy Potion",
+              "Lesser Mana Potion",
+              "Magenta Dye",
               "Mana Well",
               "Minor Arcane Elixir",
               "Minor Frenzy Potion",
@@ -13782,9 +13808,9 @@
           {
             "name": "Herbalism",
             "type": "primary",
-            "skill": 122,
-            "max": 150,
-            "recipes": 3,
+            "skill": 131,
+            "max": 225,
+            "recipes": 4,
             "known": [
               "Herbalism",
               "Incense Candle"
@@ -13795,10 +13821,11 @@
             "type": "secondary",
             "skill": 117,
             "max": 150,
-            "recipes": 16,
+            "recipes": 18,
             "known": [
               "Basic Campfire",
               "Boiled Clams",
+              "Brilliant Smallfish",
               "Bristle Whisker Catfish",
               "Charred Wolf Meat",
               "Coyote Steak",
@@ -13812,14 +13839,15 @@
               "Smoked Bear Meat",
               "Smoked Sagefish",
               "Spiced Wolf Meat",
-              "Tasty Raptor Bites"
+              "Tasty Raptor Bites",
+              "Twice-Spiced Raptor Slice"
             ]
           },
           {
             "name": "Fishing",
             "type": "secondary",
             "skill": 63,
-            "max": 75,
+            "max": 150,
             "recipes": 2,
             "known": [
               "Fish Bowl",
@@ -13868,7 +13896,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 36 / 50"
+              "durability": "Durability 11 / 50"
             }
           },
           {
@@ -13906,7 +13934,7 @@
                 }
               ],
               "req": "Requires Level 18",
-              "durability": "Durability 72 / 105"
+              "durability": "Durability 35 / 105"
             }
           },
           {
@@ -13928,7 +13956,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 18 / 30"
+              "durability": "Durability 7 / 30"
             }
           },
           {
@@ -13957,7 +13985,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 46 / 70"
+              "durability": "Durability 27 / 70"
             }
           },
           {
@@ -13983,33 +14011,32 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 37 / 50"
+              "durability": "Durability 20 / 50"
             }
           },
           {
             "slot": "Wrist",
             "slotType": "WRIST",
-            "id": 286981,
-            "name": "Death Bindings",
-            "quality": "RARE",
-            "level": 21,
+            "id": 4534,
+            "name": "Steel-clasped Bracers",
+            "quality": "UNCOMMON",
+            "level": 28,
             "tip": {
-              "bind": "Binds when equipped",
+              "bind": "Binds when picked up",
               "type": "Wrist",
               "sub": "Mail",
-              "armor": "82 Armor",
+              "armor": "84 Armor",
               "stats": [
                 {
-                  "t": "+5 Strength",
+                  "t": "+4 Stamina",
                   "g": false
                 },
                 {
-                  "t": "+2 Spirit",
+                  "t": "+4 Spirit",
                   "g": true
                 }
               ],
-              "req": "Requires Level 16",
-              "durability": "Durability 23 / 35"
+              "durability": "Durability 24 / 35"
             }
           },
           {
@@ -14034,27 +14061,27 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 28 / 40"
+              "durability": "Durability 13 / 40"
             }
           },
           {
             "slot": "Ring 1",
             "slotType": "FINGER_1",
-            "id": 279867,
-            "name": "Slain Baron's Signet",
-            "quality": "UNCOMMON",
-            "level": 23,
+            "id": 6414,
+            "name": "Seal of Sylvanas",
+            "quality": "RARE",
+            "level": 29,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Finger",
               "sub": "Miscellaneous",
               "stats": [
                 {
-                  "t": "+3 Stamina",
+                  "t": "+8 Stamina",
                   "g": false
                 },
                 {
-                  "t": "+1 Defense",
+                  "t": "+6 Attack Power",
                   "g": true
                 }
               ]
@@ -14083,18 +14110,44 @@
           {
             "slot": "Back",
             "slotType": "BACK",
-            "id": 14745,
-            "name": "Hulking Cloak",
+            "id": 273654,
+            "name": "Crystal Thread Cloak",
             "quality": "UNCOMMON",
-            "level": 20,
+            "level": 29,
             "tip": {
-              "bind": "Binds when equipped",
+              "bind": "Binds when picked up",
               "type": "Back",
               "sub": "Cloth",
-              "armor": "17 Armor",
+              "armor": "21 Armor",
               "stats": [
                 {
-                  "t": "+1 Strength",
+                  "t": "+4 Stamina",
+                  "g": false
+                },
+                {
+                  "t": "+40 Bonus Armor",
+                  "g": true
+                }
+              ]
+            }
+          },
+          {
+            "slot": "Main Hand",
+            "slotType": "MAIN_HAND",
+            "id": 6323,
+            "name": "Baron's Scepter",
+            "quality": "RARE",
+            "level": 26,
+            "tip": {
+              "bind": "Binds when picked up",
+              "type": "Main Hand",
+              "sub": "Mace",
+              "damage": "28 - 52 Damage",
+              "speed": "Speed 2.40",
+              "dps": "(16.7 damage per second)",
+              "stats": [
+                {
+                  "t": "+2 Strength",
                   "g": false
                 },
                 {
@@ -14102,60 +14155,41 @@
                   "g": false
                 }
               ],
-              "req": "Requires Level 15"
-            }
-          },
-          {
-            "slot": "Main Hand",
-            "slotType": "MAIN_HAND",
-            "id": 6504,
-            "name": "Wingblade",
-            "quality": "RARE",
-            "level": 24,
-            "tip": {
-              "bind": "Binds when picked up",
-              "type": "Main Hand",
-              "sub": "Sword",
-              "damage": "24 - 45 Damage",
-              "speed": "Speed 2.20",
-              "dps": "(15.7 damage per second)",
-              "stats": [
-                {
-                  "t": "+5 Agility",
-                  "g": false
-                },
-                {
-                  "t": "+2 Stamina",
-                  "g": false
-                }
+              "spells": [
+                "Equip: Cause party members within 30 yds to regenerate 4 health every 5 sec."
               ],
-              "durability": "Durability 55 / 75"
+              "req": "Requires Level 21",
+              "durability": "Durability 54 / 80"
             }
           },
           {
             "slot": "Off Hand",
             "slotType": "OFF_HAND",
-            "id": 271213,
-            "name": "Mirror of Rath'mael",
+            "id": 6320,
+            "name": "Commander's Crest",
             "quality": "RARE",
-            "level": 24,
+            "level": 26,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Off Hand",
               "sub": "Shield",
-              "armor": "547 Armor",
+              "armor": "585 Armor",
               "stats": [
                 {
                   "t": "+5 Strength",
                   "g": false
                 },
                 {
-                  "t": "+5 Block",
+                  "t": "+3 Stamina",
+                  "g": false
+                },
+                {
+                  "t": "+4 Health Per 5 Sec.",
                   "g": true
                 }
               ],
-              "req": "Requires Level 19",
-              "durability": "Durability 68 / 90"
+              "req": "Requires Level 21",
+              "durability": "Durability 67 / 95"
             }
           },
           {
@@ -14178,7 +14212,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 40 / 50"
+              "durability": "Durability 30 / 50"
             }
           },
           {
@@ -14199,32 +14233,32 @@
         "stats": {
           "attributes": {
             "strength": [
-              60,
-              111
+              63,
+              110
             ],
             "agility": [
-              38,
-              48
+              40,
+              45
             ],
             "stamina": [
-              55,
-              91
+              58,
+              108
             ],
             "intellect": [
-              20,
-              20
+              21,
+              21
             ],
             "spirit": [
-              32,
-              34
+              33,
+              37
             ],
             "armor": [
-              0,
-              1590
+              40,
+              1668
             ],
             "defense": [
-              133,
-              134
+              139,
+              139
             ]
           },
           "resistances": {
@@ -14235,19 +14269,19 @@
             "shadow": 0
           },
           "melee": {
-            "min": 68.5,
-            "max": 89.5,
-            "speed": 2.2,
-            "dps": 35.9,
+            "min": 78.2,
+            "max": 102.2,
+            "speed": 2.4,
+            "dps": 37.6,
             "offDps": 0,
             "hit": 0,
-            "crit": 5.1,
+            "crit": 4.3,
             "haste": 0
           },
           "ranged": {
-            "ap": 103,
-            "min": 36.9,
-            "max": 48.9,
+            "ap": 105,
+            "min": 37.3,
+            "max": 49.3,
             "hit": 0,
             "crit": 0,
             "haste": 0
@@ -14261,47 +14295,47 @@
             "regen": 0,
             "regenCombat": 0
           },
-          "parry": 7,
-          "block": 11,
+          "parry": 8.8,
+          "block": 9.8,
           "speed": 100,
-          "health": 1039,
+          "health": 1248,
           "power": 100,
           "powerType": "Rage",
-          "crit": 5.1,
+          "crit": 4.3,
           "haste": 0,
-          "dodge": 5.1,
-          "attackPower": 283,
+          "dodge": 4.3,
+          "attackPower": 293,
           "spellPower": 0,
-          "dps": 35.9
+          "dps": 37.6
         },
-        "questsCompleted": 217,
+        "questsCompleted": 230,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 4102,
+            "value": 4402,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Honored",
-            "value": 302,
+            "value": 602,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 2952,
+            "value": 3402,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 1060,
+            "value": 1585,
             "max": 6000,
             "tier": 4
           },
@@ -14346,68 +14380,88 @@
             "value": 1539,
             "max": 3000,
             "tier": 3
+          },
+          {
+            "faction": "Earthen Ring",
+            "standing": "Neutral",
+            "value": 450,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "The Defilers",
+            "standing": "Neutral",
+            "value": 0,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Windshapers",
+            "standing": "Neutral",
+            "value": 0,
+            "max": 3000,
+            "tier": 3
           }
         ],
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 7,
+            "Times camped": 19,
             "Bandages used": 57,
             "Bandage used most": 34,
-            "Health potions consumed": 30,
+            "Health potions consumed": 33,
             "Elixirs consumed": 46,
-            "Food eaten": 52,
+            "Food eaten": 54,
             "Healthstones used": 1,
             "Most factions at Honored or higher": 2,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 13,
+            "Total factions encountered": 17,
             "Mounts owned": 1,
-            "Greed rolls made on loot": 83,
-            "Need rolls made on loot": 10,
             "Total deaths from other players": 1,
             "Duels won": 1,
-            "Total 5-player dungeons entered": 4,
+            "Total 5-player dungeons entered": 6,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Bazzalan kills (Ragefire Chasm)": 1,
             "Mutanus the Devourer kills (Wailing Caverns)": 1,
-            "Total kills": 2504,
-            "Total kills that grant experience or honor": 2210,
-            "Creatures killed": 2466,
+            "Archmage Arugal kills (Shadowfang Keep)": 1,
+            "Total kills": 2793,
+            "Total kills that grant experience or honor": 2430,
+            "Creatures killed": 2744,
             "Different creature types killed": 7,
-            "Creature type killed the most": 1167,
-            "Critters killed": 38,
-            "Total Killing Blows": 1518,
-            "World Killing Blows": 1365,
-            "Continent with the most Killing Blows": 1228,
-            "Total deaths": 35,
-            "Total raid and dungeon deaths": 5,
-            "Total deaths in 5-player dungeons": 5,
+            "Creature type killed the most": 1231,
+            "Critters killed": 49,
+            "Total Killing Blows": 1609,
+            "World Killing Blows": 1417,
+            "Continent with the most Killing Blows": 1257,
+            "Total deaths": 37,
+            "Total raid and dungeon deaths": 7,
+            "Total deaths in 5-player dungeons": 7,
             "Deaths from drowning": 1,
             "Deaths from falling": 2,
-            "Resurrected by priests": 1,
+            "Resurrected by priests": 2,
             "Revived by druids": 2,
-            "Spirit returned to body by shamans": 1,
+            "Spirit returned to body by shamans": 2,
             "Redeemed by paladins": 1,
             "Resurrected by soulstones": 1,
-            "Quests completed": 176,
+            "Quests completed": 189,
             "Average quests completed per day": 0,
-            "Quests abandoned": 29,
+            "Quests abandoned": 33,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 3,
-            "Weapon skills at maximum skill": 10,
-            "Cooking skill": 116,
-            "Cooking Recipes known": 34,
-            "First Aid skill": 233,
+            "Weapon skills at maximum skill": 14,
+            "Cooking skill": 117,
+            "Cooking Recipes known": 38,
+            "First Aid skill": 244,
             "First Aid Manuals learned": 18,
             "Fishing skill": 63,
             "Fish caught": 62,
             "Fish and other things caught": 62,
-            "Highest Alchemy skill": 119,
-            "Alchemy Recipes learned": 46,
-            "Highest Herbalism skill": 116,
-            "Flight paths taken": 51,
-            "Number of times hearthed": 18,
+            "Highest Alchemy skill": 130,
+            "Alchemy Recipes learned": 50,
+            "Highest Herbalism skill": 131,
+            "Flight paths taken": 55,
+            "Number of times hearthed": 19,
             "Total waves": 6
           },
           "bosses": [
@@ -14424,6 +14478,11 @@
             {
               "boss": "Mutanus the Devourer",
               "instance": "Wailing Caverns",
+              "kills": 1
+            },
+            {
+              "boss": "Archmage Arugal",
+              "instance": "Shadowfang Keep",
               "kills": 1
             }
           ],
@@ -14456,9 +14515,7 @@
             {
               "name": "Character · Gear",
               "stats": [
-                "Mounts owned",
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
+                "Mounts owned"
               ]
             },
             {
@@ -14484,7 +14541,8 @@
               "stats": [
                 "Rath'mael Kills (Ruins of Lordaeron)",
                 "Bazzalan kills (Ragefire Chasm)",
-                "Mutanus the Devourer kills (Wailing Caverns)"
+                "Mutanus the Devourer kills (Wailing Caverns)",
+                "Archmage Arugal kills (Shadowfang Keep)"
               ]
             },
             {
@@ -14597,7 +14655,7 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-avatar.jpg",
           "box": {
-            "x": 549,
+            "x": 550,
             "y": 397,
             "w": 506,
             "h": 586,
@@ -14631,7 +14689,7 @@
       "surname": "Das",
       "slug": "brie-das",
       "rank": 3,
-      "level": 39,
+      "level": 40,
       "classId": 9,
       "className": "Warlock",
       "raceId": 2,
@@ -14640,10 +14698,10 @@
         "gender": "MALE",
         "race": "Orc",
         "className": "Warlock",
-        "level": 38,
-        "experience": 66524,
-        "lastLogin": "2026-11-16T16:55:08.000Z",
-        "itemLevel": 35,
+        "level": 40,
+        "experience": 13937,
+        "lastLogin": "2026-11-17T00:28:21.000Z",
+        "itemLevel": 36,
         "achievementPoints": 0,
         "title": null,
         "spec": {
@@ -14651,11 +14709,7 @@
           "trees": [
             {
               "name": "Destruction",
-              "points": 26
-            },
-            {
-              "name": "Affliction",
-              "points": 3
+              "points": 31
             }
           ]
         },
@@ -14665,7 +14719,7 @@
             "type": "primary",
             "skill": 154,
             "max": 225,
-            "recipes": 57,
+            "recipes": 60,
             "known": [
               "Azure Silk Belt",
               "Azure Silk Hood",
@@ -14685,6 +14739,7 @@
               "Double-stitched Woolen Shoulders",
               "Earthen Vest",
               "Faction Banner",
+              "Filigreed Flame Circlet",
               "Formal White Shirt",
               "Gloves of Meditation",
               "Gray Woolen Shirt",
@@ -14714,6 +14769,8 @@
               "Simple Linen Pants",
               "Small Silk Pack",
               "Soft-soled Linen Boots",
+              "Spider Belt",
+              "Spider Silk Slippers",
               "Spidersilk Boots",
               "Stylish Red Shirt",
               "White Linen Robe",
@@ -14729,7 +14786,7 @@
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 234,
+            "skill": 242,
             "max": 300,
             "recipes": 2,
             "known": [
@@ -14785,40 +14842,51 @@
           {
             "slot": "Head",
             "slotType": "HEAD",
-            "id": 7432,
-            "name": "Twilight Cowl of the Elder",
-            "quality": "UNCOMMON",
-            "level": 38,
+            "id": 7720,
+            "name": "Whitemane's Chapeau",
+            "quality": "RARE",
+            "level": 44,
             "tip": {
-              "bind": "Binds when equipped",
+              "bind": "Binds when picked up",
               "type": "Head",
               "sub": "Cloth",
-              "armor": "41 Armor",
+              "armor": "52 Armor",
               "stats": [
                 {
-                  "t": "+11 Intellect",
+                  "t": "+10 Intellect",
                   "g": false
                 },
                 {
-                  "t": "+6 Spell Power",
+                  "t": "+9 Stamina",
+                  "g": false
+                },
+                {
+                  "t": "+7 Spell Damage",
                   "g": true
                 },
                 {
-                  "t": "+6 Spirit",
+                  "t": "+20 Spell Healing",
+                  "g": true
+                },
+                {
+                  "t": "+12 Spirit",
                   "g": true
                 }
               ],
-              "req": "Requires Level 33",
-              "durability": "Durability 15 / 45"
+              "spells": [
+                "Equip: Reduces the cast time of spells and effects that revive targets by 20%."
+              ],
+              "req": "Requires Level 39",
+              "durability": "Durability 40 / 50"
             }
           },
           {
             "slot": "Neck",
             "slotType": "NECK",
-            "id": 15690,
-            "name": "Kodobone Necklace",
-            "quality": "UNCOMMON",
-            "level": 41,
+            "id": 7722,
+            "name": "Triune Amulet",
+            "quality": "RARE",
+            "level": 44,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Neck",
@@ -14829,10 +14897,15 @@
                   "g": false
                 },
                 {
-                  "t": "+4 Spirit",
+                  "t": "+8 Spell Power",
+                  "g": true
+                },
+                {
+                  "t": "+7 Spirit",
                   "g": true
                 }
-              ]
+              ],
+              "req": "Requires Level 39"
             }
           },
           {
@@ -14862,7 +14935,7 @@
                 }
               ],
               "req": "Requires Level 30",
-              "durability": "Durability 34 / 50"
+              "durability": "Durability 37 / 50"
             }
           },
           {
@@ -14891,7 +14964,7 @@
                 "Equip: When damaged, has a chance to reduce threat level on all enemies by a small amount for 10 sec."
               ],
               "req": "Requires Level 27",
-              "durability": "Durability 38 / 80",
+              "durability": "Durability 45 / 80",
               "set": "Violet Sorcerer's Vestments (1/5)"
             }
           },
@@ -14918,7 +14991,7 @@
                 }
               ],
               "req": "Requires Level 36",
-              "durability": "Durability 23 / 30"
+              "durability": "Durability 16 / 30"
             }
           },
           {
@@ -14948,7 +15021,7 @@
                 }
               ],
               "req": "Requires Level 34",
-              "durability": "Durability 28 / 55"
+              "durability": "Durability 35 / 55"
             }
           },
           {
@@ -14982,7 +15055,7 @@
                 }
               ],
               "req": "Requires Level 27",
-              "durability": "Durability 26 / 40"
+              "durability": "Durability 24 / 40"
             }
           },
           {
@@ -15042,40 +15115,12 @@
                 }
               ],
               "req": "Requires Level 27",
-              "durability": "Durability 16 / 30"
+              "durability": "Durability 24 / 30"
             }
           },
           {
             "slot": "Ring 1",
             "slotType": "FINGER_1",
-            "id": 279845,
-            "name": "Solid Gold Band",
-            "quality": "UNCOMMON",
-            "level": 36,
-            "tip": {
-              "bind": "Binds when picked up",
-              "type": "Finger",
-              "sub": "Miscellaneous",
-              "stats": [
-                {
-                  "t": "+4 Spell Damage",
-                  "g": true
-                },
-                {
-                  "t": "+11 Spell Healing",
-                  "g": true
-                },
-                {
-                  "t": "+5 Spirit",
-                  "g": true
-                }
-              ],
-              "desc": "A small prize in exchange for tremendous knowledge."
-            }
-          },
-          {
-            "slot": "Ring 2",
-            "slotType": "FINGER_2",
             "id": 6750,
             "name": "Snake Hoop",
             "quality": "UNCOMMON",
@@ -15091,6 +15136,29 @@
                 },
                 {
                   "t": "+6 Spell Power",
+                  "g": true
+                }
+              ]
+            }
+          },
+          {
+            "slot": "Ring 2",
+            "slotType": "FINGER_2",
+            "id": 270081,
+            "name": "Purified Ring",
+            "quality": "RARE",
+            "level": 44,
+            "tip": {
+              "bind": "Binds when picked up",
+              "type": "Finger",
+              "sub": "Miscellaneous",
+              "stats": [
+                {
+                  "t": "+12 Intellect",
+                  "g": false
+                },
+                {
+                  "t": "+5 Spell Power",
                   "g": true
                 }
               ]
@@ -15198,66 +15266,63 @@
                 "Firestone 2"
               ],
               "req": "Requires Level 34",
-              "durability": "Durability 80 / 100"
+              "durability": "Durability 90 / 100"
             }
           },
           {
             "slot": "Ranged",
             "slotType": "RANGED",
-            "id": 7001,
-            "name": "Gravestone Scepter",
-            "quality": "RARE",
-            "level": 29,
+            "id": 5213,
+            "name": "Scorching Wand",
+            "quality": "UNCOMMON",
+            "level": 35,
             "tip": {
-              "bind": "Binds when picked up",
+              "bind": "Binds when equipped",
               "type": "Ranged",
               "sub": "Wand",
-              "damage": "30 - 57 Shadow Damage",
-              "speed": "Speed 1.50",
-              "dps": "(29.0 damage per second)",
+              "damage": "26 - 49 Fire Damage",
+              "speed": "Speed 1.30",
+              "dps": "(28.8 damage per second)",
               "stats": [
                 {
-                  "t": "+3 Spirit",
-                  "g": true
-                },
-                {
-                  "t": "+6 Shadow Damage",
+                  "t": "+6 Fire Damage",
                   "g": true
                 }
               ],
-              "durability": "Durability 52 / 65"
+              "req": "Requires Level 30",
+              "durability": "Durability 55 / 55"
             }
           }
         ],
         "stats": {
           "attributes": {
             "strength": [
-              36,
-              36
+              37,
+              37
             ],
             "agility": [
-              33,
-              33
+              34,
+              34
             ],
             "stamina": [
-              47,
-              71
+              48,
+              81
             ],
             "intellect": [
-              66,
-              159
+              69,
+              173
             ],
             "spirit": [
-              75,
-              111
+              78,
+              115
             ],
             "armor": [
               0,
-              383
+              396
             ],
             "defense": [
-              181,
-              181
+              188,
+              188
             ]
           },
           "resistances": {
@@ -15268,73 +15333,73 @@
             "shadow": 5
           },
           "melee": {
-            "min": 76.3,
-            "max": 111.3,
+            "min": 76.6,
+            "max": 111.6,
             "speed": 3.4,
-            "dps": 27.6,
+            "dps": 27.7,
             "offDps": 1.2,
-            "hit": 2,
-            "crit": 2.8,
+            "hit": 0,
+            "crit": 2.7,
             "haste": 0
           },
           "ranged": {
             "ap": 0,
-            "min": 30,
-            "max": 57,
-            "hit": 2,
-            "crit": 5.1,
+            "min": 26,
+            "max": 49,
+            "hit": 0,
+            "crit": 4.8,
             "haste": 0
           },
           "spell": {
-            "healing": 118,
-            "hit": 2,
-            "crit": 8.1,
+            "healing": 134,
+            "hit": 0,
+            "crit": 8.2,
             "haste": 0,
             "penetration": 0,
-            "regen": 103,
+            "regen": 106,
             "regenCombat": 3
           },
           "parry": 0,
           "block": 0,
           "speed": 100,
-          "health": 1099,
-          "power": 2971,
+          "health": 1264,
+          "power": 3238,
           "powerType": "Mana",
-          "crit": 8.1,
+          "crit": 8.2,
           "haste": 0,
-          "dodge": 4.1,
-          "attackPower": 26,
-          "spellPower": 111,
-          "dps": 27.6
+          "dodge": 3.9,
+          "attackPower": 27,
+          "spellPower": 121,
+          "dps": 27.7
         },
-        "questsCompleted": 298,
-        "honorableKills": 0,
+        "questsCompleted": 324,
+        "honorableKills": 1,
         "reputations": [
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 3395,
+            "value": 3845,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Honored",
-            "value": 932,
+            "value": 1251,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 5313,
+            "value": 5707,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 4123,
+            "value": 4817,
             "max": 6000,
             "tier": 4
           },
@@ -15348,35 +15413,35 @@
           {
             "faction": "Ratchet",
             "standing": "Neutral",
-            "value": 2465,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Everlook",
-            "standing": "Neutral",
-            "value": 1432,
+            "value": 2467,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Booty Bay",
             "standing": "Neutral",
-            "value": 1432,
+            "value": 1437,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Everlook",
+            "standing": "Neutral",
+            "value": 1435,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Gadgetzan",
             "standing": "Neutral",
-            "value": 1432,
+            "value": 1435,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Powderfuse",
             "standing": "Neutral",
-            "value": 1432,
+            "value": 1435,
             "max": 3000,
             "tier": 3
           },
@@ -15405,21 +15470,19 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 101,
+            "Times camped": 115,
             "Health potions consumed": 30,
-            "Mana potions consumed": 3,
-            "Beverages consumed": 125,
-            "Food eaten": 192,
-            "Healthstones used": 41,
+            "Mana potions consumed": 4,
+            "Beverages consumed": 135,
+            "Food eaten": 206,
+            "Healthstones used": 44,
             "Most factions at Honored or higher": 2,
             "Most Horde factions at Exalted": 4,
             "Total factions encountered": 16,
-            "Greed rolls made on loot": 351,
-            "Need rolls made on loot": 48,
             "Total deaths from other players": 5,
             "Total deaths from opposite faction": 3,
-            "Total 5-player dungeons entered": 41,
-            "Scarlet Commander Mograine kills (Scarlet Monastery)": 4,
+            "Total 5-player dungeons entered": 44,
+            "Scarlet Commander Mograine kills (Scarlet Monastery)": 6,
             "Edwin VanCleef Kills (Deadmines)": 1,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Shade of the Archmage Kills (City of Dalaran)": 2,
@@ -15431,28 +15494,31 @@
             "Charlga Razorflank kills (Razorfen Kraul)": 2,
             "Mekgineer Thermaplugg kills (Gnomeregan)": 1,
             "Amnennar the Coldbringer kills (Razorfen Downs)": 1,
-            "High Inquisitor Whitemane kills (Scarlet Monastery)": 4,
-            "Total kills": 7434,
-            "Total kills that grant experience or honor": 6805,
-            "Creatures killed": 7335,
+            "High Inquisitor Whitemane kills (Scarlet Monastery)": 6,
+            "Total kills": 8151,
+            "Total kills that grant experience or honor": 7390,
+            "Creatures killed": 8049,
             "Different creature types killed": 9,
-            "Creature type killed the most": 4284,
-            "Critters killed": 99,
-            "Total Killing Blows": 2342,
-            "World Killing Blows": 1441,
-            "Continent with the most Killing Blows": 730,
-            "Total deaths": 123,
-            "Total raid and dungeon deaths": 27,
-            "Total deaths in 5-player dungeons": 27,
+            "Creature type killed the most": 4784,
+            "Critters killed": 101,
+            "Total Honorable Kills": 1,
+            "World Honorable Kills": 1,
+            "Continent with the most Honorable Kills": 1,
+            "Total Killing Blows": 2577,
+            "World Killing Blows": 1619,
+            "Continent with the most Killing Blows": 823,
+            "Total deaths": 124,
+            "Total raid and dungeon deaths": 28,
+            "Total deaths in 5-player dungeons": 28,
             "Deaths from drowning": 1,
             "Deaths from falling": 4,
             "Resurrected by priests": 7,
-            "Revived by druids": 10,
+            "Revived by druids": 11,
             "Redeemed by paladins": 8,
             "Resurrected by soulstones": 9,
-            "Quests completed": 260,
+            "Quests completed": 285,
             "Average quests completed per day": 0,
-            "Quests abandoned": 51,
+            "Quests abandoned": 56,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 2,
@@ -15460,20 +15526,20 @@
             "Cooking skill": 225,
             "Cooking Recipes known": 50,
             "Fishing skill": 1,
-            "Highest Skinning skill": 231,
+            "Highest Skinning skill": 242,
             "Highest Tailoring skill": 154,
-            "Tailoring Patterns learned": 116,
-            "Flight paths taken": 80,
-            "Summons accepted": 2,
+            "Tailoring Patterns learned": 122,
+            "Flight paths taken": 84,
+            "Summons accepted": 5,
             "Mage Portals taken": 1,
             "Mage portal taken most": 1,
-            "Number of times hearthed": 36
+            "Number of times hearthed": 38
           },
           "bosses": [
             {
               "boss": "Scarlet Commander Mograine",
               "instance": "Scarlet Monastery",
-              "kills": 4
+              "kills": 6
             },
             {
               "boss": "Edwin VanCleef",
@@ -15533,7 +15599,7 @@
             {
               "boss": "High Inquisitor Whitemane",
               "instance": "Scarlet Monastery",
-              "kills": 4
+              "kills": 6
             }
           ],
           "groups": [
@@ -15559,13 +15625,6 @@
                 "Most factions at Honored or higher",
                 "Most Horde factions at Exalted",
                 "Total factions encountered"
-              ]
-            },
-            {
-              "name": "Character · Gear",
-              "stats": [
-                "Greed rolls made on loot",
-                "Need rolls made on loot"
               ]
             },
             {
@@ -15613,6 +15672,14 @@
                 "Different creature types killed",
                 "Creature type killed the most",
                 "Critters killed"
+              ]
+            },
+            {
+              "name": "Kills · Honorable Kills",
+              "stats": [
+                "Total Honorable Kills",
+                "World Honorable Kills",
+                "Continent with the most Honorable Kills"
               ]
             },
             {
@@ -15702,9 +15769,9 @@
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/61/11040573-avatar.jpg",
           "box": {
             "x": 534,
-            "y": 398,
+            "y": 392,
             "w": 501,
-            "h": 585,
+            "h": 591,
             "W": 1600,
             "H": 1200
           }
@@ -15809,8 +15876,8 @@
         "race": "Undead",
         "className": "Warlock",
         "level": 17,
-        "experience": 8926,
-        "lastLogin": "2026-11-15T18:25:43.000Z",
+        "experience": 11307,
+        "lastLogin": "2026-11-16T22:01:56.000Z",
         "itemLevel": 8,
         "achievementPoints": 0,
         "title": null,
@@ -15963,7 +16030,7 @@
                 "Enchanted: Intellect +2"
               ],
               "req": "Requires Level 9",
-              "durability": "Durability 49 / 50"
+              "durability": "Durability 50 / 50"
             }
           },
           {
@@ -15997,7 +16064,7 @@
                 }
               ],
               "req": "Requires Level 10",
-              "durability": "Durability 15 / 20"
+              "durability": "Durability 20 / 20"
             }
           },
           {
@@ -16022,7 +16089,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 39 / 40"
+              "durability": "Durability 40 / 40"
             }
           },
           {
@@ -16077,7 +16144,7 @@
                 "Enchanted: Stamina +3"
               ],
               "req": "Requires Level 13",
-              "durability": "Durability 19 / 20"
+              "durability": "Durability 20 / 20"
             }
           },
           {
@@ -16099,7 +16166,7 @@
                 }
               ],
               "req": "Requires Level 5",
-              "durability": "Durability 10 / 16"
+              "durability": "Durability 16 / 16"
             }
           },
           {
@@ -16174,7 +16241,7 @@
                 }
               ],
               "req": "Requires Level 13",
-              "durability": "Durability 36 / 45"
+              "durability": "Durability 45 / 45"
             }
           }
         ],
@@ -16205,8 +16272,8 @@
               181
             ],
             "defense": [
-              66,
-              66
+              70,
+              70
             ]
           },
           "resistances": {
@@ -16231,7 +16298,7 @@
             "min": 22,
             "max": 41,
             "hit": 0,
-            "crit": 4.6,
+            "crit": 4.7,
             "haste": 0
           },
           "spell": {
@@ -16249,41 +16316,41 @@
           "health": 453,
           "power": 718,
           "powerType": "Mana",
-          "crit": 4.6,
+          "crit": 4.7,
           "haste": 0,
-          "dodge": 3.9,
+          "dodge": 4.1,
           "attackPower": 14,
           "spellPower": 16,
           "dps": 7.7
         },
-        "questsCompleted": 131,
+        "questsCompleted": 134,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Undercity",
             "standing": "Honored",
-            "value": 1930,
+            "value": 1967,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Neutral",
-            "value": 2623,
+            "value": 2848,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Neutral",
-            "value": 2586,
+            "value": 2698,
             "max": 3000,
             "tier": 3
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Neutral",
-            "value": 1198,
+            "value": 1236,
             "max": 3000,
             "tier": 3
           },
@@ -16298,7 +16365,7 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 12,
+            "Times camped": 13,
             "Bandages used": 1,
             "Bandage used most": 1,
             "Beverages consumed": 3,
@@ -16310,15 +16377,15 @@
             "Need rolls made on loot": 3,
             "Total 5-player dungeons entered": 2,
             "Bazzalan kills (Ragefire Chasm)": 1,
-            "Total kills": 697,
-            "Total kills that grant experience or honor": 672,
-            "Creatures killed": 697,
+            "Total kills": 755,
+            "Total kills that grant experience or honor": 674,
+            "Creatures killed": 755,
             "Different creature types killed": 6,
-            "Creature type killed the most": 314,
-            "Total Killing Blows": 557,
-            "World Killing Blows": 533,
+            "Creature type killed the most": 356,
+            "Total Killing Blows": 614,
+            "World Killing Blows": 590,
             "Continent with the most Killing Blows": 533,
-            "Quests completed": 106,
+            "Quests completed": 109,
             "Average quests completed per day": 0,
             "Quests abandoned": 1,
             "Professions learned": 2,
@@ -16336,7 +16403,7 @@
             "Items disenchanted": 25,
             "Highest Tailoring skill": 61,
             "Tailoring Patterns learned": 56,
-            "Flight paths taken": 8,
+            "Flight paths taken": 9,
             "Number of times hearthed": 8,
             "Number of hugs": 3,
             "Total waves": 3
@@ -18234,7 +18301,7 @@
       "surname": "Monkey",
       "slug": "mohawk-monkey",
       "rank": 4,
-      "level": 14,
+      "level": 15,
       "classId": 7,
       "className": "Shaman",
       "raceId": 6,
@@ -18243,10 +18310,10 @@
         "gender": "MALE",
         "race": "Tauren",
         "className": "Shaman",
-        "level": 14,
-        "experience": 3057,
-        "lastLogin": "2026-11-16T18:56:54.000Z",
-        "itemLevel": 7,
+        "level": 15,
+        "experience": 3609,
+        "lastLogin": "2026-11-17T01:13:25.000Z",
+        "itemLevel": 8,
         "achievementPoints": 0,
         "title": null,
         "spec": {
@@ -18254,7 +18321,7 @@
           "trees": [
             {
               "name": "Enhancement",
-              "points": 5
+              "points": 6
             }
           ]
         },
@@ -18262,12 +18329,13 @@
           {
             "name": "Leatherworking",
             "type": "primary",
-            "skill": 55,
-            "max": 75,
-            "recipes": 17,
+            "skill": 80,
+            "max": 150,
+            "recipes": 20,
             "known": [
               "Camp Tent",
               "Cured Light Hide",
+              "Cured Medium Hide",
               "Embossed Leather Boots",
               "Embossed Leather Cloak",
               "Embossed Leather Gloves",
@@ -18282,13 +18350,15 @@
               "Kodo Hide Bag",
               "Light Armor Kit",
               "Light Leather",
-              "Light Leather Bracers"
+              "Light Leather Bracers",
+              "Medium Armor Kit",
+              "Medium Leather"
             ]
           },
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 108,
+            "skill": 117,
             "max": 150,
             "recipes": 2,
             "known": [
@@ -18327,11 +18397,12 @@
           {
             "name": "First Aid",
             "type": "secondary",
-            "skill": 56,
-            "max": 75,
-            "recipes": 2,
+            "skill": 62,
+            "max": 150,
+            "recipes": 3,
             "known": [
               "First Aid Kit",
+              "Heavy Linen Bandage",
               "Linen Bandage"
             ]
           }
@@ -18368,7 +18439,7 @@
                 }
               ],
               "req": "Requires Level 7",
-              "durability": "Durability 55 / 60"
+              "durability": "Durability 59 / 60"
             }
           },
           {
@@ -18390,7 +18461,7 @@
                 }
               ],
               "req": "Requires Level 5",
-              "durability": "Durability 18 / 20"
+              "durability": "Durability 20 / 20"
             }
           },
           {
@@ -18411,7 +18482,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 42 / 45"
+              "durability": "Durability 44 / 45"
             }
           },
           {
@@ -18437,7 +18508,7 @@
                 }
               ],
               "req": "Requires Level 10",
-              "durability": "Durability 27 / 30"
+              "durability": "Durability 29 / 30"
             }
           },
           {
@@ -18492,7 +18563,7 @@
                 "Enchanted: Stamina +1 and Armor +8"
               ],
               "req": "Requires Level 8",
-              "durability": "Durability 18 / 20"
+              "durability": "Durability 19 / 20"
             }
           },
           {
@@ -18519,53 +18590,73 @@
           {
             "slot": "Main Hand",
             "slotType": "MAIN_HAND",
-            "id": 4961,
-            "name": "Dreamwatcher Staff",
-            "quality": "COMMON",
+            "id": 4575,
+            "name": "Medicine Staff of Stamina",
+            "quality": "UNCOMMON",
+            "level": 19,
+            "tip": {
+              "bind": "Binds when equipped",
+              "type": "Two-Hand",
+              "sub": "Staff",
+              "damage": "25 - 38 Damage",
+              "speed": "Speed 2.50",
+              "dps": "(12.6 damage per second)",
+              "stats": [
+                {
+                  "t": "+6 Stamina",
+                  "g": false
+                }
+              ],
+              "req": "Requires Level 14",
+              "durability": "Durability 65 / 65"
+            }
+          },
+          {
+            "slot": "Ranged",
+            "slotType": "RANGED",
+            "id": 263412,
+            "name": "Totem of Charged Flames",
+            "quality": "UNCOMMON",
             "level": 10,
             "tip": {
               "bind": "Binds when picked up",
-              "type": "Two-Hand",
-              "sub": "Staff",
-              "damage": "14 - 22 Damage",
-              "speed": "Speed 3.20",
-              "dps": "(5.6 damage per second)",
-              "enchants": [
-                "Flametongue 1"
-              ],
-              "durability": "Durability 44 / 45"
+              "type": "Relic",
+              "sub": "Totem",
+              "spells": [
+                "Equip: Reduces the mana cost of Flame Shock and Lightning Bolt by 5 Mana."
+              ]
             }
           }
         ],
         "stats": {
           "attributes": {
             "strength": [
-              37,
-              39
+              38,
+              40
             ],
             "agility": [
-              20,
-              27
+              21,
+              28
             ],
             "stamina": [
-              35,
-              41
+              36,
+              48
             ],
             "intellect": [
               27,
               27
             ],
             "spirit": [
-              36,
-              36
+              38,
+              38
             ],
             "armor": [
               8,
-              347
+              349
             ],
             "defense": [
-              66,
-              66
+              69,
+              69
             ]
           },
           "resistances": {
@@ -18576,13 +18667,13 @@
             "shadow": 0
           },
           "melee": {
-            "min": 33.7,
-            "max": 41.7,
-            "speed": 3.2,
-            "dps": 11.8,
-            "offDps": 3.3,
+            "min": 42.5,
+            "max": 55.5,
+            "speed": 2.5,
+            "dps": 19.6,
+            "offDps": 3.8,
             "hit": 0,
-            "crit": 9.8,
+            "crit": 9.9,
             "haste": 0
           },
           "ranged": {
@@ -18590,59 +18681,73 @@
             "min": 1,
             "max": 1,
             "hit": 0,
-            "crit": 2.4,
+            "crit": 7.2,
             "haste": 0
           },
           "spell": {
             "healing": 2,
             "hit": 0,
-            "crit": 9.3,
+            "crit": 9.1,
             "haste": 0,
             "penetration": 0,
-            "regen": 45,
+            "regen": 47,
             "regenCombat": 0
           },
           "parry": 0,
           "block": 4.8,
           "speed": 100,
-          "health": 376,
-          "power": 366,
+          "health": 457,
+          "power": 385,
           "powerType": "Mana",
-          "crit": 9.8,
+          "crit": 9.9,
           "haste": 0,
-          "dodge": 5,
-          "attackPower": 86,
+          "dodge": 4.9,
+          "attackPower": 98,
           "spellPower": 2,
-          "dps": 11.8
+          "dps": 19.6
         },
-        "questsCompleted": 128,
+        "questsCompleted": 136,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Thunder Bluff",
-            "standing": "Friendly",
-            "value": 5870,
-            "max": 6000,
-            "tier": 4
+            "standing": "Honored",
+            "value": 88,
+            "max": 12000,
+            "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 255,
+            "value": 717,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 255,
+            "value": 417,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Neutral",
-            "value": 655,
+            "value": 948,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Ratchet",
+            "standing": "Neutral",
+            "value": 500,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Durotar Supply and Logistics",
+            "standing": "Neutral",
+            "value": 0,
             "max": 3000,
             "tier": 3
           }
@@ -18650,25 +18755,27 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 3,
-            "Bandages used": 1,
-            "Bandage used most": 1,
+            "Times camped": 4,
+            "Bandages used": 3,
+            "Bandage used most": 2,
             "Health potions consumed": 5,
             "Beverages consumed": 3,
-            "Food eaten": 20,
+            "Food eaten": 23,
+            "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 5,
-            "Total kills": 505,
-            "Total kills that grant experience or honor": 500,
-            "Creatures killed": 505,
+            "Total factions encountered": 8,
+            "Total kills": 584,
+            "Total kills that grant experience or honor": 573,
+            "Creatures killed": 583,
             "Different creature types killed": 5,
-            "Creature type killed the most": 309,
-            "Total Killing Blows": 491,
-            "World Killing Blows": 491,
-            "Continent with the most Killing Blows": 491,
-            "Total deaths": 3,
+            "Creature type killed the most": 338,
+            "Critters killed": 1,
+            "Total Killing Blows": 570,
+            "World Killing Blows": 570,
+            "Continent with the most Killing Blows": 570,
+            "Total deaths": 4,
             "Deaths from falling": 1,
-            "Quests completed": 73,
+            "Quests completed": 81,
             "Average quests completed per day": 0,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
@@ -18676,16 +18783,16 @@
             "Weapon skills at maximum skill": 4,
             "Cooking skill": 75,
             "Cooking Recipes known": 18,
-            "First Aid skill": 56,
-            "First Aid Manuals learned": 6,
+            "First Aid skill": 62,
+            "First Aid Manuals learned": 10,
             "Fishing skill": 38,
             "Fish caught": 37,
             "Fish and other things caught": 37,
-            "Highest Leatherworking skill": 55,
-            "Leatherworking Patterns learned": 36,
-            "Highest Skinning skill": 106,
-            "Flight paths taken": 2,
-            "Number of times hearthed": 3
+            "Highest Leatherworking skill": 80,
+            "Leatherworking Patterns learned": 44,
+            "Highest Skinning skill": 117,
+            "Flight paths taken": 5,
+            "Number of times hearthed": 4
           },
           "bosses": [],
           "groups": [
@@ -18708,6 +18815,7 @@
             {
               "name": "Character · Reputation",
               "stats": [
+                "Most factions at Honored or higher",
                 "Most Horde factions at Exalted",
                 "Total factions encountered"
               ]
@@ -18724,7 +18832,8 @@
               "stats": [
                 "Creatures killed",
                 "Different creature types killed",
-                "Creature type killed the most"
+                "Creature type killed the most",
+                "Critters killed"
               ]
             },
             {
@@ -18796,9 +18905,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/251/73270267-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/251/73270267-avatar.jpg",
           "box": {
-            "x": 485,
+            "x": 461,
             "y": 280,
-            "w": 558,
+            "w": 582,
             "h": 726,
             "W": 1600,
             "H": 1200
@@ -18913,6 +19022,7 @@
       "4534": "https://render.worldofwarcraft.com/forever-eu/icons/56/132605.jpg",
       "4545": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
       "4570": "https://render.worldofwarcraft.com/forever-eu/icons/56/133052.jpg",
+      "4575": "https://render.worldofwarcraft.com/forever-eu/icons/56/135168.jpg",
       "4699": "https://render.worldofwarcraft.com/forever-eu/icons/56/132511.jpg",
       "4713": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
       "4788": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
@@ -18924,6 +19034,7 @@
       "5193": "https://render.worldofwarcraft.com/forever-eu/icons/56/133760.jpg",
       "5194": "https://render.worldofwarcraft.com/forever-eu/icons/56/135424.jpg",
       "5199": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+      "5213": "https://render.worldofwarcraft.com/forever-eu/icons/56/135468.jpg",
       "5214": "https://render.worldofwarcraft.com/forever-eu/icons/56/135463.jpg",
       "5250": "https://render.worldofwarcraft.com/forever-eu/icons/56/135139.jpg",
       "5309": "https://render.worldofwarcraft.com/forever-eu/icons/56/135613.jpg",
@@ -18943,6 +19054,7 @@
       "6267": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg",
       "6282": "https://render.worldofwarcraft.com/forever-eu/icons/56/134581.jpg",
       "6320": "https://render.worldofwarcraft.com/forever-eu/icons/56/134949.jpg",
+      "6323": "https://render.worldofwarcraft.com/forever-eu/icons/56/133477.jpg",
       "6335": "https://render.worldofwarcraft.com/forever-eu/icons/56/132537.jpg",
       "6340": "https://render.worldofwarcraft.com/forever-eu/icons/56/134367.jpg",
       "6350": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg",
@@ -19001,6 +19113,7 @@
       "7691": "https://render.worldofwarcraft.com/forever-eu/icons/56/133130.jpg",
       "7713": "https://render.worldofwarcraft.com/forever-eu/icons/56/135466.jpg",
       "7720": "https://render.worldofwarcraft.com/forever-eu/icons/56/133101.jpg",
+      "7722": "https://render.worldofwarcraft.com/forever-eu/icons/56/133276.jpg",
       "7888": "https://render.worldofwarcraft.com/forever-eu/icons/56/133289.jpg",
       "7997": "https://render.worldofwarcraft.com/forever-eu/icons/56/133694.jpg",
       "8071": "https://render.worldofwarcraft.com/forever-eu/icons/56/135139.jpg",
@@ -19099,6 +19212,7 @@
       "250531": "https://render.worldofwarcraft.com/forever-eu/icons/56/133138.jpg",
       "250532": "https://render.worldofwarcraft.com/forever-eu/icons/56/133139.jpg",
       "250558": "https://render.worldofwarcraft.com/forever-eu/icons/56/132518.jpg",
+      "250559": "https://render.worldofwarcraft.com/forever-eu/icons/56/132497.jpg",
       "250621": "https://render.worldofwarcraft.com/forever-eu/icons/56/132582.jpg",
       "251485": "https://render.worldofwarcraft.com/forever-eu/icons/56/135650.jpg",
       "251486": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg",
@@ -19170,6 +19284,7 @@
       "273088": "https://render.worldofwarcraft.com/forever-eu/icons/56/133884.jpg",
       "273289": "https://render.worldofwarcraft.com/forever-eu/icons/56/134589.jpg",
       "273457": "https://render.worldofwarcraft.com/forever-eu/icons/56/133294.jpg",
+      "273654": "https://render.worldofwarcraft.com/forever-eu/icons/56/133759.jpg",
       "274042": "https://render.worldofwarcraft.com/forever-eu/icons/56/132501.jpg",
       "274068": "https://render.worldofwarcraft.com/forever-eu/icons/56/133278.jpg",
       "274084": "https://render.worldofwarcraft.com/forever-eu/icons/56/135614.jpg",
@@ -19513,6 +19628,7 @@
       "4534": true,
       "4545": true,
       "4570": true,
+      "4575": true,
       "4699": true,
       "4713": true,
       "4788": true,
@@ -19524,6 +19640,7 @@
       "5193": true,
       "5194": true,
       "5199": true,
+      "5213": true,
       "5214": true,
       "5250": true,
       "5309": true,
@@ -19543,6 +19660,7 @@
       "6267": true,
       "6282": true,
       "6320": true,
+      "6323": true,
       "6335": true,
       "6340": true,
       "6350": true,
@@ -19601,6 +19719,7 @@
       "7691": true,
       "7713": true,
       "7720": true,
+      "7722": true,
       "7888": true,
       "7997": true,
       "8071": true,
@@ -19699,6 +19818,7 @@
       "250531": false,
       "250532": false,
       "250558": false,
+      "250559": false,
       "250621": false,
       "251485": false,
       "251486": false,
@@ -19770,6 +19890,7 @@
       "273088": false,
       "273289": false,
       "273457": false,
+      "273654": false,
       "274042": false,
       "274068": false,
       "274084": false,

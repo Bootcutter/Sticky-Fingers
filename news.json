@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-11-16T21:15:14.396Z",
+  "generatedAt": "2026-11-17T03:58:51.003Z",
   "news": [
+    {
+      "id": "wowhead-383900",
+      "source": "Wowhead",
+      "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+      "description": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons!",
+      "details": "Hotfixes\nNovember 16, 2026\nCamping\nThe Fishing Rack now provides lures for everyone.\nBloated Fish caught from the Fishing Rack effect have had their drop chance increased and their loot tables adjusted accordingly.\nClasses\nDruid\nFixed an issue where ranks of Wild Growth were not going on cooldown.\nBalance\nFixed an issue where the Genesis talent was not increasing the damage of Pounce’s bleed.\nPriest\nFixed an issue where Dark Inspiration was stacking if there were multiple Shadow priests in the same party.\nVampiric Embrace healing is now based on 10% of the Shadow damage done by the casting Priest (was 20%). The casting Priest receives 100% increased healing from this effect.\nDevelopers’ notes: This change results in no difference for Priest solo play.\nRogue\nRogue Poison ranks can no longer go above the maximum rank.\nFixed an issue where using Shank on a target that didn’t have your…",
+      "category": "Forever",
+      "date": "2026-11-17T02:23:22.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56153-more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026.jpg",
+      "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026"
+    },
+    {
+      "id": "wowhead-383893",
+      "source": "Wowhead",
+      "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+      "description": "A new cosmetic Hearthstone has been found in WoW: Forever!",
+      "details": "Cosmetic Hearthstones are new to WoW: Forever and give your character a unique animation during the 10-second cast time while casting. In WoW: Forever, the first cosmetic Hearthstone has been discovered, Scarlet Hearthstone. This toy goes into your Toy Box, but instead of casting it directly from there, it gives you Scarlet Hearthstone, which still takes up a bag slot.\nHere's what the Hearthstone animation looks like.\nAccording to Undyingshaman on the WoW Forums, this item drops from High General Abbendis in the Eastern Plaguelands.\nThis is the first cosmetic Hearthstone in WoW: Forever and probably won't be the last. What other Hearthstones could be out there?",
+      "category": "Forever",
+      "date": "2026-11-17T00:00:20.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56149-new-scarlet-monastery-hearthstone-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383898",
+      "source": "Wowhead",
+      "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+      "description": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs.",
+      "details": "As players start to level up, they are discovering how to make gold quickly to buy the expensive Epic mount, finish their Professions, and unlock their Best-in Slot Gear. Players discovered the new Weekly quest in Booty Bay that awards up to 100 Gold, but one other way is through raw material farming, and players discovered a very good farm over the last week.\nBlackmaw Hold Runs\nIn Blackmaw Hold, there is a room filled with around 30 Blackmaw Devotee. These creatures are non-elites that only auto-attack, but can drop a lot of loot. This location is a little further in the dungeon, but by mounting through the first area and using the large fall as a clever aggro drop, groups could make this run relatively efficient. Mages can even get to this area solo using locations where mobs cannot path to in order to reset them. Defeat all the mobs, loot them and then reset the run and go again for…",
+      "category": "Forever",
+      "date": "2026-11-16T21:04:18.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56151-100-gold-per-hour-farm-nerfed-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever"
+    },
     {
       "id": "wowhead-383897",
       "source": "Wowhead",
@@ -66,39 +99,6 @@
       "date": "2026-11-14T19:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56139-infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383880",
-      "source": "Wowhead",
-      "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
-      "description": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience.",
-      "details": "Blizzard recently released a large set of hotfixes to dungeons, quests, NPCs, items, and more. These hotfixes had a change to dungeon experience, where if a mob is trivial to anyone in the group it will grant zero experience. Mobs turn grey when a player is too high-level and the mob is considered \"trivial\".\nWhile dungeon experience is nerfed in WoW: Forever at 60% of the original values, all experience still helps you level up. Inviting a high-level player to a dungeon can now remove a decent chunk of raw experience points from mob kills across an entire dungeon.\nBlizzardKilling enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.\nThis can get complicated, as trash mobs are typically a couple of levels lower than bosses and many players want to be the appropriate level for them. Some…",
-      "category": "Forever",
-      "date": "2026-11-14T16:16:46.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56141-dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party.jpg",
-      "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party"
-    },
-    {
-      "id": "wowhead-383861",
-      "source": "Wowhead",
-      "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
-      "description": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre!",
-      "details": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: Turning the player into an Ogre!\nOne of the new dungeons in WoW: Forever, the Krol'dok Stronghold, has a new set of gear for Protection Warriors and Paladins with the Krol'dok Battlegear. Some pieces, such as the Krol'dok Warplate Pauldrons, are BoE, while others like the Krol'dok Warplate Helmet are BoP drops from bosses within the dungeon. When players acquire all 5 pieces, not only do they benefit from all the set bonuses, but they also transform into an Ogre after reaching the max stacks from the set bonus!\nBlizzard has not only added new dungeon sets to Forever dungeons, such as Rotmender's Raiment from Ruins of Lordaeron or Violet Sorcerer's Vestments from the City of Dalaran, but has also updated Classic dungeon sets such as the Embrace of the…",
-      "category": "Forever",
-      "date": "2026-11-14T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56121-new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383876",
-      "source": "Wowhead",
-      "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
-      "description": "Blizzard has posted hotfixes for today, which includes many fixes to dungeons, quests, enemies, and classes!",
-      "details": "Issues with Diminishing Returns not applying have been fixed.\nLarge number of class bug fixes and changes.\nMany items has stats corrected.\nMany quests had issues corrected.\nMore players are allowed to win the Stranglethorn Fishing event.\nThe Dual spec bug has been fixed.\nMany enemies have been changed or fixed.\nNovember 13, 2026\nClasses\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when using stuns against creatures.\nDruid\nRestoration\nFixed a bug incorrectly allowing Wild Growth to be cast while moving.\nWild Growth spell healing coefficient increased to 6.6% (was 3.3%).\nMage\nFrost Nova is now correctly broken by damage from procs and damage from Blizzard.\nPaladin\nJudgement of Command now activates on-hit effects and counts as a melee attack.\nDevelopers’ notes: All other judgements will…",
-      "category": "Forever",
-      "date": "2026-11-14T01:59:35.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56138-many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for.jpg",
-      "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for"
     }
   ],
   "blizzard": null
