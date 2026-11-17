@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-17T03:58:51.003Z",
+  "generatedAt": "2026-11-17T21:24:06.848Z",
   "news": [
+    {
+      "id": "wowhead-383910",
+      "source": "Wowhead",
+      "title": "Blizzard Removing Gold and Applying Account Suspensions to Significant Abusers of Blackmaw Hold Farm",
+      "description": "Blizzard will be removing all gold earned from the Blackmaw Hold farm and applying account suspensions to significant abusers!",
+      "details": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.\nOver the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.\nPlayers who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and…",
+      "category": "Forever",
+      "date": "2026-11-17T18:39:41.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56168-blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold.jpg",
+      "url": "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold"
+    },
+    {
+      "id": "wowhead-383909",
+      "source": "Wowhead",
+      "title": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+      "description": "The latest hotfixes have changed the stats of some items in WoW: Forever, including adding spell power to the Soulforge Paladin Armor!",
+      "details": "Soulforge Paladin Set\nThere have been some changes to the Soulforge dungeon set for Paladins, removing Strength and adding spell power to a lot of pieces!\nSoulforge Armor strength removed, intellect increased and spell power added to all pieces.\nSoulforge Wristguards now grants +8 Intellect (was +5) and +6 Spell Power\nSoulforge Waistguard now grants +13 Intellect (was +10) and +12 Spell Power\nSoulforge Pauldrons now grants +12 Intellect (was +8) and +9 Spell Power\nSoulforge Legguards now grants +16 Intellect (was +14) and +16 Spell Power\nSoulforge Faceguard now grants +18 Intellect (was +11) and +13 Spell Power\nSoulforge Handguards now grants +1 Intellect (was +10) and +12 Spell Power\nSoulforge Sabatons now grants +12 Intellect (was +7) and +8 Spell Power\nSoulforge Chestguards now grants +18 Intellect (was +12) and +14 Spell Power\nOther Item Changes\nThere are some other item…",
+      "category": "Forever",
+      "date": "2026-11-17T18:37:40.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56166-spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383906",
+      "source": "Wowhead",
+      "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
+      "description": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy.",
+      "details": "WoW: Forever was mentioned to be a game about taking your time and enjoying the journey with a brand new start. In an interview with MMORPG, they mention how they are \"giving you permission to take your time\". But when a massive gold farm injects thousands of gold into the new economy and then gets fixed, it feels very unfair to a lot of players and makes them feel like they should have rushed.\nMany players are not level 55+ to enter Blackmaw Hold, but the effects of gold entering the economy will likely be felt by many players. With this amount of Gold, certain players can have full control over markets, such as buying all the Arcane Crystal, and a general increase in Gold can cause inflation on all commodities when the majority of players are still leveling.\nCommunity Reaction\nThe community has been very actively discussing the Blackmaw Hold farm across many social media platforms,…",
+      "category": "Forever",
+      "date": "2026-11-17T15:38:22.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56162-many-players-are-very-upset-about-the-blackmaw-hold-gold-farm.jpg",
+      "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm"
+    },
+    {
+      "id": "wowhead-383905",
+      "source": "Wowhead",
+      "title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
+      "description": "WoW: Forever is down for 1 hour on NA realms for scheduled maintenance.",
+      "details": "Scheduled maintenance will take down the WoW: Forever servers for an estimated 1 hour, according to the Weekly Maintenance Schedule.",
+      "category": "Forever",
+      "date": "2026-11-17T14:54:56.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56161-na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour.jpg",
+      "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour"
+    },
     {
       "id": "wowhead-383900",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-16T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56071-should-wow-forever-dungeons-let-players-complete-quests-in-one-run.jpg",
       "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run"
-    },
-    {
-      "id": "wowhead-383845",
-      "source": "Wowhead",
-      "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
-      "description": "Looking to upgrade your bags, but are a little tight on gold? Here are some bag upgrades from quests in Forever that should give you a bit more storage space!",
-      "details": "Bag Upgrade Guide\nThere are many items that players will want to carry while leveling in WoW: Forever. From consumables that replenish you before the next pull, to quest items that you have to carry around, to items you want to vendor to make some Gold, bag space is a premium, especially in the early levels.\nAt the start of a character's adventure, players can get 6-slot bags to expand their inventory in the starting area. With four 6-slot bags and the base 20 slots, this totals 42 slots. This sounds like a lot, but this space fills up very quickly when you're picking up everything to sell for money and finishing quests. Players will quickly look to expand their inventory space to carry more items on their adventures, but with competing gold costs on skill upgrades every two levels, and Dual Spec and Mount Training at level 40, gold might be tight.\nThere are random bags that can drop…",
-      "category": "Forever",
-      "date": "2026-11-15T19:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56108-save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383879",
-      "source": "Wowhead",
-      "title": "An Old SoD Secret Has New Rewards in WoW: Forever",
-      "description": "An old SoD secret has been brought forward into WoW: Forever, and it's got some new rewards compared to what players found before.",
-      "details": "This week, while most players are still adventuring through the early levels, some have been exploring higher-level dungeons and looking out for signs of secrets and surprises that we found in Season of Discovery. In this case, SeventeenUncles has found that the area in Blackrock Depths that used to host a quest for the Rainbow Generator Toy now has a new Toy available.\nThank you to SeventeenUncles for providing the information in this article.\nWhen you use this toy, you can choose from a list of things to put on your signpost, and it will remain in place for 1 hour, where other players will be able to see it.\nAnd not only that, but you also get Student Fodder and Premo's Poise-Demanding Uniform in the same place. Premo's Poise-Demanding Uniform makes you turn to face your target on use. This shirt had a key role to play in the Seventeen & the Secret Agents Secret in Season of Discovery…",
-      "category": "Forever",
-      "date": "2026-11-15T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56140-an-old-sod-secret-has-new-rewards-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383879/an-old-sod-secret-has-new-rewards-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383883",
-      "source": "Wowhead",
-      "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
-      "description": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey!",
-      "details": "Many players were very critical of yesterday's dungeon experience change, with many reports across social media and the forums sharing their personal experience of how these changes affected them. Many players pointed how dungeons have a wide variety of mob levels, and how tanks and healers usually want to be overleveled for dungeons to make for easier dungeon runs, and how this change was excluding them from groups.\nBlizzard has clearly heard this feedback, admitted they \"missed the mark,\" and have made another change.\nYesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.\nWith hotfixes that are now live, we’ve just deployed a further change to…",
-      "category": "Forever",
-      "date": "2026-11-15T01:20:35.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56143-dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above.jpg",
-      "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above"
-    },
-    {
-      "id": "wowhead-383871",
-      "source": "Wowhead",
-      "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
-      "description": "Krol'dok Stronghold is a new dungeon that challenges players in the Level 40-45 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside!",
-      "details": "Krol'dok Stronghold Dungeon Guide\nOur dungeon guide has everything you'll need to tackle this dungeon: where to find it, boss strategies, notable trash, and more. Stay tuned for our Dungeon Journal tool to update as well!\nNew Dungeon: Krol'dok Stronghold\nKrol'dok Stronghold is a level 40-45 Dungeon located in the new zone Riverglades. This is a very large dungeon, as players have infiltrated the capital city of the Krol'dok Ogres, assisted by the Twilight's Hammer and Shadowhide Gnoll Clan of Redridge.\nKrol'dok Stronghold Quests\nThere are a total of 5 quests for Alliance and 4 for Horde. Both have very long chain quests that start in their respective faction quest hubs. Both Horde and Alliance should make sure to have 12 Iron Bars and 4 Thick Leather for the quest: Key Ingredients.\nKrol'dok Stronghold quests include:\nQuestLevelSideEffortShare?Starts\nVengeance of the Highborne37 Alterac…",
-      "category": "Forever",
-      "date": "2026-11-14T19:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56139-infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever"
     }
   ],
   "blizzard": null
