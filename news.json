@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-18T11:31:47.886Z",
+  "generatedAt": "2026-11-18T19:32:02.022Z",
   "news": [
+    {
+      "id": "wowhead-383918",
+      "source": "Wowhead",
+      "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+      "description": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds!",
+      "details": "WoW: Forever PvP Guide\nThis video takes you through everything about WoW: Forever's PvP system:\nHonor points no longer determine your rank.\nRank points are earned through daily and weekly sources, weekly battlegrounds, new season's journey quests, and certain World PvP events (Gurubashi), making the ranked climb more varied and predictable.\nHonor points are used as currency to get PvP rewards.\nRank points determine which rewards are available, Honor points is what you spend to acquire them.\nAt low ranks, you get Rare quality gear\nOnce you reach Rank 8 (Knight-Captain/Legionnaire) and can upgrade the gear into Epic quality gear.\nAt Rank 14, you unlock Epic weapons, equal in power with raiding gear.\nThe biggest source of Rank points is the Season Journey -- each week a new quest will be available for rank points.\nThere is catch-up for the Season Journey quests.\nYou can expect to hit max…",
+      "category": "Forever",
+      "date": "2026-11-18T18:03:36.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56174-wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds.jpg",
+      "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds"
+    },
+    {
+      "id": "wowhead-383917",
+      "source": "Wowhead",
+      "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
+      "description": "The Auction House minimum deposit has finally been reduced back down to 1 Copper.",
+      "details": "It's been almost two weeks since launch and over a week since Blizzard announced that the Auction House deposit would be changing. With the weekly reset, the change is finally here! The Auction House no longer requires a minimum deposit of 1 Silver for every item.\nFor the faction-specific auction houses, the deposit should now strictly follow this formula:\nDurationDeposit Cost\n2 Hours5% of Vendor Price\n8 Hours20% of Vendor Price\n24 Hours60% of Vendor Price\nThis is a great change for the cheaper materials in the early levels, as players won't be putting up a deposit more than the items are worth!",
+      "category": "Forever",
+      "date": "2026-11-18T16:32:27.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56173-auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever"
+    },
     {
       "id": "wowhead-383914",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-17T02:23:22.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56153-more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026.jpg",
       "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026"
-    },
-    {
-      "id": "wowhead-383893",
-      "source": "Wowhead",
-      "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
-      "description": "A new cosmetic Hearthstone has been found in WoW: Forever!",
-      "details": "Cosmetic Hearthstones are new to WoW: Forever and give your character a unique animation during the 10-second cast time while casting. In WoW: Forever, the first cosmetic Hearthstone has been discovered, Scarlet Hearthstone. This toy goes into your Toy Box, but instead of casting it directly from there, it gives you Scarlet Hearthstone, which still takes up a bag slot.\nHere's what the Hearthstone animation looks like.\nAccording to Undyingshaman on the WoW Forums, this item drops from High General Abbendis in the Eastern Plaguelands.\nThis is the first cosmetic Hearthstone in WoW: Forever and probably won't be the last. What other Hearthstones could be out there?",
-      "category": "Forever",
-      "date": "2026-11-17T00:00:20.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56149-new-scarlet-monastery-hearthstone-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383898",
-      "source": "Wowhead",
-      "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
-      "description": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs.",
-      "details": "As players start to level up, they are discovering how to make gold quickly to buy the expensive Epic mount, finish their Professions, and unlock their Best-in Slot Gear. Players discovered the new Weekly quest in Booty Bay that awards up to 100 Gold, but one other way is through raw material farming, and players discovered a very good farm over the last week.\nBlackmaw Hold Runs\nIn Blackmaw Hold, there is a room filled with around 30 Blackmaw Devotee. These creatures are non-elites that only auto-attack, but can drop a lot of loot. This location is a little further in the dungeon, but by mounting through the first area and using the large fall as a clever aggro drop, groups could make this run relatively efficient. Mages can even get to this area solo using locations where mobs cannot path to in order to reset them. Defeat all the mobs, loot them and then reset the run and go again for…",
-      "category": "Forever",
-      "date": "2026-11-16T21:04:18.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56151-100-gold-per-hour-farm-nerfed-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever"
     }
   ],
   "blizzard": null
