@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-17T21:24:06.848Z",
+  "generatedAt": "2026-11-18T03:03:42.323Z",
   "news": [
+    {
+      "id": "wowhead-383912",
+      "source": "Wowhead",
+      "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
+      "description": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed.",
+      "details": "Announced on X (Twitter), Blizzard announced some brand new statistics for the first two weeks of WoW: Forever's launch.\nCharacters Created: 15,160,147\nQuests Completed: 1,480,343,357\nEnemies Defeated: 9,786,925,806\nGuilds Created: 140,764\nCamping Items Used: 28,696,386\nParties Formed: 71,309,889\nDeadlist Boss: Archmage Arugal (Shadowfang Keep)\nPvP kill: 28,938,569s\nPlayers Deaths: 196,851,761\nHolly Longdale also announced on Twitter that there are more people playing Forever weekly than seen in WoW in 15 years!",
+      "category": "Forever",
+      "date": "2026-11-18T00:04:50.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56170-wow-forever-continuing-to-break-records-with-over-15-million-characters-created.jpg",
+      "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created"
+    },
     {
       "id": "wowhead-383910",
       "source": "Wowhead",
@@ -17,7 +28,7 @@
       "source": "Wowhead",
       "title": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
       "description": "The latest hotfixes have changed the stats of some items in WoW: Forever, including adding spell power to the Soulforge Paladin Armor!",
-      "details": "Soulforge Paladin Set\nThere have been some changes to the Soulforge dungeon set for Paladins, removing Strength and adding spell power to a lot of pieces!\nSoulforge Armor strength removed, intellect increased and spell power added to all pieces.\nSoulforge Wristguards now grants +8 Intellect (was +5) and +6 Spell Power\nSoulforge Waistguard now grants +13 Intellect (was +10) and +12 Spell Power\nSoulforge Pauldrons now grants +12 Intellect (was +8) and +9 Spell Power\nSoulforge Legguards now grants +16 Intellect (was +14) and +16 Spell Power\nSoulforge Faceguard now grants +18 Intellect (was +11) and +13 Spell Power\nSoulforge Handguards now grants +1 Intellect (was +10) and +12 Spell Power\nSoulforge Sabatons now grants +12 Intellect (was +7) and +8 Spell Power\nSoulforge Chestguards now grants +18 Intellect (was +12) and +14 Spell Power\nOther Item Changes\nThere are some other item…",
+      "details": "Soulforge Paladin Set\nThere have been some changes to the Soulforge dungeon set for Paladins, removing Strength and adding spell power to a lot of pieces!\nSoulforge Armor strength removed, intellect increased and spell power added to all pieces.\nSoulforge Wristguards now grants +8 Intellect (was +5) and +6 Spell Power\nSoulforge Waistguard now grants +13 Intellect (was +10) and +12 Spell Power\nSoulforge Pauldrons now grants +12 Intellect (was +8) and +9 Spell Power\nSoulforge Legguards now grants +16 Intellect (was +14) and +16 Spell Power\nSoulforge Faceguard now grants +18 Intellect (was +11) and +13 Spell Power\nSoulforge Handguards now grants +11 Intellect (was +10) and +12 Spell Power\nSoulforge Sabatons now grants +12 Intellect (was +7) and +8 Spell Power\nSoulforge Chestguards now grants +18 Intellect (was +12) and +14 Spell Power\nOther Item Changes\nThere are some other item…",
       "category": "Forever",
       "date": "2026-11-17T18:37:40.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56166-spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever.png",
@@ -88,17 +99,6 @@
       "date": "2026-11-16T18:10:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56150-forever-101-blizzard-releases-new-player-overview-video-for-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever"
-    },
-    {
-      "id": "wowhead-383806",
-      "source": "Wowhead",
-      "title": "Should WoW: Forever Dungeons Let Players Complete Quests in One Run?",
-      "description": "In WoW: Forever, dungeon quests may not guarantee being completed in one clear. Should this be adjusted, or is this better for the game?",
-      "details": "World of Warcraft: Forever launched with all Classic dungeons, plus brand-new ones. Within those dungeons, quests range from old and iconic ones, such as The Defias Brotherhood, to brand-new ones like Destruction in Deadmines. The question is, should running a dungeon once guarantee that all your quests are completed?\nWoW Forever Dungeons Overview\nVeteran WoW players are all too familiar with two particular Wailing Caverns quests: Deviate Hides and Smart Drinks, where, unless everyone else in your party has completed them prior, you will not get enough quest items in just one clear of the dungeon to complete your quest, requiring the players to reset the dungeon and go again. In Episode 3 of the WoW Forever podcast, Senior Game Designer Rowan Ryder clarifies that this is indeed intentional.\n\"Philosophically, the goal for how many times you should run dungeon, we don't necessarily want…",
-      "category": "Forever",
-      "date": "2026-11-16T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56071-should-wow-forever-dungeons-let-players-complete-quests-in-one-run.jpg",
-      "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run"
     }
   ],
   "blizzard": null
