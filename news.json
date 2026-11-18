@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-18T03:03:42.323Z",
+  "generatedAt": "2026-11-18T11:31:47.886Z",
   "news": [
+    {
+      "id": "wowhead-383914",
+      "source": "Wowhead",
+      "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
+      "description": "Blizzard has posted hotfixes for today, which includes damage and health increases to UBRS and improvements to quest pain points in the Shen'dralas zone.",
+      "details": "Blizzard has posted hotfixes for today, which includes damage and health increases to UBRS and improvements to pain points in the Shen'dralas zone.\nMany Shen'dralas quests and pacing have been improved, with quest drops dropping for the entire party.\nThe final quest in a main quest chain, \"Agamaggan's Blood,\" which required you to do RFD (Level 40) after Mauradon (Level 50) can now be completed outside the dungeon.\nUpper Blackrock Spire damage and health of enemies has been increased when a bug was fixed.\nSoulforge Armor for tanks now has Spell Power instead of Strength.\nSleeping Bags have to be placed on the ground and now have a unique aura to indicate when you're in it.\nNovember 17, 2026\nCamping\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locations, like hunter traps.\nCozy Sleeping…",
+      "category": "Forever",
+      "date": "2026-11-18T03:43:47.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56172-ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever"
+    },
     {
       "id": "wowhead-383912",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-16T21:04:18.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56151-100-gold-per-hour-farm-nerfed-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383897",
-      "source": "Wowhead",
-      "title": "Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever",
-      "description": "Blizzard has released a Forever 101 video, which serves as an overview for new players of WoW: Forever.",
-      "details": "This video serves as an intro to new players for WoW: Forever and covers:\nSocial features - The Recent Allies panel and Camping\nProfession\nCapital Cities\nStocking up on supplies.\nPortals and summons.\nGuilds.\nMax Level Content.",
-      "category": "Forever",
-      "date": "2026-11-16T18:10:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56150-forever-101-blizzard-releases-new-player-overview-video-for-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever"
     }
   ],
   "blizzard": null
