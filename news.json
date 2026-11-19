@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-19T09:11:07.312Z",
+  "generatedAt": "2026-11-19T18:15:04.220Z",
   "news": [
+    {
+      "id": "wowhead-383927",
+      "source": "Wowhead",
+      "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
+      "description": "Zirene has teased a new Master Looter BiS item: an item that gives bonus stats when your bags are full.",
+      "details": "A new WoW: Forever podcast episode was released today and on it, they discuss itemization. During this episode, Zirene is asked if there’s anything he can tease about upcoming items.\nThere might be an item that is Master Loot BiS.\nMaybe you get extra stats if your bag is completely full.\nWhile Zirene implied that this is a Master Loot BiS item, this would work for anyone in theory. Is the trade off of extra stats worth the inconvenience of having completely full bags?\nThis looks to continue the trend of weird and wacky times to shake up the meta, such as the recent discovery of a Battle Mage weapon.",
+      "category": "Forever",
+      "date": "2026-11-19T17:50:34.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56181-zirene-teases-item-granting-bonus-stats-when-bags-are-full.jpg",
+      "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full"
+    },
+    {
+      "id": "wowhead-383926",
+      "source": "Wowhead",
+      "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
+      "description": "The latest episode of the WoW: Forever podcast has been released, and this week it covers classes, itemization, BiS, and more!",
+      "details": "With discussions about spellpower on gear, PvP with bursty damage, and sections to discuss each of the classes, this podcast is stuffed with information for everyone. Given that next week is Thanksgiving in the US, we can't expect another episode then - but after, we're looking at an episode focused on Raids.",
+      "category": "Forever",
+      "date": "2026-11-19T17:24:03.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56180-wow-forever-podcast-episode-8-classes-itemization-and-bis.jpg",
+      "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis"
+    },
+    {
+      "id": "wowhead-383896",
+      "source": "Wowhead",
+      "title": "Earn a Free 16-Slot Bag from a Former SoD Questline in WoW: Forever",
+      "description": "Another Season of Discovery questline has made its way to WoW: Forever, and among other things, it rewards a 16-slot bag!",
+      "details": "Many questlines from Season of Discovery have found their way into Forever, and the Warrior questline for the Shockwave rune is no exception. Unlike in SoD, though, this questline is now available to anyone, regardless of class.\nAmong other goodies, the Red Bag is rewarded towards the middle of the questline, which is a free 16-slot bag. Beware: having this bag equipped decreases effective stealth level by 2, which is only applicable to Rogues and Druids. Everyone else can enjoy the bag with no penalty!\nThere are more rewards than just the bag, though. The questline culminates with Rift Away, which has you take on Harvest Golem V000-A, an elite with over 200,000 health, that rewards Sun Shades, a unique transmog item, and Ingenious Toy. The toy could be combined with other reagents in Season of Discovery to create an item, but the function that it serves in Forever is yet unknown.\nYou…",
+      "category": "Forever",
+      "date": "2026-11-19T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56178-earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383896/earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383902",
+      "source": "Wowhead",
+      "title": "Tame a Secret Hunter Pet in WoW: Forever",
+      "description": "A secret Hunter pet has been discovered in WoW: Forever, and players can finally tame a Winna's Kitten lookalike, which wasn't available in the original Classic!",
+      "details": "A secret Hunter pet has been discovered in WoW: Forever, and not only does it have great skills, but it also has a fairly unique appearance! The pet shares a model with the previously untamable Corrupted Cat (poor Winna's kitten!). This model has been in-game since Vanilla, and while Retail players could tame it starting in Cataclysm, the quest chain in Classic never allowed for the kitten to become a Hunter pet until now.\nThank you to Zsastrasza for providing the information in this article.\nLevel 59 Hunter Zsastrasza discovered how to tame Ta'shkal in Mount Hyjal.\nTo acquire this Hunter Pet, you first need to find Corrupted Cat Figurine. This was originally found in the Fel Pool at /way 47.0 75.0; however, some hunters who came after have said it has multiple spawn points (it still seems to center around that Fel Pool, though).\nOnce you have the Corrupted Cat Figurine, you need to…",
+      "category": "Forever",
+      "date": "2026-11-19T14:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56158-tame-a-secret-hunter-pet-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever"
+    },
     {
       "id": "wowhead-383924",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-18T03:43:47.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56172-ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever"
-    },
-    {
-      "id": "wowhead-383912",
-      "source": "Wowhead",
-      "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
-      "description": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed.",
-      "details": "Announced on X (Twitter), Blizzard announced some brand new statistics for the first two weeks of WoW: Forever's launch.\nCharacters Created: 15,160,147\nQuests Completed: 1,480,343,357\nEnemies Defeated: 9,786,925,806\nGuilds Created: 140,764\nCamping Items Used: 28,696,386\nParties Formed: 71,309,889\nDeadlist Boss: Archmage Arugal (Shadowfang Keep)\nPvP kill: 28,938,569s\nPlayers Deaths: 196,851,761\nHolly Longdale also announced on Twitter that there are more people playing Forever weekly than seen in WoW in 15 years!",
-      "category": "Forever",
-      "date": "2026-11-18T00:04:50.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56170-wow-forever-continuing-to-break-records-with-over-15-million-characters-created.jpg",
-      "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created"
-    },
-    {
-      "id": "wowhead-383910",
-      "source": "Wowhead",
-      "title": "Blizzard Removing Gold and Applying Account Suspensions to Significant Abusers of Blackmaw Hold Farm",
-      "description": "Blizzard will be removing all gold earned from the Blackmaw Hold farm and applying account suspensions to significant abusers!",
-      "details": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.\nOver the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.\nPlayers who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and…",
-      "category": "Forever",
-      "date": "2026-11-17T18:39:41.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56168-blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold.jpg",
-      "url": "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold"
-    },
-    {
-      "id": "wowhead-383909",
-      "source": "Wowhead",
-      "title": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
-      "description": "The latest hotfixes have changed the stats of some items in WoW: Forever, including adding spell power to the Soulforge Paladin Armor!",
-      "details": "Soulforge Paladin Set\nThere have been some changes to the Soulforge dungeon set for Paladins, removing Strength and adding spell power to a lot of pieces!\nSoulforge Armor strength removed, intellect increased and spell power added to all pieces.\nSoulforge Wristguards now grants +8 Intellect (was +5) and +6 Spell Power\nSoulforge Waistguard now grants +13 Intellect (was +10) and +12 Spell Power\nSoulforge Pauldrons now grants +12 Intellect (was +8) and +9 Spell Power\nSoulforge Legguards now grants +16 Intellect (was +14) and +16 Spell Power\nSoulforge Faceguard now grants +18 Intellect (was +11) and +13 Spell Power\nSoulforge Handguards now grants +11 Intellect (was +10) and +12 Spell Power\nSoulforge Sabatons now grants +12 Intellect (was +7) and +8 Spell Power\nSoulforge Chestguards now grants +18 Intellect (was +12) and +14 Spell Power\nOther Item Changes\nThere are some other item…",
-      "category": "Forever",
-      "date": "2026-11-17T18:37:40.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56166-spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever.png",
-      "url": "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383906",
-      "source": "Wowhead",
-      "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
-      "description": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy.",
-      "details": "WoW: Forever was mentioned to be a game about taking your time and enjoying the journey with a brand new start. In an interview with MMORPG, they mention how they are \"giving you permission to take your time\". But when a massive gold farm injects thousands of gold into the new economy and then gets fixed, it feels very unfair to a lot of players and makes them feel like they should have rushed.\nMany players are not level 55+ to enter Blackmaw Hold, but the effects of gold entering the economy will likely be felt by many players. With this amount of Gold, certain players can have full control over markets, such as buying all the Arcane Crystal, and a general increase in Gold can cause inflation on all commodities when the majority of players are still leveling.\nCommunity Reaction\nThe community has been very actively discussing the Blackmaw Hold farm across many social media platforms,…",
-      "category": "Forever",
-      "date": "2026-11-17T15:38:22.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56162-many-players-are-very-upset-about-the-blackmaw-hold-gold-farm.jpg",
-      "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm"
     }
   ],
   "blizzard": null
