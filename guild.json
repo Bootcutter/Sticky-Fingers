@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:26:01.454Z",
+  "generatedAt": "2026-11-19T09:11:18.841Z",
   "region": "EU",
   "guild": {
     "id": 110163,
@@ -1135,10 +1135,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/6/724742-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/6/724742-avatar.jpg",
           "box": {
-            "x": 594,
-            "y": 421,
-            "w": 526,
-            "h": 554,
+            "x": 595,
+            "y": 420,
+            "w": 525,
+            "h": 555,
             "W": 1600,
             "H": 1200
           }
@@ -1203,7 +1203,7 @@
         "className": "Warlock",
         "level": 37,
         "experience": 59317,
-        "lastLogin": "2026-11-18T23:44:14.000Z",
+        "lastLogin": "2026-11-19T06:17:55.000Z",
         "itemLevel": 35,
         "achievementPoints": 0,
         "title": null,
@@ -1977,13 +1977,6 @@
             "tier": 3
           },
           {
-            "faction": "Darkspear Raiders",
-            "standing": "Neutral",
-            "value": 0,
-            "max": 3000,
-            "tier": 3
-          },
-          {
             "faction": "Bloodsail Buccaneers",
             "standing": "Hated",
             "value": 34250,
@@ -2005,7 +1998,7 @@
             "Healthstones used": 30,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 18,
+            "Total factions encountered": 16,
             "Mounts owned": 2,
             "Total 5-player dungeons entered": 19,
             "Scarlet Commander Mograine kills (Scarlet Monastery)": 1,
@@ -2049,14 +2042,14 @@
             "Cooking Recipes known": 46,
             "First Aid skill": 136,
             "First Aid Manuals learned": 16,
-            "Fishing skill": 128,
+            "Fishing skill": 129,
             "Fish caught": 184,
             "Fish and other things caught": 184,
             "Highest Enchanting skill": 177,
             "Enchanting formulae learned": 75,
             "Materials produced from disenchanting": 739,
             "Items disenchanted": 325,
-            "Highest Tailoring skill": 175,
+            "Highest Tailoring skill": 176,
             "Tailoring Patterns learned": 74,
             "Flight paths taken": 59,
             "Summons accepted": 2,
@@ -6088,7 +6081,7 @@
           "box": {
             "x": 640,
             "y": 429,
-            "w": 281,
+            "w": 305,
             "h": 553,
             "W": 1600,
             "H": 1200
@@ -8410,7 +8403,7 @@
           "box": {
             "x": 515,
             "y": 427,
-            "w": 410,
+            "w": 414,
             "h": 548,
             "W": 1600,
             "H": 1200
@@ -9335,8 +9328,8 @@
         "race": "Tauren",
         "className": "Druid",
         "level": 37,
-        "experience": 7231,
-        "lastLogin": "2026-11-18T22:28:23.000Z",
+        "experience": 70927,
+        "lastLogin": "2026-11-19T01:44:36.000Z",
         "itemLevel": 28,
         "achievementPoints": 0,
         "title": null,
@@ -9424,7 +9417,7 @@
                 }
               ],
               "req": "Requires Level 29",
-              "durability": "Durability 60 / 60"
+              "durability": "Durability 56 / 60"
             }
           },
           {
@@ -9454,7 +9447,7 @@
                 }
               ],
               "req": "Requires Level 28",
-              "durability": "Durability 60 / 60"
+              "durability": "Durability 56 / 60"
             }
           },
           {
@@ -9484,7 +9477,7 @@
                 }
               ],
               "req": "Requires Level 29",
-              "durability": "Durability 100 / 100"
+              "durability": "Durability 90 / 100"
             }
           },
           {
@@ -9509,7 +9502,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 30 / 30"
+              "durability": "Durability 24 / 30"
             }
           },
           {
@@ -9534,7 +9527,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 65 / 65"
+              "durability": "Durability 61 / 65"
             }
           },
           {
@@ -9563,7 +9556,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 45 / 45"
+              "durability": "Durability 36 / 45"
             }
           },
           {
@@ -9588,7 +9581,7 @@
                   "g": true
                 }
               ],
-              "durability": "Durability 35 / 35"
+              "durability": "Durability 31 / 35"
             }
           },
           {
@@ -9613,7 +9606,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 30 / 30"
+              "durability": "Durability 29 / 30"
             }
           },
           {
@@ -9735,7 +9728,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 90 / 90"
+              "durability": "Durability 85 / 90"
             }
           }
         ],
@@ -9766,8 +9759,8 @@
               834
             ],
             "defense": [
-              178,
-              178
+              184,
+              184
             ]
           },
           "resistances": {
@@ -9784,7 +9777,7 @@
             "dps": 22.5,
             "offDps": 3.9,
             "hit": 0,
-            "crit": 4.8,
+            "crit": 4.9,
             "haste": 0
           },
           "ranged": {
@@ -9810,48 +9803,48 @@
           "health": 1728,
           "power": 1654,
           "powerType": "Mana",
-          "crit": 4.8,
+          "crit": 4.9,
           "haste": 0,
-          "dodge": 12.4,
+          "dodge": 12.7,
           "attackPower": 102,
           "spellPower": 33,
           "dps": 22.5
         },
-        "questsCompleted": 386,
+        "questsCompleted": 397,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Thunder Bluff",
             "standing": "Honored",
-            "value": 7276,
+            "value": 7601,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 1936,
+            "value": 2298,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 5566,
+            "value": 5966,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 4525,
+            "value": 4812,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Ratchet",
             "standing": "Friendly",
-            "value": 1243,
+            "value": 1393,
             "max": 6000,
             "tier": 4
           },
@@ -9864,8 +9857,29 @@
           },
           {
             "faction": "Booty Bay",
+            "standing": "Friendly",
+            "value": 50,
+            "max": 6000,
+            "tier": 4
+          },
+          {
+            "faction": "Everlook",
             "standing": "Neutral",
-            "value": 2750,
+            "value": 2648,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Gadgetzan",
+            "standing": "Neutral",
+            "value": 2648,
+            "max": 3000,
+            "tier": 3
+          },
+          {
+            "faction": "Powderfuse",
+            "standing": "Neutral",
+            "value": 2648,
             "max": 3000,
             "tier": 3
           },
@@ -9873,27 +9887,6 @@
             "faction": "Cenarion Circle",
             "standing": "Neutral",
             "value": 2535,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Everlook",
-            "standing": "Neutral",
-            "value": 2498,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Gadgetzan",
-            "standing": "Neutral",
-            "value": 2498,
-            "max": 3000,
-            "tier": 3
-          },
-          {
-            "faction": "Powderfuse",
-            "standing": "Neutral",
-            "value": 2498,
             "max": 3000,
             "tier": 3
           },
@@ -9921,7 +9914,7 @@
           {
             "faction": "Bloodsail Buccaneers",
             "standing": "Hated",
-            "value": 33750,
+            "value": 32250,
             "max": 36000,
             "tier": 0
           }
@@ -9929,9 +9922,9 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 30,
+            "Times camped": 31,
             "Health potions consumed": 20,
-            "Mana potions consumed": 2,
+            "Mana potions consumed": 3,
             "Elixirs consumed": 4,
             "Beverages consumed": 85,
             "Food eaten": 23,
@@ -9941,7 +9934,7 @@
             "Total deaths from other players": 1,
             "Total deaths from opposite faction": 1,
             "Duels won": 1,
-            "Total 5-player dungeons entered": 10,
+            "Total 5-player dungeons entered": 11,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Shade of the Archmage Kills (City of Dalaran)": 1,
             "Bazzalan kills (Ragefire Chasm)": 1,
@@ -9949,14 +9942,14 @@
             "Archmage Arugal kills (Shadowfang Keep)": 1,
             "Aku'mai kills (Blackfathom Deeps)": 1,
             "Charlga Razorflank kills (Razorfen Kraul)": 1,
-            "Total kills": 4970,
-            "Total kills that grant experience or honor": 4033,
-            "Creatures killed": 4938,
+            "Total kills": 5176,
+            "Total kills that grant experience or honor": 4227,
+            "Creatures killed": 5140,
             "Different creature types killed": 9,
-            "Creature type killed the most": 2509,
-            "Critters killed": 31,
-            "Total Killing Blows": 2315,
-            "World Killing Blows": 2033,
+            "Creature type killed the most": 2654,
+            "Critters killed": 35,
+            "Total Killing Blows": 2394,
+            "World Killing Blows": 2093,
             "Continent with the most Killing Blows": 1466,
             "Total deaths": 43,
             "Total raid and dungeon deaths": 6,
@@ -9967,7 +9960,7 @@
             "Revived by druids": 2,
             "Redeemed by paladins": 2,
             "Resurrected by soulstones": 1,
-            "Quests completed": 337,
+            "Quests completed": 348,
             "Average quests completed per day": 0,
             "Quests abandoned": 68,
             "Professions learned": 2,
@@ -9976,14 +9969,14 @@
             "Weapon skills at maximum skill": 6,
             "Cooking skill": 7,
             "Cooking Recipes known": 10,
-            "Fishing skill": 1,
+            "Fishing skill": 25,
             "Fish caught": 24,
             "Fish and other things caught": 24,
             "Highest Herbalism skill": 75,
             "Highest Skinning skill": 244,
-            "Flight paths taken": 90,
+            "Flight paths taken": 94,
             "Summons accepted": 1,
-            "Number of times hearthed": 31
+            "Number of times hearthed": 32
           },
           "bosses": [
             {
@@ -12012,10 +12005,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/150/7245718-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/150/7245718-avatar.jpg",
           "box": {
-            "x": 477,
-            "y": 280,
-            "w": 582,
-            "h": 726,
+            "x": 459,
+            "y": 279,
+            "w": 600,
+            "h": 727,
             "W": 1600,
             "H": 1200
           }
@@ -13163,9 +13156,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/226/8621794-avatar.jpg",
           "box": {
-            "x": 637,
+            "x": 638,
             "y": 429,
-            "w": 285,
+            "w": 290,
             "h": 553,
             "W": 1600,
             "H": 1200
@@ -14090,10 +14083,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/236/9664492-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/236/9664492-avatar.jpg",
           "box": {
-            "x": 462,
-            "y": 279,
-            "w": 587,
-            "h": 727,
+            "x": 461,
+            "y": 280,
+            "w": 588,
+            "h": 726,
             "W": 1600,
             "H": 1200
           }
@@ -15075,9 +15068,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/134/10396550-avatar.jpg",
           "box": {
-            "x": 557,
+            "x": 562,
             "y": 397,
-            "w": 499,
+            "w": 494,
             "h": 586,
             "W": 1600,
             "H": 1200
@@ -17059,9 +17052,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/248/18307576-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/248/18307576-avatar.jpg",
           "box": {
-            "x": 620,
+            "x": 619,
             "y": 429,
-            "w": 271,
+            "w": 285,
             "h": 553,
             "W": 1600,
             "H": 1200
@@ -18861,9 +18854,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/185/54221497-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/185/54221497-avatar.jpg",
           "box": {
-            "x": 576,
+            "x": 520,
             "y": 422,
-            "w": 393,
+            "w": 449,
             "h": 553,
             "W": 1600,
             "H": 1200
@@ -19607,9 +19600,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/251/73270267-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/251/73270267-avatar.jpg",
           "box": {
-            "x": 457,
+            "x": 474,
             "y": 279,
-            "w": 586,
+            "w": 569,
             "h": 727,
             "W": 1600,
             "H": 1200

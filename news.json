@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-19T01:25:54.511Z",
+  "generatedAt": "2026-11-19T09:11:07.312Z",
   "news": [
+    {
+      "id": "wowhead-383924",
+      "source": "Wowhead",
+      "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
+      "description": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons.",
+      "details": "With WoW: Forever being built on the Retail client, the game has taken some questing system improvements from Retail. This includes quest objectives and areas now showing on the map, mobs indicating whether they are needed for a quest, and more. There is one feature available in the Retail client that players can enable: the in-game quest objective markers.\nBy typing the following command into the chat box, a yellow diamond will appear directly in the world for a selected quest:\n/console showInGameNavigation 1\nThis yellow diamond marks your chosen quest objective directly in the world without opening your map or using an addon. If your chosen quest is ready to turn in, or you're on a quest with a specific location to go to, the in-game navigation can show you exactly where it is.\nThis feature is particularly useful when an objective is above or below you, as elevation isn't shown well…",
+      "category": "Forever",
+      "date": "2026-11-19T01:25:22.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56177-turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever"
+    },
     {
       "id": "wowhead-383919",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-17T15:38:22.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56162-many-players-are-very-upset-about-the-blackmaw-hold-gold-farm.jpg",
       "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm"
-    },
-    {
-      "id": "wowhead-383905",
-      "source": "Wowhead",
-      "title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
-      "description": "WoW: Forever is down for 1 hour on NA realms for scheduled maintenance.",
-      "details": "Scheduled maintenance will take down the WoW: Forever servers for an estimated 1 hour, according to the Weekly Maintenance Schedule.",
-      "category": "Forever",
-      "date": "2026-11-17T14:54:56.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56161-na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour.jpg",
-      "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour"
     }
   ],
   "blizzard": null
