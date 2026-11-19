@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-18T19:32:02.022Z",
+  "generatedAt": "2026-11-19T01:25:54.511Z",
   "news": [
+    {
+      "id": "wowhead-383919",
+      "source": "Wowhead",
+      "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
+      "description": "To complete this week's Gold Quest for level 60 characters, players must complete Blackrock Spire and Blackrock Depths.",
+      "details": "BRD GuideUBRS GuideLBRS Guide\nOnce a character hits level 60, they can pick up a Weekly quest from Booty Bay. While the last two weeks required players to do Dire Maul, this week's quest is In Demand - Blackrock Legal Records, which requires completing Blackrock Spire and Blackrock Depths.\nAcquire Nefarion's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.\nSimilar to last week, completing this quest grants you an Undermine Satchel, which can contain up to 100 gold and some extra materials.\nGold Nugget - Sells for 10g\nHuge Quartz Gem - Sells for 20g\nSilver Necklace - Sells for 40g\nGold Ring - Sells for 100g\nDue to the Wowhead Looter, the Undermine Satchel has many more confirmed drops of the crafting…",
+      "category": "Forever",
+      "date": "2026-11-18T19:52:08.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56175-weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever"
+    },
     {
       "id": "wowhead-383918",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-17T14:54:56.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56161-na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour.jpg",
       "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour"
-    },
-    {
-      "id": "wowhead-383900",
-      "source": "Wowhead",
-      "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
-      "description": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons!",
-      "details": "Hotfixes\nNovember 16, 2026\nCamping\nThe Fishing Rack now provides lures for everyone.\nBloated Fish caught from the Fishing Rack effect have had their drop chance increased and their loot tables adjusted accordingly.\nClasses\nDruid\nFixed an issue where ranks of Wild Growth were not going on cooldown.\nBalance\nFixed an issue where the Genesis talent was not increasing the damage of Pounce’s bleed.\nPriest\nFixed an issue where Dark Inspiration was stacking if there were multiple Shadow priests in the same party.\nVampiric Embrace healing is now based on 10% of the Shadow damage done by the casting Priest (was 20%). The casting Priest receives 100% increased healing from this effect.\nDevelopers’ notes: This change results in no difference for Priest solo play.\nRogue\nRogue Poison ranks can no longer go above the maximum rank.\nFixed an issue where using Shank on a target that didn’t have your…",
-      "category": "Forever",
-      "date": "2026-11-17T02:23:22.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56153-more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026.jpg",
-      "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026"
     }
   ],
   "blizzard": null
