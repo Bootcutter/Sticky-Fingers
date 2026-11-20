@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-20T16:25:12.050Z",
+  "generatedAt": "2026-11-20T22:45:21.615Z",
   "news": [
+    {
+      "id": "wowhead-383946",
+      "source": "Wowhead",
+      "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+      "description": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever!",
+      "details": "More Information:\nBlizzard has confirmed with Wowhead that these items stats have been revealed intentionally and can be seen in game directly, as item obfuscation doesn't apply to items from vendors and recipes. They have also confirmed that the set bonuses are placeholder and will be updated in the future.\nWoW: Forever's first raiding tier releases on December 9th with a global launch. While Blizzard has intentionally not revealed much about the bosses or the loot they drop, they have now revealed item stats for the crafted tier pieces. We know from a Crix interview that tier pieces will drop across all three raids, but what if you don't have a 40-man, or just get unlucky? Crafted Tier Set pieces could be the solution. These crafted pieces all have a unique quality, \"Artisan's Tier (1).\" This seems to indicate that you can craft exactly one piece of raid tier, which might give some…",
+      "category": "Forever",
+      "date": "2026-11-20T20:51:19.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56201-itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier.jpg",
+      "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier"
+    },
+    {
+      "id": "wowhead-383943",
+      "source": "Wowhead",
+      "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
+      "description": "Targeted Layering Addons will no longer work in an upcoming hotfix for WoW: Forever, as various API calls that show a realm ID will be obfuscated soon.",
+      "details": "One popular addon on CurseForge right now is Layer Swap, an addon that helps facilitate layer hopping. Players use layer hopping for many reasons, but a main one is to find a new phase when the current one has competition. It can also help when some players are bugged on certain layers. With an addon like Layer Swap, players can see how many layers there could be, whether they've already been to a layer, and directly phase into the layer they want.\nImage Credit: Layer Swap\nAn addon like Layer Swap does two things:\nFacilitates invites to a new layer more easily by automating communication.\nAllows the tracking and targeting of specific layers.\nBlizzard has been communicating addon changes to authors through the WoWUIDev Discord since the Midnight expansion and with Forever now on the modern architetcture, they have started communicating updates there as well. With an announcement in the…",
+      "category": "Forever",
+      "date": "2026-11-20T19:00:55.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56198-layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow.jpg",
+      "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow"
+    },
+    {
+      "id": "wowhead-383944",
+      "source": "Wowhead",
+      "title": "WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly",
+      "description": "Blizzard has recapped some of the biggest events in WoW this week, which includes a podcast on WoW: Forever class design, details on Patch 12.1.7, the WoW Anniversary event, and more!",
+      "details": "From the WoW: Forever Podcast's focus on class design to the 1 December arrival of Midnight: Echoes of the Worldcore, Talebound's macabre rewards, Mythic 2/6 gear in the Labyrinth of Kino'jan, and the World of Warcraft 22nd Anniversary Celebration, this week's news is packed with fresh stories, new challenges, and festive adventures across Azeroth.\nWoW: Forever Podcast – Catching up on Classes\nJoin WoW: Forever Podcast host Countdown To Classic for a conversation with Senior Game Designer Aidan Moon and Principal Game Designer Kris Zierhut as they take careful aim on class design.\nWatch now to bring class design into focus.\nMidnight: Echoes of the Worldcore Arrives on 1 December\nAzeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth in…",
+      "category": "WoW",
+      "date": "2026-11-20T18:02:14.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56197-wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly.jpg",
+      "url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly"
+    },
+    {
+      "id": "wowhead-383940",
+      "source": "Wowhead",
+      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
+      "description": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation.",
+      "details": "WoW: Forever Mount Guide\nArticle Update: Skyborne always gets a 10% discount now, regardless of reputation. The article has been updated.\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. In yesterday's hotfixes, Blizzard mentioned this:\nBlizzard\nFixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.\nWhile this seems to imply that Skyborne will now get the reputation discount for being Honored, the discount now seems to be active for all Skyborne. A character that is Friendly with the Windshapers still has the 10% discount for both the Rare and Epic mount skills. This likely means that it now gives a discount to all Skyborne, regardless of their faction reputation!\nIt's unknown if…",
+      "category": "Forever",
+      "date": "2026-11-20T17:00:14.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56196-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
+      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a"
+    },
     {
       "id": "wowhead-383890",
       "source": "Wowhead",
@@ -22,17 +66,6 @@
       "date": "2026-11-20T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56188-every-quest-for-level-30-to-40-dungeons-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383940",
-      "source": "Wowhead",
-      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
-      "description": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation.",
-      "details": "WoW: Forever Mount Guide\nArticle Update: Skyborne always gets a 10% discount now, regardless of reputation. The article has been updated.\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. In yesterday's hotfixes, Blizzard mentioned this:\nBlizzard\nFixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.\nWhile this seems to imply that Skyborne will now get the reputation discount for being Honored, the discount now seems to be active for all Skyborne. A character that is Friendly with the Windshapers still has the 10% discount for both the Rare and Epic mount skills. This likely means that it now gives a discount to all Skyborne, regardless of their faction reputation!\nIt's unknown if…",
-      "category": "Forever",
-      "date": "2026-11-20T04:35:14.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56196-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
-      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a"
     },
     {
       "id": "wowhead-383939",
@@ -66,39 +99,6 @@
       "date": "2026-11-20T00:42:07.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56183-blizzard-addresses-spell-power-gear-shortage-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383937",
-      "source": "Wowhead",
-      "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
-      "description": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping.",
-      "details": "From multiple reports on the forums and Reddit, some players on EU servers are having trouble with the PvP systems in WoW: Foirever. Reports from these players indicate they are unable to get their Battleground queues to pop unless they get layered.\nImage: Battle.net Forums\nThis has made people think that there are specific EU layers that are bugged and preventing all Battleground queues. Some players believe it is a specific home layer that has this bug \"Layer 15\".\nIf you're unable to queue up for Battlegrounds and get queue pop, you might be bugged and will need to ask a friend to queue for you.",
-      "category": "Forever",
-      "date": "2026-11-19T23:20:47.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56190-some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383935",
-      "source": "Wowhead",
-      "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
-      "description": "Motes of Unstable Magic are now soulbound, preventing high-level players from selling them on the Auction House.",
-      "details": "Once you reach level 48, players can obtain the Unstable Magic in Dalaran or Unstable Magic at the Skywatcher Plateau. This quest gives players a Elemental Attractor, and when used, it gives the Magical Awareness buff. This buff will sometimes grant players a Mote of Unstable Magic when they defeat spellcasters or bosses. After you complete the initial quest, a repeatable quest (e.g. More Unstable Magic) allows players to turn in another 10 Motes for reputation and .\nBecause these were previously tradeable, each Mote was worth roughly . Players could buy these off the Auction House at this price to get reputation while losing no money. This quest stops being available at Honored, but players could continue getting drops and selling the Motes for extra Gold. Many players made a lot of gold from selling these, but this income has been cut off.\nAs of about noon Pacific time, Motes of…",
-      "category": "Forever",
-      "date": "2026-11-19T21:23:45.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56189-motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed.png",
-      "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed"
-    },
-    {
-      "id": "wowhead-383931",
-      "source": "Wowhead",
-      "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
-      "description": "In the latest episode of the WoW: Forever Podcast, Senior Game Designer Aidan Moon says he wants to get rid of the idea of BiS in WoW: Forever.",
-      "details": "BiS, or \"Best In Slot\" gear, has been something that's existed in World of Warcraft since its inception. Players have looked to theorycraft their overall \"best\" items for every slot, to achieve multiple stat goals such as Hit cap, Expertise Cap, Critical Strike Immunity, while also maximizing their damage, Health, or Mana. However, developer Aidan \"Zirene\" Moon says he wants to try to \"get rid of BiS\".\n\"I essentially want to get rid of \"BiS\". I think that \"BiS\" is not a good thing for a video game that's supposed to be about role-playing systems about it. That's why I've introduced the creature subtype system, the biome system, and in the raid, it's different... In the raid, if you go to the left wing, that's 'snowy'; if you go to the right wing, that's 'haunted', so different parts of the raid will have different biomes. So I think your BiS should be different for every single boss if…",
-      "category": "Forever",
-      "date": "2026-11-19T19:19:21.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56187-blizzard-wants-to-get-rid-of-bis-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever"
     }
   ],
   "blizzard": null
