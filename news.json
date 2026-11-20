@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-20T00:42:01.393Z",
+  "generatedAt": "2026-11-20T07:46:01.557Z",
   "news": [
+    {
+      "id": "wowhead-383940",
+      "source": "Wowhead",
+      "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+      "description": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready!",
+      "details": "WoW: Forever Mount Guide\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. With new hotfixes, Blizzard has fixed the Skyborne race mount vendor, and it now gives a discount to players who are Honored!\nThis makes the Epic Riding cost .\nA Small Problem\nAs pointed out in our last article, there's a small problem with the Skyborne reputation: players don't get it naturally by questing like the other faction reputations. Unless something has changed, the only way to gain reputation with High Order (Alliance) or Windshapers (Horde) past Friendly is through cloth turn-ins, as after you leave the starting area of Zephras Isle, there are no further quests that increase your reputation with the Skyborne factions.\nIf you want the Honored discount, you need to complete the initial three cloth turn-ins for Wool Cloth, Silk Cloth, or…",
+      "category": "Forever",
+      "date": "2026-11-20T04:35:14.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56194-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
+      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a"
+    },
+    {
+      "id": "wowhead-383939",
+      "source": "Wowhead",
+      "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
+      "description": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again!",
+      "details": "Hotfixes\nNovember 19, 2026\nCamping\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds are no longer able to be used in the Seed Hybridizer.\nClasses\nPaladin\nRetribution\nTwo-Handed Weapon Specialization now correctly increases all Holy Damage you deal while a two-handed weapon is equipped.\nDungeons\nCity of Dalaran\nShade of the Archmage should no longer despawn immediately upon entering combat.\nThe Shaper’s Terrace\nVitrix’s Poison Shock now deals less damage.\nEnemies and NPCs\nShimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.\nRiverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.\nItems\nMotes of Unstable Magic are now soulbound.\nSquall-breaker’s Potion can now be deleted.\nQuests\nBooty Bay - Rix Xizzix should no…",
+      "category": "Forever",
+      "date": "2026-11-20T04:03:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56193-ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for.png",
+      "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for"
+    },
+    {
+      "id": "wowhead-383938",
+      "source": "Wowhead",
+      "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+      "description": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs.",
+      "details": "As Blizzard continues to squash bugs, three quests (Call of Earth, Biding Our Time, and Witch Doctor Ti'ik) have specifically been called out as not working as intended, and BlizzardCS has stated the issues are being investigated.\nFor two quests, Call of Earth and Witch Doctor Ti'ik, players had left very few or no comments at all detailing the bugs (although there was definitely some frustration about Ti'ik's Head).\nWe're aware that completing the quest as a level 3 Skyborne Shaman does not grant Stoneskin Totem spell. We're already investigating this issue.\nWe're aware that Ti'ik's Head only drops for one party member when completing the quest in a group. We're already investigating this issue.\nBiding Our Time, however, had a bit more context in database comments. Several players reported that Filcher's Cowl was unusable, with the reward showing as a red question mark, but some…",
+      "category": "Forever",
+      "date": "2026-11-20T02:09:09.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56191-blizzard-investigating-several-bugged-quests-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383928",
+      "source": "Wowhead",
+      "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+      "description": "In the latest episode of the WoW: Forever Podcast, developers Kris Zierhut and Aidan Moon address the concern about a lack of Spell Power gear in WoW: Forever.",
+      "details": "As players are leveling their Mages, Warlocks, and other spellcaster classes, they've noticed a lack of proper Spell Power gear in the game. In WoW: Forever, Caster classes had their baseline damage reduced, but it was intended for new gear to be added to make up for that, so getting gear felt as important as it did for melee classes. However, players feel as though there isn't enough of that gear in the game currently.\n\"As you're leveling up a spellcaster, you really don't care about your gear that much, and I really wanted to fix that problem and make spell casters care as much about their gear as Warriors and Rogues do.... That being said, I think there probably is not enough Spell Power gear leveling up. As I was introducing it, the design team was very wary of how much change it was, and I probably added a little bit less of it than we should. So going into future patches, I want…",
+      "category": "Forever",
+      "date": "2026-11-20T00:42:07.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56183-blizzard-addresses-spell-power-gear-shortage-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever"
+    },
     {
       "id": "wowhead-383937",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-19T17:50:34.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56181-zirene-teases-item-granting-bonus-stats-when-bags-are-full.jpg",
       "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full"
-    },
-    {
-      "id": "wowhead-383926",
-      "source": "Wowhead",
-      "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
-      "description": "The latest episode of the WoW: Forever podcast has been released, and this week it covers classes, itemization, BiS, and more!",
-      "details": "With discussions about spellpower on gear, PvP with bursty damage, and sections to discuss each of the classes, this podcast is stuffed with information for everyone. Given that next week is Thanksgiving in the US, we can't expect another episode then - but after, we're looking at an episode focused on Raids.",
-      "category": "Forever",
-      "date": "2026-11-19T17:24:03.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56180-wow-forever-podcast-episode-8-classes-itemization-and-bis.jpg",
-      "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis"
-    },
-    {
-      "id": "wowhead-383896",
-      "source": "Wowhead",
-      "title": "Earn a Free 16-Slot Bag from a Former SoD Questline in WoW: Forever",
-      "description": "Another Season of Discovery questline has made its way to WoW: Forever, and among other things, it rewards a 16-slot bag!",
-      "details": "Many questlines from Season of Discovery have found their way into Forever, and the Warrior questline for the Shockwave rune is no exception. Unlike in SoD, though, this questline is now available to anyone, regardless of class.\nAmong other goodies, the Red Bag is rewarded towards the middle of the questline, which is a free 16-slot bag. Beware: having this bag equipped decreases effective stealth level by 2, which is only applicable to Rogues and Druids. Everyone else can enjoy the bag with no penalty!\nThere are more rewards than just the bag, though. The questline culminates with Rift Away, which has you take on Harvest Golem V000-A, an elite with over 200,000 health, that rewards Sun Shades, a unique transmog item, and Ingenious Toy. The toy could be combined with other reagents in Season of Discovery to create an item, but the function that it serves in Forever is yet unknown.\nYou…",
-      "category": "Forever",
-      "date": "2026-11-19T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56178-earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383896/earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383902",
-      "source": "Wowhead",
-      "title": "Tame a Secret Hunter Pet in WoW: Forever",
-      "description": "A secret Hunter pet has been discovered in WoW: Forever, and players can finally tame a Winna's Kitten lookalike, which wasn't available in the original Classic!",
-      "details": "A secret Hunter pet has been discovered in WoW: Forever, and not only does it have great skills, but it also has a fairly unique appearance! The pet shares a model with the previously untamable Corrupted Cat (poor Winna's kitten!). This model has been in-game since Vanilla, and while Retail players could tame it starting in Cataclysm, the quest chain in Classic never allowed for the kitten to become a Hunter pet until now.\nThank you to Zsastrasza for providing the information in this article.\nLevel 59 Hunter Zsastrasza discovered how to tame Ta'shkal in Mount Hyjal.\nTo acquire this Hunter Pet, you first need to find Corrupted Cat Figurine. This was originally found in the Fel Pool at /way 47.0 75.0; however, some hunters who came after have said it has multiple spawn points (it still seems to center around that Fel Pool, though).\nOnce you have the Corrupted Cat Figurine, you need to…",
-      "category": "Forever",
-      "date": "2026-11-19T14:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56158-tame-a-secret-hunter-pet-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383924",
-      "source": "Wowhead",
-      "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
-      "description": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons.",
-      "details": "With WoW: Forever being built on the Retail client, the game has taken some questing system improvements from Retail. This includes quest objectives and areas now showing on the map, mobs indicating whether they are needed for a quest, and more. There is one feature available in the Retail client that players can enable: the in-game quest objective markers.\nBy typing the following command into the chat box, a yellow diamond will appear directly in the world for a selected quest:\n/console showInGameNavigation 1\nThis yellow diamond marks your chosen quest objective directly in the world without opening your map or using an addon. If your chosen quest is ready to turn in, or you're on a quest with a specific location to go to, the in-game navigation can show you exactly where it is.\nThis feature is particularly useful when an objective is above or below you, as elevation isn't shown well…",
-      "category": "Forever",
-      "date": "2026-11-19T01:25:22.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56177-turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever"
     }
   ],
   "blizzard": null
