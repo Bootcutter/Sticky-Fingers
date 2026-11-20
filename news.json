@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-11-20T07:46:01.557Z",
+  "generatedAt": "2026-11-20T16:25:12.050Z",
   "news": [
+    {
+      "id": "wowhead-383890",
+      "source": "Wowhead",
+      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+      "description": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut!",
+      "details": "One of the nine new dungeons in World of Warcraft Forever, Krol'dok Stronghold, has a quest within the dungeon where you’ll create a key that can be used to streamline future runs by unlocking various doors after acquiring it.\nKrol'dok Stronghold Dungeon Guide\nThe quest, Krol'dok Moulding/Krol'dok Moulding, drops from an NPC in the dungeon named Tunk. When you kill him, you’ll receive the quest item, and you’ll need to bring it to Kreza Darkthorn in Rog’mar for Horde or Alphonse Dumas in Farholde Keep for Alliance (both in Riverglades). Before entering the dungeon and starting this quest, you can prepare 4x Thick Leather and 12x Iron Bar to complete the follow-up quest, Key Ingredients/Key Ingredients immediately and receive the Krol'dok Compound Key. Both quests award about 7,000 combined XP.\nAfter you get the Krol'dok Compound Key, you can re-enter Krol'dok Stronghold and open a…",
+      "category": "Forever",
+      "date": "2026-11-20T16:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56145-unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key.jpg",
+      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key"
+    },
+    {
+      "id": "wowhead-383933",
+      "source": "Wowhead",
+      "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+      "description": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever!",
+      "details": "Every Dungeon Quest Location\nThe level 30 to 40 dungeon bracket has one new WoW: Forever dungeon: The Drowned City. City of Dalaran is run by many players in their late 20s, but technically also falls in this bracket if you're looking for an easier run. These dungeons contain many new dungeon quests and bosses to explore. Be warned, Drowned City is a longer dungeon that will take at least an hour to complete on average, so make sure you have enough time to complete it.\nGnomeregan Dungeon Quests\nGnomeregan Dungeon Guide\nHard: Level 25 | Medium: Level 30 | At Level: Level 33 | Easy: Level 38\nQuestLevelSideEffortShare?Starts\nRig Wars25 Orgrimmar, Valley of Honor - Nogg /way 76 25\nChief Engineer Scooty20PreOrgrimmar, Valley of Honor - Sovik /way 76 25. Must pick upRig Wars first.\nGnomer-gooooone!20Strangethorn Vale, Booty Bay - Scooty /way 27 77\nSave Techbot's Brain!20 Ironforge, Tinkertown…",
+      "category": "Forever",
+      "date": "2026-11-20T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56188-every-quest-for-level-30-to-40-dungeons-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever"
+    },
     {
       "id": "wowhead-383940",
       "source": "Wowhead",
-      "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
-      "description": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready!",
-      "details": "WoW: Forever Mount Guide\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. With new hotfixes, Blizzard has fixed the Skyborne race mount vendor, and it now gives a discount to players who are Honored!\nThis makes the Epic Riding cost .\nA Small Problem\nAs pointed out in our last article, there's a small problem with the Skyborne reputation: players don't get it naturally by questing like the other faction reputations. Unless something has changed, the only way to gain reputation with High Order (Alliance) or Windshapers (Horde) past Friendly is through cloth turn-ins, as after you leave the starting area of Zephras Isle, there are no further quests that increase your reputation with the Skyborne factions.\nIf you want the Honored discount, you need to complete the initial three cloth turn-ins for Wool Cloth, Silk Cloth, or…",
+      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
+      "description": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation.",
+      "details": "WoW: Forever Mount Guide\nArticle Update: Skyborne always gets a 10% discount now, regardless of reputation. The article has been updated.\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. In yesterday's hotfixes, Blizzard mentioned this:\nBlizzard\nFixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.\nWhile this seems to imply that Skyborne will now get the reputation discount for being Honored, the discount now seems to be active for all Skyborne. A character that is Friendly with the Windshapers still has the 10% discount for both the Rare and Epic mount skills. This likely means that it now gives a discount to all Skyborne, regardless of their faction reputation!\nIt's unknown if…",
       "category": "Forever",
       "date": "2026-11-20T04:35:14.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56194-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56196-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
       "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a"
     },
     {
@@ -77,28 +99,6 @@
       "date": "2026-11-19T19:19:21.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56187-blizzard-wants-to-get-rid-of-bis-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383929",
-      "source": "Wowhead",
-      "title": "Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser",
-      "description": "This Week on the WoW: Forever podcast, the board said: Study The Well. Secret Finding is on it, and it's likely to be \"solved\" soon!",
-      "details": "Each week on the WoW: Forever Podcast, there has been a board sitting behind the game developers with a different message. This week has been no different, and behind Aiden 'Zirene' Moon, the board reads: STUDY THE WELL 196.5.86.259.\nThe Secret Finders Discord is already across this one and has narrowed it down to a particular well in Mount Hyjal.\n\"Ok.... Let's make a list of every well in WoW Forever and start jumping in them\"\nWith a steady supply of Thorium Widgets, it is all systems go for explorers looking to solve this particular mystery.\nIn previous weeks, the message on the board has pointed towards beta codes, co-ords pointing to a beauty spot, and secret codes. We don't yet know what this week's will point to, but it's likely to be discovered soon!",
-      "category": "Forever",
-      "date": "2026-11-19T18:16:54.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56186-study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser.jpg",
-      "url": "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser"
-    },
-    {
-      "id": "wowhead-383927",
-      "source": "Wowhead",
-      "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
-      "description": "Zirene has teased a new Master Looter BiS item: an item that gives bonus stats when your bags are full.",
-      "details": "A new WoW: Forever podcast episode was released today and on it, they discuss itemization. During this episode, Zirene is asked if there’s anything he can tease about upcoming items.\nThere might be an item that is Master Loot BiS.\nMaybe you get extra stats if your bag is completely full.\nWhile Zirene implied that this is a Master Loot BiS item, this would work for anyone in theory. Is the trade off of extra stats worth the inconvenience of having completely full bags?\nThis looks to continue the trend of weird and wacky times to shake up the meta, such as the recent discovery of a Battle Mage weapon.",
-      "category": "Forever",
-      "date": "2026-11-19T17:50:34.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56181-zirene-teases-item-granting-bonus-stats-when-bags-are-full.jpg",
-      "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full"
     }
   ],
   "blizzard": null
