@@ -1,0 +1,18 @@
+{
+  "motd": {
+    "text": "Welcome to Forever Hård. Show up, gear up, and play it hård.",
+    "author": "",
+    "date": ""
+  },
+  "ticker": [
+    "FOREVER HÅRD. NEVER SOFT.",
+    "LOK'TAR OGAR, THEN REPAIR"
+  ],
+  "ranks": {
+    "0": "Guild Master",
+    "1": "Officer",
+    "2": "Veteran",
+    "3": "Member",
+    "4": "Recruit"
+  }
+}

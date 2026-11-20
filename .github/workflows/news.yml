@@ -66,16 +66,27 @@ jobs:
           GUILD_SLUG: offline-chat
           GUILD_OUTPUT: guild3.json
 
+      - name: Fetch Forever Hård (foreverhord) roster and character profiles
+        run: node scripts/fetch-guild.mjs
+        continue-on-error: true
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          BLIZZARD_REGION: ${{ vars.BLIZZARD_REGION || 'eu' }}
+          BLIZZARD_NAMESPACE: ${{ vars.BLIZZARD_NAMESPACE || 'forever' }}
+          GUILD_SLUG: forever-hård
+          GUILD_OUTPUT: foreverhord.json
+
       - name: Commit data files if they changed
         run: |
-          if git diff --quiet -- news.json guild.json guild2.json guild3.json assets/crest && [ -z "$(git ls-files --others --exclude-standard -- guild.json guild2.json guild3.json assets/crest)" ]; then
+          if git diff --quiet -- news.json guild.json guild2.json guild3.json foreverhord.json assets/crest && [ -z "$(git ls-files --others --exclude-standard -- guild.json guild2.json guild3.json foreverhord.json assets/crest)" ]; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add news.json guild.json
-          git add guild2.json guild3.json 2>/dev/null || true
+          git add guild2.json guild3.json foreverhord.json 2>/dev/null || true
           git add assets/crest 2>/dev/null || true
           git commit -m "Refresh news.json and guild.json"
           git push
