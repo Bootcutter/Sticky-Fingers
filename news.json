@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-19T18:15:04.220Z",
+  "generatedAt": "2026-11-20T00:42:01.393Z",
   "news": [
+    {
+      "id": "wowhead-383937",
+      "source": "Wowhead",
+      "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+      "description": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping.",
+      "details": "From multiple reports on the forums and Reddit, some players on EU servers are having trouble with the PvP systems in WoW: Foirever. Reports from these players indicate they are unable to get their Battleground queues to pop unless they get layered.\nImage: Battle.net Forums\nThis has made people think that there are specific EU layers that are bugged and preventing all Battleground queues. Some players believe it is a specific home layer that has this bug \"Layer 15\".\nIf you're unable to queue up for Battlegrounds and get queue pop, you might be bugged and will need to ask a friend to queue for you.",
+      "category": "Forever",
+      "date": "2026-11-19T23:20:47.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56190-some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383935",
+      "source": "Wowhead",
+      "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
+      "description": "Motes of Unstable Magic are now soulbound, preventing high-level players from selling them on the Auction House.",
+      "details": "Once you reach level 48, players can obtain the Unstable Magic in Dalaran or Unstable Magic at the Skywatcher Plateau. This quest gives players a Elemental Attractor, and when used, it gives the Magical Awareness buff. This buff will sometimes grant players a Mote of Unstable Magic when they defeat spellcasters or bosses. After you complete the initial quest, a repeatable quest (e.g. More Unstable Magic) allows players to turn in another 10 Motes for reputation and .\nBecause these were previously tradeable, each Mote was worth roughly . Players could buy these off the Auction House at this price to get reputation while losing no money. This quest stops being available at Honored, but players could continue getting drops and selling the Motes for extra Gold. Many players made a lot of gold from selling these, but this income has been cut off.\nAs of about noon Pacific time, Motes of…",
+      "category": "Forever",
+      "date": "2026-11-19T21:23:45.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56189-motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed.png",
+      "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed"
+    },
+    {
+      "id": "wowhead-383931",
+      "source": "Wowhead",
+      "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+      "description": "In the latest episode of the WoW: Forever Podcast, Senior Game Designer Aidan Moon says he wants to get rid of the idea of BiS in WoW: Forever.",
+      "details": "BiS, or \"Best In Slot\" gear, has been something that's existed in World of Warcraft since its inception. Players have looked to theorycraft their overall \"best\" items for every slot, to achieve multiple stat goals such as Hit cap, Expertise Cap, Critical Strike Immunity, while also maximizing their damage, Health, or Mana. However, developer Aidan \"Zirene\" Moon says he wants to try to \"get rid of BiS\".\n\"I essentially want to get rid of \"BiS\". I think that \"BiS\" is not a good thing for a video game that's supposed to be about role-playing systems about it. That's why I've introduced the creature subtype system, the biome system, and in the raid, it's different... In the raid, if you go to the left wing, that's 'snowy'; if you go to the right wing, that's 'haunted', so different parts of the raid will have different biomes. So I think your BiS should be different for every single boss if…",
+      "category": "Forever",
+      "date": "2026-11-19T19:19:21.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56187-blizzard-wants-to-get-rid-of-bis-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383929",
+      "source": "Wowhead",
+      "title": "Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser",
+      "description": "This Week on the WoW: Forever podcast, the board said: Study The Well. Secret Finding is on it, and it's likely to be \"solved\" soon!",
+      "details": "Each week on the WoW: Forever Podcast, there has been a board sitting behind the game developers with a different message. This week has been no different, and behind Aiden 'Zirene' Moon, the board reads: STUDY THE WELL 196.5.86.259.\nThe Secret Finders Discord is already across this one and has narrowed it down to a particular well in Mount Hyjal.\n\"Ok.... Let's make a list of every well in WoW Forever and start jumping in them\"\nWith a steady supply of Thorium Widgets, it is all systems go for explorers looking to solve this particular mystery.\nIn previous weeks, the message on the board has pointed towards beta codes, co-ords pointing to a beauty spot, and secret codes. We don't yet know what this week's will point to, but it's likely to be discovered soon!",
+      "category": "Forever",
+      "date": "2026-11-19T18:16:54.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56186-study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser.jpg",
+      "url": "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser"
+    },
     {
       "id": "wowhead-383927",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-19T01:25:22.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56177-turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383919",
-      "source": "Wowhead",
-      "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
-      "description": "To complete this week's Gold Quest for level 60 characters, players must complete Blackrock Spire and Blackrock Depths.",
-      "details": "BRD GuideUBRS GuideLBRS Guide\nOnce a character hits level 60, they can pick up a Weekly quest from Booty Bay. While the last two weeks required players to do Dire Maul, this week's quest is In Demand - Blackrock Legal Records, which requires completing Blackrock Spire and Blackrock Depths.\nAcquire Nefarion's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.\nSimilar to last week, completing this quest grants you an Undermine Satchel, which can contain up to 100 gold and some extra materials.\nGold Nugget - Sells for 10g\nHuge Quartz Gem - Sells for 20g\nSilver Necklace - Sells for 40g\nGold Ring - Sells for 100g\nDue to the Wowhead Looter, the Undermine Satchel has many more confirmed drops of the crafting…",
-      "category": "Forever",
-      "date": "2026-11-18T19:52:08.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56175-weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383918",
-      "source": "Wowhead",
-      "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
-      "description": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds!",
-      "details": "WoW: Forever PvP Guide\nThis video takes you through everything about WoW: Forever's PvP system:\nHonor points no longer determine your rank.\nRank points are earned through daily and weekly sources, weekly battlegrounds, new season's journey quests, and certain World PvP events (Gurubashi), making the ranked climb more varied and predictable.\nHonor points are used as currency to get PvP rewards.\nRank points determine which rewards are available, Honor points is what you spend to acquire them.\nAt low ranks, you get Rare quality gear\nOnce you reach Rank 8 (Knight-Captain/Legionnaire) and can upgrade the gear into Epic quality gear.\nAt Rank 14, you unlock Epic weapons, equal in power with raiding gear.\nThe biggest source of Rank points is the Season Journey -- each week a new quest will be available for rank points.\nThere is catch-up for the Season Journey quests.\nYou can expect to hit max…",
-      "category": "Forever",
-      "date": "2026-11-18T18:03:36.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56174-wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds.jpg",
-      "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds"
-    },
-    {
-      "id": "wowhead-383917",
-      "source": "Wowhead",
-      "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
-      "description": "The Auction House minimum deposit has finally been reduced back down to 1 Copper.",
-      "details": "It's been almost two weeks since launch and over a week since Blizzard announced that the Auction House deposit would be changing. With the weekly reset, the change is finally here! The Auction House no longer requires a minimum deposit of 1 Silver for every item.\nFor the faction-specific auction houses, the deposit should now strictly follow this formula:\nDurationDeposit Cost\n2 Hours5% of Vendor Price\n8 Hours20% of Vendor Price\n24 Hours60% of Vendor Price\nThis is a great change for the cheaper materials in the early levels, as players won't be putting up a deposit more than the items are worth!",
-      "category": "Forever",
-      "date": "2026-11-18T16:32:27.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56173-auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever.png",
-      "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383914",
-      "source": "Wowhead",
-      "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
-      "description": "Blizzard has posted hotfixes for today, which includes damage and health increases to UBRS and improvements to quest pain points in the Shen'dralas zone.",
-      "details": "Blizzard has posted hotfixes for today, which includes damage and health increases to UBRS and improvements to pain points in the Shen'dralas zone.\nMany Shen'dralas quests and pacing have been improved, with quest drops dropping for the entire party.\nThe final quest in a main quest chain, \"Agamaggan's Blood,\" which required you to do RFD (Level 40) after Mauradon (Level 50) can now be completed outside the dungeon.\nUpper Blackrock Spire damage and health of enemies has been increased when a bug was fixed.\nSoulforge Armor for tanks now has Spell Power instead of Strength.\nSleeping Bags have to be placed on the ground and now have a unique aura to indicate when you're in it.\nNovember 17, 2026\nCamping\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locations, like hunter traps.\nCozy Sleeping…",
-      "category": "Forever",
-      "date": "2026-11-18T03:43:47.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56172-ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever"
     }
   ],
   "blizzard": null
