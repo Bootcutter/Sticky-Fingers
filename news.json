@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-21T03:33:06.159Z",
+  "generatedAt": "2026-11-21T18:13:22.170Z",
   "news": [
+    {
+      "id": "wowhead-383934",
+      "source": "Wowhead",
+      "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
+      "description": "Located in Dustwallow Marsh, Alcaz Prison is a new dungeon for players around level 50 in WoW: Forever. Here are all the dungeon quests you should pick up!",
+      "details": "Alcaz Prison\nAlcaz Prison is on Alcaz Island, a lone island in the northeast part of Dustwallow Marsh. This dungeon is on the shorter side and will probably only take about 30 minutes.\nThe quests for Alcaz Prison are all pretty easy to get. You get three quests for each faction outside the dungeon, plus one in-dungeon secret quest. This secret quest offers a 25 gold reward and only appears when a boss is skipped. After pikcing up the quest, you can kill him for his quest objective.\nQuestLevelSideEffortShare?Starts\nThe Dragon's Journal46 Alterac Mountains, Dalaran - Archmage Lan'dalock /way 15.6 73.6\nA Bit of Wet Work\n(leads to Somber News)48 Pre Dustwallow Marsh, Theramore Graveyard - Sully McCleary /way 63.4 42.4\nStarts with Our Man in Theramore from Master Mathias Shaw in the Old Town of Stormwind City\nThe Secret Prison48 PreDustwallow Marsh, Theramore Graveyard - Sully McCleary /way…",
+      "category": "Forever",
+      "date": "2026-11-21T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56195-all-quests-for-new-alcaz-prison-dungeon-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever"
+    },
     {
       "id": "wowhead-383949",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-20T04:03:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56193-ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for.png",
       "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for"
-    },
-    {
-      "id": "wowhead-383938",
-      "source": "Wowhead",
-      "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
-      "description": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs.",
-      "details": "As Blizzard continues to squash bugs, three quests (Call of Earth, Biding Our Time, and Witch Doctor Ti'ik) have specifically been called out as not working as intended, and BlizzardCS has stated the issues are being investigated.\nFor two quests, Call of Earth and Witch Doctor Ti'ik, players had left very few or no comments at all detailing the bugs (although there was definitely some frustration about Ti'ik's Head).\nWe're aware that completing the quest as a level 3 Skyborne Shaman does not grant Stoneskin Totem spell. We're already investigating this issue.\nWe're aware that Ti'ik's Head only drops for one party member when completing the quest in a group. We're already investigating this issue.\nBiding Our Time, however, had a bit more context in database comments. Several players reported that Filcher's Cowl was unusable, with the reward showing as a red question mark, but some…",
-      "category": "Forever",
-      "date": "2026-11-20T02:09:09.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56191-blizzard-investigating-several-bugged-quests-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever"
     }
   ],
   "blizzard": null
