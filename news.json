@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-21T18:13:22.170Z",
+  "generatedAt": "2026-11-21T23:27:21.080Z",
   "news": [
+    {
+      "id": "wowhead-383950",
+      "source": "Wowhead",
+      "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
+      "description": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever.",
+      "details": "In yesterday's hotfixes, Blizzard announced they have reduced the maximum number of dungeons to five per hour. WoW: Forever launched with a 10 dungeon lockout per hour, and this nerf makes it match the original Classic Era lockout. It's unclear if the increase to 10 dungeons per hour was intentional or a side effect of using the Modern client.\nEither way, this change shouldn't affect anyone doing a full dungeon clear for leveling or gear. Dungeons in WoW: Forever typically take at least 30 minutes to fully clear and players doing this will never hit the cap. For players farming specific things, this change may affect them depending on the run length. With 5 dungeons an hour, if a run takes less than 12 minutes, then you will run into issues with the new cap.\nBlizzard may be trying to curb the amount of gold entering the economy from raw gold farms. Soloing any dungeon, regardless of…",
+      "category": "Forever",
+      "date": "2026-11-21T19:26:27.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56205-maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf.jpg",
+      "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf"
+    },
     {
       "id": "wowhead-383934",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-20T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56188-every-quest-for-level-30-to-40-dungeons-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383939",
-      "source": "Wowhead",
-      "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
-      "description": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again!",
-      "details": "Hotfixes\nNovember 19, 2026\nCamping\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds are no longer able to be used in the Seed Hybridizer.\nClasses\nPaladin\nRetribution\nTwo-Handed Weapon Specialization now correctly increases all Holy Damage you deal while a two-handed weapon is equipped.\nDungeons\nCity of Dalaran\nShade of the Archmage should no longer despawn immediately upon entering combat.\nThe Shaper’s Terrace\nVitrix’s Poison Shock now deals less damage.\nEnemies and NPCs\nShimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.\nRiverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.\nItems\nMotes of Unstable Magic are now soulbound.\nSquall-breaker’s Potion can now be deleted.\nQuests\nBooty Bay - Rix Xizzix should no…",
-      "category": "Forever",
-      "date": "2026-11-20T04:03:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56193-ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for.png",
-      "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for"
     }
   ],
   "blizzard": null
