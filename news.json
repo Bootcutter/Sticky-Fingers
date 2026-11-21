@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-20T22:45:21.615Z",
+  "generatedAt": "2026-11-21T03:33:06.159Z",
   "news": [
+    {
+      "id": "wowhead-383949",
+      "source": "Wowhead",
+      "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+      "description": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG.",
+      "details": "Hotfixes\nNovember 20, 2026\nClasses\nRogue\nCombat\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\nWarlock\nDemonology\nFixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.\nDungeons\nPlayers can now reset and enter each dungeon a maximum of 5 times per hour (was 10).\nBlackrock Spire\nA rebel stone pillar should no longer trap unsuspecting adventurers.\nEnemies and NPCs\nOrgrimmar - Mayhoa Skyhoof no longer has glowing eyes.\nItems\nStormshroud Armor 3-piece bonus changed to a 3% chance (was 4%) on melee attack of restoring 18 energy (was 30).\nProfessions\nToron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and…",
+      "category": "Forever",
+      "date": "2026-11-21T00:23:36.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56204-lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november.jpg",
+      "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november"
+    },
     {
       "id": "wowhead-383946",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-20T02:09:09.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56191-blizzard-investigating-several-bugged-quests-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383928",
-      "source": "Wowhead",
-      "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
-      "description": "In the latest episode of the WoW: Forever Podcast, developers Kris Zierhut and Aidan Moon address the concern about a lack of Spell Power gear in WoW: Forever.",
-      "details": "As players are leveling their Mages, Warlocks, and other spellcaster classes, they've noticed a lack of proper Spell Power gear in the game. In WoW: Forever, Caster classes had their baseline damage reduced, but it was intended for new gear to be added to make up for that, so getting gear felt as important as it did for melee classes. However, players feel as though there isn't enough of that gear in the game currently.\n\"As you're leveling up a spellcaster, you really don't care about your gear that much, and I really wanted to fix that problem and make spell casters care as much about their gear as Warriors and Rogues do.... That being said, I think there probably is not enough Spell Power gear leveling up. As I was introducing it, the design team was very wary of how much change it was, and I probably added a little bit less of it than we should. So going into future patches, I want…",
-      "category": "Forever",
-      "date": "2026-11-20T00:42:07.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56183-blizzard-addresses-spell-power-gear-shortage-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever"
     }
   ],
   "blizzard": null
