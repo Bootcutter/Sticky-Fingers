@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T23:30:12.083Z",
+  "generatedAt": "2026-11-22T03:25:12.561Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -4780,8 +4780,8 @@
         "race": "Undead",
         "className": "Paladin",
         "level": 17,
-        "experience": 7046,
-        "lastLogin": "2026-11-19T22:09:21.000Z",
+        "experience": 10301,
+        "lastLogin": "2026-11-22T00:05:32.000Z",
         "itemLevel": 10,
         "achievementPoints": 0,
         "title": null,
@@ -4871,7 +4871,7 @@
                 }
               ],
               "req": "Requires Level 15",
-              "durability": "Durability 95 / 95"
+              "durability": "Durability 86 / 95"
             }
           },
           {
@@ -4896,7 +4896,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 25 / 25"
+              "durability": "Durability 22 / 25"
             }
           },
           {
@@ -4922,7 +4922,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 75 / 75"
+              "durability": "Durability 67 / 75"
             }
           },
           {
@@ -4937,7 +4937,7 @@
               "sub": "Mail",
               "armor": "104 Armor",
               "req": "Requires Level 12",
-              "durability": "Durability 40 / 40"
+              "durability": "Durability 36 / 40"
             }
           },
           {
@@ -4963,7 +4963,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 35 / 35"
+              "durability": "Durability 32 / 35"
             }
           },
           {
@@ -4985,7 +4985,7 @@
                 }
               ],
               "req": "Requires Level 10",
-              "durability": "Durability 25 / 25"
+              "durability": "Durability 23 / 25"
             }
           },
           {
@@ -5058,7 +5058,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 70 / 70"
+              "durability": "Durability 63 / 70"
             }
           },
           {
@@ -5079,7 +5079,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 55 / 55"
+              "durability": "Durability 50 / 55"
             }
           }
         ],
@@ -5161,27 +5161,27 @@
           "spellPower": 25,
           "dps": 20.4
         },
-        "questsCompleted": 88,
+        "questsCompleted": 95,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Undercity",
             "standing": "Friendly",
-            "value": 4781,
+            "value": 5006,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Orgrimmar",
             "standing": "Friendly",
-            "value": 537,
+            "value": 593,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Neutral",
-            "value": 2825,
+            "value": 2881,
             "max": 3000,
             "tier": 3
           },
@@ -5195,7 +5195,7 @@
           {
             "faction": "Thunder Bluff",
             "standing": "Neutral",
-            "value": 1231,
+            "value": 1287,
             "max": 3000,
             "tier": 3
           },
@@ -5231,7 +5231,7 @@
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 9,
+            "Times camped": 11,
             "Health potions consumed": 8,
             "Elixirs consumed": 3,
             "Beverages consumed": 7,
@@ -5241,18 +5241,18 @@
             "Total 5-player dungeons entered": 3,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Bazzalan kills (Ragefire Chasm)": 1,
-            "Total kills": 841,
+            "Total kills": 842,
             "Total kills that grant experience or honor": 829,
-            "Creatures killed": 841,
+            "Creatures killed": 842,
             "Different creature types killed": 6,
-            "Creature type killed the most": 355,
-            "Total Killing Blows": 475,
-            "World Killing Blows": 429,
-            "Continent with the most Killing Blows": 223,
-            "Total deaths": 8,
+            "Creature type killed the most": 356,
+            "Total Killing Blows": 476,
+            "World Killing Blows": 430,
+            "Continent with the most Killing Blows": 224,
+            "Total deaths": 9,
             "Total raid and dungeon deaths": 3,
             "Total deaths in 5-player dungeons": 3,
-            "Quests completed": 69,
+            "Quests completed": 76,
             "Average quests completed per day": 0,
             "Quests abandoned": 6,
             "Professions learned": 1,
@@ -5261,7 +5261,7 @@
             "Highest Tailoring skill": 48,
             "Tailoring Patterns learned": 54,
             "Flight paths taken": 1,
-            "Number of times hearthed": 3
+            "Number of times hearthed": 4
           },
           "bosses": [
             {
@@ -5383,10 +5383,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-avatar.jpg",
           "box": {
-            "x": 604,
-            "y": 352,
-            "w": 410,
-            "h": 623,
+            "x": 603,
+            "y": 354,
+            "w": 411,
+            "h": 621,
             "W": 1600,
             "H": 1200
           }
@@ -5417,7 +5417,7 @@
         "className": "Mage",
         "level": 21,
         "experience": 13086,
-        "lastLogin": "2026-11-19T01:57:30.000Z",
+        "lastLogin": "2026-11-22T01:26:27.000Z",
         "itemLevel": 14,
         "achievementPoints": 0,
         "title": null,
@@ -6045,9 +6045,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/194/67627714-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/194/67627714-avatar.jpg",
           "box": {
-            "x": 484,
+            "x": 486,
             "y": 427,
-            "w": 461,
+            "w": 459,
             "h": 548,
             "W": 1600,
             "H": 1200
