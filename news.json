@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-11-22T18:39:35.019Z",
+  "generatedAt": "2026-11-22T23:48:47.018Z",
   "news": [
+    {
+      "id": "wowhead-383959",
+      "source": "Wowhead",
+      "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
+      "description": "Aidan Moon has responded on X (Twitter) that World Buffs dropping during a loading screen is a bug.",
+      "details": "In response to our article that World Buffs are dropping on a loading screen, Aidan \"Zirene\" Moon replied on X that this is not intended.\nHe mentions that this is a bug that will be fixed tomorrow and that another bug fix caused it. After this is fixed, players will once again be able to enjoy the World Buffs in dungeons and on the opposing continent!",
+      "category": "Forever",
+      "date": "2026-11-22T23:06:59.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56210-aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug.jpg",
+      "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug"
+    },
+    {
+      "id": "wowhead-383956",
+      "source": "Wowhead",
+      "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+      "description": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit.",
+      "details": "A lockbox exploit has recently been discovered and has started to circulate within the community. Players could previously turn off auto-loot and check the contents of an unlooted lockbox. As Mithril Lockbox contains some very important and expensive items, such as recipes, some rogues found it fun to see what was inside before sending it back to the intended owner. However, players discovered that Lockbox contents could be rerolled.\nIt's unknown what exactly causes the reroll, but in a post on Reddit, u/intertiae discovered that a Rogue who peeks inside the lockbox will see something different than the recipient of the lockbox after it's been sent in the mail. It's unclear how long this has been going on, or the impact of this on rare recipes, but this is very clearly unintended behavior.\nWith very recent hotfixes, lockbox peeking is no longer allowed and players will automatically…",
+      "category": "Forever",
+      "date": "2026-11-22T21:00:03.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56208-players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit.png",
+      "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit"
+    },
+    {
+      "id": "wowhead-383954",
+      "source": "Wowhead",
+      "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+      "description": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent.",
+      "details": "Aidan \"Zirene\" Moon has announced that this is a bug. Find out more by clicking here.\nWorld Buffs are a huge buff to characters, and while they don't work in raids in WoW: Forever, they work in outdoor content and in dungeons. Some of the most common buffs right now are Warchief's Blessing or Might of Stormwind from turning in the Head of Rend Blackhand and Mol'dar's Moxie, Fengus' Ferocity and Slip'kik's Savvy from Dire Maul Tribute runs. In a recent undocumented change, these buffs are being completely removed whenever a loading screen triggers. This includes the loading screen when logging in.\nThe video above shows the Warchief's Blessing buff being removed when Hearthing to Thunder Bluff from Orgrimmar, as it triggers a loading screen. This means that none of these buffs can be used inside a dungeon anymore, as there's always a dungeon loading screen.\nWarchief's Blessing can no…",
+      "category": "Forever",
+      "date": "2026-11-22T19:01:53.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56206-world-buffs-removed-on-any-loading-screen-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383947",
+      "source": "Wowhead",
+      "title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
+      "description": "Taliesin and Evitel check out the latest news for both Forever and Retail, as well as the gold farm, chores, and exploit controversy in Forever.",
+      "details": "Taliesin and Evitel cover the latest news and do a deep dive into pertinent topics in The Weekly Reset. This week, the latest news for both Forever and Retail, as well as the gold farm exploit controversy in Forever.\nWorld of Warcraft Forever is getting ready for the launch of its first tier of raids in a couple of weeks, and faced it's first huge test of integrity this week when players discovered the Blackmaw Hold gold farm exploit, and a few (including some huge streamers) became incredibly rich. How would Aggrand and the Forever team react? Some in the community want PERMABANS for offenders, and there's even a petition. Will Blizz make the right call?\nWe also talk about the very retail-feeling gold weekly quest, as well as Retail NEWS with the announcement of the patch 12.1.7 release date and remind ourselves of what Echoes of the Worldcore has in store.\nJoin us for the Weekly…",
+      "category": "WoW",
+      "date": "2026-11-22T19:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56200-the-weekly-reset-with-taliesin-and-evitel-gold-in-forever.jpg",
+      "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever"
+    },
     {
       "id": "wowhead-383884",
       "source": "Wowhead",
@@ -55,50 +99,6 @@
       "date": "2026-11-20T20:51:19.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56201-itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier.jpg",
       "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier"
-    },
-    {
-      "id": "wowhead-383943",
-      "source": "Wowhead",
-      "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
-      "description": "Targeted Layering Addons will no longer work in an upcoming hotfix for WoW: Forever, as various API calls that show a realm ID will be obfuscated soon.",
-      "details": "One popular addon on CurseForge right now is Layer Swap, an addon that helps facilitate layer hopping. Players use layer hopping for many reasons, but a main one is to find a new phase when the current one has competition. It can also help when some players are bugged on certain layers. With an addon like Layer Swap, players can see how many layers there could be, whether they've already been to a layer, and directly phase into the layer they want.\nImage Credit: Layer Swap\nAn addon like Layer Swap does two things:\nFacilitates invites to a new layer more easily by automating communication.\nAllows the tracking and targeting of specific layers.\nBlizzard has been communicating addon changes to authors through the WoWUIDev Discord since the Midnight expansion and with Forever now on the modern architetcture, they have started communicating updates there as well. With an announcement in the…",
-      "category": "Forever",
-      "date": "2026-11-20T19:00:55.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56198-layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow.jpg",
-      "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow"
-    },
-    {
-      "id": "wowhead-383944",
-      "source": "Wowhead",
-      "title": "WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly",
-      "description": "Blizzard has recapped some of the biggest events in WoW this week, which includes a podcast on WoW: Forever class design, details on Patch 12.1.7, the WoW Anniversary event, and more!",
-      "details": "From the WoW: Forever Podcast's focus on class design to the 1 December arrival of Midnight: Echoes of the Worldcore, Talebound's macabre rewards, Mythic 2/6 gear in the Labyrinth of Kino'jan, and the World of Warcraft 22nd Anniversary Celebration, this week's news is packed with fresh stories, new challenges, and festive adventures across Azeroth.\nWoW: Forever Podcast – Catching up on Classes\nJoin WoW: Forever Podcast host Countdown To Classic for a conversation with Senior Game Designer Aidan Moon and Principal Game Designer Kris Zierhut as they take careful aim on class design.\nWatch now to bring class design into focus.\nMidnight: Echoes of the Worldcore Arrives on 1 December\nAzeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth in…",
-      "category": "WoW",
-      "date": "2026-11-20T18:02:14.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56197-wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly.jpg",
-      "url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly"
-    },
-    {
-      "id": "wowhead-383940",
-      "source": "Wowhead",
-      "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
-      "description": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation.",
-      "details": "WoW: Forever Mount Guide\nArticle Update: Skyborne always gets a 10% discount now, regardless of reputation. The article has been updated.\nWith the release of WoW: Forever, players noticed that the Skyborne don't get a 10% discount with mount vendors. In yesterday's hotfixes, Blizzard mentioned this:\nBlizzard\nFixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.\nWhile this seems to imply that Skyborne will now get the reputation discount for being Honored, the discount now seems to be active for all Skyborne. A character that is Friendly with the Windshapers still has the 10% discount for both the Rare and Epic mount skills. This likely means that it now gives a discount to all Skyborne, regardless of their faction reputation!\nIt's unknown if…",
-      "category": "Forever",
-      "date": "2026-11-20T17:00:14.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56196-skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a.jpg",
-      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a"
-    },
-    {
-      "id": "wowhead-383890",
-      "source": "Wowhead",
-      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
-      "description": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut!",
-      "details": "One of the nine new dungeons in World of Warcraft Forever, Krol'dok Stronghold, has a quest within the dungeon where you’ll create a key that can be used to streamline future runs by unlocking various doors after acquiring it.\nKrol'dok Stronghold Dungeon Guide\nThe quest, Krol'dok Moulding/Krol'dok Moulding, drops from an NPC in the dungeon named Tunk. When you kill him, you’ll receive the quest item, and you’ll need to bring it to Kreza Darkthorn in Rog’mar for Horde or Alphonse Dumas in Farholde Keep for Alliance (both in Riverglades). Before entering the dungeon and starting this quest, you can prepare 4x Thick Leather and 12x Iron Bar to complete the follow-up quest, Key Ingredients/Key Ingredients immediately and receive the Krol'dok Compound Key. Both quests award about 7,000 combined XP.\nAfter you get the Krol'dok Compound Key, you can re-enter Krol'dok Stronghold and open a…",
-      "category": "Forever",
-      "date": "2026-11-20T16:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56145-unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key.jpg",
-      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key"
     }
   ],
   "blizzard": null
