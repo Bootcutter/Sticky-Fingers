@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T03:25:12.561Z",
+  "generatedAt": "2026-11-22T18:41:16.069Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -5383,10 +5383,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-avatar.jpg",
           "box": {
-            "x": 603,
-            "y": 354,
-            "w": 411,
-            "h": 621,
+            "x": 604,
+            "y": 352,
+            "w": 410,
+            "h": 623,
             "W": 1600,
             "H": 1200
           }
@@ -6045,9 +6045,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/194/67627714-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/194/67627714-avatar.jpg",
           "box": {
-            "x": 486,
+            "x": 484,
             "y": 427,
-            "w": 459,
+            "w": 461,
             "h": 548,
             "W": 1600,
             "H": 1200

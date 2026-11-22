@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-21T23:27:21.080Z",
+  "generatedAt": "2026-11-22T18:39:35.019Z",
   "news": [
+    {
+      "id": "wowhead-383884",
+      "source": "Wowhead",
+      "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
+      "description": "In Classic WoW, Rogues had a go-to method for leveling Lockpicking from 250-300. In Forever, that method has changed - no more BRD runs!",
+      "details": "Lockpicking is a skill that gives Rogues utility, such as opening lockboxes at players’ requests or unlocking chests or doors in dungeons. In Classic World of Warcraft, Rogues had a go-to method for leveling Lockpicking, but WoW: Forever has nerfed it, pushing players to seek alternate leveling methods.\nBefore, Rogues would head into Blackrock Depths, unlocking three doors that required the Shadowforge Key, and unlocking the Shadowforge lock. This would bring players from Lockpicking Level 250 to 300. However, in testing, the Shadowforge lock itself becomes “grey” around Lockpicking level 265.\nThe Shadowforge Lock will no longer level you to 300.\nNow, the best way to level Lockpicking is to go to Tyr’s Hand in Eastern Plaguelands, which is filled with elite mobs. You'll find Scarlet Footlockers scattered throughout the area. Leveling Lockpicking as a Rogue adds an extra layer of…",
+      "category": "Forever",
+      "date": "2026-11-22T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56144-the-best-way-to-level-lockpicking-to-max-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever"
+    },
     {
       "id": "wowhead-383950",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-20T16:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56145-unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key.jpg",
       "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key"
-    },
-    {
-      "id": "wowhead-383933",
-      "source": "Wowhead",
-      "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
-      "description": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever!",
-      "details": "Every Dungeon Quest Location\nThe level 30 to 40 dungeon bracket has one new WoW: Forever dungeon: The Drowned City. City of Dalaran is run by many players in their late 20s, but technically also falls in this bracket if you're looking for an easier run. These dungeons contain many new dungeon quests and bosses to explore. Be warned, Drowned City is a longer dungeon that will take at least an hour to complete on average, so make sure you have enough time to complete it.\nGnomeregan Dungeon Quests\nGnomeregan Dungeon Guide\nHard: Level 25 | Medium: Level 30 | At Level: Level 33 | Easy: Level 38\nQuestLevelSideEffortShare?Starts\nRig Wars25 Orgrimmar, Valley of Honor - Nogg /way 76 25\nChief Engineer Scooty20PreOrgrimmar, Valley of Honor - Sovik /way 76 25. Must pick upRig Wars first.\nGnomer-gooooone!20Strangethorn Vale, Booty Bay - Scooty /way 27 77\nSave Techbot's Brain!20 Ironforge, Tinkertown…",
-      "category": "Forever",
-      "date": "2026-11-20T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56188-every-quest-for-level-30-to-40-dungeons-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever"
     }
   ],
   "blizzard": null
