@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-22T23:48:47.018Z",
+  "generatedAt": "2026-11-23T04:05:03.370Z",
   "news": [
+    {
+      "id": "wowhead-383955",
+      "source": "Wowhead",
+      "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
+      "description": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm.",
+      "details": "Uldaman Dungeon\nThe Obsidian Sentinel is one of the bosses in the Uldaman dungeon and it's located just inside the back entrance of Uldaman. This boss is accessible right away, with no additional trash needed, which allows solo farmers to quickly kill a high-level boss and guarantee the loot for themselves. This loot table for this boss is:\nRock Sentinel Slicer which sells for\nDark Golem Breastplate which sells for\nWhite Obsidian Wand which sells for\nAxe of Lingering Dread which sells for\nPlayers could complete this run in less than 5 minutes and get an average of 1.77 Gold per run. However, this boss has been hotfixed and no longer drops any Blue gear. When I tested this, the boss dropped and 2 Solid Stone.\nBlizzard hasn't posted about this change in any of their hotfix blogs, but it's hard to think of another reason why this specific boss would have its entire loot table removed.…",
+      "category": "Forever",
+      "date": "2026-11-23T01:00:37.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56207-uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy.jpg",
+      "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy"
+    },
     {
       "id": "wowhead-383959",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-21T00:23:36.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56204-lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november.jpg",
       "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november"
-    },
-    {
-      "id": "wowhead-383946",
-      "source": "Wowhead",
-      "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
-      "description": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever!",
-      "details": "More Information:\nBlizzard has confirmed with Wowhead that these items stats have been revealed intentionally and can be seen in game directly, as item obfuscation doesn't apply to items from vendors and recipes. They have also confirmed that the set bonuses are placeholder and will be updated in the future.\nWoW: Forever's first raiding tier releases on December 9th with a global launch. While Blizzard has intentionally not revealed much about the bosses or the loot they drop, they have now revealed item stats for the crafted tier pieces. We know from a Crix interview that tier pieces will drop across all three raids, but what if you don't have a 40-man, or just get unlucky? Crafted Tier Set pieces could be the solution. These crafted pieces all have a unique quality, \"Artisan's Tier (1).\" This seems to indicate that you can craft exactly one piece of raid tier, which might give some…",
-      "category": "Forever",
-      "date": "2026-11-20T20:51:19.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56201-itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier.jpg",
-      "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier"
     }
   ],
   "blizzard": null
