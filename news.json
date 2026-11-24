@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-24T11:40:21.859Z",
+  "generatedAt": "2026-11-24T21:30:32.765Z",
   "news": [
+    {
+      "id": "wowhead-383980",
+      "source": "Wowhead",
+      "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
+      "description": "Blizzard has released a new motion comic for WoW: Forever called \"Al'Aketh Rising,\" which follows a local Skyborne constable on Zephras Isle.",
+      "details": "Constable Aonda of the Skyborne travels into a remote settlement that appears to be under strict control. Prisoners march under close guard, strangers smile with an eerie conviction, and an uncomfortable silence provides cover for a growing threat. As she plays along to get closer to the truth, she finds herself overwhelmed by hidden agendas and fanatic devotion. And in a land ruled by wind, blind devotion can become a storm.\nJoin Constable Aonda for a special reading of World of Warcraft: Forever's newest motion comic, “Al'Aketh Rising”.\nRead By : Sam Slade as Constable Aonda\nWritten By : Robert Brooks\nArt & Cover : Stefano Porcu\nColors : Mauro Gulma\nLetters : AndWorld Design\nDownloadable PDF\nRead more stories and stay up to date on the latest World of Warcraft news at worldofwarcraft.blizzard.com/news.",
+      "category": "Forever",
+      "date": "2026-11-24T18:06:43.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56228-watch-alaketh-rising-new-motion-comic-for-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever"
+    },
+    {
+      "id": "wowhead-383961",
+      "source": "Wowhead",
+      "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+      "description": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever.",
+      "details": "Professions have many a twist in World of Warcraft: Forever, and one of those is that you need particular Work Stations to craft certain high-level items.\nTo keep things simple for this article, we will refer to these objects as Profession Work Stations. We are aware that on an individual level, the items vary and may be described as Looms, Sewing Machines, etc.\nWhile this system has been seen in other expansions, it is slightly different in Forever for a few reasons.\nThe Work Stations are crafted with the profession and consumed on use\nYou can access them anywhere you can put down a camping fire\nThese are provided by players rather than regular parts of the World\nYou can find below a list of the Tier 3 Blueprints for every Profession and the source. The sources have been collected from the Wowhead Looter Addon. Thank you to everyone who uses this and helps keep our database up to…",
+      "category": "Forever",
+      "date": "2026-11-24T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56211-all-tier-3-blueprint-sources-for-crafting-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever"
+    },
     {
       "id": "wowhead-383972",
       "source": "Wowhead",
@@ -77,28 +99,6 @@
       "date": "2026-11-23T01:00:37.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56207-uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy.jpg",
       "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy"
-    },
-    {
-      "id": "wowhead-383959",
-      "source": "Wowhead",
-      "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
-      "description": "Aidan Moon has responded on X (Twitter) that World Buffs dropping during a loading screen is a bug.",
-      "details": "In response to our article that World Buffs are dropping on a loading screen, Aidan \"Zirene\" Moon replied on X that this is not intended.\nHe mentions that this is a bug that will be fixed tomorrow and that another bug fix caused it. After this is fixed, players will once again be able to enjoy the World Buffs in dungeons and on the opposing continent!",
-      "category": "Forever",
-      "date": "2026-11-22T23:06:59.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56210-aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug.jpg",
-      "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug"
-    },
-    {
-      "id": "wowhead-383956",
-      "source": "Wowhead",
-      "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
-      "description": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit.",
-      "details": "A lockbox exploit has recently been discovered and has started to circulate within the community. Players could previously turn off auto-loot and check the contents of an unlooted lockbox. As Mithril Lockbox contains some very important and expensive items, such as recipes, some rogues found it fun to see what was inside before sending it back to the intended owner. However, players discovered that Lockbox contents could be rerolled.\nIt's unknown what exactly causes the reroll, but in a post on Reddit, u/intertiae discovered that a Rogue who peeks inside the lockbox will see something different than the recipient of the lockbox after it's been sent in the mail. It's unclear how long this has been going on, or the impact of this on rare recipes, but this is very clearly unintended behavior.\nWith very recent hotfixes, lockbox peeking is no longer allowed and players will automatically…",
-      "category": "Forever",
-      "date": "2026-11-22T21:00:03.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56208-players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit.png",
-      "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit"
     }
   ],
   "blizzard": null
