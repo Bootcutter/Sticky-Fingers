@@ -1,12 +1,67 @@
 {
-  "generatedAt": "2026-11-23T04:05:03.370Z",
+  "generatedAt": "2026-11-24T01:49:07.445Z",
   "news": [
+    {
+      "id": "wowhead-383969",
+      "source": "Wowhead",
+      "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+      "description": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons.",
+      "details": "Sunder Armor Basics\nIn World of Warcraft, a creature's armor reduces their physical damage taken. In Classic versions of WoW, some classes have abilities that reduce the armor of enemy targets:\nDruid: Faerie Fire\nRogue: Expose Armor\nWarlock: Curse of Recklessness\nWarrior: Sunder Armor\nApplying these debuffs is a large increase for physical damage dealers, such as Warriors, Hunters, and Rogues, but everyone who does some melee damage will see some benefit.\nSunder Armor in Forever Dungeons\nSunder Armor effects are important for increasing damage in WoW: Forever, but according to the Classic WoW Community Github, they don't actually work in dungeons. Multiple reporters have looked into the logs and damage numbers and concluded that these Sunder Armor effects work in the open world, but not in dungeons.\nToxicKevinFermIn dungeons, Sunder Armor, Faerie Fire, Curse of Recklessness and Expose…",
+      "category": "Forever",
+      "date": "2026-11-23T23:00:58.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56218-players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons.jpg",
+      "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons"
+    },
+    {
+      "id": "wowhead-383968",
+      "source": "Wowhead",
+      "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
+      "description": "The Obsidian Golem boss in Uldaman drops loot again, but the vendor cost of the items has been nerfed.",
+      "details": "Uldaman Dungeon\nIn the last couple of days, Blizzard hotfixed the Obsidian Sentinel boss in Uldaman to remove all Rare Drops from the loot table. This was likely due to max-level players being able to kill this boss and zone out in about 90 seconds, obtaining an average of per run from vendoring the gear. At the previous cap of 10 dungeons per hour, this would be about 18 gold for 15 minutes of work.\nIn new hotfixes today, the loot from the Uldaman boss has returned, but the vendor price has been slashed by 50%.\nRock Sentinel Slicer sells for (was )\nDark Golem Breastplate sells for (was )\nWhite Obsidian Wand sells for (was )\nAxe of Lingering Dread sells for (was )\nThis change, combined with the new cap of 5 dungeons per hour, now leads to an average of about 4.42 gold for 7.5 minutes of work from vendoring the items.\nThe good news is that for leveling characters, the loot is back and…",
+      "category": "Forever",
+      "date": "2026-11-23T21:20:40.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56217-uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed.png",
+      "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed"
+    },
+    {
+      "id": "wowhead-383967",
+      "source": "Wowhead",
+      "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
+      "description": "World Buffs now persist through loading screens in WoW: Forever, but one of the Dire Maul Tribute buffs has been nerfed.",
+      "details": "World Buffs Across Loading Screen\nAs previously reported, World Buffs were hotfixed over the last couple of days and were being removed whenever a loading screen triggered. Yesterday, Aidan \"Zirene\" Moon announced that this was a bug, and as of today, it's fixed!\nWorld Buffs are no longer removed whenever a loading screen triggers.\nWarchief's Blessing in Ragefire Chasm dungeon.\nIf you want to make your next dungeon run a little faster, grab a World Buff before your next dungeon!\nDire Maul Tribute World Buff Nerf\nThe Dire Maul Tribute run grants powerful World Buffs for players who complete a Dire Maul Tribute run.\nWith the above hotfix, players can bring the buffs out of the dungeon, but one has been nerfed.\nFengus' Ferocity spell power reduced by 50% to 115 (was 230)\nWorld Buffs Not Working in Raids\nWith the same set of hotfixes, flags have been applied to the following spells to…",
+      "category": "Forever",
+      "date": "2026-11-23T19:39:02.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56216-world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute.png",
+      "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute"
+    },
+    {
+      "id": "wowhead-383965",
+      "source": "Wowhead",
+      "title": "Blizzard Working on a Fix for Paladin and Warlocks Not Unlocking Epic Riding",
+      "description": "Blizzard is working on a fix for Paladins and Warlocks not unlocking Epic Riding by completing the class quest.",
+      "details": "Riding Skill Guide\nBlizzard has acknowledged a bug where Paladins and Warlocks are not unlocking Epic Riding skill when completing the questline. This prevents them from using other mounts, such as the Cerulean Prideclaw.\nWe’ve found the bug here, and we think it’s affecting both Paladins and Warlocks.\nWe’re working on a fix, but the fix is going to take another day or two.\nThank you very much for your patience. We’ll get it fixed ASAP.",
+      "category": "Forever",
+      "date": "2026-11-23T19:05:26.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56215-blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding.jpg",
+      "url": "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding"
+    },
+    {
+      "id": "wowhead-383963",
+      "source": "Wowhead",
+      "title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
+      "description": "Blizzard has announced that the lockbox change is temporary while they work on a proper fix.",
+      "details": "Yesterday, a hotfix was pushed to live servers that removed players' ability to peek inside lockboxes. Blizzard announced that this change is temporary, and they are working on a proper fix that will let players continue to peek inside lockboxes.\nConfirming that the change to lockbox behavior was made yesterday at 9:55 a.m. PST as a temporary measure.\nToday, we’re working on a proper fix that restores the ability to peek and partially loot lockboxes, and makes them otherwise work as intended.\nWe don’t yet know how long the fix will take, but we’ll post about it when it’s done.\nWhile Blizzard didn't state a reason, it's very likely due to the Lockbox exploit that players discovered. This temporary fix stopped the exploit on the weekend, but has a side effect, as pointed out in a Reddit Thread: Junkboxes can no longer be partially looted and then turned in.",
+      "category": "Forever",
+      "date": "2026-11-23T16:33:33.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56213-blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will.jpg",
+      "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will"
+    },
     {
       "id": "wowhead-383955",
       "source": "Wowhead",
       "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
       "description": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm.",
-      "details": "Uldaman Dungeon\nThe Obsidian Sentinel is one of the bosses in the Uldaman dungeon and it's located just inside the back entrance of Uldaman. This boss is accessible right away, with no additional trash needed, which allows solo farmers to quickly kill a high-level boss and guarantee the loot for themselves. This loot table for this boss is:\nRock Sentinel Slicer which sells for\nDark Golem Breastplate which sells for\nWhite Obsidian Wand which sells for\nAxe of Lingering Dread which sells for\nPlayers could complete this run in less than 5 minutes and get an average of 1.77 Gold per run. However, this boss has been hotfixed and no longer drops any Blue gear. When I tested this, the boss dropped and 2 Solid Stone.\nBlizzard hasn't posted about this change in any of their hotfix blogs, but it's hard to think of another reason why this specific boss would have its entire loot table removed.…",
+      "details": "Uldaman Dungeon\nThe Obsidian Sentinel is one of the bosses in the Uldaman dungeon and it's located just inside the back entrance of Uldaman. This boss is accessible right away, with no additional trash needed, which allows solo farmers to quickly kill a high-level boss and guarantee the loot for themselves. This loot table for this boss is:\nRock Sentinel Slicer which sells for\nDark Golem Breastplate which sells for\nWhite Obsidian Wand which sells for\nAxe of Lingering Dread which sells for\nPlayers could complete this run in less than 5 minutes and get an average of 1.77 Gold per run. However, at some point in the last couple of days, this boss was hotfixed and no longer drops any Blue gear. When I tested this, the boss dropped and 2 Solid Stone.\nBlizzard hasn't posted about this change in any of their hotfix blogs, but it's hard to think of another reason why this specific boss would…",
       "category": "Forever",
       "date": "2026-11-23T01:00:37.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56207-uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy.jpg",
@@ -44,61 +99,6 @@
       "date": "2026-11-22T19:01:53.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56206-world-buffs-removed-on-any-loading-screen-in-wow-forever.png",
       "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383947",
-      "source": "Wowhead",
-      "title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
-      "description": "Taliesin and Evitel check out the latest news for both Forever and Retail, as well as the gold farm, chores, and exploit controversy in Forever.",
-      "details": "Taliesin and Evitel cover the latest news and do a deep dive into pertinent topics in The Weekly Reset. This week, the latest news for both Forever and Retail, as well as the gold farm exploit controversy in Forever.\nWorld of Warcraft Forever is getting ready for the launch of its first tier of raids in a couple of weeks, and faced it's first huge test of integrity this week when players discovered the Blackmaw Hold gold farm exploit, and a few (including some huge streamers) became incredibly rich. How would Aggrand and the Forever team react? Some in the community want PERMABANS for offenders, and there's even a petition. Will Blizz make the right call?\nWe also talk about the very retail-feeling gold weekly quest, as well as Retail NEWS with the announcement of the patch 12.1.7 release date and remind ourselves of what Echoes of the Worldcore has in store.\nJoin us for the Weekly…",
-      "category": "WoW",
-      "date": "2026-11-22T19:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56200-the-weekly-reset-with-taliesin-and-evitel-gold-in-forever.jpg",
-      "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever"
-    },
-    {
-      "id": "wowhead-383884",
-      "source": "Wowhead",
-      "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
-      "description": "In Classic WoW, Rogues had a go-to method for leveling Lockpicking from 250-300. In Forever, that method has changed - no more BRD runs!",
-      "details": "Lockpicking is a skill that gives Rogues utility, such as opening lockboxes at players’ requests or unlocking chests or doors in dungeons. In Classic World of Warcraft, Rogues had a go-to method for leveling Lockpicking, but WoW: Forever has nerfed it, pushing players to seek alternate leveling methods.\nBefore, Rogues would head into Blackrock Depths, unlocking three doors that required the Shadowforge Key, and unlocking the Shadowforge lock. This would bring players from Lockpicking Level 250 to 300. However, in testing, the Shadowforge lock itself becomes “grey” around Lockpicking level 265.\nThe Shadowforge Lock will no longer level you to 300.\nNow, the best way to level Lockpicking is to go to Tyr’s Hand in Eastern Plaguelands, which is filled with elite mobs. You'll find Scarlet Footlockers scattered throughout the area. Leveling Lockpicking as a Rogue adds an extra layer of…",
-      "category": "Forever",
-      "date": "2026-11-22T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56144-the-best-way-to-level-lockpicking-to-max-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383950",
-      "source": "Wowhead",
-      "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
-      "description": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever.",
-      "details": "In yesterday's hotfixes, Blizzard announced they have reduced the maximum number of dungeons to five per hour. WoW: Forever launched with a 10 dungeon lockout per hour, and this nerf makes it match the original Classic Era lockout. It's unclear if the increase to 10 dungeons per hour was intentional or a side effect of using the Modern client.\nEither way, this change shouldn't affect anyone doing a full dungeon clear for leveling or gear. Dungeons in WoW: Forever typically take at least 30 minutes to fully clear and players doing this will never hit the cap. For players farming specific things, this change may affect them depending on the run length. With 5 dungeons an hour, if a run takes less than 12 minutes, then you will run into issues with the new cap.\nBlizzard may be trying to curb the amount of gold entering the economy from raw gold farms. Soloing any dungeon, regardless of…",
-      "category": "Forever",
-      "date": "2026-11-21T19:26:27.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56205-maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf.jpg",
-      "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf"
-    },
-    {
-      "id": "wowhead-383934",
-      "source": "Wowhead",
-      "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
-      "description": "Located in Dustwallow Marsh, Alcaz Prison is a new dungeon for players around level 50 in WoW: Forever. Here are all the dungeon quests you should pick up!",
-      "details": "Alcaz Prison\nAlcaz Prison is on Alcaz Island, a lone island in the northeast part of Dustwallow Marsh. This dungeon is on the shorter side and will probably only take about 30 minutes.\nThe quests for Alcaz Prison are all pretty easy to get. You get three quests for each faction outside the dungeon, plus one in-dungeon secret quest. This secret quest offers a 25 gold reward and only appears when a boss is skipped. After pikcing up the quest, you can kill him for his quest objective.\nQuestLevelSideEffortShare?Starts\nThe Dragon's Journal46 Alterac Mountains, Dalaran - Archmage Lan'dalock /way 15.6 73.6\nA Bit of Wet Work\n(leads to Somber News)48 Pre Dustwallow Marsh, Theramore Graveyard - Sully McCleary /way 63.4 42.4\nStarts with Our Man in Theramore from Master Mathias Shaw in the Old Town of Stormwind City\nThe Secret Prison48 PreDustwallow Marsh, Theramore Graveyard - Sully McCleary /way…",
-      "category": "Forever",
-      "date": "2026-11-21T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56195-all-quests-for-new-alcaz-prison-dungeon-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383949",
-      "source": "Wowhead",
-      "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
-      "description": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG.",
-      "details": "Hotfixes\nNovember 20, 2026\nClasses\nRogue\nCombat\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\nWarlock\nDemonology\nFixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.\nDungeons\nPlayers can now reset and enter each dungeon a maximum of 5 times per hour (was 10).\nBlackrock Spire\nA rebel stone pillar should no longer trap unsuspecting adventurers.\nEnemies and NPCs\nOrgrimmar - Mayhoa Skyhoof no longer has glowing eyes.\nItems\nStormshroud Armor 3-piece bonus changed to a 3% chance (was 4%) on melee attack of restoring 18 energy (was 30).\nProfessions\nToron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and…",
-      "category": "Forever",
-      "date": "2026-11-21T00:23:36.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56204-lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november.jpg",
-      "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november"
     }
   ],
   "blizzard": null

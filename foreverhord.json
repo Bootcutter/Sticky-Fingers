@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T04:06:28.174Z",
+  "generatedAt": "2026-11-24T01:51:42.990Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -3456,7 +3456,7 @@
           }
         },
         "mounts": 1,
-        "pets": null,
+        "pets": 2,
         "achievements": {
           "total": 9,
           "points": 0,
@@ -4781,7 +4781,7 @@
         "className": "Paladin",
         "level": 17,
         "experience": 10301,
-        "lastLogin": "2026-11-22T00:05:32.000Z",
+        "lastLogin": "2026-11-23T21:58:26.000Z",
         "itemLevel": 10,
         "achievementPoints": 0,
         "title": null,
@@ -4802,7 +4802,7 @@
           {
             "name": "Tailoring",
             "type": "primary",
-            "skill": 48,
+            "skill": 75,
             "max": 75,
             "recipes": 26,
             "known": [
@@ -4871,7 +4871,7 @@
                 }
               ],
               "req": "Requires Level 15",
-              "durability": "Durability 86 / 95"
+              "durability": "Durability 95 / 95"
             }
           },
           {
@@ -4896,7 +4896,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 22 / 25"
+              "durability": "Durability 25 / 25"
             }
           },
           {
@@ -4922,7 +4922,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 67 / 75"
+              "durability": "Durability 75 / 75"
             }
           },
           {
@@ -4937,7 +4937,7 @@
               "sub": "Mail",
               "armor": "104 Armor",
               "req": "Requires Level 12",
-              "durability": "Durability 36 / 40"
+              "durability": "Durability 40 / 40"
             }
           },
           {
@@ -4963,7 +4963,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 32 / 35"
+              "durability": "Durability 35 / 35"
             }
           },
           {
@@ -4985,7 +4985,7 @@
                 }
               ],
               "req": "Requires Level 10",
-              "durability": "Durability 23 / 25"
+              "durability": "Durability 25 / 25"
             }
           },
           {
@@ -5058,7 +5058,7 @@
                 }
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 63 / 70"
+              "durability": "Durability 70 / 70"
             }
           },
           {
@@ -5079,7 +5079,7 @@
                   "g": false
                 }
               ],
-              "durability": "Durability 50 / 55"
+              "durability": "Durability 55 / 55"
             }
           }
         ],
@@ -5261,7 +5261,7 @@
             "Highest Tailoring skill": 48,
             "Tailoring Patterns learned": 54,
             "Flight paths taken": 1,
-            "Number of times hearthed": 4
+            "Number of times hearthed": 5
           },
           "bosses": [
             {
@@ -5383,10 +5383,10 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/47/66148143-avatar.jpg",
           "box": {
-            "x": 603,
-            "y": 354,
-            "w": 411,
-            "h": 621,
+            "x": 602,
+            "y": 355,
+            "w": 412,
+            "h": 620,
             "W": 1600,
             "H": 1200
           }
