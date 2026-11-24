@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-24T01:49:07.445Z",
+  "generatedAt": "2026-11-24T11:40:21.859Z",
   "news": [
+    {
+      "id": "wowhead-383972",
+      "source": "Wowhead",
+      "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+      "description": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes!",
+      "details": "Tier Set fixes for Feral Druids\nA bug where spells and abilities were causing more procs than intended was fixed.\nFood involving clams now offer Well Fed bonuses.\nMultiple pattern bug fixes.\nWorld Buffs now persist when changing areas.\nObsidian Sentinel in Uldaman drops loot again.\nMultiple quests in Wetlands and Riverglades have been fixed.\nHotfixes\nNovember 23, 2026\nClasses\nDruid\nThe 4-piece Feralheart set for Druids now correctly grants 4 Energy regeneration every 1 second for 5 seconds.\nPriest\nMind Vision should no longer proc effects.\nShadow\nFixed an issue where Dark Inspiration was not granting the correct amount of %Spirit increase if Mind Flay was used to activate it.\nFixed an issue where Chastise was not usable in Shadowform.\nWarlock\nDestruction\nFixed an issue where Intensity was not working on Incinerate.\nWarrior\nFixed an issue where players could have and use Mortal Strike…",
+      "category": "Forever",
+      "date": "2026-11-24T02:10:52.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56222-class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026.jpg",
+      "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026"
+    },
     {
       "id": "wowhead-383969",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-22T21:00:03.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56208-players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit.png",
       "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit"
-    },
-    {
-      "id": "wowhead-383954",
-      "source": "Wowhead",
-      "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
-      "description": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent.",
-      "details": "Aidan \"Zirene\" Moon has announced that this is a bug. Find out more by clicking here.\nWorld Buffs are a huge buff to characters, and while they don't work in raids in WoW: Forever, they work in outdoor content and in dungeons. Some of the most common buffs right now are Warchief's Blessing or Might of Stormwind from turning in the Head of Rend Blackhand and Mol'dar's Moxie, Fengus' Ferocity and Slip'kik's Savvy from Dire Maul Tribute runs. In a recent undocumented change, these buffs are being completely removed whenever a loading screen triggers. This includes the loading screen when logging in.\nThe video above shows the Warchief's Blessing buff being removed when Hearthing to Thunder Bluff from Orgrimmar, as it triggers a loading screen. This means that none of these buffs can be used inside a dungeon anymore, as there's always a dungeon loading screen.\nWarchief's Blessing can no…",
-      "category": "Forever",
-      "date": "2026-11-22T19:01:53.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56206-world-buffs-removed-on-any-loading-screen-in-wow-forever.png",
-      "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever"
     }
   ],
   "blizzard": null
