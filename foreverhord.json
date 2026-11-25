@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:53:04.132Z",
+  "generatedAt": "2026-11-25T23:24:16.405Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -7383,7 +7383,7 @@
           }
         },
         "mounts": 1,
-        "pets": 1,
+        "pets": 2,
         "achievements": {
           "total": 5,
           "points": 0,

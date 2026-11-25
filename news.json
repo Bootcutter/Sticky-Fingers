@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-11-24T21:30:32.765Z",
+  "generatedAt": "2026-11-25T23:22:55.804Z",
   "news": [
+    {
+      "id": "wowhead-383999",
+      "source": "Wowhead",
+      "title": "Alterac Valley Reputation Increased Again in WoW: Forever",
+      "description": "Blizzard has increased Alterac Valley reputation again in WoW: Forever!",
+      "details": "With additional hotfixes that are now live, we have further increased the amount of reputation gained from defeating Lieutenants and holding graveyards and mines at the end of long matches, and we’ve shortened the threshold for a “long match” bonus reputation to 20 minutes (was 60 minutes in Era and prior to today’s adjustments).\nThe overall intent for all of these changes was for games to feel more meaningful while trying to maintain a similar amount of rep gained over a similar play time within the battleground, even with longer match lengths. There will be fluctuations depending on how successful you are at destroying towers and holding capture points at the end of a match however.\nThese changes will be included in today’s hotfixes update along with those listed in the OP.",
+      "category": "Forever",
+      "date": "2026-11-25T23:11:07.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56252-alterac-valley-reputation-increased-again-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383999/alterac-valley-reputation-increased-again-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383979",
+      "source": "Wowhead",
+      "title": "Take Advantage of Profession Cooldowns for Goldmaking in WoW: Forever",
+      "description": "Alchemists, Tailors, and Leatherworkers can easily earn a chunk of Gold every couple of days by using their multi-day profession cooldown in WoW: Forever.",
+      "details": "Multi-Day Profession Cooldowns\nIn WoW: Forever, three professions have a multi-day cooldown that converts common materials into a much more lucrative and limited item. These cooldowns range from 2 to 4 days depending on the profession and can grant a lot of gold for simply pressing a button every couple of days.\nEach server and faction will have different prices, but here's an example of the profit margins for Horde PvE as of this post:\nTransmute: Arcanite: ~ profit every 2 days.\nTransmute: Legionite: ~ profit every 2 days.\nSalt Shaker: ~ profit every 3 days.\nMooncloth: ~ profit every 4 days.\nAlchemists\nAlchemists have two transmutes that are available at Alchemy (275). Transmutes share a cooldown, so you can't create both!\nCan be used every 47 hours.\nCrafts a Legionite Bar from Heavy Thorium Bar and Fel Crystal\nRecipe: Transmute Legionite is available from a rare drop from Felguard…",
+      "category": "Forever",
+      "date": "2026-11-25T22:27:09.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56230-take-advantage-of-profession-cooldowns-for-goldmaking-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383979/take-advantage-of-profession-cooldowns-for-goldmaking-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383997",
+      "source": "Wowhead",
+      "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
+      "description": "The Alterac Valley zerg strat is dead, as the generals now have Tower Buffs.",
+      "details": "Blizzard has buffed reputation in Alterac Valley again in more hotfixes.\nMany players have commented on the state of Alterac Valley over the last couple of weeks. As most players are doing Alterac Valley for the reputation rewards, and not to PvP, the zerg strat became popular and Horde has an advantage as their spawn location is closer. Many Alliance would just queue and wait for the Horde to win, as they perceived this to be faster than defending. With new changes, to Alterac Valley, enemy generals now start with 4 stacks of a 15% health, attack speed and damage buff, likely one-shotting anyone who comes in before at least some towers are defeated. In addition, everything in Alterac Valley has been buffed with more health and damage.\nImage Credit: Kesslive\nMost players are grinding AV for the rewards, so they're concerned about the reputation gains with this change:\nAccording to…",
+      "category": "Forever",
+      "date": "2026-11-25T19:44:07.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56248-alterac-valley-zerg-strat-nerfed-in-wow-forever.png",
+      "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383992",
+      "source": "Wowhead",
+      "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
+      "description": "Balance Druids have received large talent changes in WoW: Forever, granting Moonkin Form a 10% Arcane and Nature damage buff!",
+      "details": "With changes that are now live, we’ve adjusted Druid talents to improve the talent flow and experience for players as they’re leveling up Balance.\nClasses\nDruid\nImproved Wrath is now renamed Starlight Wrath.\nStarlight Wrath also reduces the cast time of Starfire by 0.1/0.2/0.3/0.4/0.5 seconds.\nImproved Moonfire is now renamed Moon and Stars.\nMoon and Stars also grants Starfire a 50/100% chance not lose casting time when the Druid takes damage.\nImproved Starfire reduced from to 2 points (was 5 points), and now grants 8/15% chance with 1/2 talent points. Druids with 3 or more points spent in this talent will have all their talent points reset and unspent.\nEclipse now also increases the critical strike chance of Wrath by 7/13/20% at all times.\nMoonfury talent removed and replaced with Dreamstate.\nDreamstate grants the Druid 20/40/60/80/100% of the benefit of Innervate when casting…",
+      "category": "Forever",
+      "date": "2026-11-25T18:33:57.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56240-balance-druid-talent-changes-now-live-buffs-to-moonkin-form.jpg",
+      "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form"
+    },
+    {
+      "id": "wowhead-383991",
+      "source": "Wowhead",
+      "title": "Buy 365 Days of Game Time for $120 USD - New Limited Time Shop Offer",
+      "description": "To celebrate the launch of WoW: Forever, Blizzard is offering a discount for purchasing 365 Days of Game Time!",
+      "details": "Buy WoW: Celebration Pass\nFor players who are looking for a full year of game time, Blizzard is offering a large discount until December 7th. Sold for $120 USD, this is about a 23% discount off the year-long subscription at $12.99/month.\nBlizzard\nTo thank you for making the launch of World of Warcraft: Forever so incredible, we’re celebrating with an exceptional price on 365 days of WoW Game Time. Already playing? Add 365 days of WoW access to your existing game time or subscription plan.\nThis offer gives you access to WoW: Forever, WoW: Classic, and Modern WoW (content prior to the most recent expansion, Midnight).\nPurchase Now\nDon’t delay. This offer is only available for a limited time.*\n* Offer valid through 7 December 2026.",
+      "category": "WoW",
+      "date": "2026-11-25T18:17:35.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56237-new-limited-time-shop-offer-buy-365-days-of-game-time-for-120-usd.jpg",
+      "url": "https://www.wowhead.com/news=383991/new-limited-time-shop-offer-buy-365-days-of-game-time-for-120-usd"
+    },
+    {
+      "id": "wowhead-383988",
+      "source": "Wowhead",
+      "title": "Night Watchman's Torch Can Be Used While Mounted Again in WoW: Forever",
+      "description": "With a recent hotfix, the Night Watchman's Torch has been fixed, allowing it to be used while mounted again!",
+      "details": "Night Watchman's Torch Guide\nAccording to Johnny Cash on X (Twitter), the Night Watchman's Torch has been hotfixed and can be used while mounted and shapeshifted once again! The recent change reported on the forums and Reddit was apparently not intended and was a side effect of a bug fix.\nIf you haven't gotten the torch yet, it can be found in Duskwood. Players can find a slain Night Watch Guard who offers a quest that can be turned in instantly to acquire the Torch!",
+      "category": "Forever",
+      "date": "2026-11-25T17:04:57.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56235-players-can-once-again-use-night-watchmans-torch-while-mounted-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383988/players-can-once-again-use-night-watchmans-torch-while-mounted-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383986",
+      "source": "Wowhead",
+      "title": "Revelation Enchant Nerfed in WoW: Forever",
+      "description": "A recent hotfix has stealth nerfed the popular Revelation enchant, which reduces the endgame AoE damage of Mages, Warlocks, and Druids.",
+      "details": "Azeroth Commerce Authority Guide\nOne of the new enchants in WoW: Forever is Formula: Enchant Weapon - Revelation, obtained for Merchant's Favor from the Azeroth Commerce Authority / Durator Supply and Logistics faction.\nThis enchant is placed on any weapon and once applied, can proc off any non-periodic spell that doesn't crit. The proc will be consumed on the next non-periodic spell cast, guaranteeing it will crit. However, a more obscure interaction made this proc very, very good for classes with large AoE channeled abilities: Mages, Warlocks, and Druids. When the Revelation proc was active, channeled spells consumed the proc, but it applied 100% crit chance to the entire channel.\nBlizzard, Hellfire, and Hurricane with an enchant proc allowed these classes to do very high AoE damage.\nYesterday, a hotfix nerfed this enchant and the proc now only applies to a single tick of AoE…",
+      "category": "Forever",
+      "date": "2026-11-25T16:08:26.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56234-revelation-enchant-nerfed-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever"
+    },
+    {
+      "id": "wowhead-383812",
+      "source": "Wowhead",
+      "title": "Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever",
+      "description": "A dungeon boss from Cataclysm seems to play a part in the ongoing Dawn Waker secret in WoW: Forever - join the secret finders to see where things might lead!",
+      "details": "Players trying to solve the Dawn Waker secret have been led to Zephras Isle, where a \"world boss\" in the Skyborne starting zone might hold the keys to the next step. WoW veterans also noticed this NPC is quite familiar, as it's Altairus from the Vortex Pinnacle dungeon in Cataclysm!\nDawn Waker Secret Guide WoW Secret Finding Discord\nPlayers noticed this sleeping dragon soon after Forever's launch, but at the time, players were too low-level to take on what seemed like a brand new boss for max-level characters. It turns out, though, that players might not be meant to kill this dragon at all - at least, not for this particular secret.\nAs members of the WoW Secret Finding Discord have been digging, it's been discovered that Altairus appears to be a part of The Dawn Waker Secret. When players obtain the Ancient Hilt, they need to have Altairus breathe on it. As of now, using Eluvi'ana on…",
+      "category": "Forever",
+      "date": "2026-11-25T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56075-dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever"
+    },
     {
       "id": "wowhead-383980",
       "source": "Wowhead",
@@ -11,94 +99,6 @@
       "date": "2026-11-24T18:06:43.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56228-watch-alaketh-rising-new-motion-comic-for-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever"
-    },
-    {
-      "id": "wowhead-383961",
-      "source": "Wowhead",
-      "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
-      "description": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever.",
-      "details": "Professions have many a twist in World of Warcraft: Forever, and one of those is that you need particular Work Stations to craft certain high-level items.\nTo keep things simple for this article, we will refer to these objects as Profession Work Stations. We are aware that on an individual level, the items vary and may be described as Looms, Sewing Machines, etc.\nWhile this system has been seen in other expansions, it is slightly different in Forever for a few reasons.\nThe Work Stations are crafted with the profession and consumed on use\nYou can access them anywhere you can put down a camping fire\nThese are provided by players rather than regular parts of the World\nYou can find below a list of the Tier 3 Blueprints for every Profession and the source. The sources have been collected from the Wowhead Looter Addon. Thank you to everyone who uses this and helps keep our database up to…",
-      "category": "Forever",
-      "date": "2026-11-24T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56211-all-tier-3-blueprint-sources-for-crafting-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383972",
-      "source": "Wowhead",
-      "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
-      "description": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes!",
-      "details": "Tier Set fixes for Feral Druids\nA bug where spells and abilities were causing more procs than intended was fixed.\nFood involving clams now offer Well Fed bonuses.\nMultiple pattern bug fixes.\nWorld Buffs now persist when changing areas.\nObsidian Sentinel in Uldaman drops loot again.\nMultiple quests in Wetlands and Riverglades have been fixed.\nHotfixes\nNovember 23, 2026\nClasses\nDruid\nThe 4-piece Feralheart set for Druids now correctly grants 4 Energy regeneration every 1 second for 5 seconds.\nPriest\nMind Vision should no longer proc effects.\nShadow\nFixed an issue where Dark Inspiration was not granting the correct amount of %Spirit increase if Mind Flay was used to activate it.\nFixed an issue where Chastise was not usable in Shadowform.\nWarlock\nDestruction\nFixed an issue where Intensity was not working on Incinerate.\nWarrior\nFixed an issue where players could have and use Mortal Strike…",
-      "category": "Forever",
-      "date": "2026-11-24T02:10:52.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56222-class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026.jpg",
-      "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026"
-    },
-    {
-      "id": "wowhead-383969",
-      "source": "Wowhead",
-      "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
-      "description": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons.",
-      "details": "Sunder Armor Basics\nIn World of Warcraft, a creature's armor reduces their physical damage taken. In Classic versions of WoW, some classes have abilities that reduce the armor of enemy targets:\nDruid: Faerie Fire\nRogue: Expose Armor\nWarlock: Curse of Recklessness\nWarrior: Sunder Armor\nApplying these debuffs is a large increase for physical damage dealers, such as Warriors, Hunters, and Rogues, but everyone who does some melee damage will see some benefit.\nSunder Armor in Forever Dungeons\nSunder Armor effects are important for increasing damage in WoW: Forever, but according to the Classic WoW Community Github, they don't actually work in dungeons. Multiple reporters have looked into the logs and damage numbers and concluded that these Sunder Armor effects work in the open world, but not in dungeons.\nToxicKevinFermIn dungeons, Sunder Armor, Faerie Fire, Curse of Recklessness and Expose…",
-      "category": "Forever",
-      "date": "2026-11-23T23:00:58.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56218-players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons.jpg",
-      "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons"
-    },
-    {
-      "id": "wowhead-383968",
-      "source": "Wowhead",
-      "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
-      "description": "The Obsidian Golem boss in Uldaman drops loot again, but the vendor cost of the items has been nerfed.",
-      "details": "Uldaman Dungeon\nIn the last couple of days, Blizzard hotfixed the Obsidian Sentinel boss in Uldaman to remove all Rare Drops from the loot table. This was likely due to max-level players being able to kill this boss and zone out in about 90 seconds, obtaining an average of per run from vendoring the gear. At the previous cap of 10 dungeons per hour, this would be about 18 gold for 15 minutes of work.\nIn new hotfixes today, the loot from the Uldaman boss has returned, but the vendor price has been slashed by 50%.\nRock Sentinel Slicer sells for (was )\nDark Golem Breastplate sells for (was )\nWhite Obsidian Wand sells for (was )\nAxe of Lingering Dread sells for (was )\nThis change, combined with the new cap of 5 dungeons per hour, now leads to an average of about 4.42 gold for 7.5 minutes of work from vendoring the items.\nThe good news is that for leveling characters, the loot is back and…",
-      "category": "Forever",
-      "date": "2026-11-23T21:20:40.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56217-uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed.png",
-      "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed"
-    },
-    {
-      "id": "wowhead-383967",
-      "source": "Wowhead",
-      "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
-      "description": "World Buffs now persist through loading screens in WoW: Forever, but one of the Dire Maul Tribute buffs has been nerfed.",
-      "details": "World Buffs Across Loading Screen\nAs previously reported, World Buffs were hotfixed over the last couple of days and were being removed whenever a loading screen triggered. Yesterday, Aidan \"Zirene\" Moon announced that this was a bug, and as of today, it's fixed!\nWorld Buffs are no longer removed whenever a loading screen triggers.\nWarchief's Blessing in Ragefire Chasm dungeon.\nIf you want to make your next dungeon run a little faster, grab a World Buff before your next dungeon!\nDire Maul Tribute World Buff Nerf\nThe Dire Maul Tribute run grants powerful World Buffs for players who complete a Dire Maul Tribute run.\nWith the above hotfix, players can bring the buffs out of the dungeon, but one has been nerfed.\nFengus' Ferocity spell power reduced by 50% to 115 (was 230)\nWorld Buffs Not Working in Raids\nWith the same set of hotfixes, flags have been applied to the following spells to…",
-      "category": "Forever",
-      "date": "2026-11-23T19:39:02.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56216-world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute.png",
-      "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute"
-    },
-    {
-      "id": "wowhead-383965",
-      "source": "Wowhead",
-      "title": "Blizzard Working on a Fix for Paladin and Warlocks Not Unlocking Epic Riding",
-      "description": "Blizzard is working on a fix for Paladins and Warlocks not unlocking Epic Riding by completing the class quest.",
-      "details": "Riding Skill Guide\nBlizzard has acknowledged a bug where Paladins and Warlocks are not unlocking Epic Riding skill when completing the questline. This prevents them from using other mounts, such as the Cerulean Prideclaw.\nWe’ve found the bug here, and we think it’s affecting both Paladins and Warlocks.\nWe’re working on a fix, but the fix is going to take another day or two.\nThank you very much for your patience. We’ll get it fixed ASAP.",
-      "category": "Forever",
-      "date": "2026-11-23T19:05:26.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56215-blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding.jpg",
-      "url": "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding"
-    },
-    {
-      "id": "wowhead-383963",
-      "source": "Wowhead",
-      "title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
-      "description": "Blizzard has announced that the lockbox change is temporary while they work on a proper fix.",
-      "details": "Yesterday, a hotfix was pushed to live servers that removed players' ability to peek inside lockboxes. Blizzard announced that this change is temporary, and they are working on a proper fix that will let players continue to peek inside lockboxes.\nConfirming that the change to lockbox behavior was made yesterday at 9:55 a.m. PST as a temporary measure.\nToday, we’re working on a proper fix that restores the ability to peek and partially loot lockboxes, and makes them otherwise work as intended.\nWe don’t yet know how long the fix will take, but we’ll post about it when it’s done.\nWhile Blizzard didn't state a reason, it's very likely due to the Lockbox exploit that players discovered. This temporary fix stopped the exploit on the weekend, but has a side effect, as pointed out in a Reddit Thread: Junkboxes can no longer be partially looted and then turned in.",
-      "category": "Forever",
-      "date": "2026-11-23T16:33:33.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56213-blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will.jpg",
-      "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will"
-    },
-    {
-      "id": "wowhead-383955",
-      "source": "Wowhead",
-      "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
-      "description": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm.",
-      "details": "Uldaman Dungeon\nThe Obsidian Sentinel is one of the bosses in the Uldaman dungeon and it's located just inside the back entrance of Uldaman. This boss is accessible right away, with no additional trash needed, which allows solo farmers to quickly kill a high-level boss and guarantee the loot for themselves. This loot table for this boss is:\nRock Sentinel Slicer which sells for\nDark Golem Breastplate which sells for\nWhite Obsidian Wand which sells for\nAxe of Lingering Dread which sells for\nPlayers could complete this run in less than 5 minutes and get an average of 1.77 Gold per run. However, at some point in the last couple of days, this boss was hotfixed and no longer drops any Blue gear. When I tested this, the boss dropped and 2 Solid Stone.\nBlizzard hasn't posted about this change in any of their hotfix blogs, but it's hard to think of another reason why this specific boss would…",
-      "category": "Forever",
-      "date": "2026-11-23T01:00:37.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56207-uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy.jpg",
-      "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy"
     }
   ],
   "blizzard": null
