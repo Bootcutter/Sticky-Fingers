@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-25T23:22:55.804Z",
+  "generatedAt": "2026-11-26T05:13:36.411Z",
   "news": [
+    {
+      "id": "wowhead-384000",
+      "source": "Wowhead",
+      "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
+      "description": "Blizzard has announced hotfixes for today, which includes many fixes for classes, Legacy Points, and various quests.",
+      "details": "Balance Druid talent changes.\nHunter Beast Mastery changes to Summoned Hawks\nPaladin's Exorcism can now crit\nRogue Poisons are temporarily BoP.\nPvP Legacy achievements should now probably trigger.\nThe Tier 0.5 Legacy achievement should now probably trigger.\nReinforce talent now works correctly.\nAlterac Valley changes.\nThe Relevation Enchant has been nerfed.\nThe Paladin and Warlock riding skill has been fixed.\nMultiple quests have had changes, including the horrible spawn rate of Steamsmiths in the Searing Gorge.\nHere you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.\nThis list will be updated as additional hotfixes are applied.\nHotfixes\nNovember 25, 2026\nClasses\nDruid\nHurricane now correctly lands its final hit.\nBalance\nImproved Wrath is now renamed Starlight Wrath.\nStarlight Wrath also reduces the cast time of Starfire by…",
+      "category": "Forever",
+      "date": "2026-11-25T23:24:22.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56253-fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november.jpg",
+      "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november"
+    },
     {
       "id": "wowhead-383999",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-25T15:00:00.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56075-dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383980",
-      "source": "Wowhead",
-      "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
-      "description": "Blizzard has released a new motion comic for WoW: Forever called \"Al'Aketh Rising,\" which follows a local Skyborne constable on Zephras Isle.",
-      "details": "Constable Aonda of the Skyborne travels into a remote settlement that appears to be under strict control. Prisoners march under close guard, strangers smile with an eerie conviction, and an uncomfortable silence provides cover for a growing threat. As she plays along to get closer to the truth, she finds herself overwhelmed by hidden agendas and fanatic devotion. And in a land ruled by wind, blind devotion can become a storm.\nJoin Constable Aonda for a special reading of World of Warcraft: Forever's newest motion comic, “Al'Aketh Rising”.\nRead By : Sam Slade as Constable Aonda\nWritten By : Robert Brooks\nArt & Cover : Stefano Porcu\nColors : Mauro Gulma\nLetters : AndWorld Design\nDownloadable PDF\nRead more stories and stay up to date on the latest World of Warcraft news at worldofwarcraft.blizzard.com/news.",
-      "category": "Forever",
-      "date": "2026-11-24T18:06:43.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56228-watch-alaketh-rising-new-motion-comic-for-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever"
     }
   ],
   "blizzard": null
