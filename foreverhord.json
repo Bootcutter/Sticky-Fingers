@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T23:24:16.405Z",
+  "generatedAt": "2026-11-27T17:28:47.618Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -6855,8 +6855,8 @@
         "className": "Priest",
         "level": 14,
         "experience": 2718,
-        "lastLogin": "2026-11-18T22:23:54.000Z",
-        "itemLevel": 5,
+        "lastLogin": "2026-11-27T11:06:07.000Z",
+        "itemLevel": null,
         "achievementPoints": 0,
         "title": null,
         "spec": {
@@ -6918,7 +6918,7 @@
             "id": 53,
             "name": "Neophyte's Shirt",
             "quality": "COMMON",
-            "level": 1,
+            "level": null,
             "tip": {
               "type": "Shirt",
               "sub": "Miscellaneous"
@@ -6930,7 +6930,7 @@
             "id": 16606,
             "name": "Juju Hex Robes",
             "quality": "UNCOMMON",
-            "level": 5,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Chest",
@@ -6951,7 +6951,7 @@
             "id": 3363,
             "name": "Frayed Belt",
             "quality": "POOR",
-            "level": 3,
+            "level": null,
             "tip": {
               "type": "Waist",
               "sub": "Cloth",
@@ -6965,7 +6965,7 @@
             "id": 6713,
             "name": "Ripped Pants",
             "quality": "COMMON",
-            "level": 5,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Legs",
@@ -6980,7 +6980,7 @@
             "id": 6537,
             "name": "Willow Boots of the Eagle",
             "quality": "UNCOMMON",
-            "level": 15,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Feet",
@@ -7006,7 +7006,7 @@
             "id": 281269,
             "name": "Mogra's Friendship Bracelet",
             "quality": "UNCOMMON",
-            "level": 10,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Wrist",
@@ -7027,7 +7027,7 @@
             "id": 281268,
             "name": "Depleted Ritual Band",
             "quality": "COMMON",
-            "level": 9,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Finger",
@@ -7046,7 +7046,7 @@
             "id": 2308,
             "name": "Fine Leather Cloak",
             "quality": "UNCOMMON",
-            "level": 15,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Back",
@@ -7067,7 +7067,7 @@
             "id": 4566,
             "name": "Sturdy Quarterstaff of Healing",
             "quality": "UNCOMMON",
-            "level": 13,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Two-Hand",
@@ -7099,7 +7099,7 @@
             "id": 11287,
             "name": "Lesser Magic Wand",
             "quality": "UNCOMMON",
-            "level": 15,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Ranged",
@@ -7385,9 +7385,29 @@
         "mounts": 1,
         "pets": 2,
         "achievements": {
-          "total": 5,
+          "total": 9,
           "points": 0,
           "list": [
+            {
+              "id": 855,
+              "name": "Explore Moonglade",
+              "date": "2026-11-25T21:37:00.000Z"
+            },
+            {
+              "id": 62031,
+              "name": "Novice Spelunker",
+              "date": "2026-11-24T16:22:00.000Z"
+            },
+            {
+              "id": 62025,
+              "name": "Expert Leatherworker",
+              "date": "2026-11-24T15:22:00.000Z"
+            },
+            {
+              "id": 62004,
+              "name": "Experienced Rogue",
+              "date": "2026-11-20T13:35:00.000Z"
+            },
             {
               "id": 728,
               "name": "Explore Durotar",
@@ -7613,6 +7633,13 @@
         "reward": "Earn 1 Legacy Point.",
         "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/626005.jpg"
       },
+      "62004": {
+        "description": "Reach level 45 for the first time on a Rogue.",
+        "category": "Rogue",
+        "points": 0,
+        "reward": "Earn 1 Legacy Point.",
+        "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/626005.jpg"
+      },
       "62012": {
         "description": "Reach 150 skill in Alchemy for the first time.",
         "category": "Alchemy",
@@ -7636,6 +7663,13 @@
       },
       "62024": {
         "description": "Reach 150 skill in Leatherworking for the first time.",
+        "category": "Leatherworking",
+        "points": 0,
+        "reward": "Earn 1 Legacy Point.",
+        "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/136247.jpg"
+      },
+      "62025": {
+        "description": "Reach 225 skill in Leatherworking for the first time.",
         "category": "Leatherworking",
         "points": 0,
         "reward": "Earn 1 Legacy Point.",

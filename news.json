@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-26T05:13:36.411Z",
+  "generatedAt": "2026-11-27T17:24:14.168Z",
   "news": [
+    {
+      "id": "wowhead-383998",
+      "source": "Wowhead",
+      "title": "Save Up To 60% and Earn In-Game Goodies with the Gear Store Black Friday Sale",
+      "description": "The Blizzard Gear Store is offering up to 60% off many of its products for Black Friday, and there's also a concurrent sale to earn some in-game goodies with a minimum purchase!",
+      "details": "Blizzard Gear Store Black Friday Sale\nBlack Friday typically comes with large discounts across many different retailers, and the Gear Store is no exception. The Blizzard Gear Store is holding a large Black Friday sale with up to 60% off. Check out some of our favorite products below!\nShirts\nMany shirts and sweatshirts are on sale, including the iconic \"What Sword\" design from the reveal of the Worldsoul Saga.\nWhat Sword HoodieAlliance Quarter-ZipWeapons JacketXal'atath T-Shirt\nWhat Sword Hoodie\nAlliance Quarter-Zip\nWeapons Pull Over Jacket\nXal'atath T-Shirt\nIf sweatshirts aren't your thing, there are also tons of T-Shirts available for all Blizzard games - including Forever, which launched with these cool travel poster designs:\nZephras Isle T-Shirt\nDalaran T-Shirt\nCollectibles\nIf you're not interested in apparel, some collectibles are on sale - including print versions of the travel…",
+      "category": "WoW",
+      "date": "2026-11-27T15:00:00.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56250-save-up-to-60-and-earn-in-game-goodies-with-the-gear-store-black-friday-sale.png",
+      "url": "https://www.wowhead.com/news=383998/save-up-to-60-and-earn-in-game-goodies-with-the-gear-store-black-friday-sale"
+    },
     {
       "id": "wowhead-384000",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-25T16:08:26.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56234-revelation-enchant-nerfed-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383812",
-      "source": "Wowhead",
-      "title": "Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever",
-      "description": "A dungeon boss from Cataclysm seems to play a part in the ongoing Dawn Waker secret in WoW: Forever - join the secret finders to see where things might lead!",
-      "details": "Players trying to solve the Dawn Waker secret have been led to Zephras Isle, where a \"world boss\" in the Skyborne starting zone might hold the keys to the next step. WoW veterans also noticed this NPC is quite familiar, as it's Altairus from the Vortex Pinnacle dungeon in Cataclysm!\nDawn Waker Secret Guide WoW Secret Finding Discord\nPlayers noticed this sleeping dragon soon after Forever's launch, but at the time, players were too low-level to take on what seemed like a brand new boss for max-level characters. It turns out, though, that players might not be meant to kill this dragon at all - at least, not for this particular secret.\nAs members of the WoW Secret Finding Discord have been digging, it's been discovered that Altairus appears to be a part of The Dawn Waker Secret. When players obtain the Ancient Hilt, they need to have Altairus breathe on it. As of now, using Eluvi'ana on…",
-      "category": "Forever",
-      "date": "2026-11-25T15:00:00.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56075-dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever"
     }
   ],
   "blizzard": null
