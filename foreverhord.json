@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T17:28:47.618Z",
+  "generatedAt": "2026-11-28T00:40:51.260Z",
   "region": "EU",
   "guild": {
     "id": 797001,
@@ -1730,7 +1730,7 @@
       "surname": "Attitude",
       "slug": "alotta-attitude",
       "rank": 0,
-      "level": 24,
+      "level": 25,
       "classId": 3,
       "className": "Hunter",
       "raceId": 2,
@@ -1739,22 +1739,18 @@
         "gender": "FEMALE",
         "race": "Orc",
         "className": "Hunter",
-        "level": 24,
-        "experience": 3936,
-        "lastLogin": "2026-11-18T20:52:27.000Z",
-        "itemLevel": 17,
+        "level": 25,
+        "experience": 3419,
+        "lastLogin": "2026-11-27T21:35:56.000Z",
+        "itemLevel": null,
         "achievementPoints": 0,
         "title": null,
         "spec": {
-          "name": "Marksmanship",
+          "name": "Beast Mastery",
           "trees": [
             {
-              "name": "Marksmanship",
-              "points": 14
-            },
-            {
-              "name": "Survival",
-              "points": 1
+              "name": "Beast Mastery",
+              "points": 16
             }
           ]
         },
@@ -1764,7 +1760,7 @@
             "type": "primary",
             "skill": 106,
             "max": 150,
-            "recipes": 44,
+            "recipes": 45,
             "known": [
               "Black Whelp Slippers",
               "Camp Tent",
@@ -1809,13 +1805,14 @@
               "Mystic Medium Armor Kit",
               "Nimble Leather Gloves",
               "Small Leather Ammo Pouch",
+              "Totemic Leather Pants",
               "Toughened Leather Armor"
             ]
           },
           {
             "name": "Skinning",
             "type": "primary",
-            "skill": 180,
+            "skill": 185,
             "max": 225,
             "recipes": 2,
             "known": [
@@ -1852,7 +1849,7 @@
           {
             "name": "First Aid",
             "type": "secondary",
-            "skill": 82,
+            "skill": 83,
             "max": 150,
             "recipes": 5,
             "known": [
@@ -1871,42 +1868,39 @@
             "id": 279391,
             "name": "Taurajo Headband",
             "quality": "COMMON",
-            "level": 23,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Head",
               "sub": "Cloth",
               "armor": "28 Armor",
-              "durability": "Durability 35 / 40"
+              "durability": "Durability 29 / 40"
             }
           },
           {
             "slot": "Shoulders",
             "slotType": "SHOULDER",
-            "id": 10657,
-            "name": "Talbar Mantle",
-            "quality": "UNCOMMON",
-            "level": 26,
+            "id": 5404,
+            "name": "Serpent's Shoulders",
+            "quality": "RARE",
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Shoulder",
-              "sub": "Cloth",
-              "armor": "30 Armor",
+              "sub": "Leather",
+              "armor": "68 Armor",
               "stats": [
                 {
-                  "t": "+4 Intellect",
+                  "t": "+5 Agility",
                   "g": false
                 },
                 {
-                  "t": "+2 Stamina",
-                  "g": false
-                },
-                {
-                  "t": "+1 Mana Regeneration per 5 sec",
+                  "t": "+7 Spirit",
                   "g": true
                 }
               ],
-              "durability": "Durability 40 / 40"
+              "req": "Requires Level 18",
+              "durability": "Durability 36 / 50"
             }
           },
           {
@@ -1915,7 +1909,7 @@
             "id": 127,
             "name": "Trapper's Shirt",
             "quality": "COMMON",
-            "level": 1,
+            "level": null,
             "tip": {
               "type": "Shirt",
               "sub": "Miscellaneous"
@@ -1927,7 +1921,7 @@
             "id": 2317,
             "name": "Dark Leather Tunic",
             "quality": "UNCOMMON",
-            "level": 20,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Chest",
@@ -1943,7 +1937,7 @@
                 "Enchanted: Stamina +2 and Armor +16"
               ],
               "req": "Requires Level 15",
-              "durability": "Durability 70 / 70"
+              "durability": "Durability 56 / 70"
             }
           },
           {
@@ -1952,7 +1946,7 @@
             "id": 4249,
             "name": "Dark Leather Belt",
             "quality": "UNCOMMON",
-            "level": 25,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Waist",
@@ -1969,7 +1963,7 @@
                 }
               ],
               "req": "Requires Level 20",
-              "durability": "Durability 30 / 30"
+              "durability": "Durability 27 / 30"
             }
           },
           {
@@ -1978,7 +1972,7 @@
             "id": 10410,
             "name": "Leggings of the Fang",
             "quality": "RARE",
-            "level": 22,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Legs",
@@ -2002,7 +1996,7 @@
                 "Enchanted: Stamina +2 and Armor +16"
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 58 / 65",
+              "durability": "Durability 45 / 65",
               "set": "Embrace of the Viper (3/5)"
             }
           },
@@ -2012,7 +2006,7 @@
             "id": 10411,
             "name": "Footpads of the Fang",
             "quality": "RARE",
-            "level": 22,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Feet",
@@ -2032,7 +2026,7 @@
                 "Enchanted: Stamina +2 and Armor +16"
               ],
               "req": "Requires Level 17",
-              "durability": "Durability 35 / 40",
+              "durability": "Durability 29 / 40",
               "set": "Embrace of the Viper (3/5)"
             }
           },
@@ -2042,7 +2036,7 @@
             "id": 271202,
             "name": "Witherbite Bracers",
             "quality": "RARE",
-            "level": 20,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Wrist",
@@ -2062,7 +2056,7 @@
                 "Enchanted: Agility +3"
               ],
               "req": "Requires Level 15",
-              "durability": "Durability 25 / 30"
+              "durability": "Durability 21 / 30"
             }
           },
           {
@@ -2071,7 +2065,7 @@
             "id": 10413,
             "name": "Gloves of the Fang",
             "quality": "RARE",
-            "level": 19,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Hands",
@@ -2091,32 +2085,31 @@
                 "Enchanted: Stamina +2 and Armor +16"
               ],
               "req": "Requires Level 14",
-              "durability": "Durability 27 / 30",
+              "durability": "Durability 22 / 30",
               "set": "Embrace of the Viper (3/5)"
             }
           },
           {
             "slot": "Ring 1",
             "slotType": "FINGER_1",
-            "id": 11981,
-            "name": "Lead Band of the Owl",
-            "quality": "UNCOMMON",
-            "level": 20,
+            "id": 6414,
+            "name": "Seal of Sylvanas",
+            "quality": "RARE",
+            "level": null,
             "tip": {
-              "bind": "Binds when equipped",
+              "bind": "Binds when picked up",
               "type": "Finger",
               "sub": "Miscellaneous",
               "stats": [
                 {
-                  "t": "+2 Intellect",
+                  "t": "+8 Stamina",
                   "g": false
                 },
                 {
-                  "t": "+2 Spirit",
+                  "t": "+6 Attack Power",
                   "g": true
                 }
-              ],
-              "req": "Requires Level 15"
+              ]
             }
           },
           {
@@ -2125,7 +2118,7 @@
             "id": 279867,
             "name": "Slain Baron's Signet",
             "quality": "UNCOMMON",
-            "level": 23,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "Finger",
@@ -2148,7 +2141,7 @@
             "id": 2316,
             "name": "Dark Leather Cloak",
             "quality": "UNCOMMON",
-            "level": 22,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Back",
@@ -2173,7 +2166,7 @@
             "id": 6448,
             "name": "Tail Spike",
             "quality": "RARE",
-            "level": 21,
+            "level": null,
             "tip": {
               "bind": "Binds when picked up",
               "type": "One-Hand",
@@ -2192,7 +2185,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 41 / 45"
+              "durability": "Durability 35 / 45"
             }
           },
           {
@@ -2201,7 +2194,7 @@
             "id": 15970,
             "name": "Native Branch of the Wolf",
             "quality": "UNCOMMON",
-            "level": 15,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Held In Off-hand",
@@ -2225,7 +2218,7 @@
             "id": 4576,
             "name": "Light Bow",
             "quality": "UNCOMMON",
-            "level": 21,
+            "level": null,
             "tip": {
               "bind": "Binds when equipped",
               "type": "Ranged",
@@ -2240,7 +2233,7 @@
                 }
               ],
               "req": "Requires Level 16",
-              "durability": "Durability 44 / 50"
+              "durability": "Durability 34 / 50"
             }
           },
           {
@@ -2249,7 +2242,7 @@
             "id": 2515,
             "name": "Sharp Arrow",
             "quality": "COMMON",
-            "level": 15,
+            "level": null,
             "tip": {
               "type": "Ammo",
               "sub": "Arrow",
@@ -2265,28 +2258,28 @@
               48
             ],
             "agility": [
-              50,
-              97
+              51,
+              103
             ],
             "stamina": [
-              44,
-              71
+              46,
+              79
             ],
             "intellect": [
               30,
-              46
+              40
             ],
             "spirit": [
-              39,
-              42
+              40,
+              48
             ],
             "armor": [
               64,
-              688
+              738
             ],
             "defense": [
-              108,
-              109
+              111,
+              112
             ]
           },
           "resistances": {
@@ -2297,73 +2290,73 @@
             "shadow": 0
           },
           "melee": {
-            "min": 41.7,
-            "max": 57.7,
+            "min": 42.3,
+            "max": 58.3,
             "speed": 1.8,
-            "dps": 27.6,
+            "dps": 28,
             "offDps": 0,
             "hit": 0,
-            "crit": 8.9,
+            "crit": 4.9,
             "haste": 0
           },
           "ranged": {
-            "ap": 241,
-            "min": 44.3,
-            "max": 53.3,
+            "ap": 252,
+            "min": 45.6,
+            "max": 54.6,
             "hit": 0,
-            "crit": 9,
+            "crit": 5.1,
             "haste": 10
           },
           "spell": {
             "healing": 5,
             "hit": 0,
-            "crit": 9.3,
+            "crit": 5,
             "haste": 0,
             "penetration": 0,
-            "regen": 53,
-            "regenCombat": 1
+            "regen": 60,
+            "regenCombat": 0
           },
-          "parry": 4.6,
+          "parry": 4.5,
           "block": 0,
           "speed": 100,
-          "health": 803,
-          "power": 978,
+          "health": 902,
+          "power": 931,
           "powerType": "Mana",
-          "crit": 9.3,
+          "crit": 5.1,
           "haste": 0,
-          "dodge": 10,
-          "attackPower": 192,
+          "dodge": 10.1,
+          "attackPower": 197,
           "spellPower": 5,
-          "dps": 27.6
+          "dps": 28
         },
-        "questsCompleted": 162,
+        "questsCompleted": 165,
         "honorableKills": 0,
         "reputations": [
           {
             "faction": "Orgrimmar",
             "standing": "Honored",
-            "value": 1643,
+            "value": 1743,
             "max": 12000,
             "tier": 5
           },
           {
             "faction": "Darkspear Trolls",
             "standing": "Friendly",
-            "value": 5025,
+            "value": 5125,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Thunder Bluff",
             "standing": "Friendly",
-            "value": 2497,
+            "value": 2597,
             "max": 6000,
             "tier": 4
           },
           {
             "faction": "Undercity",
             "standing": "Neutral",
-            "value": 2308,
+            "value": 2708,
             "max": 3000,
             "tier": 3
           },
@@ -2382,13 +2375,6 @@
             "tier": 3
           },
           {
-            "faction": "Booty Bay",
-            "standing": "Neutral",
-            "value": 987,
-            "max": 3000,
-            "tier": 3
-          },
-          {
             "faction": "Gadgetzan",
             "standing": "Neutral",
             "value": 987,
@@ -2401,57 +2387,65 @@
             "value": 987,
             "max": 3000,
             "tier": 3
+          },
+          {
+            "faction": "Booty Bay",
+            "standing": "Neutral",
+            "value": 987,
+            "max": 3000,
+            "tier": 3
           }
         ],
         "titles": [],
         "statistics": {
           "values": {
-            "Times camped": 7,
-            "Bandages used": 16,
-            "Bandage used most": 11,
+            "Times camped": 8,
+            "Bandages used": 17,
+            "Bandage used most": 12,
             "Health potions consumed": 1,
-            "Mana potions consumed": 31,
-            "Beverages consumed": 13,
-            "Food eaten": 37,
+            "Mana potions consumed": 38,
+            "Beverages consumed": 14,
+            "Food eaten": 40,
             "Healthstones used": 1,
             "Most factions at Honored or higher": 1,
             "Most Horde factions at Exalted": 4,
-            "Total factions encountered": 11,
-            "Total 5-player dungeons entered": 8,
+            "Total factions encountered": 12,
+            "Total 5-player dungeons entered": 9,
             "Rath'mael Kills (Ruins of Lordaeron)": 1,
             "Bazzalan kills (Ragefire Chasm)": 1,
             "Mutanus the Devourer kills (Wailing Caverns)": 1,
-            "Total kills": 1866,
-            "Total kills that grant experience or honor": 1772,
-            "Creatures killed": 1824,
+            "Archmage Arugal kills (Shadowfang Keep)": 1,
+            "Total kills": 2013,
+            "Total kills that grant experience or honor": 1893,
+            "Creatures killed": 1966,
             "Different creature types killed": 8,
-            "Creature type killed the most": 774,
-            "Critters killed": 42,
-            "Total Killing Blows": 902,
+            "Creature type killed the most": 824,
+            "Critters killed": 47,
+            "Total Killing Blows": 950,
             "World Killing Blows": 747,
             "Continent with the most Killing Blows": 747,
-            "Total deaths": 9,
-            "Total raid and dungeon deaths": 1,
-            "Total deaths in 5-player dungeons": 1,
-            "Quests completed": 129,
+            "Total deaths": 10,
+            "Total raid and dungeon deaths": 2,
+            "Total deaths in 5-player dungeons": 2,
+            "Quests completed": 132,
             "Average quests completed per day": 0,
-            "Quests abandoned": 16,
+            "Quests abandoned": 17,
             "Professions learned": 2,
             "Professions at maximum skill": 2,
             "Secondary skills at maximum skill": 3,
             "Weapon skills at maximum skill": 9,
             "Cooking skill": 23,
             "Cooking Recipes known": 14,
-            "First Aid skill": 82,
+            "First Aid skill": 83,
             "First Aid Manuals learned": 12,
             "Fishing skill": 142,
             "Fish caught": 229,
             "Fish and other things caught": 229,
-            "Highest Leatherworking skill": 105,
-            "Leatherworking Patterns learned": 90,
-            "Highest Skinning skill": 180,
-            "Flight paths taken": 28,
-            "Number of times hearthed": 9,
+            "Highest Leatherworking skill": 106,
+            "Leatherworking Patterns learned": 92,
+            "Highest Skinning skill": 185,
+            "Flight paths taken": 29,
+            "Number of times hearthed": 10,
             "Total times LOL'd": 1,
             "Total waves": 3
           },
@@ -2469,6 +2463,11 @@
             {
               "boss": "Mutanus the Devourer",
               "instance": "Wailing Caverns",
+              "kills": 1
+            },
+            {
+              "boss": "Archmage Arugal",
+              "instance": "Shadowfang Keep",
               "kills": 1
             }
           ],
@@ -2510,7 +2509,8 @@
               "stats": [
                 "Rath'mael Kills (Ruins of Lordaeron)",
                 "Bazzalan kills (Ragefire Chasm)",
-                "Mutanus the Devourer kills (Wailing Caverns)"
+                "Mutanus the Devourer kills (Wailing Caverns)",
+                "Archmage Arugal kills (Shadowfang Keep)"
               ]
             },
             {
@@ -2618,9 +2618,19 @@
         "mounts": null,
         "pets": 1,
         "achievements": {
-          "total": 1,
+          "total": 3,
           "points": 0,
           "list": [
+            {
+              "id": 61989,
+              "name": "Novice Hunter",
+              "date": "2026-11-27T21:35:00.000Z"
+            },
+            {
+              "id": 62006,
+              "name": "Novice Shaman",
+              "date": "2026-11-24T12:38:00.000Z"
+            },
             {
               "id": 728,
               "name": "Explore Durotar",
@@ -7374,9 +7384,9 @@
           "main": "https://render.worldofwarcraft.com/forever-eu/character/163/81103267-main-raw.png",
           "avatar": "https://render.worldofwarcraft.com/forever-eu/character/163/81103267-avatar.jpg",
           "box": {
-            "x": 473,
+            "x": 474,
             "y": 333,
-            "w": 524,
+            "w": 523,
             "h": 661,
             "W": 1600,
             "H": 1200
@@ -7639,6 +7649,13 @@
         "points": 0,
         "reward": "Earn 1 Legacy Point.",
         "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/626005.jpg"
+      },
+      "62006": {
+        "description": "Reach level 25 for the first time on a Shaman.",
+        "category": "Shaman",
+        "points": 0,
+        "reward": "Earn 1 Legacy Point.",
+        "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/626006.jpg"
       },
       "62012": {
         "description": "Reach 150 skill in Alchemy for the first time.",
