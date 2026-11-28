@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-28T00:38:47.746Z",
+  "generatedAt": "2026-11-28T17:05:36.979Z",
   "news": [
+    {
+      "id": "wowhead-383989",
+      "source": "Wowhead",
+      "title": "Dire Maul Tribute Chest Rewards Reduced When Resetting Bosses in WoW: Forever",
+      "description": "In WoW: Forever, the Dire Maul Tribute run has changed, with the Tribute Chest dropping less loot for specific actions during the run.",
+      "details": "Dire Maul Tribute Run\nThese reward changes have not been confirmed by Blizzard and have been discovered through Dire Maul Tribute testing. If you have any additional data, please let us know in the comments.\nWhile you can do Dire Maul: North the traditional way of defeating everything in your path, the Dire Maul Tribute run (DMT) involves only killing the final boss and skipping the others. To fully complete a DMT run, five of the earlier bosses must be alive when the final boss dies.\nGuard Mol'dar in the first courtyard that you can easily walk around.\nGuard Fengus who patrols the second courtyard and can be avoided.\nGuard Slip'kik who patrols the inside area around the A Broken Trap.\nCaptain Kromcrush who stands in the way of the final corridor and can be fooled by an Gordok Ogre Suit.\nCho'Rush the Observer who engages with the final boss and becomes friendly after King Gordok…",
+      "category": "Forever",
+      "date": "2026-11-28T15:43:54.000Z",
+      "image": "https://wow.zamimg.com/uploads/blog/images/56243-dire-maul-tribute-chest-rewards-reduced-when-resetting-bosses-in-wow-forever.jpg",
+      "url": "https://www.wowhead.com/news=383989/dire-maul-tribute-chest-rewards-reduced-when-resetting-bosses-in-wow-forever"
+    },
     {
       "id": "wowhead-383998",
       "source": "Wowhead",
@@ -88,17 +99,6 @@
       "date": "2026-11-25T17:04:57.000Z",
       "image": "https://wow.zamimg.com/uploads/blog/images/56235-players-can-once-again-use-night-watchmans-torch-while-mounted-in-wow-forever.jpg",
       "url": "https://www.wowhead.com/news=383988/players-can-once-again-use-night-watchmans-torch-while-mounted-in-wow-forever"
-    },
-    {
-      "id": "wowhead-383986",
-      "source": "Wowhead",
-      "title": "Revelation Enchant Nerfed in WoW: Forever",
-      "description": "A recent hotfix has stealth nerfed the popular Revelation enchant, which reduces the endgame AoE damage of Mages, Warlocks, and Druids.",
-      "details": "Azeroth Commerce Authority Guide\nOne of the new enchants in WoW: Forever is Formula: Enchant Weapon - Revelation, obtained for Merchant's Favor from the Azeroth Commerce Authority / Durator Supply and Logistics faction.\nThis enchant is placed on any weapon and once applied, can proc off any non-periodic spell that doesn't crit. The proc will be consumed on the next non-periodic spell cast, guaranteeing it will crit. However, a more obscure interaction made this proc very, very good for classes with large AoE channeled abilities: Mages, Warlocks, and Druids. When the Revelation proc was active, channeled spells consumed the proc, but it applied 100% crit chance to the entire channel.\nBlizzard, Hellfire, and Hurricane with an enchant proc allowed these classes to do very high AoE damage.\nYesterday, a hotfix nerfed this enchant and the proc now only applies to a single tick of AoE…",
-      "category": "Forever",
-      "date": "2026-11-25T16:08:26.000Z",
-      "image": "https://wow.zamimg.com/uploads/blog/images/56234-revelation-enchant-nerfed-in-wow-forever.jpg",
-      "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever"
     }
   ],
   "blizzard": null
